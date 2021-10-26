@@ -491,6 +491,12 @@ select {
 	vertical-align: middle;
 }
 
+* {
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
 .l-inner {
 	height: inherit;
 	margin: 0 auto;
@@ -508,6 +514,121 @@ select {
 .p-test {
 	color: red;
 	font-size: 3.125rem;
+}
+
+.flow-box {
+	background-color: #FFAA89;
+	padding-bottom: 240px;
+	padding-top: 106px;
+}
+
+.flow-box .flow-box-inner {
+	margin: 0 auto;
+	width: 1531px;
+}
+
+.flow-box .flow-box-inner .flow-box {
+	background-color: #fff;
+	border-radius: 44px;
+	height: 509px;
+	margin: 50px auto;
+	padding-left: 55px;
+	padding-right: 100px;
+	padding-top: 48px;
+	width: 1530px;
+}
+
+.flow-box .flow-box-inner .flow-box h3.number {
+	color: #F47458;
+	font-size: 80px;
+}
+
+.flow-box .flow-box-inner .flow-box p {
+	font-size: 36px;
+	letter-spacing: 6px;
+	line-height: 65px;
+}
+
+.flow-box .flow-box-inner .flow-box p.small {
+	font-size: 24px;
+	line-height: 41px;
+}
+
+.flow-box .flow-box-inner .flow-box1 p {
+	width: 634px;
+}
+
+.flow-box .flow-box-inner .flow-box4 p {
+	width: 634px;
+}
+
+.flow-box .flow-box-inner .flow-box5 p {
+	width: 548px;
+}
+
+.flow-box .flow-box-inner .flow-box6 p {
+	width: 717px;
+}
+
+.flow-box .flow-box-inner .flow-box7 p {
+	width: 811px;
+}
+
+.flow-box .flow-box-inner .flow-box8 p {
+	width: 1142px;
+}
+
+.flow-box .flow-box-inner .flow-btn {
+	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
+	border-radius: 65px;
+	color: #fff;
+	display: block;
+	height: 123px;
+	line-height: 123px;
+	margin: 162px auto 0;
+	width: 569px;
+}
+
+.flow-box .flow-box-inner .flow-btn p {
+	font-size: 43px;
+	line-height: 123px;
+	text-align: center;
+}
+
+.flow-middle {
+	text-align: center;
+}
+
+.flow-middle h2 {
+	font-size: 56px;
+	letter-spacing: 13.44px;
+}
+
+.flow-middle p {
+	font-size: 30px;
+	letter-spacing: 9.6px;
+	line-height: 60px;
+}
+
+.flow-top .flow-top-menu {
+	background-color: #00B8B8;
+	height: 85px;
+}
+
+.flow-top .flow-top-menu ul {
+	display: flex;
+	list-style: none;
+}
+
+.flow-top .flow-top-menu ul li {
+	margin: 0 18px;
+}
+
+.flow-top .flow-top-menu ul li a {
+	color: #fff;
+	font-size: 18px;
+	line-height: 85px;
+	text-decoration: none;
 }
 
 @media screen and (min-width: 1440px) {
