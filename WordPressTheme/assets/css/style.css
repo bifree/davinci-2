@@ -631,6 +631,194 @@ select {
 	text-decoration: none;
 }
 
+a {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.top-mainvisual {
+	overflow: hidden;
+	position: relative;
+}
+
+.top-mainvisual .top-mainvisual__slider {
+	width: 100%;
+}
+
+.top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
+	-o-object-fit: cover; /*背景画像をリピートしない*/
+	background-position: center;
+	background-repeat: no-repeat; /*背景画像の位置を中央に*/
+	background-size: cover; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+	height: 100vh;
+	object-fit: cover;
+	width: 100%; /*背景画像が.slider-item全体を覆い表示*/
+}
+
+.top-mainvisual .top-mainvisual__slider .slick-dots {
+	bottom: calc(50vh - 60px);
+	left: -45vw;
+	transform: rotate(90deg);
+	z-index: 3;
+}
+
+.top-mainvisual .top-mainvisual__slider .slick-dots li {
+	width: 30px;
+}
+
+.top-mainvisual .top-mainvisual__slider .slick-dots li button:before {
+	color: #c4d1d0;
+	font-size: 20px;
+	opacity: 1;
+}
+
+.top-mainvisual .top-mainvisual__slider .slick-dots li.slick-active button:before {
+	color: #fff;
+	opacity: 1;
+}
+
+.top-mainvisual .top-mainvisual__color {
+	background: linear-gradient(to right, #662D91 0%, #29C8E2 100%);
+	background: -webkit-linear-gradient(left, #662D91 0%, #29C8E2 100%);
+	bottom: 0;
+	height: 100vh;
+	opacity: 0.25;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.top-mainvisual .top-mainvisual__geometry {
+	left: 10%;
+	position: absolute;
+	top: 18%;
+	z-index: 2;
+}
+
+.top-mainvisual .top-mainvisual__geometry img {
+	width: 140%;
+}
+
+.top-mainvisual .top-mainvisual__pattern {
+	position: absolute;
+	z-index: 4;
+}
+
+.top-mainvisual .pattern1 {
+	left: 6%;
+	top: 25%;
+}
+
+.top-mainvisual .pattern1 img {
+	height: auto;
+	width: 4.8vw;
+}
+
+.top-mainvisual .pattern2 {
+	left: 88%;
+	top: 30%;
+}
+
+.top-mainvisual .pattern2 img {
+	height: auto;
+	width: 6.4vw;
+}
+
+.top-mainvisual .pattern3 {
+	left: 18%;
+	top: 50%;
+}
+
+.top-mainvisual .pattern3 img {
+	height: auto;
+	width: 5.3vw;
+}
+
+.top-mainvisual .pattern4 {
+	left: 44%;
+	top: 49%;
+}
+
+.top-mainvisual .pattern4 img {
+	height: auto;
+	width: 5.8vw;
+}
+
+.top-mainvisual .pattern5 {
+	left: 10%;
+	top: 74%;
+}
+
+.top-mainvisual .pattern5 img {
+	height: auto;
+	width: 6.1vw;
+}
+
+.top-mainvisual .pattern6 {
+	left: 79%;
+	top: 67%;
+}
+
+.top-mainvisual .pattern6 img {
+	height: auto;
+	width: 4.4vw;
+}
+
+.top-mainvisual .pattern7 {
+	left: 91%;
+	top: 64%;
+}
+
+.top-mainvisual .pattern7 img {
+	height: auto;
+	width: 5.2vw;
+}
+
+.top-mainvisual .top-mainvisual__text {
+	color: #fff;
+	font-family: "ten-mincho-text", serif;
+	font-size: 2.9vw;
+	letter-spacing: 0.32;
+	line-height: 1.2;
+	position: absolute;
+	right: 3%;
+	text-shadow: 3px 1px 6px rgba(0, 0, 0, 0.72);
+	top: 45%;
+	z-index: 5;
+}
+
+.top-mainvisual .top-mainvisual__text .top-mainvisual__text__big {
+	font-size: 5vw;
+	font-weight: 200;
+	letter-spacing: 0.3;
+}
+
+.top-mainvisual .top-mainvisual__btn {
+	background: linear-gradient(to right, #94f990 0%, #27D5DA 100%);
+	background: -webkit-linear-gradient(left, #94f990 0%, #27D5DA 100%);
+	border-radius: 20px;
+	bottom: 11vh;
+	color: #fff;
+	font-family: "fot-tsukuardgothic-std", sans-serif;
+	font-size: 2.1vw;
+	font-weight: 100;
+	letter-spacing: 0.24;
+	padding: 1.9vw 3.8vw;
+	position: absolute;
+	right: 3vw;
+	z-index: 5;
+}
+
+.top-mainvisual .top-mainvisual__btn img {
+	margin-left: 1.2vw;
+	padding-bottom: -5px;
+	width: 1.5vw;
+}
+
 @media screen and (min-width: 1440px) {
 
 .u-hidden-pc {
