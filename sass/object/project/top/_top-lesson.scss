@@ -1,0 +1,62 @@
+.top-lesson{
+  margin-top:8vw;
+  color:#fff;
+  text-align:center;
+  background-image:url(../img/top/lesson-back.png);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  position:relative;
+
+  .top-lesson__square{
+    margin:4.2vw 0;
+    padding:1.4vw 2.9vw;
+    background: linear-gradient(to right, #FFAA89 0%, #F74978 100%);
+    background: -webkit-linear-gradient(left, #FFAA89 0%, #F74978 100%);
+    display:inline-block;
+    line-height:1.2;
+
+    .top-lesson__square__small{
+      font-size:3vw;
+      font-weight:100;
+    }
+
+    .top-lesson__square__big{
+      font-size:3.4vw;
+      font-weight:100;
+    }
+  }
+  
+  .top-lesson__btn{
+    display:inline-block;
+    margin:3.7vw auto 0;
+    padding:1.9vw 6vw 1.9vw 4vw;
+    font-size:2.3vw;
+    color:#fff;
+    font-weight:100;
+    background: linear-gradient(to right, #27D5DA 0%, #94F990 100%);
+    background: -webkit-linear-gradient(left, #27D5DA 0%, #94F990 100%);
+    position:relative;
+    border-radius:40px;
+    
+    img{
+      position:absolute;
+      width:1.4vw;
+      height:2.1vw;
+      margin-left:1.6vw;
+    }
+  }
+
+  .top-lesson__pic{
+    width:14.6vw;
+    position:absolute;
+    left:5vw;
+    top:15vw;
+  }
+
+
+
+  
+
+}
+

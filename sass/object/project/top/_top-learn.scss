@@ -1,0 +1,63 @@
+.top-container{
+  width:80%;
+  max-width:1531px;
+  margin:0 auto;
+  padding:9.4vw 0;
+  font-family:"fot-tsukuardgothic-std", sans-serif;
+}
+
+.top-learn{
+  background-image:url(../img/top/learn-back.png);
+  background-size: cover;
+  background-position:left;
+  background-repeat: no-repeat;
+
+  .top-learn__insta{
+    display:flex;
+    justify-content:space-between;
+
+    .top-learn__insta__insta{
+      width:10%;
+      color:#3E3A39;
+      font-size:1.2vw;
+      font-family:"Noto Sans JP";
+      font-weight:bold;
+      text-align:center;
+
+      img{
+        margin-bottom:1.9vw;
+      }
+    }
+
+    .top-learn__insta__photo{
+      width:82%;
+    }
+  }
+
+  .top-learn__text{
+    display:flex;
+    justify-content:space-between; 
+    margin-top:9.4vw;
+
+    .top-learn__text__text{
+      width:60%;
+      font-family: "ten-mincho-text", serif;
+
+      .top-learn__text__title{
+        font-size:3.7vw;
+        font-weight:100;
+      }
+
+      .top-learn__text__content{
+        font-size:1.6vw;
+        font-weight:200;
+        padding:3vw 4.4vw 0 0;
+      }
+    }
+
+    .top-learn__text__img{
+      width:40%;
+    }
+
+  }
+}
