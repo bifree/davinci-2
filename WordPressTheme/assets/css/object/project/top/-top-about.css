@@ -1,0 +1,66 @@
+.top-sec-title {
+	font-size: 3.7vw;
+	font-weight: 100;
+}
+
+.top-viewmore {
+	border-radius: 40px;
+	color: #fff;
+	display: inline-block;
+	font-family: 'Prompt', sans-serif;
+	font-size: 1.6vw;
+	padding: 1.3vw 2.5vw;
+}
+
+.top-about {
+	background-image: url(../img/top/about-back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+	text-align: center;
+}
+
+.top-about:before {
+	background-color: rgba(35, 24, 21, 0.2);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.top-about .top-container {
+	position: relative;
+	z-index: 2;
+}
+
+.top-about .top-container .top-about__text {
+	font-family: "ten-mincho-text", serif;
+	line-height: 1.8;
+	padding: 5vw 0;
+}
+
+.top-about .top-container .top-about__text .top-about__text__en {
+	font-size: 3vw;
+	font-weight: 100;
+}
+
+.top-about .top-container .top-about__text .top-about__text__ja {
+	font-size: 2.6vw;
+	font-weight: 100;
+}
+
+.top-about .top-container .top-about__btn {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.top-about .top-container .top-about__btn .top-aout__viewmore {
+	background-image: radial-gradient(#94F990, #27D5DA);
+	background-image: -webkit-radial-gradient(#94F990, #27D5DA);
+}
+
