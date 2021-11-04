@@ -56,9 +56,8 @@
       justify-content:flex-end;
 
       .top-aout__viewmore{
-        background-image: radial-gradient( #94F990,#27D5DA);
-        background-image: -webkit-radial-gradient( #94F990,#27D5DA);
-        
+        background: linear-gradient(to right, #27D5DA 0%, #94F990 100%);
+        background: -webkit-linear-gradient(left, #27D5DA 0%, #94F990 100%);
       }
     }
   }
