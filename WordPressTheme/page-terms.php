@@ -1,17 +1,17 @@
 <?php get_header(); ?>
-
 <div class="terms">
-    <h1　class="privacy-title">プライバシーポリシー</h1>
-    <h1　class="law-title">特定商取引法に基づく表記</h1>
-    <h1　class="terms-title">利用規約</h1>
-    <!-- 表示切り替えボタン -->
-    <input id="privacy" type="radio" name="tab_item" checked>
-    <label class="tab_item" for="privacy">プライバシーポリシー</label>
-    <input id="law" type="radio" name="tab_item" checked>
-    <label class="tab_item" for="law">特定商取引法に基づく表記</label>
-    <input id="terms" type="radio" name="tab_item" checked>
-    <label class="tab_item" for="terms">利用規約</label>
-
+    <div class="terms-top">
+        <h1　class="privacy-title">プライバシーポリシー</h1>
+        <h1　class="law-title">特定商取引法に基づく表記</h1>
+        <h1　class="terms-title">利用規約</h1>
+        <!-- 表示切り替えボタン -->
+        <input id="privacy" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="privacy">プライバシーポリシー</label>
+        <input id="law" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="law">特定商取引法に基づく表記</label>
+        <input id="terms" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="terms">利用規約</label>
+    </div>
     <!-- プライバシーポリシー -->
     <div class="tab_content" id="privacy_content">
         <p>
@@ -91,7 +91,8 @@
         <h2>第7条（個人情報の訂正および削除）</h2>
 
         <ul>
-            <li>ユーザーは，当社の保有する自己の個人情報が誤った情報である場合には，当社が定める手続きにより，当社に対して個人情報の訂正，追加または削除（以下，「訂正等」といいます。）を請求することができます。</li>
+            <li>ユーザーは，当社の保有する自己の個人情報が誤った情報である場合には，当社が定める手続きにより，当社に対して個人情報の訂正，追加または削除（以下，「訂正等」といいます。）を請求することができます。
+            </li>
             <li>当社は，ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には，遅滞なく，当該個人情報の訂正等を行うものとします。</li>
             <li>当社は，前項の規定に基づき訂正等を行った場合，または訂正等を行わない旨の決定をしたときは遅滞なく，これをユーザーに通知します。</li>
         </ul>
@@ -431,6 +432,8 @@
 
 
     </div>
+
+
 </div>
 
 

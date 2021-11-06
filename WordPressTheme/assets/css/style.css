@@ -516,6 +516,88 @@ select {
 	font-size: 3.125rem;
 }
 
+.contact .contact-top-menu {
+	height: 85px;
+}
+
+.contact .contact-top-menu ul {
+	background-color: #00b8b8;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.contact .contact-top-menu ul li {
+	margin: 0 18px;
+}
+
+.contact .contact-top-menu ul li a {
+	color: #fff;
+	font-size: 18px;
+	line-height: 85px;
+	text-decoration: none;
+}
+
+.contact h1 {
+	color: #fff;
+	font-size: 56px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contact .contact-top-image {
+	background-image: url("../../../WordPressTheme/assets/img/contact/contact.png"); /* 背景の繰り返し設定 */
+	background-position: center;
+	background-repeat: no-repeat; /* 背景の位置指定 */
+	background-size: cover;
+	min-height: 420px;
+	position: relative;
+	width: 100%;
+}
+
+.contact .contact-top-image::before {
+	background-color: #231815;
+	bottom: 0;
+	content: "";
+	left: 0;
+	opacity: 0.11;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.contact .contact-container {
+	max-width: 1531px;
+}
+
+.contact .contact-container__title {
+	font-size: 56px;
+	margin: 200px 0;
+	text-align: center;
+}
+
+.contact .contact-container__title::before {
+	background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	display: inline-block;
+	height: 85px;
+	margin-right: 42px;
+	position: relative;
+	top: -5px;
+	vertical-align: middle;
+	width: 85px;
+}
+
+.contact .contact-container__form {
+	display: block;
+	margin: 0 auto 200px;
+	width: 600px;
+}
+
 .flow-box {
 	background-color: #FFAA89;
 	padding-bottom: 240px;
@@ -631,8 +713,11 @@ select {
 	text-decoration: none;
 }
 
-.terms {
-	font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴシック", "Hiragino Sans", "YuGothic", "Yu Gothic", sans-serif;
+.terms .terms-top,
+.terms .tab_content {
+	font-family: "source-han-sans-japanese", sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
 @media screen and (min-width: 1440px) {
@@ -664,6 +749,89 @@ select {
 .p-test {
 	color: green;
 	font-size: 1.875rem;
+}
+
+.contact .contact-top-menu {
+	height: 46px;
+	position: relative;
+	z-index: 100;
+}
+
+.contact .contact-top-menu ul {
+	background-color: #00b8b8;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.contact .contact-top-menu ul li {
+	margin: 0 18px;
+}
+
+.contact .contact-top-menu ul li a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 46px;
+	text-decoration: none;
+}
+
+.contact h1 {
+	color: #fff;
+	font-size: 32px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contact .contact-top-image {
+	background-image: url("../../../WordPressTheme/assets/img/contact/contact.png"); /* 背景の繰り返し設定 */
+	background-position: center;
+	background-repeat: no-repeat; /* 背景の位置指定 */
+	background-size: cover;
+	min-height: 250px;
+	position: relative;
+	width: 100%;
+}
+
+.contact .contact-top-image::before {
+	background-color: #231815;
+	bottom: 0;
+	content: "";
+	left: 0;
+	opacity: 0.11;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.contact .contact-container__title {
+	font-size: 32px;
+	margin: 100px 0;
+	text-align: center;
+}
+
+.contact .contact-container__title::before {
+	background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	display: inline-block;
+	height: 48px;
+	margin-right: 20px;
+	position: relative;
+	top: -5px;
+	vertical-align: middle;
+	width: 48px;
+}
+
+.contact iframe {
+	width: 80%;
+}
+
+.contact .contact-container__form {
+	display: block;
+	margin: 0 auto 100px;
 }
 
 .u-hidden-sp {
