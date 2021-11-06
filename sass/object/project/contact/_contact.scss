@@ -1,3 +1,71 @@
 .contact {
-	
+  .contact-top-menu {
+    background-color: #00b8b8;
+    height: 85px;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        margin: 0 18px;
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 85px;
+        }
+      }
+    }
+  }
+
+  h1 {
+    position: absolute;
+    font-size: 56px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact-top-image {
+    position: relative;
+    width: 100%;
+    min-height: 420px;
+    background-image: url("../../../WordPressTheme/assets/img/contact/contact.png");
+    background-repeat: no-repeat; /* 背景の繰り返し設定 */
+    background-position: center; /* 背景の位置指定 */
+    background-size: cover;
+  }
+  .contact-top-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #231815;
+    opacity: 0.11;
+  }
+  .contact-container {
+    max-width: 1531px;
+  }
+
+  .contact-container__title {
+    font-size: 56px;
+    text-align: center;
+    margin: 200px 0;
+  }
+
+  .contact-container__title::before {
+    content: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
+    width: 85px;
+    height: 85px;
+    position: relative;
+    top: 22px;
+    margin-right: 42px;
+  }
+
+  .contact-container__form {
+    display: block;
+    width: 600px;
+    margin: 0 auto 200px;
+  }
 }
