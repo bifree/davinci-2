@@ -1,17 +1,18 @@
 <?php get_header(); ?>
 
 <div class="terms">
-    <h1　class="privacy-title">プライバシーポリシー</h1>
-    <h1　class="law-title">特定商取引法に基づく表記</h1>
-    <h1　class="terms-title">利用規約</h1>
-    <!-- 表示切り替えボタン -->
-    <input id="privacy" type="radio" name="tab_item" checked>
-    <label class="tab_item" for="privacy">プライバシーポリシー</label>
-    <input id="law" type="radio" name="tab_item" checked>
-    <label class="tab_item" for="law">特定商取引法に基づく表記</label>
-    <input id="terms" type="radio" name="tab_item" checked>
-    <label class="tab_item" for="terms">利用規約</label>
-
+    <div class="terms-top">
+        <h1　class="privacy-title">プライバシーポリシー</h1>
+        <h1　class="law-title">特定商取引法に基づく表記</h1>
+        <h1　class="terms-title">利用規約</h1>
+        <!-- 表示切り替えボタン -->
+        <input id="privacy" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="privacy">プライバシーポリシー</label>
+        <input id="law" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="law">特定商取引法に基づく表記</label>
+        <input id="terms" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="terms">利用規約</label>
+    </div>
     <!-- プライバシーポリシー -->
     <div class="tab_content" id="privacy_content">
         <p>
@@ -91,7 +92,8 @@
         <h2>第7条（個人情報の訂正および削除）</h2>
 
         <ul>
-            <li>ユーザーは，当社の保有する自己の個人情報が誤った情報である場合には，当社が定める手続きにより，当社に対して個人情報の訂正，追加または削除（以下，「訂正等」といいます。）を請求することができます。</li>
+            <li>ユーザーは，当社の保有する自己の個人情報が誤った情報である場合には，当社が定める手続きにより，当社に対して個人情報の訂正，追加または削除（以下，「訂正等」といいます。）を請求することができます。
+            </li>
             <li>当社は，ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には，遅滞なく，当該個人情報の訂正等を行うものとします。</li>
             <li>当社は，前項の規定に基づき訂正等を行った場合，または訂正等を行わない旨の決定をしたときは遅滞なく，これをユーザーに通知します。</li>
         </ul>
@@ -350,7 +352,6 @@
 
 
         <h2>第6条（本サービスの提供の停止等）</h2>
-
         当社は，以下のいずれかの事由があると判断した場合，ユーザーに事前に通知することなく本サービスの全部または一部の提供を停止または中断することができるものとします。
         <ul>
             <li>本サービスにかかるコンピュータシステムの保守点検または更新を行う場合</li>
@@ -362,7 +363,6 @@
 
 
         <h2>第7条（利用制限および登録抹消）</h2>
-
         当社は，ユーザーが以下のいずれかに該当する場合には，事前の通知なく，ユーザーに対して，本サービスの全部もしくは一部の利用を制限し，またはユーザーとしての登録を抹消することができるものとします。
         <ul>
             <li>本規約のいずれかの条項に違反した場合</li>
@@ -391,8 +391,6 @@
             </li>
             <li>当社は，本サービスに関して，ユーザーと他のユーザーまたは第三者との間において生じた取引，連絡または紛争等について一切責任を負いません。</li>
         </ul>
-
-
 
         <h2>第10条（サービス内容の変更等）</h2>
         当社は，ユーザーに通知することなく，本サービスの内容を変更しまたは本サービスの提供を中止することができるものとし，これによってユーザーに生じた損害について一切の責任を負いません。
