@@ -31,7 +31,7 @@
           <div class="eclil-top__english__icon">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/english-icon.svg" alt="davinci">
           </div>
-          <p class="eclil-top__esports__text">English</p>
+          <p class="eclil-top__english__text">English</p>
         </div>
       </div>
     </div>
