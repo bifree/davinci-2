@@ -713,11 +713,137 @@ select {
 	text-decoration: none;
 }
 
-.terms .terms-top,
-.terms .tab_content {
+.terms { /*選択されているタブのコンテンツのみを表示*/
+}
+
+.terms .terms-top-menu {
+	height: 85px;
+}
+
+.terms .terms-top-menu ul {
+	background-color: #00b8b8;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.terms .terms-top-menu ul li {
+	margin: 0 18px;
+}
+
+.terms .terms-top-menu ul li a {
+	color: #fff;
+	font-size: 18px;
+	line-height: 85px;
+	text-decoration: none;
+}
+
+.terms .terms-top-menu li {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.terms p,
+.terms li,
+.terms label,
+.terms td {
 	font-family: "source-han-sans-japanese", sans-serif;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
+	line-height: 68px;
+}
+
+.terms h2 {
+	font-family: "source-han-sans-japanese", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 68px;
+	margin-top: 68px;
+}
+
+.terms th {
+	font-family: "source-han-sans-japanese", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 68px;
+}
+
+.terms .terms-tab-wrapper__tab_content__list-number ol {
+	list-style-type: decimal;
+	margin: 1em 0;
+	padding-left: 40px;
+}
+
+.terms .terms-tab-wrapper__tab_content__list-text ul {
+	list-style-type: disc;
+	margin: 1em 0;
+	padding-left: 40px;
+}
+
+.terms .terms-tab-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
+	max-width: 80%;
+	padding: 0 150px;
+}
+
+.terms .tab_item {
+	-o-border-image: linear-gradient(to top, #85c48d 0%, #2bb6c7 100%);
+	border-bottom: 6px solid #85c48d;
+	border-image: linear-gradient(to top, #85c48d 0%, #2bb6c7 100%);
+	border-image-slice: 1;
+	display: block;
+	line-height: 24px;
+	margin: 0 60px 97px 0;
+	padding: 0px 0 5px 0;
+	width: 365px;
+}
+
+.terms #privacy:checked ~ #privacy_content,
+.terms #law:checked ~ #law_content,
+.terms #terms:checked ~ #terms_content {
+	display: block;
+}
+
+.terms .terms-tab-wrapper__tab_content {
+	max-width: 1254px;
+}
+
+.terms .terms-tab-wrapper__tab_content__contact {
+	background-color: #fff;
+	border-radius: 30px;
+	box-shadow: 0px 3px 6px #00000029;
+	margin-top: 68px;
+	opacity: 1;
+	padding: 68px 72px 34px 72px;
+}
+
+.terms .terms-tab-wrapper__tab_content__contact__title {
+	line-height: 24px;
+	margin-bottom: 34px;
+}
+
+.terms .law_content th,
+.terms .law_content td {
+	border: solid 1px #d6d6d6;
+	padding: 20px;
+	text-align: left;
+}
+
+.terms .law_content-list ul {
+	list-style-position: inside;
+	list-style-type: circle;
+}
+
+.terms .lastline-txt p {
+	text-align: right;
 }
 
 @media screen and (min-width: 1440px) {
