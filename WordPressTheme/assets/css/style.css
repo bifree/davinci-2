@@ -611,6 +611,192 @@ select {
 	font-size: 3.125rem;
 }
 
+.about-bottom {
+	margin-bottom: 10.7vw;
+	margin-top: 4.8vw;
+}
+
+.about-bottom .about-bottom-company {
+	padding-left: 8vw;
+	padding-right: 7vw;
+}
+
+.about-bottom .about-bottom-company h4 {
+	font-size: 2.2vw;
+	line-height: 2.5vw;
+}
+
+.about-bottom .about-bottom-company .company-logo {
+	margin-bottom: 3.4vw;
+	margin-top: 5vw;
+	width: 28%;
+}
+
+.about-bottom .about-bottom-company .company-logo img {
+	width: 100%;
+}
+
+.about-bottom .about-bottom-company .company-info {
+	display: flex;
+	margin-bottom: 5vw;
+}
+
+.about-bottom .about-bottom-company .company-info p {
+	line-height: 1.7vw;
+}
+
+.about-bottom .about-bottom-company .company-info .company-info-1 {
+	width: 27vw;
+}
+
+.about-bottom .about-bottom-company .company-info .company-info-2 {
+	width: 27vw;
+}
+
+.about-bottom .about-bottom-project {
+	padding-left: 8vw;
+	padding-right: 7vw;
+}
+
+.about-bottom .about-bottom-project p {
+	font-size: 1.1vw;
+	line-height: 2.5vw;
+}
+
+.about-bottom .about-bottom-project .about-project-inner {
+	display: flex;
+}
+
+.about-middle-press h3 {
+	font-size: 2.2vw;
+	line-height: 2.5vw;
+	margin-left: 7.5vw;
+	margin-right: 4.5vw;
+}
+
+.about-middle-press h4 {
+	color: #fff;
+	font-size: 2.2vw;
+	line-height: 2.5vw;
+}
+
+.about-middle-press .about-press-img {
+	position: relative;
+}
+
+.about-middle-press .about-press-img h4 {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 0.24em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
+}
+
+.about-middle-press .about-press-img:after {
+	background-color: rgba(0, 0, 0, 0.13);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.about-middle {
+	background-image: url(../img/about/davinci.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-bottom: 5vw;
+	margin-left: 7.5vw;
+	margin-right: 4.5vw;
+}
+
+.about-middle h2 {
+	font-family: ten-mincho-text, serif;
+	font-size: 2.8vw;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .24em;
+	line-height: 3.4vw;
+	margin-bottom: 2.5vw;
+	padding-top: 6vw;
+	text-align: initial;
+}
+
+.about-middle h3 {
+	font-family: ten-mincho-text, serif;
+	font-size: 2.3vw;
+	letter-spacing: .24em;
+	line-height: 3.4vw;
+	margin-bottom: 2.4vw;
+}
+
+.about-middle p {
+	font-size: 1vw;
+	letter-spacing: .24em;
+	line-height: 2.4vw;
+}
+
+.about-top .about-top-menu {
+	background-color: #00B8B8;
+	height: 4.1vw;
+	padding-left: 3.1vw;
+}
+
+.about-top .about-top-menu ul {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	list-style: none;
+}
+
+.about-top .about-top-menu ul li {
+	display: block;
+	margin-right: 30px;
+}
+
+.about-top .about-top-menu ul li a {
+	color: #fff;
+}
+
+.about-top .about-top-image {
+	position: relative;
+}
+
+.about-top .about-top-image img {
+	width: 100%;
+}
+
+.about-top .about-top-image h2 {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: 2.8vw;
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 0.24em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
+}
+
+.about-top .about-top-image:after {
+	background-color: rgba(0, 0, 0, 0.13);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 .contact .contact-top-menu {
 	height: 85px;
 }
@@ -975,11 +1161,6 @@ select {
 	position: absolute;
 	right: 0;
 	top: 0;
-}
-
-.each-course-mainvisual {
-	position: relative;
-	width: 100%;
 }
 
 .each-course-content .each-course-content__title {
