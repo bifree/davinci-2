@@ -1,0 +1,23 @@
+.course-middle-top {
+	margin-left: 16%;
+	margin-right: 11%;
+	h2 {
+		font-size: 2.8vw;
+		margin-bottom: 5vw;
+		margin-top: 8vw;
+	}
+	.course-middle-inner {
+		width: 73%;
+		display: flex;
+		.course-middle-text {
+			font-size: 1vw;
+			line-height: 3.4vw;
+		}
+		.course-middle-img {
+			width: 33%;
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

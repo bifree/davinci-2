@@ -1,0 +1,30 @@
+.course-bottom {
+	.course-bottom-inner {
+		width: 82%;
+	}
+	h2.title {
+		font-size: 2.8vw;
+		line-height: 3.4vw;
+		border-bottom: 3px solid #2B3B77;
+		width: fit-content;
+		margin: 0 auto 2.3vw;
+		color: #2B3B77;
+	}
+	.bottom-left {
+		h2 {
+			font-size: 2.8vw;
+			line-height: 3.4vw;
+			font-family: ten-mincho-text, serif;
+			font-weight: 400;
+			text-align: initial;
+			font-style: normal;
+			margin: auto;
+		}
+	}
+	.bottom-right {
+		width: 46%;
+		img {
+			width: 100%;
+		}
+	}
+}
