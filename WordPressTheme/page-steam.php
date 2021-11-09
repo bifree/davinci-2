@@ -1,19 +1,20 @@
 <?php get_header(); ?>
 
 <main>
-  <div class="each-course-mainvisual">
-    <img class="each-course-mainvisual__img" src="<?php echo get_template_directory_uri();?>/assets/img/eclil/each-course-top.png" alt="davinci">
-    <h2 class="each-course-mainvisual__title">COURSE</h2>
-  </div>
+  <?php get_template_part('template/course-top-menu');?>  
+
+  <?php get_template_part('template/course-mainvisual');?>
 
   <section class="each-course-top">
     <div class="each-course-container">
-      <h2 class="each-course-top__title steam-top__title">こどもと大人のためのSTEAM教室</h2>
-      <div class="each-course-top__img">
+      <div class="each-course-top__title">
+        <h2 class="each-course-top__title__text steam-top__title">こどもと大人のためのSTEAM教室</h2> 
+      </div>
+      <div class="steam-top__img">
         <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam.png" alt="davinci">
       </div>
       <div class="each-course-top__icon">
-        <div class="each-course-top__icon__icon">
+        <div class="steam-top__icon__icon">
           <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam-icon.svg" alt="davinci">
         </div>
         <p class="each-course-top__icon__text">About STEAM</p>
@@ -27,7 +28,7 @@
         未来のワクワクを掴む web・デザイン技術を手の中に
       </h2>
       <div class="steam-content__img">
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam-pic.png" alt="davinci">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam-pic.svg" alt="davinci">
       </div>
       <p class="each-course-content__text">
         科学・技術・工学・芸術・数学の5つの英単語の頭文字を組み合わせた造語。 科学（Science）、技術（Technology）、工学（Engineering）。アート（Art）、数学（Mathematics）の5つの領域を対象とした理数教育に創造性教育を加えた教育理念。知る（探究）とつくる（創造）のサイクルを生み出す、分野横断的な学びです。Davinciでは初心者から上級者まで皆様のSTEAM領域での創造活動と発展をサポートします。
@@ -36,21 +37,21 @@
   </section>
 
   <section class="each-course-faq">
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHEN</span>
         　いつ受講できるか
       </p>
-      <p class="each-course-faq__a">
-        毎週　火曜・金曜
+      <p class="each-course-faq__a__week">
+        毎週　火曜・金曜</span>
       </p>
-      <p class="each-course-faq__a each-course-faq__a__flex">
+      <p class="each-course-faq__a__time">
         17:30〜18:30<br>
         18:40〜19:40
       </p> 
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHERE</span>
         　どこで受講できるのか
@@ -60,7 +61,7 @@
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHO</span>
         　誰が受講できるのか
@@ -72,7 +73,7 @@
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHAT</span>
         　何が受講できるのか
@@ -83,7 +84,7 @@
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">HOW</span>
         　どのように受講できるのか
@@ -94,7 +95,7 @@
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">TOOL</span>
         準備が必要なもの
