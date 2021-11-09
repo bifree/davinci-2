@@ -1,0 +1,24 @@
+.plans-middle {
+	h2 {
+		font-size: 2.8vw;
+		line-height: 3.4vw;
+		border-bottom: 3px solid #2B3B77;
+		color: #2B3B77;
+		width: fit-content;
+		text-align: center;
+		margin: 0 auto 2.3vw;
+	}
+	p {
+		font-size: 1.5vw;
+		line-height: 3vw;
+	}
+	.plans-middle-bottom {
+		.top-plan__img {
+			width: 75%;
+			margin: 0 auto;
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
