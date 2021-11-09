@@ -81,5 +81,15 @@
             </li>
           </ul>
         </div>
+        <div class="header-menu2">
+          <div class="left">
+            受講の流れ<br>
+            FLOW
+          </div>
+          <div class="right">
+            予約<br>
+            RESERVE
+          </div>
+        </div>
       </div>
     </header>
