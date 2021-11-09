@@ -1,0 +1,21 @@
+.l-header {
+	.header-logo {
+		width: 13.5%;
+		img {
+			width: 100%;
+		}
+	}
+	.header-menu-pc {
+		width: 58%;
+		margin-left: auto;
+		ul {
+			list-style: none;
+			display: flex;
+			li {
+				a {
+					color: #3E3A39;
+				}
+			}
+		}
+	}
+}

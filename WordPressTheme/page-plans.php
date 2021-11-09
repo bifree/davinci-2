@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <div class="plans-top">
 	<div class="plans-top-menu">
 		<ul>
@@ -52,3 +54,6 @@
 		受講の流れを見る
 	</div>
 </div>
+
+
+<?php get_footer(); ?>
