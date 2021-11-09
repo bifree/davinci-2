@@ -58,6 +58,34 @@
 
     }
   }
+}
 
+@media screen and (max-width:797px){
+  .top-faq{
+    .top-sec-title{
+      color:#00A0E9;
+    }
+    
+    .top-faq__items{
+      flex-direction:column;
+      
+      .top-faq__item{
+        width:95%;
+        margin:0.5vw auto;
+  
+        .top-faq__q{
+          font-size:1.6vw;
+
+          &:after{
+            font-size:2vw;
+          }
+        }
+  
+        .top-faq__a{
+          font-size:1.6vw;
+        }
+      }
+    }
+  } 
 }
 

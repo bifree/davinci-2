@@ -14,3 +14,19 @@
 .steam-top__icon__icon{
   width:6.3vw;
 }
+
+@media screen and (max-width:1279){
+  .steam-top__title{
+    padding:28px 125px;
+  }
+}
+
+@media screen and (max-width:797px){
+  .steam-top__title{
+    padding:5.3vw 15vw;
+  }
+  
+  .steam-top__icon__icon{
+    width:15vw;
+  }
+}
