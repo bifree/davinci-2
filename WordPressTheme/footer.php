@@ -32,7 +32,7 @@
     </div>
     <div class="footer-bottom">
       <p>© 2020 能力探究塾 DaVinci</p>
-      <p>利用規約/プライバシーポリシー/特定商取引法に基づく表記</p>
+      <p><a href="<?php echo home_url('/terms'); ?>">利用規約</a>/<a href="<?php echo home_url('/privacy'); ?>">プライバシーポリシー</a>/<a href="<?php echo home_url('/tokushoho'); ?>">特定商取引法に基づく表記</a></p>
     </div>
   </div>
 </footer>

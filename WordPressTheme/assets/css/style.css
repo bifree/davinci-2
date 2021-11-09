@@ -504,6 +504,10 @@ select {
 	line-height: 1.5vw;
 }
 
+.l-footer a {
+	color: #fff;
+}
+
 .l-footer .footer-top {
 	margin-left: 6%;
 	padding-top: 3vw;
@@ -575,6 +579,10 @@ select {
 	width: fit-content;
 }
 
+.l-footer .footer-bottom p a {
+	color: #fff;
+}
+
 .l-header {
 	display: flex;
 }
@@ -623,12 +631,22 @@ select {
 	width: 6.5vw;
 }
 
+.l-header .header-menu2 .left a {
+	color: #fff;
+	display: block;
+}
+
 .l-header .header-menu2 .right {
 	background-image: linear-gradient(to right top, #FFAA89 25%, #FD9D86 50%, #FB7D81 75%, #F74978 100%);
 	color: #fff;
 	font-size: 1vw;
 	height: 100%;
 	width: 6.5vw;
+}
+
+.l-header .header-menu2 .right a {
+	color: #fff;
+	display: block;
 }
 
 .l-inner {
