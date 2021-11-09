@@ -598,6 +598,101 @@ select {
 	margin: 0 auto 200px;
 }
 
+.each-course-mainvisual {
+	position: relative;
+	width: 100%;
+}
+
+.each-course-mainvisual .each-course-mainvisual__title {
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	color: #fff;
+	font-size: 2.9vw;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	z-index: 2;
+}
+
+.each-course-mainvisual:after {
+	background: #231815;
+	bottom: 0;
+	content: "";
+	left: 0;
+	opacity: 0.13;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.each-course-top {
+	background-image: url(../img/eclil/each-course-back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.each-course-top .each-course-container {
+	margin: 0 auto;
+	max-width: 1531px;
+	padding: 7.9vw 0;
+	width: 70%;
+}
+
+.each-course-top .each-course-container .each-course-top__title {
+	color: #fff;
+	display: flex;
+	font-size: 2.1vw;
+	height: 6.7vw;
+	margin: 0 auto;
+	padding: 2.3vw 5.3vw;
+	width: 35.8vw;
+}
+
+.each-course-top .each-course-container .eclil-top__img {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 6.7vw;
+	text-align: center;
+}
+
+.each-course-top .each-course-container .eclil-top__img .eclil-top__esports {
+	width: 45%;
+}
+
+.each-course-top .each-course-container .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
+	margin: 3.4vw auto;
+	width: 28%;
+}
+
+.each-course-top .each-course-container .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
+	font-size: 2.1vw;
+}
+
+.each-course-top .each-course-container .eclil-top__img .eclil-top__times {
+	margin-top: 8vw;
+	width: 10%;
+}
+
+.each-course-top .each-course-container .eclil-top__img .eclil-top__english {
+	width: 45%;
+}
+
+.each-course-top .each-course-container .eclil-top__img .eclil-top__english .eclil-top__english__icon {
+	margin: 1.8vw auto 2.9vw;
+	width: 20%;
+}
+
+.each-course-top .each-course-container .eclil-top__img .eclil-top__english .eclil-top__english__text {
+	font-size: 2.1vw;
+}
+
+.eclil-top__title {
+	background: linear-gradient(to right, #DA1467 0%, #FF992E 100%);
+	background: -webkit-linear-gradient(left, #DA1467 0%, #FF992E 100%);
+}
+
 .flow-box {
 	background-color: #FFAA89;
 	padding-bottom: 240px;
@@ -711,6 +806,13 @@ select {
 	font-size: 18px;
 	line-height: 85px;
 	text-decoration: none;
+}
+
+.terms .terms-top,
+.terms .tab_content {
+	font-family: "source-han-sans-japanese", sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .terms .terms-top-menu {
