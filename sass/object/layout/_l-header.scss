@@ -34,6 +34,10 @@
 			font-size: 1vw;
 			color: #fff;
 			background-image: linear-gradient(to right,#38FFFA 25%,#37F2F9 50%,#37B9F7 75%,#37A3F7 100%);
+			a {
+				color: #fff;
+				display: block;
+			}
 		}
 		.right {
 			width: 6.5vw;
@@ -41,6 +45,10 @@
 			font-size: 1vw;
 			color: #fff;
 			background-image: linear-gradient(to right top,#FFAA89 25%,#FD9D86 50%,#FB7D81 75%,#F74978 100%);
+			a {
+				color: #fff;
+				display: block;
+			}
 		}
 	}
 }
