@@ -81,7 +81,7 @@
           Learning never exhausts the mind.
         </p>
         <p class="top-about__text__ja">
-          学ぶことは決して脳を疲れさせない。by レオナルド・ダ・ヴィンチ
+          学ぶことは決して脳を疲れさせない。by レオナルド•ダ•ヴィンチ
         </p>
       </div>
       <div class="top-about__btn">

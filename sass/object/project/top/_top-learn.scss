@@ -4,6 +4,8 @@
   margin:0 auto;
   padding:9.4vw 0;
   font-family:"fot-tsukuardgothic-std", sans-serif;
+  letter-spacing:0.24em;
+  line-height:1.5;
 }
 
 .top-learn{
@@ -22,10 +24,10 @@
       font-size:1.2vw;
       font-family:"Noto Sans JP";
       font-weight:bold;
-      text-align:center;
+      letter-spacing:0;
 
       img{
-        margin-bottom:1.9vw;
+        margin:0 auto 1.9vw;
       }
     }
 
@@ -36,15 +38,16 @@
 
   .top-learn__text{
     display:flex;
-    justify-content:space-between; 
+    justify-content:space-between;
+    align-items:cemter; 
     margin-top:9.4vw;
 
     .top-learn__text__text{
-      width:60%;
+      width:62%;
       font-family: "ten-mincho-text", serif;
 
       .top-learn__text__title{
-        font-size:3.7vw;
+        font-size:3.5vw;
         font-weight:100;
       }
 
@@ -56,8 +59,11 @@
     }
 
     .top-learn__text__img{
-      width:40%;
+      width:38%;
     }
-
   }
+}
+
+@media screen and (max-width:1024px){  
+   
 }
