@@ -2073,6 +2073,7 @@ img {
 	font-size: 26px;
 }
 
+<<<<<<< HEAD
 .each-course-mainvisual .each-course-mainvisual__title {
 	color: #fff;
 	font-size: 37px;
@@ -2518,6 +2519,8 @@ img {
 
 @media screen and (max-width: 767px) {
 
+=======
+>>>>>>> origin
 .contact .contact-top-menu {
 	height: 46px;
 	position: relative;
