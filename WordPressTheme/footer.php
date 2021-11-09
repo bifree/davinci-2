@@ -13,7 +13,7 @@
     <div class="footer-middle">
       <div class="footer-menu">
         <div class="footer-menu-l">
-          <h4>COURSE</h4>
+          <h4>ABOUT</h4>
           <ul>
             <li><a href="">プレスリリース</a></li>
             <li><a href="">運営会社</a></li>
@@ -21,7 +21,7 @@
           </ul>
         </div>
         <div class="footer-menu-r">
-          <h4>COURSE</h4>
+          <h4 class="course">COURSE</h4>
           <ul>
             <li><a href="">e-CLIL（イークリル）</a></li>
             <li><a href="">ファイナンス</a></li>
