@@ -1,14 +1,16 @@
 <?php get_header(); ?>
 
 <main>
-  <div class="each-course-mainvisual">
-    <img class="each-course-mainvisual__img" src="<?php echo get_template_directory_uri();?>/assets/img/eclil/each-course-top.png" alt="davinci">
-    <h2 class="each-course-mainvisual__title">COURSE</h2>
-  </div>
+  <?php get_template_part('template/course-top-menu');?>  
+
+  <?php get_template_part('template/course-mainvisual');?>  
 
   <section class="each-course-top">
     <div class="each-course-container">
-      <h2 class="each-course-top__title eclil-top__title">e-CLIL(イークリル)</h2>
+      <div class="each-course-top__title">
+        <h2 class="each-course-top__title__text 
+        eclil-top__title">e-CLIL(イークリル)</h2>
+      </div>
       <div class="eclil-top__img">
         <div class="eclil-top__esports">
           <div class="eclil-top__esports__img">
@@ -43,7 +45,7 @@
         「学ぶ力を、信じる」
       </h2>
       <div class="eclil-content__img">
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/eclil-svg." alt="davinci">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/eclil-pic.svg." alt="davinci">
       </div>
       <p class="each-course-content__text">
         人は、教科書に向き合わなければ学べないのでしょうか。<br>
@@ -53,19 +55,21 @@
   </section>
 
   <section class="each-course-faq">
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHEN</span>
         　いつ受講できるか
       </p>
-      <p class="each-course-faq__a">
-        毎週　月曜・木曜<br>
+      <p class="each-course-faq__a__week">
+        毎週　月曜・木曜
+      </p>
+      <p class="each-course-faq__a__time">
         17:00〜18:00<br>
         18:00〜19:00
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHERE</span>
         　どこで受講できるのか
@@ -76,7 +80,7 @@
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHO</span>
         　誰が受講できるのか
@@ -87,7 +91,7 @@
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHAT</span>
         　何が受講できるのか
@@ -98,19 +102,19 @@
       ・プランの立案・チームでのディベート　など
       </p>
     </div>
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">HOW</span>
         　どのように受講できるのか
       </p>
       <p class="each-course-faq__a__small">
-        ホームページ右上の「予約」よりレッスンの事前予約が必要です。<br>
+        ホームページ右上の「予約」よりレッスンの<br class="sp-br">事前予約が必要です。<br>
         ・e-sportsのプレイにも適したPC環境です（全13台）。<br>
-        ・下り：300Mbps以上、上り：200Mbps以上、PING：7.5ms
+        ・下り：300Mbps以上、上り：200Mbps以上、<br class="sp-br">PING：7.5ms
       </p>
     </div>
 
-    <div class="each-cpurse-faq__content">
+    <div class="each-course-faq__content">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">TOOL</span>
         準備が必要なもの
@@ -118,7 +122,7 @@
       <p class="each-course-faq__a__small">
         オンラインでのレッスンでは、zoom<br>
         （オンラインミーティングアプリ）を使用します。<br>
-        個別レッスンをご希望される方は、スマホ・タブレット・PCの<br>いずれかをご用意ください。
+        個別レッスンをご希望される方は、<br class="sp-br">スマホ・タブレット・PCの<br>いずれかをご用意ください。
       </p>
     </div>
   </section>
