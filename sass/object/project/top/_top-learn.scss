@@ -25,6 +25,7 @@
       font-family:"Noto Sans JP";
       font-weight:bold;
       letter-spacing:0;
+      
 
       img{
         margin:0 auto 1.9vw;
@@ -39,7 +40,7 @@
   .top-learn__text{
     display:flex;
     justify-content:space-between;
-    align-items:cemter; 
+    align-items:center; 
     margin-top:9.4vw;
 
     .top-learn__text__text{
@@ -64,6 +65,80 @@
   }
 }
 
-@media screen and (max-width:1024px){  
-   
+@media screen and (max-width:1279px){  
+  .top-learn{ 
+    .top-learn__insta{  
+      .top-learn__insta__insta{
+        width:18%;
+        font-size:1.8vw;
+      
+        img{
+          margin:0 auto 10px;
+        }
+      }
+  
+      .top-learn__insta__photo{
+        width:78%;
+      }
+    }
+  
+    .top-learn__text{ 
+      .top-learn__text__text{
+        width:70%;
+      }
+  
+      .top-learn__text__img{
+        width:38%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:797px){
+  .top-container{
+    width:90%;
+  }
+
+  .top-learn{ 
+    .top-learn__insta{
+      flex-direction:column;
+  
+      .top-learn__insta__insta{
+        display:flex;
+        align-items:center;
+        text-align:left;
+        font-size:2.2vw;
+
+        img{
+          width:12.5vw;
+          margin:0 auto 1vw;
+        }
+      }
+  
+      .top-learn__insta__photo{
+        width:100%;
+      }
+    }
+  
+    .top-learn__text{
+      flex-direction:column;
+  
+      .top-learn__text__text{
+        width:100%;
+  
+        .top-learn__text__title{
+          font-size:5.3vw;
+        }
+  
+        .top-learn__text__content{
+          font-size:3.4vw;
+          padding:3vw 0;
+        }
+      }
+  
+      .top-learn__text__img{
+        width:70%;
+      }
+    }
+  }
 }

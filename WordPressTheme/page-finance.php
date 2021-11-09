@@ -39,8 +39,7 @@
   <section class="each-course-faq">
     <div class="each-course-faq__content">
       <p class="each-course-faq__q">
-        <span class="each-course-faq__q__en">WHEN</span>
-        　いつ受講できるか
+        <span class="each-course-faq__q__en">WHEN</span> いつ受講できるか
       </p>
       <p class="each-course-faq__a__week">
         毎週　水曜日
@@ -60,8 +59,7 @@
 
     <div class="each-course-faq__content">
       <p class="each-course-faq__q">
-        <span class="each-course-faq__q__en">WHERE</span>
-        　どこで受講できるのか
+        <span class="each-course-faq__q__en">WHERE</span> どこで受講できるのか
       </p>
       <p class="each-course-faq__a">
         DaVinci野並教室、またはオンラインにて<br>
@@ -71,8 +69,7 @@
 
     <div class="each-course-faq__content">
       <p class="each-course-faq__q">
-        <span class="each-course-faq__q__en">WHO</span>
-        　誰が受講できるのか
+        <span class="each-course-faq__q__en">WHO</span> 誰が受講できるのか
       </p>
       <p class="each-course-faq__a">
         投資や経済に興味はあるけど方なら誰でも受講ができます。<br>
@@ -82,8 +79,7 @@
 
     <div class="each-course-faq__content">
       <p class="each-course-faq__q">
-        <span class="each-course-faq__q__en">WHAT</span>
-        　何が受講できるのか
+        <span class="each-course-faq__q__en">WHAT</span> 何が受講できるのか
       </p>
       <p class="each-course-faq__a">
         投資に関するコーチングや相談、投資に役立つ情報分析手法
@@ -91,8 +87,7 @@
     </div>
     <div class="each-course-faq__content">
       <p class="each-course-faq__q">
-        <span class="each-course-faq__q__en">HOW</span>
-        　どのように受講できるのか
+        <span class="each-course-faq__q__en">HOW</span> どのように受講できるのか
       </p>
       <p class="each-course-faq__a__small">
         DaVinci野並教室では、トレードツール（Axiory）が導入された10台のデスクトップPCをご用意しておりますので、PCをお持ちでない方でも安心して学ぶことができます。 レッスンでは、取引市場の値動きがグラフ化された「チャート」など過去のデータを使っていきますので、初めての方でもしっかりと基礎から学ぶことができます。 また、リアルタイムでのトレード実技演習も実施していますので、投資経験者同士の意見交換の場としてもご活用いただけます。
@@ -101,8 +96,7 @@
 
     <div class="each-course-faq__content">
       <p class="each-course-faq__q">
-        <span class="each-course-faq__q__en">TOOL</span>
-        準備が必要なもの
+        <span class="each-course-faq__q__en">TOOL</span> 準備が必要なもの
       </p>
       <p class="each-course-faq__a">
         オンラインでのレッスンでは、zoom （オンラインミーティングアプリ）を使用します。 野並教室以外から受講される方は、スマホ・タブレット・PCのいずれかをご用意ください。

@@ -9,7 +9,8 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     -webkit-transform: translateY(-50%)translateX(-50%);
-    z-index:2
+    z-index:2;
+    letter-spacing:0.24em;
   }
   &:after{
     content:"";
@@ -23,3 +24,21 @@
     z-index:1;
   }
 }
+
+@media screen and (max-width:1279px){
+  .each-course-mainvisual{
+    .each-course-mainvisual__title{
+      color:#fff;
+      font-size:37px;
+    }
+  }
+} 
+
+@media screen and (max-width:797px){
+  .each-course-mainvisual{
+    .each-course-mainvisual__title{
+      color:#fff;
+      font-size:6.2vw;
+    }
+  }
+} 
