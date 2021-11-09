@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <div class="course-top">
 	<div class="course-top-menu">
 		<ul>
@@ -8,7 +10,7 @@
 		</ul>
 	</div>
 	<div class="course-top-image">
-		<img src="" alt="">
+		<img src="<?php echo get_template_directory_uri();?>/assets/img/course/title" alt="">
 	</div>
 </div>
 
@@ -31,7 +33,7 @@
 			<p>e-CLILでは、「Apple」という単語の発声を繰り返すことや、単元ごとに文法を学ぶことが目的ではありません。e-sportsやボードゲームを使って、遊びの中から「意思の伝達」や「戦略」、「ディベート」などの学習理解に重きを置き、それを理解するための道具として英語を位置付けています。英語は「気づけば身に付いているもの」でなければなりません。</p>
 		</div>
 		<div class="red-inner-right">
-			<img src="" alt="">
+			<img src="<?php echo get_template_directory_uri();?>/assets/img/course/eclil.jpg" alt="">
 			<div class="btn-green"></div>
 		</div>
 	</div>
@@ -43,7 +45,7 @@
 			<p>投資とは、利益を得ることを目的として、将来的な成長が見込める事業や不動産、証券などへお金を投じることを指します。DaVinci「ファイナンス」コースでは、株式や為替市場、原油やゴールド等の先物市場に触れることで、投資の本質を様々な角度から分析していきます。投資について深く知り、広い視野をもって世界経済の姿を学んでいきましょう。</p>
 		</div>
 		<div class="blue-inner-right">
-			<img src="" alt="">
+			<img src="<?php echo get_template_directory_uri();?>/assets/img/course/finance.jpg" alt="">
 			<div class="btn-green"></div>
 		</div>
 	</div>
@@ -55,7 +57,7 @@
 			<p>こどもも大人も情報社会でワクワクする技術を 「制作」を通じて学びましょう！</p>
 		</div>
 		<div class="green-inner-right">
-			<img src="" alt="">
+			<img src="<?php echo get_template_directory_uri();?>/assets/img/course/" alt="">
 			<div class="btn-green"></div>
 		</div>
 	</div>
@@ -71,6 +73,8 @@
 		</div>
 	</div>
 	<div class="bottom-right">
-		<img src="" alt="">
+		<img src="<?php echo get_template_directory_uri();?>/assets/img/course/experience.png" alt="">
 	</div>
 </div>
+
+<?php get_footer(); ?>
