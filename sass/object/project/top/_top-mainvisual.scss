@@ -12,12 +12,17 @@ img{
 }
 
 .top-mainvisual{
+  letter-spacing:0.24em;
   position:relative;
   overflow:hidden;
 
   .top-mainvisual__slider {
     width:100%;
-  
+    margin:0;
+    padding:0;
+    line-height:0;
+
+
     .top-mainvisual__slider__item img{
       width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
       height:100vh;
@@ -27,7 +32,7 @@ img{
     // 位置を変える
     .slick-dots {
       left:-45vw;
-      bottom:calc(50vh - 60px);
+      bottom:calc(50vh - 3.2vw);
       transform:rotate(90deg);
       z-index:3;
       display:inline-block;
@@ -35,13 +40,13 @@ img{
 
     // ドット同士の間の距離を変える
     .slick-dots li {
-      width:30px;
+      width:1.9vw;
       //  px指定　数字が大きいほど離れる;
     }
 
     // ドットのサイズと色を大きくする
     .slick-dots li button:before {
-      font-size:20px; 
+      font-size:1.3vw; 
       // 任意のサイズ
       color:#c4d1d0;
       opacity:1;
@@ -156,7 +161,6 @@ img{
   .top-mainvisual__text{
     font-size:2.9vw;
     font-family: "ten-mincho-text", serif;
-    letter-spacing:0.32;
     line-height:1.2;
     text-shadow : 3px 1px 6px rgba(0, 0, 0, 0.72);
     z-index:5;
@@ -168,7 +172,6 @@ img{
     .top-mainvisual__text__big{
       font-size:5vw;
       font-weight:200;
-      letter-spacing:0.3;
     }
   }
 
@@ -181,7 +184,6 @@ img{
     background: linear-gradient(to right, #94f990 0%, #27D5DA 100%);
     background: -webkit-linear-gradient(left, #94f990 0%, #27D5DA 100%);
     border-radius:40px;
-    letter-spacing:0.24;
     z-index:5;
     position:absolute;
     right:3vw;
@@ -193,4 +195,87 @@ img{
       padding-bottom:-5px;
     }
   }  
+}
+
+@media screen and (max-width:1279px){
+  .top-mainvisual{
+  
+    .top-mainvisual__text{
+      font-size:37px;
+
+      .top-mainvisual__text__big{
+        font-size:64px;
+        font-weight:200;
+      }
+    }
+  
+    .top-mainvisual__btn{
+      font-size:26px;
+      padding:24px 48px;
+  
+      img{
+        width:20px;
+        margin-left:12px;
+      }
+    }  
+  }
+}
+
+@media screen and (max-width:797px){
+  .top-mainvisual{
+    .top-mainvisual__slider {
+      .top-mainvisual__slider__item img{
+        height:500px;
+      }
+      
+      // 位置を変える
+      .slick-dots {
+        left:0;
+        right:0;
+        bottom:10px;
+        transform:none;
+      }
+  
+      // ドット同士の間の距離を変える
+      .slick-dots li {
+        width:15px;
+        //  px指定　数字が大きいほど離れる;
+      }
+  
+      // ドットのサイズと色を大きくする
+      .slick-dots li button:before {
+        font-size:10px; 
+        // 任意のサイズ
+      }
+    }
+  
+    .top-mainvisual__color{
+      height:500px;
+    }
+   
+    .top-mainvisual__text{
+      font-size:5.9vw;
+      top:38%;
+      left:3%;
+    
+      .top-mainvisual__text__big{
+        font-size:8.1vw;
+      }
+    }
+  
+    .top-mainvisual__btn{
+
+      font-size:5vw;
+      padding:4.5vw 9.4vw;
+  
+      right:13vw;
+      bottom:8vh;
+  
+      img{
+        width:3.8vw;
+        margin-left:1.2vw;
+        padding-bottom:-5px;
+      }
+    }  
+  }
 }
