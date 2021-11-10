@@ -81,7 +81,7 @@
           Learning never exhausts the mind.
         </p>
         <p class="top-about__text__ja">
-          学ぶことは決して脳を疲れさせない。by レオナルド・ダ・ヴィンチ
+          学ぶことは決して脳を疲れさせない。<br class="tb-br">by レオナルド•ダ•ヴィンチ
         </p>
       </div>
       <div class="top-about__btn">
@@ -92,7 +92,7 @@
   <section class="top-course">
     <div class="top-container">
       <h2 class="top-sec-title">COURSE</h2>
-      <h3 class="top-sec-subtitle">次世代で活躍する複合的なスキルを学ぶ</h3>
+      <h3 class="top-sec-subtitle">次世代で活躍する<br class="sp-br">複合的なスキルを学ぶ</h3>
       <p class="top-sec-content">複合的なコースで次世代に活躍できるスキルを身に付けられます。<br>
       「一人ひとりが持つ様々な個性を活かし、伸ばす学び」を提供します。</p>
       <ul class="top-course__li">
@@ -112,7 +112,7 @@
             <img src="<?php echo get_template_directory_uri();?>/assets/img/top/course-item2.png" alt="davinci">
           </div>
           <h3 class="top-course__item__title">ファイナンス</h3>
-          <p class="top-course__item__content">世界的な視野で経済と<br>スキルを学ぶ</p>
+          <p class="top-course__item__content">世界的な視野で経済と<br class="sp-br">スキルを学ぶ</p>
           <div class="top-course__btn">
             <a class="top-viewmore" href="<?php echo home_url('/finance/');?>">VIEW MORE</a>
           </div>
@@ -145,8 +145,8 @@
   <sevtion class="top-style">
     <div class="top-container">
       <h2 class="top-sec-title">STYLE</h2>
-      <h3 class="top-sec-subtitle">Davinciだから選べる２つのスタイル</h3>
-      <p class="top-sec-content">自分以外のアイデアや考えを知ることより楽しく学べる「集団レッスン」<br>と、自分の学びをより深く探求できる「個別レッスン」をご用意しており<br>ます。DaVinciで、あなたらしい学びのSTYLEを。</p>
+      <h3 class="top-sec-subtitle">Davinciだから選べる<br class="sp-br">２つのスタイル</h3>
+      <p class="top-sec-content">自分以外のアイデアや考えを知ることより楽しく学べる「集団レッスン」<br class="pctb-br">と、自分の学びをより深く探求できる「個別レッスン」をご用意しており<br class="pctb-br">ます。DaVinciで、あなたらしい学びのSTYLEを。</p>
       <div class="top-style__items">
         <div class="top-style__item top-style__group">
           <div class="top-style__item__text">
@@ -185,7 +185,7 @@
 
   <section class="top-lesson">
     <div class="top-container">
-      <p class="top-sec-title">まずは無料で体験レッスンを受けよう！</p>
+      <p class="top-sec-title">まずは無料で<br class="tb-br">体験レッスンを受けよう！</p>
       <div class="top-lesson__square">
         <p class="top-lesson__square__small">初めての方へ</p>
         <p class="top-lesson__square__big">今なら２回分のレッスンが無料！</p>

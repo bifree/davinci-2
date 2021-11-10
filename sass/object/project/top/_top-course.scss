@@ -1,8 +1,12 @@
 .top-sec-subtitle{
   color:#E83828;
-  font-size:4.2vw;
+  font-size:3.9vw;
   font-weight:100;
   padding:3.1vw 0;
+
+  .sp-br{
+    display:none;
+  }
 }
 
 .top-sec-content{
@@ -93,6 +97,7 @@
     .top-course__steam{
       .top-course__item__title{
         color:#00B8B8;
+        font-size:3vw;
       }
     
       .top-viewmore,&:after{
@@ -107,6 +112,70 @@
     
       .top-viewmore,&:after{
         background:#595757;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1279px){
+  .top-sec-content{
+    font-size:1.9vw;
+    font-weight:100;
+  }
+
+  .top-course{  
+    .top-course__li{    
+      .top-course__steam{
+        .top-course__item__title{
+          font-size:2.9vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:797px){
+  .top-sec-subtitle{
+    font-size:4.6vw;
+
+    .sp-br{
+      display:block;
+    }
+  }
+  
+  .top-sec-content{
+    font-size:3.4vw;
+    font-weight:100;
+  }
+  
+  .top-course{
+    .top-course__li{
+      flex-direction:column;    
+
+      .top-course__li__item{
+        margin:6.3vw auto 0;
+        padding-bottom:20vw;
+        width:70%;
+  
+
+        .top-course__item__title{
+          height:22vw;
+          font-size:5vw;
+        }
+  
+        .top-course__item__content{
+          font-size:4vw;
+        }
+  
+        .top-course__btn{
+          bottom:8vw;
+        }
+  
+        &:after{
+          width:15vw;
+          height:4vw;
+          left:calc(50% - 7.5vw);
+        }
       }
     }
   }

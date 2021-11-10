@@ -53,4 +53,43 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header class="">
+      <div class="l-header">
+        <div class="header-logo">
+          <a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/header/top-logo.png" alt=""></a>
+        </div>
+        <div class="header-menu-pc">
+          <ul>
+            <li>
+              <a href="<?php echo home_url('/'); ?>"><p class="ja">ホーム</p>
+              <p class="en">HOME</p></a>
+            </li>
+            <li>
+              <a href="<?php echo home_url('/about'); ?>"><p class="ja">Davinciとは</p>
+              <p class="en">ABOUT</p></a>
+            </li>
+            <li>
+              <a href="<?php echo home_url('/course'); ?>"><p class="ja">コース内容</p>
+              <p class="en">COURSE</p></a>
+            </li>
+            <li>
+              <a href="<?php echo home_url('/plans'); ?>"><p class="ja">料金プラン</p>
+              <p class="en">PLAN</p></a>
+            </li>
+            <li>
+              <a href="<?php echo home_url('/contact'); ?>"><p class="ja">お問い合わせ</p>
+              <p class="en">CONTACT</p></a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-menu2">
+          <div class="left">
+            <a href="<?php echo home_url('/flow'); ?>">受講の流れ<br>
+            FLOW</a>
+          </div>
+          <div class="right">
+            <a href="<?php echo home_url('/tokushoho'); ?>">予約<br>
+            RESERVE</a>
+          </div>
+        </div>
+      </div>
     </header>
