@@ -2,23 +2,18 @@
 <div class="contact">
     <div class="contact-top">
         <div class="contact-top-menu">
-            <ul>
-                <!--                 <li><a href="">グローバルeスポーツ</a></li>
-                <li><a href="">WEBデザイン・プログラミング</a></li>
-                <li><a href="">ファイナンス</a></li>
-                <li><a href="">体験コース</a></li> -->
-                <li><a href="">お問い合わせ</a></li>
-            </ul>
+            <h1>お問い合わせ</h1>
         </div>
 
         <div class="contact-top-image">
-            <h1>CONTACT</h1>
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/contact/contact.jpg" alt="">
+            <h2>CONTACT</h2>
         </div>
 
     </div>
 
     <div class="contact-container">
-        <h2 class="contact-container__title">お問い合わせ<br class="sp">フォーム</h2>
+        <h3 class="contact-container__title">お問い合わせフォーム</h3>
         <div class="contact-container__form">
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdwJ9M9uJr_mFQMmq-Jy-eVoBO8nLSNjQZiVL6fzvhXBdAyeQ/viewform?embedded=true"

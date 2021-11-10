@@ -12,9 +12,18 @@
         <!-- 表示切り替え -->
         <div class="terms-wrapper__btn">
             <ul>
-                <li><a class="privacy-title" href="<?php echo home_url('/privacy'); ?>">プライバシーポリシー</a></li>
-                <li><a class="tokushoho-title" href="<?php echo home_url('/tokushoho'); ?>">特定商取引法に基づく表記</a></li>
-                <li><a class="terms-title" href="<?php echo home_url('/terms'); ?>">利用規約</a></li>
+                <li><a class="privacy-title" href="<?php echo home_url('/privacy'); ?>">プライバシーポリシー</a>
+                    <div class="gradation-line"></div>
+                </li>
+
+                <li><a class="tokushoho-title" href="<?php echo home_url('/tokushoho'); ?>">特定商取引法に基づく表記</a>
+                    <div class="gradation-line"></div>
+                </li>
+
+                <li><a class="terms-title" href="<?php echo home_url('/terms'); ?>">利用規約</a>
+                    <div class="gradation-line"></div>
+                </li>
+
             </ul>
         </div>
         <!-- プライバシーポリシー -->
