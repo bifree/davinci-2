@@ -1,140 +1,139 @@
-.each-course-container{
-  width:70%;
-  max-width:1531px;
-  margin:0 auto;
-  padding:7.9vw 0;
-  letter-spacing:0.24em;
+.each-course-container {
+  width: 70%;
+  max-width: 1531px;
+  margin: 0 auto;
+  padding: 7.9vw 0;
+  letter-spacing: 0.24em;
 }
 
-.each-course-top{
-  background-image:url(../img/eclil/each-course-back.png);
+.each-course-top {
+  background-image: url(../img/eclil/each-course-back.png);
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
 
-  .each-course-top__title{
-    text-align:center;
-  
-    .each-course-top__title__text{
-      font-size:2.1vw;
-      color:#fff;
-      display:inline-block;
-      margin:0 auto;
-      border-radius:60px;
+  .each-course-top__title {
+    text-align: center;
+
+    .each-course-top__title__text {
+      font-size: 2.1vw;
+      color: #fff;
+      display: inline-block;
+      margin: 0 auto;
+      border-radius: 60px;
     }
   }
 
-  .eclil-top__img{
-    display:flex;
-    justify-content:space-between;
-    margin-top:6.7vw;
-    text-align:center;
+  .eclil-top__img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.7vw;
+    text-align: center;
 
-    .eclil-top__esports{
-      width:45%;
+    .eclil-top__esports {
+      width: 45%;
 
-      .eclil-top__esports__icon{
-        width:28%;
-        margin:3.4vw auto;
+      .eclil-top__esports__icon {
+        width: 28%;
+        margin: 3.4vw auto;
       }
 
-      .eclil-top__esports__text{
-        font-size:2.1vw;
+      .eclil-top__esports__text {
+        font-size: 2.1vw;
       }
-    }   
-    
-    .eclil-top__times{
-      width:10%;
-      margin-top:8vw;
     }
 
-    .eclil-top__english{
-      width:45%;
+    .eclil-top__times {
+      width: 10%;
+      margin-top: 8vw;
+    }
 
-      .eclil-top__english__icon{
-        width:20%;
-        margin:1.8vw auto 2.9vw;
+    .eclil-top__english {
+      width: 45%;
+
+      .eclil-top__english__icon {
+        width: 20%;
+        margin: 1.8vw auto 2.9vw;
       }
 
-      .eclil-top__english__text{
-        font-size:2.1vw;
+      .eclil-top__english__text {
+        font-size: 2.1vw;
       }
-    } 
+    }
   }
 }
 
-.eclil-top__title{
-  background: linear-gradient(to right, #DA1467 0%, #FF992E 100%);
-  background: -webkit-linear-gradient(left, #DA1467 0%, #FF992E 100%);
-  padding:2.3vw 5.3vw;
+.eclil-top__title {
+  background: linear-gradient(to right, #da1467 0%, #ff992e 100%);
+  background: -webkit-linear-gradient(left, #da1467 0%, #ff992e 100%);
+  padding: 2.3vw 5.3vw;
 }
 
-@media screen and (max-width:1279px){
-  .each-course-top{
-    .each-course-top__title{
-      .each-course-top__title__text{
-        font-size:26px;
-        color:#fff;
+@media screen and (max-width: 1279px) {
+  .each-course-top {
+    .each-course-top__title {
+      .each-course-top__title__text {
+        font-size: 26px;
+        color: #fff;
       }
     }
-  
-    .eclil-top__img{
-      .eclil-top__esports{ 
-        .eclil-top__esports__text{
-          font-size:26px;
-        }
-      }   
-    
-      .eclil-top__english{
-        .eclil-top__english__text{
-          font-size:26px;
-        }
-      } 
-    }
-  }
-  
-  .eclil-top__title{
-    padding:30px 68px;
-  }
-}
 
-@media screen and (max-width:797px){
-  .each-course-container{
-    width:90%;
-  }
-  
-  .each-course-top{ 
-    .each-course-top__title{
-      .each-course-top__title__text{
-        font-size:5.5vw;
+    .eclil-top__img {
+      .eclil-top__esports {
+        .eclil-top__esports__text {
+          font-size: 26px;
+        }
+      }
+
+      .eclil-top__english {
+        .eclil-top__english__text {
+          font-size: 26px;
+        }
       }
     }
-  
-    .eclil-top__img{
-      .eclil-top__esports{
-        .eclil-top__esports__icon{
-          width:38%;
+  }
+
+  .eclil-top__title {
+    padding: 30px 68px;
+  }
+}
+
+@media screen and (max-width: 797px) {
+  .each-course-container {
+    width: 90%;
+  }
+
+  .each-course-top {
+    .each-course-top__title {
+      .each-course-top__title__text {
+        font-size: 5.5vw;
+      }
+    }
+
+    .eclil-top__img {
+      .eclil-top__esports {
+        .eclil-top__esports__icon {
+          width: 38%;
         }
-  
-        .eclil-top__esports__text{
-          font-size:3.4vw;
+
+        .eclil-top__esports__text {
+          font-size: 3.4vw;
         }
-      }   
-  
-      .eclil-top__english{
-        .eclil-top__english__icon{
-          width:30%;
+      }
+
+      .eclil-top__english {
+        .eclil-top__english__icon {
+          width: 30%;
         }
-  
-        .eclil-top__english__text{
-          font-size:3.4vw;
+
+        .eclil-top__english__text {
+          font-size: 3.4vw;
         }
-      } 
+      }
     }
   }
 
-  .eclil-top__title{
-    padding:5.3vw 10.3vw;
+  .eclil-top__title {
+    padding: 5.3vw 10.3vw;
   }
 }
-  

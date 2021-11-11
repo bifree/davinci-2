@@ -1,59 +1,27 @@
 .contact {
   .contact-top-menu {
-    height: 85px;
-    ul {
-      background-color: #00b8b8;
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      li {
-        margin: 0 18px 0 67px;
-        a {
-          color: #fff;
-          text-decoration: none;
-          font-size: 18px;
-          line-height: 85px;
-        }
-      }
+    background-color: #00b8b8;
+    h1 {
+      font-size: calc(16px + 2 * (100vw - 768px) / 1152);
+      color: #fff;
+      font-family: fot-tsukuardgothic-std, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      vertical-align: middle;
+      height: calc(46px + 38 * (100vw - 768px) / 1152);
+      line-height: calc(46px + 38 * (100vw - 768px) / 1152);
+      margin-left: 3.5vw;
     }
   }
 
-  h1 {
-    position: absolute;
-    font-size: 56px;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .contact-top-image {
-    position: relative;
-    width: 100%;
-    min-height: 420px;
-    background-image: url("../../../WordPressTheme/assets/img/contact/contact.png");
-    background-repeat: no-repeat; /* 背景の繰り返し設定 */
-    background-position: center; /* 背景の位置指定 */
-    background-size: cover;
-  }
-  .contact-top-image::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #231815;
-    opacity: 0.11;
-  }
   .contact-container {
-    max-width: 1531px;
-    padding: 0 25px;
+    padding: 0 1.3vw;
   }
 
   .contact-container__title {
-    font-size: 56px;
+    font-size: 2.9vw;
     text-align: center;
-    margin: 200px 0;
+    margin: 10vw 0;
   }
 
   .contact-container__title::before {
@@ -61,86 +29,144 @@
     display: inline-block;
     background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
     position: relative;
-    width: 85px;
-    height: 85px;
+    width: 4.4vw;
+    height: 4.4vw;
     background-repeat: no-repeat;
     background-size: contain;
     vertical-align: middle;
     top: -5px;
-    margin-right: 42px;
+    margin-right: 2.2vw;
   }
 
   .contact-container__form {
     display: block;
-    margin: 0 auto 200px;
+    margin: 0 auto 10.5vw;
   }
 
   @media screen and (min-width: 1280px) {
-    .sp {
-      display: none;
+    .contact-top-image {
+      position: relative;
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        text-align: center;
+        color: #fff;
+        width: 100vw;
+        letter-spacing: 0.24em;
+        font-size: 2.8vw;
+        z-index: 1;
+        font-family: fot-tsukuardgothic-std, sans-serif;
+        font-weight: 700;
+        font-style: bold;
+      }
+    }
+    .contact-top-image::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.13);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
     }
   }
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .sp {
-      display: none;
+    .contact-top-image {
+      position: relative;
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        text-align: center;
+        color: #fff;
+        width: 100vw;
+        letter-spacing: 0.24em;
+        font-size: 3.5vw;
+        z-index: 1;
+        font-family: fot-tsukuardgothic-std, sans-serif;
+        font-weight: 700;
+        font-style: bold;
+      }
+    }
+    .contact-top-image::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.13);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+    .contact-container__title {
+      font-size: 3.5vw;
+      text-align: center;
+      margin: 10vw 0;
+    }
+    .contact-container__title::before {
+      content: "";
+      display: inline-block;
+      background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
+      position: relative;
+      width: 5.3vw;
+      height: 5.3vw;
+      background-repeat: no-repeat;
+      background-size: contain;
+      vertical-align: middle;
+      top: -5px;
+      margin-right: 2.6vw;
     }
   }
 
   @media screen and (max-width: 767px) {
     .contact-top-menu {
-      position: relative;
-      z-index: 100;
-      height: 46px;
-      ul {
-        background-color: #00b8b8;
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        li {
-          margin: 0 18px 0 67px;
-          a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 16px;
-            line-height: 46px;
-          }
-        }
-      }
+      background-color: #00b8b8;
     }
-
-    h1 {
-      position: absolute;
-      font-size: 32px;
+    .contact-top-menu_text {
+      font-size: calc(14px + 2 * (100vw - 320px) / 447);
       color: #fff;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      font-family: fot-tsukuardgothic-std, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      vertical-align: middle;
+      line-height: calc(40px + 6 * (100vw - 320px) / 447);
+      margin: 0 0 0 8.7vw;
     }
     .contact-top-image {
       position: relative;
-      width: 100%;
-      min-height: 250px;
-      background-image: url("../../../WordPressTheme/assets/img/contact/contact.png");
-      background-repeat: no-repeat; /* 背景の繰り返し設定 */
-      background-position: center; /* 背景の位置指定 */
-      background-size: cover;
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        text-align: center;
+        color: #fff;
+        width: 100vw;
+        letter-spacing: 0.24em;
+        font-size: 6.2vw;
+        z-index: 1;
+        font-family: fot-tsukuardgothic-std, sans-serif;
+        font-weight: 700;
+        font-style: bold;
+      }
     }
-    .contact-top-image::before {
+    .contact-top-image::after {
       content: "";
+      background-color: rgba(0, 0, 0, 0.13);
       position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
       left: 0;
-      background-color: #231815;
-      opacity: 0.11;
+      right: 0;
+      top: 0;
+      bottom: 0;
     }
 
     .contact-container__title {
-      font-size: 32px;
+      font-size: 6.2vw;
       text-align: center;
-      margin: 100px 0;
+      margin: 10vw 0;
     }
 
     .contact-container__title::before {
@@ -148,18 +174,18 @@
       display: inline-block;
       background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
       position: relative;
-      width: 48px;
-      height: 48px;
+      width: 9.3vw;
+      height: 9.3vw;
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
       top: -5px;
-      margin-right: 20px;
+      margin-right: 2.8vw;
     }
 
     .contact-container__form {
       display: block;
-      margin: 0 auto 100px;
+      margin: 0 auto 13vw;
     }
   }
 }
