@@ -159,7 +159,7 @@ img{
   }
 
   .top-mainvisual__text{
-    font-size:2.9vw;
+    font-size: calc(37px + 19 * (100vw - 768px) / 1152);
     font-family: "ten-mincho-text", serif;
     line-height:1.2;
     text-shadow : 3px 1px 6px rgba(0, 0, 0, 0.72);
@@ -170,7 +170,7 @@ img{
     right:3%;
   
     .top-mainvisual__text__big{
-      font-size:5vw;
+      font-size: calc(64px + 32 * (100vw - 768px) / 1152);
       font-weight:200;
     }
   }
@@ -178,7 +178,7 @@ img{
   .top-mainvisual__btn{
     font-family:"fot-tsukuardgothic-std", sans-serif;
     color:#fff;
-    font-size:2.1vw;
+    font-size: calc(26px + 14 * (100vw - 768px) / 1152);
     padding:1.9vw 3.8vw;
     font-weight:100;
     background: linear-gradient(to right, #94f990 0%, #27D5DA 100%);
@@ -199,18 +199,7 @@ img{
 
 @media screen and (max-width:1279px){
   .top-mainvisual{
-  
-    .top-mainvisual__text{
-      font-size:37px;
-
-      .top-mainvisual__text__big{
-        font-size:64px;
-        font-weight:200;
-      }
-    }
-  
     .top-mainvisual__btn{
-      font-size:26px;
       padding:24px 48px;
   
       img{
@@ -225,7 +214,7 @@ img{
   .top-mainvisual{
     .top-mainvisual__slider {
       .top-mainvisual__slider__item img{
-        height:500px;
+        height:650px;
       }
       
       // 位置を変える
@@ -238,19 +227,19 @@ img{
   
       // ドット同士の間の距離を変える
       .slick-dots li {
-        width:15px;
+        width:calc(15px + 2 * (100vw - 320px) / 447);
         //  px指定　数字が大きいほど離れる;
       }
   
       // ドットのサイズと色を大きくする
       .slick-dots li button:before {
-        font-size:10px; 
+        font-size:calc(10px + 2 * (100vw - 320px) / 447);
         // 任意のサイズ
       }
     }
   
     .top-mainvisual__color{
-      height:500px;
+      height:650px;
     }
    
     .top-mainvisual__text{
@@ -264,15 +253,13 @@ img{
     }
   
     .top-mainvisual__btn{
-
-      font-size:5vw;
-      padding:4.5vw 9.4vw;
-  
-      right:13vw;
+      font-size:calc(16px + 14 * (100vw - 320px) / 447);
+      padding:3.8vw 8vw;
+      right:18vw;
       bottom:8vh;
   
       img{
-        width:3.8vw;
+        width:calc(12px + 12 * (100vw - 320px) / 447);
         margin-left:1.2vw;
         padding-bottom:-5px;
       }
