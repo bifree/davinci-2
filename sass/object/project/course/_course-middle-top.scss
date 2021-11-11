@@ -22,4 +22,31 @@
 			}
 		}
 	}
+	@media screen and (max-width: 767px) {
+		margin: 0 auto;
+		width: 95%;
+		h2 {
+			font-size: 4.5vw;
+			letter-spacing: .12em;
+			margin-bottom: 5vw;
+			margin-top: 8vw;
+		}
+		.course-middle-inner {
+			display: block;
+			.course-middle-text {
+				letter-spacing: .24em;
+				margin-right: auto;
+				font-size: 3.5vw;
+				line-height: 3.4vw;
+				margin-bottom: 10vw;
+			}
+			.course-middle-img {
+				width: 80%;
+				margin: 0 auto;
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
 }

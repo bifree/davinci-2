@@ -15,17 +15,17 @@
         <div class="footer-menu-l">
           <h4>ABOUT</h4>
           <ul>
-            <li><a href="">プレスリリース</a></li>
-            <li><a href="">運営会社</a></li>
-            <li><a href="">採用情報</a></li>
+            <li><a href="<?php echo home_url('/about'); ?>">プレスリリース</a></li>
+            <li><a href="<?php echo home_url('/about'); ?>">運営会社</a></li>
+            <li><a href="<?php echo home_url('/about'); ?>">採用情報</a></li>
           </ul>
         </div>
         <div class="footer-menu-r">
           <h4 class="course">COURSE</h4>
           <ul>
-            <li><a href="">e-CLIL（イークリル）</a></li>
-            <li><a href="">ファイナンス</a></li>
-            <li><a href="">こどもと大人のためのSTEAM教室</a></li>
+            <li><a href="<?php echo home_url('/eclil'); ?>">e-CLIL（イークリル）</a></li>
+            <li><a href="<?php echo home_url('/finance'); ?>">ファイナンス</a></li>
+            <li><a href="<?php echo home_url('/steam'); ?>">こどもと大人のためのSTEAM教室</a></li>
           </ul>
         </div>
       </div>

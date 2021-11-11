@@ -49,4 +49,56 @@
 			}
 		}
 	}
+	@media screen and (max-width:767px) {
+		margin-bottom: 13vw;
+		h2.title {
+			font-size: 5vw;
+			line-height: 6vw;
+			border-bottom: 3px solid #2B3B77;
+			width: fit-content;
+			text-align: center;
+			margin: 0 auto 2.3vw;
+		}
+		.bottom-under-title {
+			background-repeat: no-repeat;
+			background-size: 450%;
+			.course-bottom-inner {
+				margin: 0 auto;
+				display: block;
+				.bottom-left {
+					width: 90%;
+					margin: 0 auto;
+					h2 {
+						font-size: 6vw;
+						line-height: 7.5vw;
+						font-family: ten-mincho-text, serif;
+						font-weight: 400;
+						text-align: initial;
+						font-style: normal;
+						margin: 9.5vw auto 3.3vw;
+					}
+					h3 {
+						font-size: 4.5vw;
+						line-height: 5.5vw;
+					}
+					.btn-green {
+						margin-top: 4.2vw;
+						width: 45vw;
+						img {
+							width: 100%;
+						}
+					}
+				}
+				.bottom-right {
+					width: 90%;
+					margin: 0 auto;
+					padding-top: 4.5vw;
+					padding-bottom: 5vw;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
 }
