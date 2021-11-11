@@ -2937,6 +2937,82 @@ img {
 
 @media screen and (max-width: 767px) {
 
+.l-footer {
+	font-size: 1.25vw;
+	line-height: 1.5vw;
+}
+
+.l-footer .footer-top {
+	margin-left: 6%;
+	padding-top: 3vw;
+}
+
+.l-footer .footer-top .footer-logo {
+	width: 45%;
+}
+
+.l-footer .footer-top .footer-logo img {
+	width: 100%;
+}
+
+.l-footer .footer-top .footer-info {
+	padding-bottom: 5vw;
+	padding-top: 2.5vw;
+}
+
+.l-footer .footer-top .footer-info p {
+	font-size: 2.7vw;
+	line-height: 3.5vw;
+}
+
+.l-footer .footer-middle {
+	margin-left: 6%;
+}
+
+.l-footer .footer-middle .footer-menu {
+	display: block;
+}
+
+.l-footer .footer-middle .footer-menu h4 {
+	font-size: 4.5vw;
+	line-height: 5.5vw;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.l-footer .footer-middle .footer-menu h4.course {
+	font-size: 4.5vw;
+	line-height: 5.5vw;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.l-footer .footer-middle .footer-menu ul {
+	list-style: none;
+}
+
+.l-footer .footer-middle .footer-menu ul li a {
+	font-size: 3.3vw;
+	line-height: 4.5vw;
+}
+
+.l-footer .footer-middle .footer-menu .footer-menu-l {
+	margin-right: 5vw;
+}
+
+.l-footer .footer-bottom {
+	font-size: 2.7vw;
+	line-height: 3.5vw;
+	margin-left: auto;
+	margin-right: 2.6vw;
+	margin-top: 5vw;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
 .about-bottom {
 	margin-bottom: 10.7vw;
 	margin-top: 4.8vw;
