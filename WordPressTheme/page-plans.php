@@ -10,7 +10,6 @@
 		</ul>
 	</div>
 	<div class="plans-top-image">
-		<img src="<?php echo get_template_directory_uri();?>/assets/img/plan/title-bg.jpg" alt="">
 		<h2>PLAN</h2>
 	</div>
 </div>

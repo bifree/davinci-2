@@ -1505,6 +1505,7 @@ select {
 	border-bottom: 3px solid #2B3B77;
 	color: #2B3B77;
 	font-size: 2.8vw;
+	letter-spacing: 0.24em;
 	line-height: 3.4vw;
 	margin: 0 auto 2.3vw;
 	text-align: center;
@@ -3590,6 +3591,115 @@ img {
 	position: absolute;
 	right: 0;
 	top: 0;
+}
+
+.plans-bottom .plans-bottom-inner {
+	background-color: #F5F5F5;
+	margin-bottom: 6.5vw;
+	padding-bottom: 6.5vw;
+	padding-top: 6.5vw;
+}
+
+.plans-bottom .plans-bottom-inner h3 {
+	font-size: 4.5vw;
+	letter-spacing: 0.32em;
+	line-height: 5.5vw;
+	margin-bottom: 4.1vw;
+	padding: auto;
+	padding-right: auto;
+	text-align: center;
+}
+
+.plans-bottom .plans-bottom-inner .bottom-inner-text {
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+}
+
+.plans-bottom .plans-bottom-inner .bottom-inner-text h4 {
+	font-size: 4vw;
+	letter-spacing: 0.32em;
+	line-height: 5vw;
+}
+
+.plans-bottom .plans-bottom-inner .bottom-inner-text p {
+	font-size: 3.3vw;
+	letter-spacing: 0.32em;
+	line-height: 4.5vw;
+}
+
+.plans-bottom .btn-green {
+	margin-bottom: 5.7vw;
+}
+
+.plans-middle h2 {
+	border-bottom: 3px solid #2B3B77;
+	color: #2B3B77;
+	font-size: 5vw;
+	letter-spacing: 0.24em;
+	line-height: 6vw;
+	margin: 0 auto 2.3vw;
+	text-align: center;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.plans-middle p {
+	font-size: 3.3vw;
+	letter-spacing: .15em;
+	line-height: 4.5vw;
+}
+
+.plans-middle .plans-middle-top {
+	display: block;
+	margin: 0 auto 6vw;
+	width: 90%;
+}
+
+.plans-middle .plans-middle-top .top-left {
+	width: 100%;
+}
+
+.plans-middle .plans-middle-top .top-right {
+	margin-left: auto;
+	width: 100%;
+}
+
+.plans-middle .plans-middle-top .top-right img {
+	width: 100%;
+}
+
+.plans-middle .plans-middle-bottom .top-plan__img {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.plans-middle .plans-middle-bottom .top-plan__img img {
+	width: 100%;
+}
+
+.plans-top .plans-top-menu {
+	height: auto;
+}
+
+.plans-top .plans-top-menu ul {
+	display: block;
+}
+
+.plans-top .plans-top-image {
+	height: 30vh;
+	position: relative;
+}
+
+.plans-top .plans-top-image img {
+	height: 100%;
+	width: auto;
+}
+
+.plans-top .plans-top-image h2 {
+	font-size: 5vw;
+	letter-spacing: 0.24em;
 }
 
 .terms .terms-top-menu {
