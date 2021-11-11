@@ -19,6 +19,9 @@
 	}
 	.about-top-image {
 		position: relative;
+		height: 22vw;
+		background-image: url(../img/about/title-bg.jpg);
+		background-size: cover;
 		img {
 			width: 100%;
 		}
@@ -44,5 +47,36 @@
 		right: 0;
 		top: 0;
 		bottom: 0;
+	}
+	@media screen and (max-width:767px) {
+		.about-top-menu {
+			height: auto;
+			ul {
+				display: block;
+				li {
+					display: block;
+					margin-right: 30px;
+					a {
+						color: #fff;
+					}
+				}
+			}
+		}
+		.about-top-image {
+			position: relative;
+			height: 30vh;
+			img {
+				height: 100%;
+				width: auto;
+			}
+			h2 {
+				position: absolute;
+				top: 50%;
+				width: 100%;
+				letter-spacing: 0.24em;
+				font-size: 5vw;
+				z-index: 1;
+			}
+		}
 	}
 }
