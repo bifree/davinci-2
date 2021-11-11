@@ -2937,6 +2937,60 @@ img {
 
 @media screen and (max-width: 767px) {
 
+.about-top .about-top-menu {
+	height: auto;
+}
+
+.about-top .about-top-menu ul {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	list-style: none;
+}
+
+.about-top .about-top-menu ul li {
+	display: block;
+	margin-right: 30px;
+}
+
+.about-top .about-top-menu ul li a {
+	color: #fff;
+}
+
+.about-top .about-top-image {
+	height: 30vh;
+	position: relative;
+}
+
+.about-top .about-top-image img {
+	height: 100%;
+	width: auto;
+}
+
+.about-top .about-top-image h2 {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: 5vw;
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 0.24em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
+}
+
+.about-top .about-top-image:after {
+	background-color: rgba(0, 0, 0, 0.13);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 .contact .contact-top-menu {
 	background-color: #00b8b8;
 }
@@ -3244,9 +3298,7 @@ img {
 }
 
 .course-top .course-top-menu {
-	background-color: #00B8B8;
 	height: auto;
-	padding-left: 3.1vw;
 }
 
 .course-top .course-top-menu ul {
