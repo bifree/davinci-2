@@ -52,22 +52,24 @@
 
   <section class="top-learn">
     <div class="top-container">
-      <div class="top-learn__insta">
-        <a class="top-learn__insta__insta" href="https://www.instagram.com/davinci_tanq/">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-insta.png" alt="davinci">
-          <p class="top-learn__invta__account">@davinci_tanq</p>
-        </a>
-        <div class="top-learn__insta__photo">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-photo.png" alt="davinci">
+      <div class="fade-in js-scroll-trigger">
+        <div class="top-learn__insta">
+          <a class="top-learn__insta__insta" href="https://www.instagram.com/davinci_tanq/">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-insta.png" alt="davinci">
+            <p class="top-learn__invta__account">@davinci_tanq</p>
+          </a>
+          <div class="top-learn__insta__photo">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-photo.png" alt="davinci">
+          </div>
         </div>
-      </div>
-      <div class="top-learn__text">
-        <div class="top-learn__text__text">
-          <p class="top-learn__text__title">探究するほどに学びたくなる</p>
-          <p class="top-learn__text__content">能力探究塾DaVinciでは、アウトプットから学ぶ新しい学習体験を提供します。進学・就職・転職・人材育成・子育て。DaVinciでの学びは様々なシーンでアナタの成長をサポートし次世代の社会をより豊かにする基礎となるでしょう。</p>
-        </div>
-        <div class="top-learn__text__img">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-picture.png" alt="davinci">
+        <div class="top-learn__text">
+          <div class="top-learn__text__text">
+            <p class="top-learn__text__title">探究するほどに学びたくなる</p>
+            <p class="top-learn__text__content">能力探究塾DaVinciでは、アウトプットから学ぶ新しい学習体験を提供します。進学・就職・転職・人材育成・子育て。DaVinciでの学びは様々なシーンでアナタの成長をサポートし次世代の社会をより豊かにする基礎となるでしょう。</p>
+          </div>
+          <div class="top-learn__text__img">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-picture.png" alt="davinci">
+          </div>
         </div>
       </div>
     </div>
@@ -76,26 +78,32 @@
   <section class="top-about">
     <div class="top-container">
       <h2 class="top-sec-title">ABOUT</h2>
-      <div class="top-about__text">
-        <p class="top-about__text__en">
+      <div class="fade-in js-scroll-trigger">
+       <div class="top-about__text">
+          <p class="top-about__text__en">
           Learning never exhausts the mind.
-        </p>
+         </p>
         <p class="top-about__text__ja">
           学ぶことは決して脳を疲れさせない。<br class="tb-br">by レオナルド•ダ•ヴィンチ
         </p>
+
+        </div>
+        <div class="top-about__btn">
+          <a class="top-viewmore top-aout__viewmore" href="<?php echo home_url('/about/');?>">VIEW MORE</a>
+        </div>
       </div>
-      <div class="top-about__btn">
-        <a class="top-viewmore top-aout__viewmore" href="<?php echo home_url('/about/');?>">VIEW MORE</a>
-      </div>
+    </div>
   </section>
 
   <section class="top-course">
     <div class="top-container">
       <h2 class="top-sec-title">COURSE</h2>
-      <h3 class="top-sec-subtitle">次世代で活躍する<br class="sp-br">複合的なスキルを学ぶ</h3>
-      <p class="top-sec-content">複合的なコースで次世代に活躍できるスキルを身に付けられます。<br>
-      「一人ひとりが持つ様々な個性を活かし、伸ばす学び」を提供します。</p>
-      <ul class="top-course__li">
+      <div class="fade-in js-scroll-trigger">
+        <h3 class="top-sec-subtitle">次世代で活躍する<br class="sp-br">複合的なスキルを学ぶ</h3>
+        <p class="top-sec-content">複合的なコースで次世代に活躍できるスキルを身に付けられます。<br>
+        「一人ひとりが持つ様々な個性を活かし、伸ばす学び」を提供します。</p>
+      </div>
+      <ul class="top-course__li slide-in js-scroll-trigger">
         <li class="top-course__li__item top-course__eclil">
           <div class="top-course__item__img">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/top/course-item1.png" alt="davinci">
@@ -145,8 +153,10 @@
   <sevtion class="top-style">
     <div class="top-container">
       <h2 class="top-sec-title">STYLE</h2>
-      <h3 class="top-sec-subtitle">Davinciだから選べる<br class="sp-br">２つのスタイル</h3>
-      <p class="top-sec-content">自分以外のアイデアや考えを知ることより楽しく学べる「集団レッスン」<br class="pctb-br">と、自分の学びをより深く探求できる「個別レッスン」をご用意しており<br class="pctb-br">ます。DaVinciで、あなたらしい学びのSTYLEを。</p>
+        <div class="fade-in js-scroll-trigger">
+          <h3 class="top-sec-subtitle">Davinciだから選べる<br class="sp-br">２つのスタイル</h3>
+          <p class="top-sec-content">自分以外のアイデアや考えを知ることより楽しく学べる「集団レッスン」<br class="pctb-br">と、自分の学びをより深く探求できる「個別レッスン」をご用意しており<br class="pctb-br">ます。DaVinciで、あなたらしい学びのSTYLEを。</p>
+        </div>
       <div class="top-style__items">
         <div class="top-style__item top-style__group">
           <div class="top-style__item__text">

@@ -2134,6 +2134,19 @@ select {
 	width: 38%;
 }
 
+.fade-in {
+	opacity: 0;
+	transform: translateY(50px);
+}
+
+/* トリガー発火でis-activeを付与 */
+
+.fade-in.is-active {
+	opacity: 1;
+	transform: translateY(0);
+	transition: 1.2s;
+}
+
 .top-lesson {
 	background-image: url(../img/top/lesson-back.png);
 	background-position: center;
@@ -3191,6 +3204,7 @@ img {
 	background-repeat: no-repeat;
 	background-size: contain;
 	margin: 0 auto;
+<<<<<<< HEAD
 }
 
 .about-middle h2 {
@@ -3213,6 +3227,30 @@ img {
 	margin-bottom: 2.4vw;
 }
 
+=======
+}
+
+.about-middle h2 {
+	font-family: ten-mincho-text, serif;
+	font-size: 5vw;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .24em;
+	line-height: 6vw;
+	margin-bottom: 2.5vw;
+	padding-top: 6vw;
+	text-align: initial;
+}
+
+.about-middle h3 {
+	font-family: ten-mincho-text, serif;
+	font-size: 4.5vw;
+	letter-spacing: .24em;
+	line-height: 5.5vw;
+	margin-bottom: 2.4vw;
+}
+
+>>>>>>> origin
 .about-middle p {
 	font-size: 3.3vw;
 	letter-spacing: .15em;
@@ -3616,12 +3654,28 @@ img {
 }
 
 .plans-bottom .plans-bottom-inner {
+<<<<<<< HEAD
+	background-color: #F5F5F5;
+	margin-bottom: 6.5vw;
 	padding-bottom: 6.5vw;
+	padding-top: 6.5vw;
+=======
+	padding-bottom: 6.5vw;
+>>>>>>> origin
 }
 
 .plans-bottom .plans-bottom-inner h3 {
 	font-size: 4.5vw;
+<<<<<<< HEAD
+	letter-spacing: 0.32em;
 	line-height: 5.5vw;
+	margin-bottom: 4.1vw;
+	padding: auto;
+	padding-right: auto;
+	text-align: center;
+=======
+	line-height: 5.5vw;
+>>>>>>> origin
 }
 
 .plans-bottom .plans-bottom-inner .bottom-inner-text {
@@ -3632,11 +3686,19 @@ img {
 
 .plans-bottom .plans-bottom-inner .bottom-inner-text h4 {
 	font-size: 4vw;
+<<<<<<< HEAD
+	letter-spacing: 0.32em;
+=======
+>>>>>>> origin
 	line-height: 5vw;
 }
 
 .plans-bottom .plans-bottom-inner .bottom-inner-text p {
 	font-size: 3.3vw;
+<<<<<<< HEAD
+	letter-spacing: 0.32em;
+=======
+>>>>>>> origin
 	line-height: 4.5vw;
 }
 
