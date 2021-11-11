@@ -1,5 +1,6 @@
 .flow-top {
 	.flow-top-menu {
+		margin-top: 0;
 		height: 4.1vw;
 		background-color: #00B8B8;
 		padding-left: 3.1vw;
@@ -13,8 +14,28 @@
 				margin-right: 30px;
 				a {
 					color: #fff;
+					line-height: 0;
 				}
 			}
+		}
+	}
+	.flow-top-image {
+		position: relative;
+		height: 22vw;
+		background-image: url(../img/flow/title-bg.png);
+		background-size: cover;
+		h2 {
+			position: absolute;
+			top: 50%;
+			text-align: center;
+			color: #fff;
+			width: 100%;
+			letter-spacing: 0.24em;
+			z-index: 1;
+			font-family: fot-tsukuardgothic-std, sans-serif;
+			font-weight: 700;
+			font-style: bold;
+			font-size: 2.8vw;
 		}
 	}
 	@media screen and (max-width:767px) {

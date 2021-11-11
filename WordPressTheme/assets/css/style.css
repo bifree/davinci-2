@@ -1438,6 +1438,7 @@ select {
 .flow-top .flow-top-menu {
 	background-color: #00B8B8;
 	height: 4.1vw;
+	margin-top: 0;
 	padding-left: 3.1vw;
 }
 
@@ -1455,6 +1456,28 @@ select {
 
 .flow-top .flow-top-menu ul li a {
 	color: #fff;
+	line-height: 0;
+}
+
+.flow-top .flow-top-image {
+	background-image: url(../img/flow/title-bg.png);
+	background-size: cover;
+	height: 22vw;
+	position: relative;
+}
+
+.flow-top .flow-top-image h2 {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: 2.8vw;
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 0.24em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
 }
 
 .plans-bottom .plans-bottom-inner {

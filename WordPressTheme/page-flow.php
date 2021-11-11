@@ -11,7 +11,7 @@
 	</div>
 
 	<div class="flow-top-image">
-		<img src="" alt="">
+		<h2>FLOW</h2>
 	</div>
 </div>
 
