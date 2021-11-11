@@ -1,0 +1,268 @@
+*{
+  box-sizing:border-box;
+}
+
+a{
+  text-decoration:none;
+}
+
+img{
+  vertical-align:bottom;
+  width:100%;
+}
+
+.top-mainvisual{
+  letter-spacing:0.24em;
+  position:relative;
+  overflow:hidden;
+
+  .top-mainvisual__slider {
+    width:100%;
+    margin:0;
+    padding:0;
+    line-height:0;
+
+
+    .top-mainvisual__slider__item img{
+      width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+      height:100vh;
+      object-fit:cover;
+    }
+    
+    // 位置を変える
+    .slick-dots {
+      left:-45vw;
+      bottom:calc(50vh - 3.2vw);
+      transform:rotate(90deg);
+      z-index:3;
+      display:inline-block;
+    }
+
+    // ドット同士の間の距離を変える
+    .slick-dots li {
+      width:1.9vw;
+      //  px指定　数字が大きいほど離れる;
+    }
+
+    // ドットのサイズと色を大きくする
+    .slick-dots li button:before {
+      font-size:1.3vw; 
+      // 任意のサイズ
+      color:#c4d1d0;
+      opacity:1;
+    }
+
+    // アクティブなスライドのドット色
+    .slick-dots li.slick-active button:before {
+      color:#fff;
+      opacity:1;
+    }
+  }
+
+  .top-mainvisual__color{
+    background: linear-gradient(to right, #662D91 0%, #29C8E2 100%);
+    background: -webkit-linear-gradient(left, #662D91 0%, #29C8E2 100%);
+    opacity:0.25;
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:0;
+    bottom:0;
+    z-index:1;
+    
+  }
+
+  .top-mainvisual__geometry{
+    position:absolute;
+    top:18%;
+    left:10%;
+    z-index:2;
+
+    img{
+      width:140%;
+    }
+  }
+
+  .top-mainvisual__pattern{
+    position:absolute;
+    z-index:4;
+  }
+
+  .pattern1{
+    top:25%;
+    left:6%;
+
+    img{
+      width:4.8vw;
+      height:auto;
+    }
+  }
+
+  .pattern2{
+    top:30%;
+    left:88%;
+
+    img{
+      width:6.4vw;
+      height:auto;
+    }
+  }
+
+  .pattern3{
+    top:50%;
+    left:18%;
+
+    img{
+      width:5.3vw;
+      height:auto;
+    }
+  }
+
+  .pattern4{
+    top:49%;
+    left:44%;
+
+    img{
+      width:5.8vw;
+      height:auto;
+    }
+  }
+
+  .pattern5{
+    top:74%;
+    left:10%;
+
+    img{
+      width:6.1vw;
+      height:auto;
+    }
+  }
+
+  .pattern6{
+    top:67%;
+    left:79%;
+
+    img{
+      width:4.4vw;
+      height:auto;
+    }
+  }
+
+  .pattern7{
+    top:64%;
+    left:91%;
+
+    img{
+      width:5.2vw;
+      height:auto;
+    }
+  }
+
+  .top-mainvisual__text{
+    font-size: calc(37px + 19 * (100vw - 768px) / 1152);
+    font-family: "ten-mincho-text", serif;
+    line-height:1.2;
+    text-shadow : 3px 1px 6px rgba(0, 0, 0, 0.72);
+    z-index:5;
+    position:absolute;
+    color:#fff;
+    top:45%;
+    right:3%;
+  
+    .top-mainvisual__text__big{
+      font-size: calc(64px + 32 * (100vw - 768px) / 1152);
+      font-weight:200;
+    }
+  }
+
+  .top-mainvisual__btn{
+    font-family:"fot-tsukuardgothic-std", sans-serif;
+    color:#fff;
+    font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+    padding:1.9vw 3.8vw;
+    font-weight:100;
+    background: linear-gradient(to right, #94f990 0%, #27D5DA 100%);
+    background: -webkit-linear-gradient(left, #94f990 0%, #27D5DA 100%);
+    border-radius:40px;
+    z-index:5;
+    position:absolute;
+    right:3vw;
+    bottom:11vh;
+
+    img{
+      width:1.5vw;
+      margin-left:1.2vw;
+      padding-bottom:-5px;
+    }
+  }  
+}
+
+@media screen and (max-width:1279px){
+  .top-mainvisual{
+    .top-mainvisual__btn{
+      padding:24px 48px;
+  
+      img{
+        width:20px;
+        margin-left:12px;
+      }
+    }  
+  }
+}
+
+@media screen and (max-width:797px){
+  .top-mainvisual{
+    .top-mainvisual__slider {
+      .top-mainvisual__slider__item img{
+        height:650px;
+      }
+      
+      // 位置を変える
+      .slick-dots {
+        left:0;
+        right:0;
+        bottom:10px;
+        transform:none;
+      }
+  
+      // ドット同士の間の距離を変える
+      .slick-dots li {
+        width:calc(15px + 2 * (100vw - 320px) / 447);
+        //  px指定　数字が大きいほど離れる;
+      }
+  
+      // ドットのサイズと色を大きくする
+      .slick-dots li button:before {
+        font-size:calc(10px + 2 * (100vw - 320px) / 447);
+        // 任意のサイズ
+      }
+    }
+  
+    .top-mainvisual__color{
+      height:650px;
+    }
+   
+    .top-mainvisual__text{
+      font-size:5.9vw;
+      top:38%;
+      left:3%;
+    
+      .top-mainvisual__text__big{
+        font-size:8.1vw;
+      }
+    }
+  
+    .top-mainvisual__btn{
+      font-size:calc(16px + 14 * (100vw - 320px) / 447);
+      padding:3.8vw 8vw;
+      right:18vw;
+      bottom:8vh;
+  
+      img{
+        width:calc(12px + 12 * (100vw - 320px) / 447);
+        margin-left:1.2vw;
+        padding-bottom:-5px;
+      }
+    }  
+  }
+}

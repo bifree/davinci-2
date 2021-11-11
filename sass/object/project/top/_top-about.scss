@@ -1,0 +1,125 @@
+.top-sec-title{
+  font-size:calc(46px + 34 * (100vw - 768px) / 1152);
+  font-weight:100;
+}
+
+.top-viewmore{
+  color:#fff;
+  font-family:'Prompt', sans-serif;
+  font-size:1.6vw;
+  border-radius:40px;
+  padding:1.3vw 2.5vw;
+  display:inline-block;
+}
+
+.top-about{
+  color:#fff;
+  text-align:center;
+  background-image:url(../img/top/about-back.png);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  position:relative;
+
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color:rgba(35,24,21,0.2);
+    z-index:1;
+  }
+
+  .top-container{
+    z-index:2;
+    position:relative;
+
+    .top-about__text{
+      font-family: "ten-mincho-text", serif;
+      line-height:1.8;
+      padding:5vw 0;
+
+      .top-about__text__en{
+        font-size:2.8vw;
+        font-weight:100;
+      }
+
+      .top-about__text__ja{
+        font-size:2.4vw;
+        font-weight:100;
+
+        .tb-br{
+          display:none;
+        }
+      }
+    }
+    .top-about__btn{
+      display:flex;
+      justify-content:flex-end;
+
+      .top-aout__viewmore{
+        background: linear-gradient(to right, #27D5DA 0%, #94F990 100%);
+        background: -webkit-linear-gradient(left, #27D5DA 0%, #94F990 100%);
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1279px){
+  .top-sec-title{
+    .tb-br{
+      display:block;
+    }
+  }
+  
+  .top-about{
+    .top-container{
+      .top-about__text{
+        .top-about__text__ja{
+          .tb-br{
+            display:block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:797px){
+  .top-sec-title{
+    font-size:5.8vw;
+  }
+
+  .pctb-br{
+    display:none;
+  }
+  
+  .top-viewmore{
+    font-size:2.4vw;
+    border-radius:40px;
+    margin:0 auto;
+    padding:2vw 3.2vw;
+    display:inline-block;
+  }
+  
+  .top-about{
+    .top-container{
+      .top-about__text{
+          .top-about__text__en{
+          font-size:3.2vw;
+          font-weight:100;
+        }
+  
+        .top-about__text__ja{
+          font-size:3.2vw;
+          font-weight:100;
+        }
+      }
+    }
+  }
+}
+
+ 
+

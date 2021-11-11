@@ -1,3 +1,289 @@
 .terms {
-	
+  .terms-top-menu {
+    background-color: #00b8b8;
+  }
+  h1 {
+    font-size: calc(16px + 2 * (100vw - 768px) / 1152);
+    color: #fff;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    vertical-align: middle;
+    height: calc(46px + 38 * (100vw - 768px) / 1152);
+    line-height: calc(46px + 38 * (100vw - 768px) / 1152);
+    margin-left: 3.5vw;
+  }
+
+  p,
+  li,
+  td {
+    font-family: "source-han-sans-japanese", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(16px + 8 * (100vw - 768px) / 1152);
+    line-height: calc(28px + 40 * (100vw - 768px) / 1152);
+  }
+
+  .privacy-title,
+  .tokushoho-title,
+  .terms-title {
+    font-family: "source-han-sans-japanese", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(16px + 8 * (100vw - 768px) / 1152);
+    line-height: calc(16px + 8 * (100vw - 768px) / 1152);
+    list-style: none;
+  }
+
+  .privacy-title {
+    margin-top: 3.1vw;
+  }
+
+  .terms-wrapper__btn a {
+    color: #000000;
+  }
+
+  h2 {
+    font-family: "source-han-sans-japanese", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: calc(16px + 8 * (100vw - 768px) / 1152);
+    line-height: calc(28px + 40 * (100vw - 768px) / 1152);
+    margin-top: 3.5vw;
+  }
+
+  th {
+    font-family: "source-han-sans-japanese", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: calc(16px + 8 * (100vw - 768px) / 1152);
+    line-height: calc(28px + 40 * (100vw - 768px) / 1152);
+  }
+
+  //リストスタイル
+  .terms-wrapper__content__list-number ol {
+    padding-left: 2vw;
+    list-style-type: decimal;
+  }
+
+  .terms-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 7.8vw;
+    margin: 13vw 0;
+  }
+
+  .terms-wrapper__content__contact {
+    padding: 3.5vw 3.7vw 1.7vw 3.7vw;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: calc(20px + 10 * (100vw - 768px) / 1152);
+    opacity: 1;
+    margin-top: 3.5vw;
+  }
+  .terms-wrapper__content__contact__title {
+    margin-bottom: 1.8vw;
+    line-height: 1.2vw;
+  }
+
+  .tokushoho_content-list ul {
+    list-style-position: inside;
+    list-style-type: circle;
+  }
+
+  .lastline-txt p {
+    text-align: right;
+  }
+
+  // 表示切り替えボタン
+  .terms-wrapper__btn li {
+    list-style: none;
+    display: block;
+    border-image-slice: 1;
+    padding: 0px 0 0.3vw 0;
+    margin: 0 3.1vw 5vw 0;
+    line-height: calc(20px + 30 * (100vw - 768px) / 1152);
+  }
+
+  .gradation-line {
+    width: calc(200px + 165 * (100vw - 768px) / 1152);
+    height: calc(4px + 2 * (100vw - 768px) / 1152);
+    background: linear-gradient(to bottom, #85c48d, #2bb6c7);
+  }
+
+  // 特定商取引法に基づく表記
+  .tokushoho_content th,
+  .tokushoho_content td {
+    padding: 20px;
+    border: solid 1px #d6d6d6;
+    text-align: left;
+  }
+
+  .content-list-circle ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+
+  @media screen and (min-width: 1280px) {
+    .tokushoho_content th {
+      width: 13vw;
+    }
+
+    .tokushoho_content td {
+      max-width: 44.8vw;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .tokushoho_content th {
+      width: 13vw;
+    }
+
+    .tokushoho_content td {
+      max-width: 44.8vw;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .terms-top-menu {
+      background-color: #00b8b8;
+    }
+
+    h1 {
+      font-size: calc(14px + 2 * (100vw - 320px) / 447);
+      color: #fff;
+      font-family: fot-tsukuardgothic-std, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      vertical-align: middle;
+      height: calc(40px + 6 * (100vw - 320px) / 447);
+      line-height: calc(40px + 6 * (100vw - 320px) / 447);
+      margin-left: 8.7vw;
+    }
+
+    p,
+    li,
+    td {
+      font-size: calc(14px + 2 * (100vw - 320px) / 447);
+      line-height: calc(25px + 3 * (100vw - 320px) / 447);
+      font-family: "source-han-sans-japanese", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .privacy-title,
+    .tokushoho-title,
+    .terms-title {
+      font-family: "source-han-sans-japanese", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: calc(14px + 2 * (100vw - 320px) / 447);
+      line-height: calc(14px + 2 * (100vw - 320px) / 447);
+      list-style: none;
+    }
+
+    .terms-wrapper__btn a {
+      color: #000000;
+    }
+
+    h2 {
+      font-family: "source-han-sans-japanese", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: calc(14px + 2 * (100vw - 320px) / 447);
+      line-height: calc(25px + 3 * (100vw - 320px) / 447);
+      margin-top: 4.1vw;
+    }
+
+    th {
+      font-family: "source-han-sans-japanese", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: calc(14px + 2 * (100vw - 320px) / 447);
+      line-height: calc(25px + 3 * (100vw - 320px) / 447);
+    }
+
+    .terms-wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0 5.2vw;
+      margin-top: 7.8vw;
+    }
+
+    // 表示切り替えボタン
+    .terms-wrapper__btn li {
+      list-style: none;
+      display: block;
+      border-image-slice: 1;
+      margin: 7.8vw 0;
+      line-height: calc(25px + 3 * (100vw - 320px) / 447);
+    }
+
+    .gradation-line {
+      width: 90vw;
+      height: calc(4px + 2 * (100vw - 320px) / 447);
+      background-color: linear-gradient(to bottom, #85c48d, #2bb6c7);
+    }
+
+    .terms-wrapper__content__contact {
+      padding: 3.9vw;
+      background-color: #fff;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 3.9vw;
+      opacity: 1;
+      margin-top: 5vw;
+    }
+    .terms-wrapper__content__contact__title {
+      margin-bottom: 3.9vw;
+      line-height: 3.1vw;
+    }
+
+    // 特定商取引法に基づく表記
+    .tokushoho_content th {
+      display: block;
+      width: 90vw;
+      padding: 4vw 0 0 4vw;
+      text-align: left;
+      border: solid 1px #d6d6d6;
+      border-width: 1px 1px 0 1px;
+    }
+
+    .tokushoho_content td {
+      display: block;
+      width: 90vw;
+      padding: 4vw;
+      border: solid 1px #d6d6d6;
+      text-align: left;
+      border-width: 0px 1px 0px 1px;
+    }
+    tr:last-child td {
+      border-width: 0px 1px 1px 1px;
+    }
+
+    .tokushoho_content th {
+      width: 90vw;
+    }
+
+    .tokushoho_content td {
+      width: 90vw;
+    }
+
+    .content-list-circle ul {
+      list-style-position: inside;
+      list-style-type: circle;
+      padding-left: 1em;
+      text-indent: -1em;
+    }
+
+    .lastline-txt p {
+      text-align: right;
+    }
+    //リストスタイル
+    .terms-wrapper__content__list-number ol {
+      padding-left: 1em;
+      list-style-type: decimal;
+    }
+  }
 }

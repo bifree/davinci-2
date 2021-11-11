@@ -1,0 +1,124 @@
+.l-footer {
+	background-color: #2C3B77;
+	color: #fff;
+	font-size: 1.25vw;
+	line-height: 1.5vw;
+	a {
+		color: #fff;
+	}
+	.footer-top {
+		padding-top: 3vw;
+		margin-left: 6%;
+		.footer-logo {
+			width: 21%;
+			img {
+				width: 100%;
+			}
+		}
+		.footer-info {
+			padding-top: 2.5vw;
+			padding-bottom: 5vw;
+			p {
+				font-size: 1.2vw;
+				line-height: 1.8vw;
+			}
+		}
+	}
+	.footer-middle {
+		margin-left: 6%;
+		.footer-menu {
+			display: flex;
+			h4 {
+				font-size: 2rem;
+				line-height: 100%;
+				width: 13vw;
+				border-bottom: 2px solid #fff;
+			}
+			h4.course {
+				font-size: 2rem;
+				line-height: 100%;
+				width: fit-content;
+				border-bottom: 2px solid #fff;
+			}
+			ul {
+				list-style: none;
+				li a {
+					color: #fff;
+					font-size: 1.25vw;
+					line-height: 2.65vw;
+				}
+			}
+			.footer-menu-l {
+				margin-right: 5vw;
+			}
+		}
+	}
+	.footer-bottom {
+		width: fit-content;
+		margin-left: auto;
+		margin-right: 2.6vw;
+		font-size: 1vw;
+		margin-top: 5vw;
+		p {
+			a {
+				color: #fff;
+			}
+		}
+	}
+	@media screen and (max-width:767px) {
+		font-size: 1.25vw;
+		line-height: 1.5vw;
+		.footer-top {
+			padding-top: 3vw;
+			margin-left: 6%;
+			.footer-logo {
+				width: 45%;
+				img {
+					width: 100%;
+				}
+			}
+			.footer-info {
+				padding-top: 2.5vw;
+				padding-bottom: 5vw;
+				p {
+					font-size: 2.7vw;
+					line-height: 3.5vw;
+				}
+			}
+		}
+		.footer-middle {
+			margin-left: 6%;
+			.footer-menu {
+				display: block;
+				h4 {
+					font-size: 4.5vw;
+					line-height: 5.5vw;
+					width: fit-content;
+				}
+				h4.course {
+					font-size: 4.5vw;
+					line-height: 5.5vw;
+					width: fit-content;
+				}
+				ul {
+					list-style: none;
+					li a {
+						font-size: 3.3vw;
+						line-height: 4.5vw;
+					}
+				}
+				.footer-menu-l {
+					margin-right: 5vw;
+				}
+			}
+		}
+		.footer-bottom {
+			width: fit-content;
+			margin-left: auto;
+			margin-right: 2.6vw;
+			font-size: 2.7vw;
+			line-height: 3.5vw;
+			margin-top: 5vw;
+		}
+	}
+}

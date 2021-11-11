@@ -1,0 +1,41 @@
+.each-course-content{
+
+  .each-course-content__title{
+    text-align:center;
+    font-size:calc(37px + 19 * (100vw - 768px) / 1152);
+  }
+
+  .eclil-content__img{
+    width:51%;
+    margin:4.2vw auto;
+  }
+
+  .each-course-content__text{
+    font-size:calc(15px + 8 * (100vw - 768px) / 1152);
+    line-height:2.5;
+  }
+}
+
+@media screen and (max-width:1279px){
+  .each-course-content{
+    .eclil-content__img{
+      width:60%;
+    }
+  }
+}
+
+@media screen and (max-width:797px){
+  .each-course-content{
+    .each-course-content__title{
+      font-size:5.3vw;
+    }
+  
+    .eclil-content__img{
+      width:60%;
+    }
+  
+    .each-course-content__text{
+      font-size:calc(12px + 3 * (100vw - 320px) / 477);
+    }
+  }
+}

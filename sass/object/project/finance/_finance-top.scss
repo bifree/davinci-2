@@ -1,0 +1,46 @@
+.finance-top__title{
+  background: linear-gradient(to right, #106AB6 0%, #9D3ADF 100%);
+  background: -webkit-linear-gradient(left, #106AB6 0%, #9D3ADF 100%);
+  padding:2.3vw 10vw;
+}
+
+.finance-top__img{
+  margin:4.2vw auto 3.9vw;
+  width:100%;
+}
+
+.each-course-top__icon{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  .finance-top__icon__icon{
+    width:6.8vw;
+  }
+
+  .each-course-top__icon__text{
+    font-size:calc(26px + 14 * (100vw - 768px) / 1152);
+    padding-left:3.2vw;
+  }
+}
+
+@media screen and (max-width:1279px){
+  .finance-top__title{
+    padding:28px 125px;
+  }
+}
+
+@media screen and (max-width:797px){
+  .finance-top__title{
+    padding:4vw 15vw;
+  }
+  
+  .finance-top__icon__icon{
+    width:15vw;
+  }
+  
+  .each-course-top__icon__text{
+    font-size:calc(18px + 10 * (100vw - 320px) / 477);
+  }
+}
+

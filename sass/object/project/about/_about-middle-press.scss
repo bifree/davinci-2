@@ -1,0 +1,66 @@
+.about-middle-press {
+	h3 {
+		margin-left: 7.5vw;
+		margin-right: 4.5vw;
+		font-size: 2.2vw;
+		line-height: 2.5vw;
+	}
+	h4 {
+		color: #fff;
+		font-size: 2.2vw;
+		line-height: 2.5vw;
+	}	
+	.about-press-img {
+		position: relative;
+		h4 {
+			position: absolute;
+			top: 50%;
+			text-align: center;
+			color: #fff;
+			width: 100%;
+			letter-spacing: 0.24em;
+			z-index: 1;
+			font-family: fot-tsukuardgothic-std, sans-serif;
+			font-weight: 700;
+			font-style: bold;
+		}
+	}
+	.about-press-img:after {
+		content: '';
+		background-color: rgba(0,0,0,.13);
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	@media screen and (max-width:767px) {
+		h3 {
+			margin-left: 7.5vw;
+			margin-right: 4.5vw;
+			font-size: 4.5vw;
+			line-height: 5.5vw;
+		}
+		h4 {
+			color: #fff;
+			font-size: 2.2vw;
+			line-height: 2.5vw;
+		}	
+		.about-press-img {
+			position: relative;
+			h4 {
+				position: absolute;
+				top: 50%;
+				text-align: center;
+				font-size: 5vw;
+				color: #fff;
+				width: 100%;
+				letter-spacing: 0.24em;
+				z-index: 1;
+				font-family: fot-tsukuardgothic-std, sans-serif;
+				font-weight: 700;
+				font-style: bold;
+			}
+		}
+	}
+}
