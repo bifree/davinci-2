@@ -1,5 +1,5 @@
 .top-sec-title{
-  font-size:3.7vw;
+  font-size:calc(46px + 34 * (100vw - 768px) / 1152);
   font-weight:100;
 }
 
@@ -69,8 +69,6 @@
 
 @media screen and (max-width:1279px){
   .top-sec-title{
-    font-size:46px;
-
     .tb-br{
       display:block;
     }

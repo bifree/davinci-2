@@ -19,7 +19,7 @@
   }
 
   .each-course-top__icon__text{
-    font-size:2.1vw;
+    font-size:calc(26px + 14 * (100vw - 768px) / 1152);
     padding-left:3.2vw;
   }
 }
@@ -28,15 +28,11 @@
   .finance-top__title{
     padding:28px 125px;
   }
-  
-  .each-course-top__icon__text{
-    font-size:26px;
-  }
 }
 
 @media screen and (max-width:797px){
   .finance-top__title{
-    padding:5.3vw 15vw;
+    padding:4vw 15vw;
   }
   
   .finance-top__icon__icon{
@@ -44,7 +40,7 @@
   }
   
   .each-course-top__icon__text{
-    font-size:3.4vw;
+    font-size:calc(18px + 10 * (100vw - 320px) / 477);
   }
 }
 

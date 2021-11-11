@@ -8,7 +8,7 @@
   <section class="each-course-top">
     <div class="each-course-container">
       <div class="each-course-top__title">
-        <h2 class="each-course-top__title__text steam-top__title">こどもと大人のためのSTEAM教室</h2> 
+        <h2 class="each-course-top__title__text steam-top__title">こどもと大人のための<br class="tb-br">STEAM教室</h2> 
       </div>
       <div class="steam-top__img">
         <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam.png" alt="davinci">

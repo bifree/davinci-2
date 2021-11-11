@@ -1179,7 +1179,7 @@ select {
 }
 
 .each-course-content .each-course-content__title {
-	font-size: 2.9vw;
+	font-size: calc(37px + 19 * (100vw - 768px) / 1152);
 	text-align: center;
 }
 
@@ -1189,7 +1189,7 @@ select {
 }
 
 .each-course-content .each-course-content__text {
-	font-size: 1.2vw;
+	font-size: calc(15px + 8 * (100vw - 768px) / 1152);
 	line-height: 2.5;
 }
 
@@ -1205,7 +1205,7 @@ select {
 }
 
 .each-course-faq__content .each-course-faq__q {
-	font-size: 2.9vw;
+	font-size: calc(32px + 24 * (100vw - 768px) / 1152);
 	letter-spacing: 0.24em;
 	margin-bottom: 2.5vw;
 }
@@ -1215,12 +1215,12 @@ select {
 }
 
 .each-course-faq__content .each-course-faq__a__week {
-	font-size: 2.5vw;
+	font-size: calc(30px + 18 * (100vw - 768px) / 1152);
 }
 
 .each-course-faq__content .each-course-faq__a__time {
 	display: flex;
-	font-size: 2.5vw;
+	font-size: calc(28px + 20 * (100vw - 768px) / 1152);
 	justify-content: center;
 	line-height: 1.7;
 	margin-top: 1.3vw;
@@ -1231,12 +1231,12 @@ select {
 }
 
 .each-course-faq__content .each-course-faq__a {
-	font-size: 2.1vw;
+	font-size: calc(22px + 18 * (100vw - 768px) / 1152);
 	line-height: 1.8;
 }
 
 .each-course-faq__content .each-course-faq__a__small {
-	font-size: 1.5vw;
+	font-size: calc(18px + 10 * (100vw - 768px) / 1152);
 	line-height: 2.5;
 }
 
@@ -1263,7 +1263,7 @@ select {
 	border-radius: 60px;
 	color: #fff;
 	display: inline-block;
-	font-size: 2.1vw;
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 	margin: 0 auto;
 }
 
@@ -1284,7 +1284,7 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
-	font-size: 2.1vw;
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 }
 
 .each-course-top .eclil-top__img .eclil-top__times {
@@ -1302,7 +1302,7 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__text {
-	font-size: 2.1vw;
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 }
 
 .eclil-top__title {
@@ -1338,7 +1338,7 @@ select {
 }
 
 .each-course-top__icon .each-course-top__icon__text {
-	font-size: 2.1vw;
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 	padding-left: 3.2vw;
 }
 
@@ -1563,6 +1563,10 @@ select {
 	padding: 2.3vw 10vw;
 }
 
+.steam-top__title .tb-br {
+	display: none;
+}
+
 .steam-top__img {
 	background: #fff;
 	border-radius: 1.6vw;
@@ -1752,7 +1756,7 @@ select {
 }
 
 .top-sec-title {
-	font-size: 3.7vw;
+	font-size: calc(46px + 34 * (100vw - 768px) / 1152);
 	font-weight: 100;
 }
 
@@ -2278,7 +2282,7 @@ img {
 .top-mainvisual .top-mainvisual__text {
 	color: #fff;
 	font-family: "ten-mincho-text", serif;
-	font-size: 2.9vw;
+	font-size: calc(37px + 19 * (100vw - 768px) / 1152);
 	line-height: 1.2;
 	position: absolute;
 	right: 3%;
@@ -2288,7 +2292,7 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__text .top-mainvisual__text__big {
-	font-size: 5vw;
+	font-size: calc(64px + 32 * (100vw - 768px) / 1152);
 	font-weight: 200;
 }
 
@@ -2299,7 +2303,7 @@ img {
 	bottom: 11vh;
 	color: #fff;
 	font-family: "fot-tsukuardgothic-std", sans-serif;
-	font-size: 2.1vw;
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 	font-weight: 100;
 	padding: 1.9vw 3.8vw;
 	position: absolute;
@@ -2486,53 +2490,12 @@ img {
 
 @media screen and (max-width: 1279px) {
 
-.each-course-content .each-course-content__title {
-	font-size: 37px;
-}
-
 .each-course-content .eclil-content__img {
 	width: 60%;
 }
 
-.each-course-content .each-course-content__text {
-	font-size: 15px;
-}
-
 .each-course-faq__content {
 	width: 80%;
-}
-
-.each-course-faq__content .each-course-faq__q {
-	font-size: 32px;
-}
-
-.each-course-faq__content .each-course-faq__a__week {
-	font-size: 30px;
-}
-
-.each-course-faq__content .each-course-faq__a__time {
-	font-size: 28px;
-}
-
-.each-course-faq__content .each-course-faq__a {
-	font-size: 22px;
-}
-
-.each-course-faq__content .each-course-faq__a__small {
-	font-size: 18px;
-}
-
-.each-course-top .each-course-top__title .each-course-top__title__text {
-	color: #fff;
-	font-size: 26px;
-}
-
-.each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
-	font-size: 26px;
-}
-
-.each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__text {
-	font-size: 26px;
 }
 
 .eclil-top__title {
@@ -2543,17 +2506,17 @@ img {
 	padding: 28px 125px;
 }
 
-.each-course-top__icon__text {
-	font-size: 26px;
+.steam-top__title {
+	padding: 28px 125px;
+}
+
+.steam-top__title .tb-br {
+	display: block;
 }
 
 .each-course-mainvisual .each-course-mainvisual__title {
 	color: #fff;
 	font-size: 37px;
-}
-
-.top-sec-title {
-	font-size: 46px;
 }
 
 .top-sec-title .tb-br {
@@ -2603,17 +2566,7 @@ img {
 	top: 25vw;
 }
 
-.top-mainvisual .top-mainvisual__text {
-	font-size: 37px;
-}
-
-.top-mainvisual .top-mainvisual__text .top-mainvisual__text__big {
-	font-size: 64px;
-	font-weight: 200;
-}
-
 .top-mainvisual .top-mainvisual__btn {
-	font-size: 26px;
 	padding: 24px 48px;
 }
 
@@ -2624,14 +2577,6 @@ img {
 
 .top-style__item .top-style__item__text .top-style__item__title {
 	width: 30vw;
-}
-
-}
-
-@media screen and (max-width: 1279) {
-
-.steam-top__title {
-	padding: 28px 125px;
 }
 
 }
@@ -2663,7 +2608,7 @@ img {
 }
 
 .each-course-content .each-course-content__text {
-	font-size: 2.2vw;
+	font-size: calc(12px + 3 * (100vw - 320px) / 477);
 }
 
 .each-course-faq__content .sp-br {
@@ -2695,7 +2640,7 @@ img {
 }
 
 .each-course-top .each-course-top__title .each-course-top__title__text {
-	font-size: 5.5vw;
+	font-size: calc(18px + 10 * (100vw - 320px) / 447);
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
@@ -2715,11 +2660,11 @@ img {
 }
 
 .eclil-top__title {
-	padding: 5.3vw 10.3vw;
+	padding: 4vw 10.3vw;
 }
 
 .finance-top__title {
-	padding: 5.3vw 15vw;
+	padding: 4vw 15vw;
 }
 
 .finance-top__icon__icon {
@@ -2727,11 +2672,11 @@ img {
 }
 
 .each-course-top__icon__text {
-	font-size: 3.4vw;
+	font-size: calc(18px + 10 * (100vw - 320px) / 477);
 }
 
 .steam-top__title {
-	padding: 5.3vw 15vw;
+	padding: 4vw 10vw;
 }
 
 .steam-top__icon__icon {
@@ -2908,7 +2853,7 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
-	height: 500px;
+	height: 650px;
 }
 
 .top-mainvisual .top-mainvisual__slider .slick-dots {
@@ -2919,15 +2864,15 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__slider .slick-dots li {
-	width: 15px;
+	width: calc(15px + 2 * (100vw - 320px) / 447);
 }
 
 .top-mainvisual .top-mainvisual__slider .slick-dots li button:before {
-	font-size: 10px;
+	font-size: calc(10px + 2 * (100vw - 320px) / 447);
 }
 
 .top-mainvisual .top-mainvisual__color {
-	height: 500px;
+	height: 650px;
 }
 
 .top-mainvisual .top-mainvisual__text {
@@ -2942,15 +2887,15 @@ img {
 
 .top-mainvisual .top-mainvisual__btn {
 	bottom: 8vh;
-	font-size: 5vw;
-	padding: 4.5vw 9.4vw;
-	right: 13vw;
+	font-size: calc(16px + 14 * (100vw - 320px) / 447);
+	padding: 3.8vw 8vw;
+	right: 18vw;
 }
 
 .top-mainvisual .top-mainvisual__btn img {
 	margin-left: 1.2vw;
 	padding-bottom: -5px;
-	width: 3.8vw;
+	width: calc(12px + 12 * (100vw - 320px) / 447);
 }
 
 .top-style .pctb-br {
