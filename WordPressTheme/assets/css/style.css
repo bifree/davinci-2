@@ -3019,6 +3019,26 @@ img {
 	width: fit-content;
 }
 
+.l-header {
+	display: flex;
+}
+
+.l-header .header-logo {
+	width: 33%;
+}
+
+.l-header .header-logo img {
+	width: 100%;
+}
+
+.l-header .header-menu-pc {
+	display: none;
+}
+
+.l-header .header-menu2 {
+	display: none;
+}
+
 .about-bottom {
 	margin-bottom: 10.7vw;
 	margin-top: 4.8vw;
