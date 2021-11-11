@@ -41,4 +41,48 @@
 			display: flex;
 		}
 	}
+	@media screen and (max-width: 767px) {
+		margin-top: 4.8vw;
+		margin-bottom: 10.7vw;
+		.about-bottom-company {
+			padding-right: 7vw;
+			padding-left: 8vw;
+			h4 {
+				font-size: 4.5vw;
+				line-height: 5.5vw;
+			}
+			.company-logo {
+				width: 28%;
+				margin-top: 5vw;
+				margin-bottom: 3.4vw;
+				img {
+					width: 100%;
+				}
+			}
+			.company-info {
+				display: block;
+				margin-bottom: 5vw;
+				p {
+					line-height: 3vw;
+				}
+				.company-info-1 {
+					width: auto;
+				}
+				.company-info-2 {
+					width: auto;
+				}
+			}
+		}
+		.about-bottom-project {
+			padding-right: 7vw;
+			padding-left: 8vw;
+			p {
+				font-size: 3.3vw;
+				line-height: 4.5vw;
+			}
+			.about-project-inner {
+				display: block;
+			}
+		}
+	}
 }
