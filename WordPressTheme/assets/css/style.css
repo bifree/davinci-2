@@ -1362,7 +1362,7 @@ select {
 	margin: 50px auto;
 	padding-left: 55px;
 	padding-right: 100px;
-	width: 80%;
+	width: 95%;
 }
 
 .flow-box .flow-box-inner .flow-box h3.number {
@@ -1403,30 +1403,6 @@ select {
 	width: 100%;
 }
 
-.flow-box .flow-box-inner .flow-box1 p {
-	width: 634px;
-}
-
-.flow-box .flow-box-inner .flow-box4 p {
-	width: 634px;
-}
-
-.flow-box .flow-box-inner .flow-box5 p {
-	width: 548px;
-}
-
-.flow-box .flow-box-inner .flow-box6 p {
-	width: 717px;
-}
-
-.flow-box .flow-box-inner .flow-box7 p {
-	width: 811px;
-}
-
-.flow-box .flow-box-inner .flow-box8 p {
-	width: 1142px;
-}
-
 .flow-box .flow-box-inner .flow-btn {
 	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
 	border-radius: 65px;
@@ -1461,23 +1437,24 @@ select {
 
 .flow-top .flow-top-menu {
 	background-color: #00B8B8;
-	height: 85px;
+	height: 4.1vw;
+	padding-left: 3.1vw;
 }
 
 .flow-top .flow-top-menu ul {
+	align-items: center;
 	display: flex;
+	height: 100%;
 	list-style: none;
 }
 
 .flow-top .flow-top-menu ul li {
-	margin: 0 18px;
+	display: block;
+	margin-right: 30px;
 }
 
 .flow-top .flow-top-menu ul li a {
 	color: #fff;
-	font-size: 18px;
-	line-height: 85px;
-	text-decoration: none;
 }
 
 .plans-bottom .plans-bottom-inner {
@@ -3204,7 +3181,6 @@ img {
 	background-repeat: no-repeat;
 	background-size: contain;
 	margin: 0 auto;
-<<<<<<< HEAD
 }
 
 .about-middle h2 {
@@ -3227,30 +3203,6 @@ img {
 	margin-bottom: 2.4vw;
 }
 
-=======
-}
-
-.about-middle h2 {
-	font-family: ten-mincho-text, serif;
-	font-size: 5vw;
-	font-style: normal;
-	font-weight: 400;
-	letter-spacing: .24em;
-	line-height: 6vw;
-	margin-bottom: 2.5vw;
-	padding-top: 6vw;
-	text-align: initial;
-}
-
-.about-middle h3 {
-	font-family: ten-mincho-text, serif;
-	font-size: 4.5vw;
-	letter-spacing: .24em;
-	line-height: 5.5vw;
-	margin-bottom: 2.4vw;
-}
-
->>>>>>> origin
 .about-middle p {
 	font-size: 3.3vw;
 	letter-spacing: .15em;
@@ -3653,29 +3605,129 @@ img {
 	top: 0;
 }
 
+.flow-box .flow-box-inner {
+	margin: 0 auto;
+	padding-bottom: 10vw;
+	padding-top: 10vw;
+	width: 100%;
+}
+
+.flow-box .flow-box-inner .flow-box {
+	background-color: #fff;
+	background-image: none;
+	border-radius: 44px;
+	box-sizing: border-box;
+	display: block;
+	height: auto;
+	margin: 50px auto;
+	padding: 0;
+	width: 95%;
+}
+
+.flow-box .flow-box-inner .flow-box h3.number {
+	color: #F47458;
+	font-size: 7vw;
+}
+
+.flow-box .flow-box-inner .flow-box p {
+	font-size: 3.3vw;
+	letter-spacing: 6px;
+	line-height: 4.5vw;
+}
+
+.flow-box .flow-box-inner .flow-box p.small {
+	font-size: 24px;
+	line-height: 41px;
+}
+
+.flow-box .flow-box-inner .flow-box .flow1-img,
+.flow-box .flow-box-inner .flow-box .flow2-img,
+.flow-box .flow-box-inner .flow-box .flow3-img,
+.flow-box .flow-box-inner .flow-box .flow4-img,
+.flow-box .flow-box-inner .flow-box .flow5-img,
+.flow-box .flow-box-inner .flow-box .flow6-img,
+.flow-box .flow-box-inner .flow-box .flow7-img,
+.flow-box .flow-box-inner .flow-box .flow8-img {
+	width: 17.2vw;
+}
+
+.flow-box .flow-box-inner .flow-box .flow1-img img,
+.flow-box .flow-box-inner .flow-box .flow2-img img,
+.flow-box .flow-box-inner .flow-box .flow3-img img,
+.flow-box .flow-box-inner .flow-box .flow4-img img,
+.flow-box .flow-box-inner .flow-box .flow5-img img,
+.flow-box .flow-box-inner .flow-box .flow6-img img,
+.flow-box .flow-box-inner .flow-box .flow7-img img,
+.flow-box .flow-box-inner .flow-box .flow8-img img {
+	width: 100%;
+}
+
+.flow-box .flow-box-inner .flow-btn {
+	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
+	border-radius: 65px;
+	color: #fff;
+	display: block;
+	height: auto;
+	line-height: 123px;
+	margin: 8vw auto 0;
+	width: 30%;
+}
+
+.flow-box .flow-box-inner .flow-btn p {
+	font-size: 2vw;
+	line-height: 6vw;
+	text-align: center;
+}
+
+.flow-middle h2 {
+	font-size: 5vw;
+	letter-spacing: 13.44px;
+	line-height: 6vw;
+}
+
+.flow-middle p {
+	font-size: 3.3vw;
+	line-height: 4.5vw;
+}
+
+.flow-top .flow-top-menu {
+	height: auto;
+}
+
+.flow-top .flow-top-menu ul {
+	display: block;
+}
+
+.flow-top .flow-top-image {
+	height: 30vh;
+	position: relative;
+}
+
+.flow-top .flow-top-image img {
+	height: 100%;
+	width: auto;
+}
+
+.flow-top .flow-top-image h2 {
+	font-size: 5vw;
+	letter-spacing: 0.24em;
+}
+
 .plans-bottom .plans-bottom-inner {
-<<<<<<< HEAD
 	background-color: #F5F5F5;
 	margin-bottom: 6.5vw;
 	padding-bottom: 6.5vw;
 	padding-top: 6.5vw;
-=======
-	padding-bottom: 6.5vw;
->>>>>>> origin
 }
 
 .plans-bottom .plans-bottom-inner h3 {
 	font-size: 4.5vw;
-<<<<<<< HEAD
 	letter-spacing: 0.32em;
 	line-height: 5.5vw;
 	margin-bottom: 4.1vw;
 	padding: auto;
 	padding-right: auto;
 	text-align: center;
-=======
-	line-height: 5.5vw;
->>>>>>> origin
 }
 
 .plans-bottom .plans-bottom-inner .bottom-inner-text {
@@ -3686,19 +3738,13 @@ img {
 
 .plans-bottom .plans-bottom-inner .bottom-inner-text h4 {
 	font-size: 4vw;
-<<<<<<< HEAD
 	letter-spacing: 0.32em;
-=======
->>>>>>> origin
 	line-height: 5vw;
 }
 
 .plans-bottom .plans-bottom-inner .bottom-inner-text p {
 	font-size: 3.3vw;
-<<<<<<< HEAD
 	letter-spacing: 0.32em;
-=======
->>>>>>> origin
 	line-height: 4.5vw;
 }
 
@@ -3707,8 +3753,6 @@ img {
 }
 
 .plans-middle h2 {
-	border-bottom: 3px solid #2B3B77;
-	color: #2B3B77;
 	font-size: 5vw;
 	letter-spacing: 0.24em;
 	line-height: 6vw;

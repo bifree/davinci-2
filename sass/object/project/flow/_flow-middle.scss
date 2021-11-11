@@ -9,4 +9,15 @@
 		letter-spacing: 9.6px;
 		line-height: 60px;
 	}
+	@media screen and (max-width: 767px) {
+		h2 {
+			font-size: 5vw;
+			line-height: 6vw;
+			letter-spacing: 13.44px;
+		}
+		p {
+								font-size: 3.3vw;
+					line-height: 4.5vw;
+		}
+	}
 }

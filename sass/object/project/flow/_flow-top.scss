@@ -1,18 +1,39 @@
 .flow-top {
 	.flow-top-menu {
+		height: 4.1vw;
 		background-color: #00B8B8;
-		height: 85px;
+		padding-left: 3.1vw;
 		ul {
 			list-style: none;
 			display: flex;
+			align-items: center;
+			height: 100%;
 			li {
-				margin: 0 18px;
+				display: block;
+				margin-right: 30px;
 				a {
 					color: #fff;
-					text-decoration: none;
-					font-size: 18px;
-					line-height: 85px;
 				}
+			}
+		}
+	}
+	@media screen and (max-width:767px) {
+		.flow-top-menu {
+			height: auto;
+			ul {
+				display: block;
+			}
+		}
+		.flow-top-image {
+			position: relative;
+			height: 30vh;
+			img {
+				height: 100%;
+				width: auto;
+			}
+			h2 {
+				letter-spacing: 0.24em;
+				font-size: 5vw;
 			}
 		}
 	}
