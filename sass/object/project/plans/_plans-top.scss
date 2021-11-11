@@ -45,4 +45,24 @@
 		top: 0;
 		bottom: 0;
 	}
+	@media screen and (max-width: 767px) {
+		.plans-top-menu {
+			height: auto;
+			ul {
+				display: block;
+			}
+		}
+		.plans-top-image {
+			position: relative;
+			height: 30vh;
+			img {
+				height: 100%;
+				width: auto;
+			}
+			h2 {
+				letter-spacing: 0.24em;
+				font-size: 5vw;
+			}
+		}
+	}
 }
