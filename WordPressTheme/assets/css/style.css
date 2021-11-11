@@ -1345,25 +1345,24 @@ select {
 
 .flow-box {
 	background-color: #FFAA89;
-	padding-bottom: 240px;
-	padding-top: 106px;
 }
 
 .flow-box .flow-box-inner {
 	margin: 0 auto;
-	width: 1531px;
+	width: 100%;
 }
 
 .flow-box .flow-box-inner .flow-box {
 	background-color: #fff;
 	border-radius: 44px;
 	box-sizing: border-box;
-	height: 509px;
+	display: flex;
+	height: auto;
 	margin: 50px auto;
 	padding-left: 55px;
 	padding-right: 100px;
 	padding-top: 48px;
-	width: 1530px;
+	width: 80%;
 }
 
 .flow-box .flow-box-inner .flow-box h3.number {
@@ -1372,14 +1371,36 @@ select {
 }
 
 .flow-box .flow-box-inner .flow-box p {
-	font-size: 36px;
+	font-size: 1.8vw;
 	letter-spacing: 6px;
-	line-height: 65px;
+	line-height: 3.2vw;
 }
 
 .flow-box .flow-box-inner .flow-box p.small {
 	font-size: 24px;
 	line-height: 41px;
+}
+
+.flow-box .flow-box-inner .flow-box .flow1-img,
+.flow-box .flow-box-inner .flow-box .flow2-img,
+.flow-box .flow-box-inner .flow-box .flow3-img,
+.flow-box .flow-box-inner .flow-box .flow4-img,
+.flow-box .flow-box-inner .flow-box .flow5-img,
+.flow-box .flow-box-inner .flow-box .flow6-img,
+.flow-box .flow-box-inner .flow-box .flow7-img,
+.flow-box .flow-box-inner .flow-box .flow8-img {
+	width: 33%;
+}
+
+.flow-box .flow-box-inner .flow-box .flow1-img img,
+.flow-box .flow-box-inner .flow-box .flow2-img img,
+.flow-box .flow-box-inner .flow-box .flow3-img img,
+.flow-box .flow-box-inner .flow-box .flow4-img img,
+.flow-box .flow-box-inner .flow-box .flow5-img img,
+.flow-box .flow-box-inner .flow-box .flow6-img img,
+.flow-box .flow-box-inner .flow-box .flow7-img img,
+.flow-box .flow-box-inner .flow-box .flow8-img img {
+	width: 100%;
 }
 
 .flow-box .flow-box-inner .flow-box1 p {
@@ -1428,12 +1449,12 @@ select {
 }
 
 .flow-middle h2 {
-	font-size: 56px;
+	font-size: 2.8vw;
 	letter-spacing: 13.44px;
 }
 
 .flow-middle p {
-	font-size: 30px;
+	font-size: 1.5vw;
 	letter-spacing: 9.6px;
 	line-height: 60px;
 }

@@ -1,32 +1,39 @@
 .flow-box {
 	background-color: #FFAA89;
-	padding-top: 106px;
-	padding-bottom: 240px;
 	.flow-box-inner {
-		width: 1531px;
+		width: 100%;
 		margin: 0 auto;
 		.flow-box {
 			background-color: #fff;
-			width: 1530px;
-			height: 509px;
+			width: 80%;
+			height: auto;
 			box-sizing: border-box;
 			padding-right: 100px;
 			padding-left: 55px;
 			padding-top: 48px;
 			margin: 50px auto;
 			border-radius: 44px;
+			display: flex;
 			h3.number {
 				color: #F47458;
 				font-size: 80px;
 			}
 			p {
-				font-size: 36px;
-				line-height: 65px;
+				font-size: 1.8vw;
+				line-height: 3.2vw;
 				letter-spacing: 6px;
 			}
 			p.small {
 				font-size: 24px;
 				line-height: 41px;
+			}
+			.flow1-img, .flow2-img, .flow3-img,
+			.flow4-img, .flow5-img, .flow6-img,
+			.flow7-img, .flow8-img {
+				width: 33%;
+				img {
+					width: 100%;
+				}
 			}
 		}
 		.flow-box1 {
