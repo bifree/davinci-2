@@ -658,11 +658,6 @@ select {
 	width: 100%;
 }
 
-.c-test {
-	color: red;
-	font-size: 3.125rem;
-}
-
 .about-bottom {
 	margin-bottom: 10.7vw;
 	margin-top: 4.8vw;
@@ -1463,24 +1458,47 @@ select {
 	text-decoration: none;
 }
 
-.plans-bottom {
+.plans-bottom .plans-bottom-inner {
 	background-color: #F5F5F5;
+	margin-bottom: 6.5vw;
+	padding-top: 6.5vw;
 }
 
-.plans-bottom h3 {
+.plans-bottom .plans-bottom-inner h3 {
 	font-size: 2.3vw;
+	letter-spacing: 0.32em;
 	line-height: 3.4vw;
 	margin-bottom: 4.1vw;
+	padding: auto;
+	padding-right: auto;
+	text-align: center;
 }
 
-.plans-bottom h4 {
+.plans-bottom .plans-bottom-inner .bottom-inner-text {
+	padding: 0 7.5vw 6.7vw 15.5vw;
+}
+
+.plans-bottom .plans-bottom-inner .bottom-inner-text h4 {
 	font-size: 2vw;
+	letter-spacing: 0.32em;
 	line-height: 3vw;
 }
 
-.plans-bottom p {
+.plans-bottom .plans-bottom-inner .bottom-inner-text p {
 	font-size: 1.5vw;
+	letter-spacing: 0.32em;
 	line-height: 3vw;
+}
+
+.plans-bottom .btn-green {
+	margin-bottom: 5.7vw;
+}
+
+.plans-middle {
+	background-image: url(../img/plan/top-bg.jpg);
+	margin-bottom: 7.5vw;
+	padding-bottom: 6vw;
+	padding-top: 8vw;
 }
 
 .plans-middle h2 {
@@ -1497,7 +1515,27 @@ select {
 
 .plans-middle p {
 	font-size: 1.5vw;
+	letter-spacing: 0.32em;
 	line-height: 3vw;
+}
+
+.plans-middle .plans-middle-top {
+	display: flex;
+	margin: 0 auto 6vw;
+	width: 70%;
+}
+
+.plans-middle .plans-middle-top .top-left {
+	width: 52%;
+}
+
+.plans-middle .plans-middle-top .top-right {
+	margin-left: auto;
+	width: 36%;
+}
+
+.plans-middle .plans-middle-top .top-right img {
+	width: 100%;
 }
 
 .plans-middle .plans-middle-bottom .top-plan__img {
@@ -1532,12 +1570,16 @@ select {
 }
 
 .plans-top .plans-top-image {
+	background-image: url(../img/plan/title-bg.jpg);
+	background-size: cover;
+	height: 22vw;
 	position: relative;
 }
 
 .plans-top .plans-top-image h2 {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: 2.8vw;
 	font-style: bold;
 	font-weight: 700;
 	letter-spacing: 0.24em;
@@ -2594,11 +2636,6 @@ img {
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 100%;
-}
-
-.c-test {
-	color: green;
-	font-size: 1.875rem;
 }
 
 }
