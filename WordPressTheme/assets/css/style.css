@@ -2937,6 +2937,162 @@ img {
 
 @media screen and (max-width: 767px) {
 
+.about-bottom {
+	margin-bottom: 10.7vw;
+	margin-top: 4.8vw;
+}
+
+.about-bottom .about-bottom-company {
+	padding-left: 8vw;
+	padding-right: 7vw;
+}
+
+.about-bottom .about-bottom-company h4 {
+	font-size: 4.5vw;
+	line-height: 5.5vw;
+}
+
+.about-bottom .about-bottom-company .company-logo {
+	margin-bottom: 3.4vw;
+	margin-top: 5vw;
+	width: 28%;
+}
+
+.about-bottom .about-bottom-company .company-logo img {
+	width: 100%;
+}
+
+.about-bottom .about-bottom-company .company-info {
+	display: block;
+	margin-bottom: 5vw;
+}
+
+.about-bottom .about-bottom-company .company-info p {
+	line-height: 3vw;
+}
+
+.about-bottom .about-bottom-company .company-info .company-info-1 {
+	width: auto;
+}
+
+.about-bottom .about-bottom-company .company-info .company-info-2 {
+	width: auto;
+}
+
+.about-bottom .about-bottom-project {
+	padding-left: 8vw;
+	padding-right: 7vw;
+}
+
+.about-bottom .about-bottom-project p {
+	font-size: 3.3vw;
+	line-height: 4.5vw;
+}
+
+.about-bottom .about-bottom-project .about-project-inner {
+	display: block;
+}
+
+.about-middle-press h3 {
+	font-size: 4.5vw;
+	line-height: 5.5vw;
+	margin-left: 7.5vw;
+	margin-right: 4.5vw;
+}
+
+.about-middle-press h4 {
+	color: #fff;
+	font-size: 2.2vw;
+	line-height: 2.5vw;
+}
+
+.about-middle-press .about-press-img {
+	position: relative;
+}
+
+.about-middle-press .about-press-img h4 {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: 5vw;
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 0.24em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
+}
+
+.about-middle {
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+}
+
+.about-middle h2 {
+	font-family: ten-mincho-text, serif;
+	font-size: 5vw;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .24em;
+	line-height: 6vw;
+	margin-bottom: 2.5vw;
+	padding-top: 6vw;
+	text-align: initial;
+}
+
+.about-middle h3 {
+	font-family: ten-mincho-text, serif;
+	font-size: 4.5vw;
+	letter-spacing: .24em;
+	line-height: 5.5vw;
+	margin-bottom: 2.4vw;
+}
+
+.about-middle p {
+	font-size: 3.3vw;
+	letter-spacing: .15em;
+	line-height: 4.5vw;
+}
+
+.about-top .about-top-menu {
+	height: auto;
+}
+
+.about-top .about-top-menu ul {
+	display: block;
+}
+
+.about-top .about-top-menu ul li {
+	display: block;
+	margin-right: 30px;
+}
+
+.about-top .about-top-menu ul li a {
+	color: #fff;
+}
+
+.about-top .about-top-image {
+	height: 30vh;
+	position: relative;
+}
+
+.about-top .about-top-image img {
+	height: 100%;
+	width: auto;
+}
+
+.about-top .about-top-image h2 {
+	font-size: 5vw;
+	letter-spacing: 0.24em;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
+}
+
 .contact .contact-top-menu {
 	background-color: #00b8b8;
 }
@@ -3244,9 +3400,7 @@ img {
 }
 
 .course-top .course-top-menu {
-	background-color: #00B8B8;
 	height: auto;
-	padding-left: 3.1vw;
 }
 
 .course-top .course-top-menu ul {

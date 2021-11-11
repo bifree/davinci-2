@@ -29,4 +29,33 @@
 		font-size: 1vw;
 		line-height: 2.4vw;
 	}
+	@media screen and (max-width:767px) {
+		margin: 0 auto;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: right;
+		h2 {
+			font-size: 5vw;
+			line-height: 6vw;
+			padding-top: 6vw;
+			letter-spacing: .24em;
+			margin-bottom: 2.5vw;
+			font-family: ten-mincho-text, serif;
+			font-weight: 400;
+			text-align: initial;
+			font-style: normal;
+		}
+		h3 {
+			font-size: 4.5vw;
+			line-height: 5.5vw;
+			letter-spacing: .24em;
+			font-family: ten-mincho-text, serif;
+			margin-bottom: 2.4vw;
+		}
+		p {
+			font-size: 3.3vw;
+			line-height: 4.5vw;
+			letter-spacing: .15em;
+		}
+	}
 }
