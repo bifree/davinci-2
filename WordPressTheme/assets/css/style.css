@@ -818,6 +818,9 @@ select {
 }
 
 .about-top .about-top-image {
+	background-image: url(../img/about/title-bg.jpg);
+	background-size: cover;
+	height: 22vw;
 	position: relative;
 }
 
@@ -1151,6 +1154,9 @@ select {
 }
 
 .course-top .course-top-image {
+	background-image: url(../img/course/title-bg.jpg);
+	background-size: cover;
+	height: 22vw;
 	position: relative;
 }
 

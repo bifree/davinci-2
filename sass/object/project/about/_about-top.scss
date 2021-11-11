@@ -19,6 +19,9 @@
 	}
 	.about-top-image {
 		position: relative;
+		height: 22vw;
+		background-image: url(../img/about/title-bg.jpg);
+		background-size: cover;
 		img {
 			width: 100%;
 		}

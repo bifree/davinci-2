@@ -10,7 +10,6 @@
 		</ul>
 	</div>
 	<div class="course-top-image">
-		<img src="<?php echo get_template_directory_uri();?>/assets/img/course/title-bg.jpg" alt="">
 		<h2>COURSE</h2>
 	</div>
 </div>
