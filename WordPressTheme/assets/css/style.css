@@ -1344,7 +1344,7 @@ select {
 }
 
 .flow-box {
-	background-color: #FFAA89;
+	background-image: url(../img/flow/flow-bg.jpg);
 }
 
 .flow-box .flow-box-inner {
@@ -1354,14 +1354,14 @@ select {
 
 .flow-box .flow-box-inner .flow-box {
 	background-color: #fff;
+	background-image: none;
 	border-radius: 44px;
 	box-sizing: border-box;
 	display: flex;
-	height: auto;
+	height: 25.4vw;
 	margin: 50px auto;
 	padding-left: 55px;
 	padding-right: 100px;
-	padding-top: 48px;
 	width: 80%;
 }
 
@@ -1389,7 +1389,7 @@ select {
 .flow-box .flow-box-inner .flow-box .flow6-img,
 .flow-box .flow-box-inner .flow-box .flow7-img,
 .flow-box .flow-box-inner .flow-box .flow8-img {
-	width: 33%;
+	width: 17.2vw;
 }
 
 .flow-box .flow-box-inner .flow-box .flow1-img img,
@@ -1432,10 +1432,10 @@ select {
 	border-radius: 65px;
 	color: #fff;
 	display: block;
-	height: 123px;
+	height: auto;
 	line-height: 123px;
 	margin: 162px auto 0;
-	width: 569px;
+	width: 30%;
 }
 
 .flow-box .flow-box-inner .flow-btn p {
