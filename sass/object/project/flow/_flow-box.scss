@@ -1,16 +1,16 @@
 .flow-box {
-	background-color: #FFAA89;
+	background-image: url(../img/flow/flow-bg.jpg);
 	.flow-box-inner {
 		width: 100%;
 		margin: 0 auto;
 		.flow-box {
 			background-color: #fff;
+			background-image: none;
 			width: 80%;
-			height: auto;
+			height: 25.4vw;
 			box-sizing: border-box;
 			padding-right: 100px;
 			padding-left: 55px;
-			padding-top: 48px;
 			margin: 50px auto;
 			border-radius: 44px;
 			display: flex;
@@ -30,7 +30,7 @@
 			.flow1-img, .flow2-img, .flow3-img,
 			.flow4-img, .flow5-img, .flow6-img,
 			.flow7-img, .flow8-img {
-				width: 33%;
+				width: 17.2vw;
 				img {
 					width: 100%;
 				}
@@ -72,8 +72,8 @@
 		}
 		.flow-btn {
 			border-radius: 65px;
-			height: 123px;
-			width: 569px;
+			height: auto;
+			width: 30%;
 			display: block;
 			line-height: 123px;
 			color: #fff;
