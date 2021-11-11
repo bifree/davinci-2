@@ -25,7 +25,7 @@
   <section class="each-course-content">
     <div class="each-course-container">
       <h2 class="each-course-content__title">
-        未来のワクワクを掴む web・デザイン技術を手の中に
+        未来のワクワクを掴む<br class="sp-br">web・デザイン技術を手の中に
       </h2>
       <div class="steam-content__img">
         <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam-pic.svg" alt="davinci">
@@ -57,7 +57,7 @@
         　どこで受講できるのか
       </p>
       <p class="each-course-faq__a">
-        DaVinci野並教室、またはオンラインにて受講いただけます。
+        DaVinci野並教室、またはオンラインにて<br class="sp-br">受講いただけます。
       </p>
     </div>
 
@@ -79,7 +79,7 @@
         　何が受講できるのか
       </p>
       <p class="each-course-faq__a">
-      デザイン・プログラミングスキルやITリテラシーの習得まで<br>
+      デザイン・プログラミングスキルや<br class="sp-br">ITリテラシーの習得まで<br>
       幅広い分野を学ぶことが可能です。
       </p>
     </div>
@@ -90,8 +90,8 @@
         　どのように受講できるのか
       </p>
       <p class="each-course-faq__a__small">
-        オンラインでSTEAMの基礎・実践を学び体験の中でさまざまな課題を見つけ、<br>
-        クリエイティブな発想で問題解決を創造、実現していくための手段を身につけます。
+        オンラインでSTEAMの基礎・実践を学び<br class="sp-br">体験の中でさまざまな課題を見つけ、<br>
+        クリエイティブな発想で問題解決を創造、<br class="sp-br">実現していくための手段を身につけます。
       </p>
     </div>
 
@@ -103,7 +103,7 @@
       <p class="each-course-faq__a">
         オンラインでのレッスンでは、zoom<br>
         （オンラインミーティングアプリ）を使用します。<br>
-        野並教室以外から受講される方は、スマホ・タブレット・PCの<br>
+        野並教室以外から受講される方は、<br class="sp-br">スマホ・タブレット・PCの<br>
         いずれかが必要になります。
       </p>
     </div>

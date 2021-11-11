@@ -81,5 +81,15 @@
             </li>
           </ul>
         </div>
+        <div class="header-menu2">
+          <div class="left">
+            <a href="<?php echo home_url('/flow'); ?>">受講の流れ<br>
+            FLOW</a>
+          </div>
+          <div class="right">
+            <a href="<?php echo home_url('/tokushoho'); ?>">予約<br>
+            RESERVE</a>
+          </div>
+        </div>
       </div>
     </header>

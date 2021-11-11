@@ -15,3 +15,35 @@
     line-height:2.5;
   }
 }
+
+@media screen and (max-width:1279px){
+  .each-course-content{
+    .each-course-content__title{
+      font-size:37px;
+    }
+  
+    .eclil-content__img{
+      width:60%;
+    }
+  
+    .each-course-content__text{
+      font-size:15px;
+    }
+  }
+}
+
+@media screen and (max-width:797px){
+  .each-course-content{
+    .each-course-content__title{
+      font-size:5.3vw;
+    }
+  
+    .eclil-content__img{
+      width:60%;
+    }
+  
+    .each-course-content__text{
+      font-size:2.2vw;
+    }
+  }
+}

@@ -11,6 +11,7 @@
 	</div>
 	<div class="course-top-image">
 		<img src="<?php echo get_template_directory_uri();?>/assets/img/course/title-bg.jpg" alt="">
+		<h2>COURSE</h2>
 	</div>
 </div>
 
@@ -84,20 +85,33 @@
 
 <div class="course-bottom">
 	<h2 class="title">体験コース</h2>
-	<div class="course-bottom-inner">
-		<div class="bottom-left">
-			<h2>新しい学びのカタチ。</h2>
-			<h3>あなたの知らない世界へ はじめの一歩を踏み出そう。</h3>
-			<div class="btn-green">
-				さあ、体験しよう
+	<div class="bottom-under-title">
+		<div class="course-bottom-inner">
+			<div class="bottom-left">
+				<h2>新しい学びのカタチ。</h2>
+				<h3>あなたの知らない世界へ </h3>
+				<h3>はじめの一歩を踏み出そう。</h3>
+				<div class="btn-green">
+					<img src="<?php echo get_template_directory_uri();?>/assets/img/course/btn-bottom.png" alt="">
+				</div>
 			</div>
-		</div>
-		<div class="bottom-right">
-			<img src="<?php echo get_template_directory_uri();?>/assets/img/course/experience.png" alt="">
+			<div class="bottom-right">
+				<img src="<?php echo get_template_directory_uri();?>/assets/img/course/experience.png" alt="">
+			</div>
 		</div>
 	</div>
 </div>
 
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'ojk1wjf',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 <script>
   (function(d) {
     var config = {

@@ -108,9 +108,9 @@
         　どのように受講できるのか
       </p>
       <p class="each-course-faq__a__small">
-        ホームページ右上の「予約」よりレッスンの事前予約が必要です。<br>
+        ホームページ右上の「予約」よりレッスンの<br class="sp-br">事前予約が必要です。<br>
         ・e-sportsのプレイにも適したPC環境です（全13台）。<br>
-        ・下り：300Mbps以上、上り：200Mbps以上、PING：7.5ms
+        ・下り：300Mbps以上、上り：200Mbps以上、<br class="sp-br">PING：7.5ms
       </p>
     </div>
 
@@ -122,7 +122,7 @@
       <p class="each-course-faq__a__small">
         オンラインでのレッスンでは、zoom<br>
         （オンラインミーティングアプリ）を使用します。<br>
-        個別レッスンをご希望される方は、スマホ・タブレット・PCの<br>いずれかをご用意ください。
+        個別レッスンをご希望される方は、<br class="sp-br">スマホ・タブレット・PCの<br>いずれかをご用意ください。
       </p>
     </div>
   </section>

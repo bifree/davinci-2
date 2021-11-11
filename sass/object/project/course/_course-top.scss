@@ -1,0 +1,95 @@
+.course-top {
+	.course-top-menu {
+		height: 4.1vw;
+		background-color: #00B8B8;
+		padding-left: 3.1vw;
+		ul {
+			list-style: none;
+			display: flex;
+			align-items: center;
+			height: 100%;
+			li {
+				display: block;
+				margin-right: 30px;
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
+	.course-top-image {
+		position: relative;
+		h2 {
+			position: absolute;
+			top: 50%;
+			text-align: center;
+			color: #fff;
+			width: 100%;
+			letter-spacing: 0.24em;
+			font-size: 2.8vw;
+			z-index: 1;
+			font-family: fot-tsukuardgothic-std, sans-serif;
+			font-weight: 700;
+			font-style: bold;
+		}
+	}
+	.course-top-image:after {
+		content: '';
+		background-color: rgba(0,0,0,.13);
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	@media screen and (max-width: 767px) {
+		.course-top-menu {
+			height: auto;
+			background-color: #00B8B8;
+			padding-left: 3.1vw;
+			ul {
+				list-style: none;
+				display: block;
+				align-items: center;
+				height: 100%;
+				li {
+					display: block;
+					margin-right: 30px;
+					a {
+						color: #fff;
+					}
+				}
+			}
+		}
+		.course-top-image {
+			position: relative;
+			height: 30vh;
+			img {
+				height: 100%;
+				width: auto;
+			}
+			h2 {
+				position: absolute;
+				top: 50%;
+				text-align: center;
+				color: #fff;
+				width: 100%;
+				letter-spacing: 0.24em;
+				font-size: 5vw;
+				z-index: 1;
+				font-family: fot-tsukuardgothic-std, sans-serif;
+				font-weight: 700;
+				font-style: bold;
+			}
+		}
+		.course-top-image:after {
+			content: '';
+			background-color: rgba(0,0,0,.13);
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+	}
+}

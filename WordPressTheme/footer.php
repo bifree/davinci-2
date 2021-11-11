@@ -13,7 +13,7 @@
     <div class="footer-middle">
       <div class="footer-menu">
         <div class="footer-menu-l">
-          <h4>COURSE</h4>
+          <h4>ABOUT</h4>
           <ul>
             <li><a href="">プレスリリース</a></li>
             <li><a href="">運営会社</a></li>
@@ -21,7 +21,7 @@
           </ul>
         </div>
         <div class="footer-menu-r">
-          <h4>COURSE</h4>
+          <h4 class="course">COURSE</h4>
           <ul>
             <li><a href="">e-CLIL（イークリル）</a></li>
             <li><a href="">ファイナンス</a></li>
@@ -32,7 +32,7 @@
     </div>
     <div class="footer-bottom">
       <p>© 2020 能力探究塾 DaVinci</p>
-      <p>利用規約/プライバシーポリシー/特定商取引法に基づく表記</p>
+      <p><a href="<?php echo home_url('/terms'); ?>">利用規約</a>/<a href="<?php echo home_url('/privacy'); ?>">プライバシーポリシー</a>/<a href="<?php echo home_url('/tokushoho'); ?>">特定商取引法に基づく表記</a></p>
     </div>
   </div>
 </footer>
