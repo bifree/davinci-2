@@ -19,6 +19,9 @@
 	}
 	.course-top-image {
 		position: relative;
+		height: 22vw;
+		background-image: url(../img/course/title-bg.jpg);
+		background-size: cover;
 		h2 {
 			position: absolute;
 			top: 50%;

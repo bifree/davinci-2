@@ -9,7 +9,7 @@
 		</ul>
 	</div>
 	<div class="about-top-image">
-		<img src="<?php echo get_template_directory_uri();?>/assets/img/about/title-bg.jpg" alt="">
+		<!-- <img src="<?php echo get_template_directory_uri();?>/assets/img/about/title-bg.jpg" alt=""> -->
 		<h2>ABOUT</h2>
 	</div>
 </div>
