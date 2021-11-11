@@ -2063,6 +2063,19 @@ select {
 	width: 38%;
 }
 
+.fade-in {
+	opacity: 0;
+	transform: translateY(50px);
+}
+
+/* トリガー発火でis-activeを付与 */
+
+.fade-in.is-active {
+	opacity: 1;
+	transform: translateY(0);
+	transition: 1.2s;
+}
+
 .top-lesson {
 	background-image: url(../img/top/lesson-back.png);
 	background-position: center;
