@@ -152,15 +152,15 @@
     }
 
     h1 {
-      font-size: calc(14px + 2 * (100vw - 320px) / 447);
+      font-size: calc(13px + 4 * (100vw - 320px) / 447);
       color: #fff;
       font-family: fot-tsukuardgothic-std, sans-serif;
       font-style: normal;
       font-weight: 700;
       vertical-align: middle;
-      height: calc(40px + 6 * (100vw - 320px) / 447);
-      line-height: calc(40px + 6 * (100vw - 320px) / 447);
-      margin-left: 8.7vw;
+      height: calc(35px + 11 * (100vw - 320px) / 447);
+      line-height: calc(35px + 11 * (100vw - 320px) / 447);
+      margin: 0 0 0 8.7vw;
     }
 
     p,
