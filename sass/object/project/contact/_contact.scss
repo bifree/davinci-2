@@ -14,12 +14,41 @@
     }
   }
 
+  .contact-top-image {
+    position: relative;
+    height: 22vw;
+    background-image: url(../img/contact/contact.jpg);
+    background-size: cover;
+    h2 {
+      position: absolute;
+      top: 50%;
+      text-align: center;
+      color: #fff;
+      width: 100%;
+      letter-spacing: 0.24em;
+      z-index: 1;
+      font-family: fot-tsukuardgothic-std, sans-serif;
+      font-weight: 700;
+      font-style: bold;
+      font-size: calc(38px + 18 * (100vw - 768px) / 1152);
+    }
+  }
+  .contact-top-image::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.13);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
   .contact-container {
     padding: 0 1.3vw;
   }
 
   .contact-container__title {
-    font-size: 2.9vw;
+    font-size: calc(38px + 18 * (100vw - 768px) / 1152);
     text-align: center;
     margin: 10vw 0;
   }
@@ -29,7 +58,7 @@
     display: inline-block;
     background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
     position: relative;
-    width: 4.4vw;
+    width: calc(57px + 28 * (100vw - 768px) / 1152);
     height: 4.4vw;
     background-repeat: no-repeat;
     background-size: contain;
@@ -44,127 +73,46 @@
   }
 
   @media screen and (min-width: 1280px) {
-    .contact-top-image {
-      position: relative;
-      h2 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        text-align: center;
-        color: #fff;
-        width: 100vw;
-        letter-spacing: 0.24em;
-        font-size: 2.8vw;
-        z-index: 1;
-        font-family: fot-tsukuardgothic-std, sans-serif;
-        font-weight: 700;
-        font-style: bold;
-      }
-    }
-    .contact-top-image::after {
-      content: "";
-      background-color: rgba(0, 0, 0, 0.13);
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-    }
   }
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .contact-top-image {
-      position: relative;
-      h2 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        text-align: center;
-        color: #fff;
-        width: 100vw;
-        letter-spacing: 0.24em;
-        font-size: 3.5vw;
-        z-index: 1;
-        font-family: fot-tsukuardgothic-std, sans-serif;
-        font-weight: 700;
-        font-style: bold;
-      }
-    }
-    .contact-top-image::after {
-      content: "";
-      background-color: rgba(0, 0, 0, 0.13);
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-    }
-    .contact-container__title {
-      font-size: 3.5vw;
-      text-align: center;
-      margin: 10vw 0;
-    }
-    .contact-container__title::before {
-      content: "";
-      display: inline-block;
-      background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
-      position: relative;
-      width: 5.3vw;
-      height: 5.3vw;
-      background-repeat: no-repeat;
-      background-size: contain;
-      vertical-align: middle;
-      top: -5px;
-      margin-right: 2.6vw;
-    }
   }
 
   @media screen and (max-width: 767px) {
     .contact-top-menu {
       background-color: #00b8b8;
+      h1 {
+        font-size: calc(13px + 4 * (100vw - 320px) / 447);
+        color: #fff;
+        font-family: fot-tsukuardgothic-std, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        vertical-align: middle;
+        height: calc(35px + 11 * (100vw - 320px) / 447);
+        line-height: calc(35px + 11 * (100vw - 320px) / 447);
+        margin: 0 0 0 8.7vw;
+      }
     }
-    .contact-top-menu_text {
-      font-size: calc(14px + 2 * (100vw - 320px) / 447);
-      color: #fff;
-      font-family: fot-tsukuardgothic-std, sans-serif;
-      font-style: normal;
-      font-weight: 700;
-      vertical-align: middle;
-      line-height: calc(40px + 6 * (100vw - 320px) / 447);
-      margin: 0 0 0 8.7vw;
-    }
+
     .contact-top-image {
       position: relative;
+      height: 30vw;
+      background-size: cover;
+      img {
+        width: 100%;
+      }
       h2 {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        text-align: center;
-        color: #fff;
-        width: 100vw;
+        transform: translate(-50%, -50%);
         letter-spacing: 0.24em;
-        font-size: 6.2vw;
-        z-index: 1;
-        font-family: fot-tsukuardgothic-std, sans-serif;
-        font-weight: 700;
-        font-style: bold;
+        font-size: calc(23px + 15 * (100vw - 320px) / 447);
       }
-    }
-    .contact-top-image::after {
-      content: "";
-      background-color: rgba(0, 0, 0, 0.13);
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
     }
 
     .contact-container__title {
-      font-size: 6.2vw;
+      font-size: calc(23px + 15 * (100vw - 320px) / 447);
       text-align: center;
       margin: 10vw 0;
     }
@@ -174,8 +122,8 @@
       display: inline-block;
       background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
       position: relative;
-      width: 9.3vw;
-      height: 9.3vw;
+      width: calc(36px + 21 * (100vw - 320px) / 447);
+      height: calc(36px + 21 * (100vw - 320px) / 447);
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
