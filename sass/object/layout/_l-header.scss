@@ -80,7 +80,8 @@
 		top: 0;
 		left: 0;
 		color: #fff;
-		background: rgb(241, 197, 30 / 97%);
+		background: #2C3B77;
+		text-align: center;
 		width: 100%;
 		height: 100%;
 		opacity: 0;
@@ -95,7 +96,7 @@
 				transition: .4s all;
 				a {
 					display: block;
-					color: #333;
+					color: #fff;
 					padding: 16px 0;
 					font-size: 1.6rem;
 					font-weight: bold;
@@ -158,6 +159,32 @@
 		}
 		.hamburger {
 			display: block;
+		}
+		nav.globalnav_sp {
+			ul {
+				margin: 0 auto;
+				padding: 0;
+				width: 100%;
+				li {
+					list-style-type: none;
+					padding: 0;
+					width: 100%;
+					transition: .4s all;
+					a {
+						display: block;
+						color: #fff;
+						padding: 16px 0;
+						font-size: 1.6rem;
+						font-weight: bold;
+						span {
+							display: block;
+							padding: 8px 0 0;
+							color: #fff;
+							font-size: 1.2rem;
+						}
+					}
+				}
+			}
 		}
 	}
 }
