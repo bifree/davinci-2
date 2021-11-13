@@ -588,9 +588,8 @@ select {
 }
 
 .l-header .header-logo {
-	margin-left: 2.5vw;
-	padding-top: 1.3vw;
-	width: 13.5%;
+	margin: auto auto auto 2.5vw;
+	width: 260px;
 }
 
 .l-header .header-logo img {
@@ -2855,6 +2854,18 @@ img {
 
 }
 
+@media screen and (max-width: 1024px) {
+
+.l-header .header-logo {
+	width: 160px;
+}
+
+.l-header .header-logo img {
+	width: 100%;
+}
+
+}
+
 @media screen and (max-width: 1023px) {
 
 .l-inner {
@@ -3344,14 +3355,6 @@ img {
 .l-header {
 	display: flex;
 	min-height: 70px;
-}
-
-.l-header .header-logo {
-	width: 33%;
-}
-
-.l-header .header-logo img {
-	width: 100%;
 }
 
 .l-header .header-menu-pc {

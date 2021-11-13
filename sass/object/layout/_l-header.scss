@@ -1,9 +1,8 @@
 .l-header {
 	display: flex;
 	.header-logo {
-		width: 13.5%;
-		padding-top: 1.3vw;
-		margin-left: 2.5vw;
+		width: 260px;
+		margin: auto auto auto 2.5vw;
 		img {
 			width: 100%;
 		}
@@ -146,15 +145,17 @@
 			}
 		}
 	}
-	@media screen and (max-width:767px) {
-		display: flex;
-		min-height: 70px;
+	@media screen and (max-width: 1024px) {
 		.header-logo {
-			width: 33%;
+			width: 160px;
 			img {
 				width: 100%;
 			}
 		}
+	}
+	@media screen and (max-width:767px) {
+		display: flex;
+		min-height: 70px;
 		.header-menu-pc {
 			display: none;
 		}
