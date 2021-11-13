@@ -1,14 +1,7 @@
 <?php get_header(); ?>
 
 <div class="course-top">
-	<div class="course-top-menu">
-		<ul>
-			<li><a href="<?php echo home_url('/eclil/');?>">グローバルeスポーツ</a></li>
-			<li><a href="<?php echo home_url('/steam/');?>">WEBデザイン・プログラミング</a></li>
-			<li><a href="<?php echo home_url('/finance/');?>">ファイナンス</a></li>
-			<li><a href="<?php echo home_url('/flow/');?>">体験コース</a></li>
-    </ul>
-	</div>
+	<?php get_template_part('template/top-menu');?>
 	<div class="course-top-image">
 		<h2>COURSE</h2>
 	</div>
@@ -97,7 +90,7 @@
 				<h3>あなたの知らない世界へ </h3>
 				<h3>はじめの一歩を踏み出そう。</h3>
 				<div class="btn-green">
-					<img src="<?php echo get_template_directory_uri();?>/assets/img/course/btn-bottom.png" alt="">
+					<a href="<?php echo home_url('/flow'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/btn-bottom.png" alt=""></a>
 				</div>
 			</div>
 			<div class="bottom-right">

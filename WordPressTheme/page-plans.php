@@ -1,14 +1,7 @@
 <?php get_header(); ?>
 
 <div class="plans-top">
-	<div class="plans-top-menu">
-		<ul>
-			<li><a href="<?php echo home_url('/eclil/');?>">グローバルeスポーツ</a></li>
-			<li><a href="<?php echo home_url('/steam/');?>">WEBデザイン・プログラミング</a></li>
-			<li><a href="<?php echo home_url('/finance/');?>">ファイナンス</a></li>
-			<li><a href="<?php echo home_url('/flow/');?>">体験コース</a></li>
-		</ul>
-	</div>
+	<?php get_template_part('template/top-menu');?>
 	<div class="plans-top-image">
 		<h2>PLAN</h2>
 	</div>

@@ -16,8 +16,8 @@
 		font-size: 2vw;
 	}
 	p {
-		font-size: 1vw;
-		line-height: 2.2vw;
+		font-size: 1.53vw;
+		line-height: 3.07vw;
 		letter-spacing: .15em;
 	}
 	.middle-outer-red,
@@ -26,6 +26,7 @@
 		h2 {
 			color: #2B3B77;
 			text-align: center;
+			letter-spacing: .24em;
 		}
 	}
 	.middle-outer-red {
@@ -34,6 +35,7 @@
 	.middle-red {
 		padding-top: 4.5vw;
 		padding-bottom: 3vw;
+		height: 611px;
 		background-image: url(../img/course/red-bg.png);
 		background-repeat: no-repeat;
 		.middle-inner-red {
@@ -41,8 +43,8 @@
 			margin: 0 auto;
 			display: flex;
 			.red-inner {
-				width: 37%;
-				margin-right: 18%;
+				width: 584px;
+				margin-right: auto;
 				h4 {
 					margin-top: 2.1vw;
 					margin-bottom: 2.4vw;
@@ -72,13 +74,14 @@
 		padding-bottom: 3vw;
 		background-image: url(../img/course/blue-bg.png);
 		background-repeat: no-repeat;
+		height: 611px;
 		.middle-inner-blue {
 			width: 82%;
 			margin: 0 auto;
 			display: flex;
 			.blue-inner {
-				width: 37%;
-				margin-right: 18%;
+				width: 584px;
+				margin-right: auto;
 				h3 {
 					margin-bottom: 1.2vw;
 				}
@@ -108,6 +111,7 @@
 	}
 	.middle-green {
 		padding-top: 4.5vw;
+		height: 611px;
 		padding-bottom: 3vw;
 		background-image: url(../img/course/green-bg.png);
 		background-repeat: no-repeat;
@@ -116,8 +120,8 @@
 			margin: 0 auto;
 			display: flex;
 			.green-inner {
-				width: 37%;
-				margin-right: 18%;
+				width: 584px;
+				margin-right: auto;
 			}
 			.green-inner-right {
 				width: 45%;
@@ -133,6 +137,14 @@
 					}
 				}
 			}
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		.middle-green, .middle-blue, .middle-red {
+			height: auto;
+		}
+		.middle-green {
+			height: 373px;
 		}
 	}
 	@media screen and (max-width: 767px) {
@@ -154,12 +166,20 @@
 		}
 		p {
 			font-size: 3.3vw;
-			line-height: 4.5vw;
+			line-height: 4vw;
 			letter-spacing: .15em;
+		}
+		.btn-green {
+			width: 55% !important;
+			margin: 0 auto;
+			img {
+				width: 100%;
+			}
 		}
 		.middle-outer-red,
 		.middle-outer-green,
 		.middle-outer-blue {
+			height: auto;
 			h2 {
 				color: #2B3B77;
 				text-align: center;
@@ -185,7 +205,7 @@
 					}
 				}
 				.red-inner-right {
-					width: 80%;
+					width: 70%;
 					margin: 0 auto;
 					img {
 						width: 100%;
@@ -216,7 +236,7 @@
 					}
 				}
 				.blue-inner-right {
-					width: 80%;
+					width: 70%;
 					margin: 0 auto;
 					img {
 						width: 100%;
@@ -240,7 +260,7 @@
 					margin: 0 auto;
 				}
 				.green-inner-right {
-					width: 80%;
+					width: 70%;
 					margin: 0 auto;
 					img {
 						width: 100%;

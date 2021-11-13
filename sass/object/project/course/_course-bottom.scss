@@ -26,10 +26,12 @@
 					text-align: initial;
 					font-style: normal;
 					margin: 9.5vw auto 3.3vw;
+					letter-spacing: .24em;
 				}
 				h3 {
 					font-size: 2vw;
 					line-height: 3.5vw;
+					letter-spacing: .24em;
 				}
 				.btn-green {
 					margin-top: 4.2vw;
@@ -57,7 +59,7 @@
 			border-bottom: 3px solid #2B3B77;
 			width: fit-content;
 			text-align: center;
-			margin: 0 auto 2.3vw;
+			margin: 12vw auto 2.3vw;
 		}
 		.bottom-under-title {
 			background-repeat: no-repeat;
@@ -68,6 +70,7 @@
 				.bottom-left {
 					width: 90%;
 					margin: 0 auto;
+					padding-top: 4.5vw;
 					h2 {
 						font-size: 6vw;
 						line-height: 7.5vw;
@@ -80,6 +83,7 @@
 					h3 {
 						font-size: 4.5vw;
 						line-height: 5.5vw;
+						font-family: ten-mincho-text, serif;
 					}
 					.btn-green {
 						margin-top: 4.2vw;
@@ -90,7 +94,7 @@
 					}
 				}
 				.bottom-right {
-					width: 90%;
+					width: 70%;
 					margin: 0 auto;
 					padding-top: 4.5vw;
 					padding-bottom: 5vw;
