@@ -35,6 +35,9 @@
 		z-index: 12;
 		width: 42px;
 		height: 42px;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: 30px;
 		cursor: pointer;
 		text-align: center;
 		span:nth-child(1) {
@@ -122,7 +125,7 @@
 			padding-top: 2.5vw;
 			padding-bottom: 1.5vw;
 			box-sizing: border-box;
-			background-image: linear-gradient(to right,#38FFFA 25%,#37F2F9 50%,#37B9F7 75%,#37A3F7 100%);
+			background-image: url(../img/header/flow.png);
 			a {
 				color: #fff;
 				display: block;
@@ -137,7 +140,7 @@
 			padding-top: 2.5vw;
 			padding-bottom: 1.5vw;
 			box-sizing: border-box;
-			background-image: linear-gradient(to right top,#FFAA89 25%,#FD9D86 50%,#FB7D81 75%,#F74978 100%);
+			background-image: url(../img/header/reserve.png);
 			a {
 				color: #fff;
 				display: block;

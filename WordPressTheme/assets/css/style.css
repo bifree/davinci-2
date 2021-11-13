@@ -627,6 +627,9 @@ select {
 	cursor: pointer;
 	display: none;
 	height: 42px;
+	margin-bottom: auto;
+	margin-right: 30px;
+	margin-top: auto;
 	text-align: center;
 	width: 42px;
 	z-index: 12;
@@ -724,7 +727,7 @@ select {
 }
 
 .l-header .header-menu2 .left {
-	background-image: linear-gradient(to right, #38FFFA 25%, #37F2F9 50%, #37B9F7 75%, #37A3F7 100%);
+	background-image: url(../img/header/flow.png);
 	box-sizing: border-box;
 	color: #fff;
 	font-size: 1vw;
@@ -741,7 +744,7 @@ select {
 }
 
 .l-header .header-menu2 .right {
-	background-image: linear-gradient(to right top, #FFAA89 25%, #FD9D86 50%, #FB7D81 75%, #F74978 100%);
+	background-image: url(../img/header/reserve.png);
 	box-sizing: border-box;
 	color: #fff;
 	font-size: 1vw;
@@ -1552,7 +1555,9 @@ select {
 	align-items: center;
 	background-color: #fff;
 	background-image: none;
+	border: 1px solid #D9D9D9;
 	border-radius: 44px;
+	box-shadow: 10px 6px 10px -6px rgba(0, 0, 0, 0.16);
 	box-sizing: border-box;
 	display: flex;
 	height: 25.4vw;
@@ -1614,6 +1619,7 @@ select {
 }
 
 .flow-box-body .flow-box-inner .flow-box .flow8-img {
+	margin-right: 5vw;
 	width: 7.5vw;
 }
 

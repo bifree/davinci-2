@@ -7,8 +7,10 @@
 		margin: 0 auto;
 		.flow-box {
 			background-color: #fff;
+			box-shadow: 10px 6px 10px -6px rgba(0,0,0,0.16);
 			background-image: none;
 			width: 80%;
+			border: 1px solid #D9D9D9;
 			height: 25.4vw;
 			box-sizing: border-box;
 			padding-left: 6vw;
@@ -52,6 +54,7 @@
 			}
 			.flow8-img {
 				width: 7.5vw;
+				margin-right: 5vw;
 				img {
 					width: 100%;
 				}

@@ -108,7 +108,7 @@
 		</div>
 
 		<div class="flow-btn">
-			<a href=""><p>予約ページへ</p></a>
+			<a href="https://davinci.hacomono.jp/reserve/schedule/14/34/"><p>予約ページへ</p></a>
 		</div>
 	</div>
 </div>
