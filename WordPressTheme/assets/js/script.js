@@ -207,3 +207,20 @@ $(function() {
 		});
 	}
 });
+
+    // ヘッダーメニュー
+    $(function() {
+			$('.hamburger').click(function() {
+					$(this).toggleClass('active');
+	
+					if ($(this).hasClass('active')) {
+							$('.globalnav_sp').addClass('active');
+					} else {
+							$('.globalnav_sp').removeClass('active');
+					}
+			});
+			$('#btn_vision').click(function() {
+					$('.globalnav_sp').removeClass('active');
+					$('.hamburger').removeClass('active');
+			});
+	});   
