@@ -42,7 +42,9 @@
 			</div>
 			<div class="red-inner-right">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/course/eclil.png" alt="">
-				<div class="btn-green"></div>
+				<div class="btn-green">
+					<a href="<?php echo home_url('/eclil'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/more.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,7 +61,9 @@
 			</div>
 			<div class="blue-inner-right">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/course/finance.png" alt="">
-				<div class="btn-green"></div>
+				<div class="btn-green">
+					<a href="<?php echo home_url('/finance'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/more.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -76,7 +80,9 @@
 			</div>
 			<div class="green-inner-right">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/course/web.png" alt="">
-				<div class="btn-green"></div>
+				<div class="btn-green">
+					<a href="<?php echo home_url('/steam'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/more.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</div>
