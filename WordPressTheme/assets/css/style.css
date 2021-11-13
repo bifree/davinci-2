@@ -3862,18 +3862,17 @@ img {
 
 .flow-box-body .flow-box-inner .flow-btn {
 	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
-	border-radius: 3.25vw;
+	border-radius: 6vw;
 	color: #fff;
 	display: block;
 	height: auto;
-	line-height: 6vw;
 	margin: 8vw auto 0;
-	width: 30%;
+	width: 40%;
 }
 
 .flow-box-body .flow-box-inner .flow-btn a p {
-	font-size: 3vw;
-	line-height: 6vw;
+	font-size: 4vw;
+	line-height: 12vw;
 	text-align: center;
 }
 

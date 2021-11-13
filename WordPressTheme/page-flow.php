@@ -99,7 +99,9 @@
 		</div>
 		<div class="flow-box8 flow-box">
 			<h3 class="number">8</h3>
-			<p>確認メールに記載されているURLにアクセスし<br>ご登録いただいたメールアドレスの確認を完了してください。<br>以上で予約は完了です。</p>
+			<div class="flow-inner-text">
+				<p>確認メールに記載されているURLにアクセスし<br>ご登録いただいたメールアドレスの確認を完了してください。<br>以上で予約は完了です。</p>
+			</div>
 			<div class="flow8-img">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step8.svg" alt="">
 			</div>
