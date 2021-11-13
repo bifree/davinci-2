@@ -1534,6 +1534,10 @@ select {
 	text-align: center;
 }
 
+.flow-middle .flow-middle-bottom {
+	display: flex;
+}
+
 .flow-middle h2 {
 	font-size: 2.8vw;
 	letter-spacing: 13.44px;
@@ -3746,7 +3750,7 @@ img {
 	display: block;
 	height: auto;
 	margin: 2.5vw auto;
-	padding: 0;
+	padding: 12vw 4vw 4vw;
 	width: 95%;
 }
 
@@ -3756,7 +3760,7 @@ img {
 }
 
 .flow-box-body .flow-box-inner .flow-box p {
-	font-size: 3.3vw;
+	font-size: 4vw;
 	letter-spacing: 6px;
 	line-height: 4.5vw;
 }
@@ -3764,6 +3768,10 @@ img {
 .flow-box-body .flow-box-inner .flow-box p.small {
 	font-size: 1.2vw;
 	line-height: 2vw;
+}
+
+.flow-box-body .flow-box-inner .flow-box .flow-inner-text {
+	padding-bottom: 8vw;
 }
 
 .flow-box-body .flow-box-inner .flow-box .flow1-img,
@@ -3774,7 +3782,8 @@ img {
 .flow-box-body .flow-box-inner .flow-box .flow6-img,
 .flow-box-body .flow-box-inner .flow-box .flow7-img,
 .flow-box-body .flow-box-inner .flow-box .flow8-img {
-	width: 17.2vw;
+	margin: 0 auto;
+	width: 80%;
 }
 
 .flow-box-body .flow-box-inner .flow-box .flow1-img img,
@@ -3799,7 +3808,8 @@ img {
 	width: 30%;
 }
 
-.flow-box-body .flow-box-inner .flow-btn p {
+.flow-box-body .flow-box-inner .flow-btn a p {
+	color: #fff;
 	font-size: 2vw;
 	line-height: 6vw;
 	text-align: center;

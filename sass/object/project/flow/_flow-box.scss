@@ -74,7 +74,7 @@
 				width: 95%;
 				height: auto;
 				box-sizing: border-box;
-				padding: 0;
+				padding: 12vw 4vw 4vw;
 				margin: 2.5vw auto;
 				border-radius: 2.2vw;
 				display: block;
@@ -83,7 +83,7 @@
 					font-size: 7vw;
 				}
 				p {
-					font-size: 3.3vw;
+					font-size: 4vw;
 					line-height: 4.5vw;
 					letter-spacing: 6px;
 				}
@@ -91,10 +91,14 @@
 					font-size: 1.2vw;
 					line-height: 2vw;
 				}
+				.flow-inner-text {
+					padding-bottom: 8vw;
+				}
 				.flow1-img, .flow2-img, .flow3-img,
 				.flow4-img, .flow5-img, .flow6-img,
 				.flow7-img, .flow8-img {
-					width: 17.2vw;
+					width: 80%;
+					margin: 0 auto;
 					img {
 						width: 100%;
 					}
@@ -109,7 +113,8 @@
 				color: #fff;
 				margin: 8vw auto 0;
 				background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
-				p {
+				a p {
+					color: #fff;
 					font-size: 2vw;
 					text-align: center;
 					line-height: 6vw;

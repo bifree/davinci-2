@@ -20,8 +20,15 @@
 	<p>DaVinciでは新規の方に向けて無料レッスンを２回分ご用意しております。 </p>
 	<p>まずは新しい学びのカタチを体感してみましょう。</p> 
 	<p>体験後は定額プランor度払いプランのどちらかをご選択ください。</p>
-	<h2>体験レッスンの予約</h2>
-	<p>新規の方は無料体験チケットが２回分付与されます。</p>
+	<div class="flow-middle-bottom">
+		<div class="flow-middle-text">
+			<h2>体験レッスンの予約</h2>
+			<p>新規の方は無料体験チケットが２回分付与されます。</p>
+		</div>
+		<div class="flow-middle-img">
+			<img src="<?php echo get_template_directory_uri();?>/assets/img/flow/ticket.png" alt="">
+		</div>
+	</div>
 </div>
 
 <div class="flow-box-body">
@@ -99,7 +106,7 @@
 		</div>
 
 		<div class="flow-btn">
-			<p>予約ページへ</p>
+			<a href=""><p>予約ページへ</p></a>
 		</div>
 	</div>
 </div>
