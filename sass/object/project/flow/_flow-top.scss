@@ -1,27 +1,4 @@
 .flow-top {
-	.flow-top-menu {
-		margin-top: 0;
-		height: 4.1vw;
-		background-color: #00B8B8;
-		padding-left: 3.1vw;
-		ul {
-			list-style: none;
-			display: flex;
-			align-items: center;
-			height: 100%;
-			li {
-				display: block;
-				margin-right: 30px;
-				a {
-					color: #fff;
-					font-size: calc(11px + 5 * (100vw - 320px) / 447);
-					height: calc(65px + 15 * (100vw - 320px) / 447);
-					line-height: calc(35px + 11 * (100vw - 320px) / 447);
-					margin-right: calc(10px + 5 * (100vw - 320px) / 447);
-				}
-			}
-		}
-	}
 	.flow-top-image {
 		position: relative;
 		height: 22vw;

@@ -1,15 +1,7 @@
 <?php get_header();?>
 
 <div class="flow-top">
-	<div class="flow-top-menu">
-		<ul>
-			<li><a href="<?php echo home_url('/eclil/');?>">グローバルeスポーツ</a></li>
-			<li><a href="<?php echo home_url('/steam/');?>">WEBデザイン・プログラミング</a></li>
-			<li><a href="<?php echo home_url('/finance/');?>">ファイナンス</a></li>
-			<li><a href="<?php echo home_url('/flow/');?>">体験コース</a></li>
-		</ul>
-	</div>
-
+	<?php get_template_part('template/top-menu');?>
 	<div class="flow-top-image">
 		<h2>FLOW</h2>
 	</div>
