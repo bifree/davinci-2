@@ -533,6 +533,7 @@ select {
 
 .l-footer .footer-middle {
 	margin-left: 6%;
+	margin-right: 5%;
 }
 
 .l-footer .footer-middle .footer-menu {
@@ -740,6 +741,7 @@ select {
 .l-header .header-menu2 .left a {
 	color: #fff;
 	display: block;
+	line-height: 160%;
 	text-align: center;
 }
 
@@ -757,6 +759,7 @@ select {
 .l-header .header-menu2 .right a {
 	color: #fff;
 	display: block;
+	line-height: 160%;
 	text-align: center;
 }
 
@@ -767,6 +770,15 @@ select {
 	padding-left: 25px;
 	padding-right: 25px;
 	width: 100%;
+}
+
+.sns-icon-list {
+	margin-left: auto;
+	margin-top: auto;
+}
+
+.sns-icon-list i:nth-child(2) {
+	margin-left: 32px;
 }
 
 .top-menu {
@@ -1803,7 +1815,18 @@ select {
 }
 
 .plans-bottom .btn-green {
+	background: linear-gradient(to top, #27D5DA 0%, #94F990 100%);
+	background: -webkit-linear-gradient(bottom, #27D5DA 0%, #94F990 100%);
+	border-radius: 65px;
+	color: #fff;
+	display: block;
+	font-size: 2vw;
+	letter-spacing: 0.24em;
+	margin: 0 auto;
 	margin-bottom: 5.7vw;
+	padding: 1.9vw;
+	text-align: center;
+	width: 28%;
 }
 
 .plans-middle {

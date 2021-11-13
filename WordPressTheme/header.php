@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
   <script>
   (function(d) {
@@ -106,12 +107,16 @@
         </div>
         <div class="header-menu2">
           <div class="left">
-            <a href="<?php echo home_url('/flow'); ?>">受講の流れ<br>
-            FLOW</a>
+            <a href="<?php echo home_url('/flow'); ?>">
+              <p class="ja">受講の流れ</p>
+              <p class="en">FLOW</p>
+            </a>
           </div>
           <div class="right">
-            <a href="https://davinci.hacomono.jp/reserve/schedule/14/34/">予約<br>
-            RESERVE</a>
+            <a href="https://davinci.hacomono.jp/reserve/schedule/14/34/">
+            <p class="ja">予約</p>
+            <p class="en">RESERVE</p>
+            </a>
           </div>
         </div>
 

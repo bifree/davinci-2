@@ -28,6 +28,10 @@
             <li><a href="<?php echo home_url('/steam'); ?>">こどもと大人のためのSTEAM教室</a></li>
           </ul>
         </div>
+        <div class="sns-icon-list">
+          <i class="fab fa-facebook-f fa-3x"></i>
+          <i class="fab fa-instagram fa-3x"></i>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
