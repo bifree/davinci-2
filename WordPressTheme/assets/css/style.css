@@ -629,23 +629,23 @@ select {
 	display: none;
 	height: 42px;
 	position: fixed;
-	right: 1vw;
+	right: 13px;
 	text-align: center;
-	top: 1vw;
+	top: 12px;
 	width: 42px;
 	z-index: 12;
 }
 
 .l-header .hamburger span:nth-child(1) {
-	top: 1vw;
+	top: 10px;
 }
 
 .l-header .hamburger span:nth-child(2) {
-	top: 2vw;
+	top: 20px;
 }
 
 .l-header .hamburger span:nth-child(3) {
-	top: 3vw;
+	top: 30px;
 }
 
 .l-header .hamburger span {
@@ -674,13 +674,14 @@ select {
 }
 
 .l-header nav.globalnav_sp {
-	background: #f1c500;
+	background: #2C3B77;
 	color: #fff;
 	display: none;
 	height: 100%;
 	left: 0;
 	opacity: 0;
 	position: fixed;
+	text-align: center;
 	top: 0;
 	transition: opacity .6s ease, visibility .6s ease;
 	width: 100%;
@@ -699,7 +700,7 @@ select {
 }
 
 .l-header nav.globalnav_sp ul li a {
-	color: #333;
+	color: #fff;
 	display: block;
 	font-size: 1.6rem;
 	font-weight: bold;
@@ -3335,6 +3336,7 @@ img {
 
 .l-header {
 	display: flex;
+	min-height: 70px;
 }
 
 .l-header .header-logo {
@@ -3355,6 +3357,34 @@ img {
 
 .l-header .hamburger {
 	display: block;
+}
+
+.l-header nav.globalnav_sp ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.l-header nav.globalnav_sp ul li {
+	list-style-type: none;
+	padding: 0;
+	transition: .4s all;
+	width: 100%;
+}
+
+.l-header nav.globalnav_sp ul li a {
+	color: #fff;
+	display: block;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 16px 0;
+}
+
+.l-header nav.globalnav_sp ul li a span {
+	color: #fff;
+	display: block;
+	font-size: 1.2rem;
+	padding: 8px 0 0;
 }
 
 .about-bottom {
