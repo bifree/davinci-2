@@ -1442,18 +1442,19 @@ select {
 	padding-left: 3.2vw;
 }
 
-.flow-box {
+.flow-box-body {
 	background-image: url(../img/flow/flow-bg.jpg);
 	padding-bottom: 12vw;
 	padding-top: 4.8vw;
 }
 
-.flow-box .flow-box-inner {
+.flow-box-body .flow-box-inner {
 	margin: 0 auto;
 	width: 100%;
 }
 
-.flow-box .flow-box-inner .flow-box {
+.flow-box-body .flow-box-inner .flow-box {
+	align-items: center;
 	background-color: #fff;
 	background-image: none;
 	border-radius: 44px;
@@ -1467,7 +1468,7 @@ select {
 	width: 95%;
 }
 
-.flow-box .flow-box-inner .flow-box h3.number {
+.flow-box-body .flow-box-inner .flow-box h3.number {
 	color: #F47458;
 	font-size: 4vw;
 	left: 2.8vw;
@@ -1475,44 +1476,44 @@ select {
 	top: 2.8vw;
 }
 
-.flow-box .flow-box-inner .flow-box p {
+.flow-box-body .flow-box-inner .flow-box p {
 	font-size: 1.8vw;
 	letter-spacing: 6px;
 	line-height: 3.2vw;
 }
 
-.flow-box .flow-box-inner .flow-box p.small {
+.flow-box-body .flow-box-inner .flow-box p.small {
 	font-size: 24px;
 	line-height: 41px;
 }
 
-.flow-box .flow-box-inner .flow-box .flow-inner-text {
+.flow-box-body .flow-box-inner .flow-box .flow-inner-text {
 	margin-right: auto;
 }
 
-.flow-box .flow-box-inner .flow-box .flow1-img,
-.flow-box .flow-box-inner .flow-box .flow2-img,
-.flow-box .flow-box-inner .flow-box .flow3-img,
-.flow-box .flow-box-inner .flow-box .flow4-img,
-.flow-box .flow-box-inner .flow-box .flow5-img,
-.flow-box .flow-box-inner .flow-box .flow6-img,
-.flow-box .flow-box-inner .flow-box .flow7-img,
-.flow-box .flow-box-inner .flow-box .flow8-img {
+.flow-box-body .flow-box-inner .flow-box .flow1-img,
+.flow-box-body .flow-box-inner .flow-box .flow2-img,
+.flow-box-body .flow-box-inner .flow-box .flow3-img,
+.flow-box-body .flow-box-inner .flow-box .flow4-img,
+.flow-box-body .flow-box-inner .flow-box .flow5-img,
+.flow-box-body .flow-box-inner .flow-box .flow6-img,
+.flow-box-body .flow-box-inner .flow-box .flow7-img,
+.flow-box-body .flow-box-inner .flow-box .flow8-img {
 	width: 17.2vw;
 }
 
-.flow-box .flow-box-inner .flow-box .flow1-img img,
-.flow-box .flow-box-inner .flow-box .flow2-img img,
-.flow-box .flow-box-inner .flow-box .flow3-img img,
-.flow-box .flow-box-inner .flow-box .flow4-img img,
-.flow-box .flow-box-inner .flow-box .flow5-img img,
-.flow-box .flow-box-inner .flow-box .flow6-img img,
-.flow-box .flow-box-inner .flow-box .flow7-img img,
-.flow-box .flow-box-inner .flow-box .flow8-img img {
+.flow-box-body .flow-box-inner .flow-box .flow1-img img,
+.flow-box-body .flow-box-inner .flow-box .flow2-img img,
+.flow-box-body .flow-box-inner .flow-box .flow3-img img,
+.flow-box-body .flow-box-inner .flow-box .flow4-img img,
+.flow-box-body .flow-box-inner .flow-box .flow5-img img,
+.flow-box-body .flow-box-inner .flow-box .flow6-img img,
+.flow-box-body .flow-box-inner .flow-box .flow7-img img,
+.flow-box-body .flow-box-inner .flow-box .flow8-img img {
 	width: 100%;
 }
 
-.flow-box .flow-box-inner .flow-btn {
+.flow-box-body .flow-box-inner .flow-btn {
 	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
 	border-radius: 3.2vw;
 	color: #fff;
@@ -1523,7 +1524,7 @@ select {
 	width: 30%;
 }
 
-.flow-box .flow-box-inner .flow-btn p {
+.flow-box-body .flow-box-inner .flow-btn p {
 	font-size: 2vw;
 	line-height: 6vw;
 	text-align: center;
@@ -3730,14 +3731,14 @@ img {
 	top: 0;
 }
 
-.flow-box .flow-box-inner {
+.flow-box-body .flow-box-inner {
 	margin: 0 auto;
 	padding-bottom: 10vw;
 	padding-top: 10vw;
 	width: 100%;
 }
 
-.flow-box .flow-box-inner .flow-box {
+.flow-box-body .flow-box-inner .flow-box {
 	background-color: #fff;
 	background-image: none;
 	border-radius: 2.2vw;
@@ -3749,45 +3750,45 @@ img {
 	width: 95%;
 }
 
-.flow-box .flow-box-inner .flow-box h3.number {
+.flow-box-body .flow-box-inner .flow-box h3.number {
 	color: #F47458;
 	font-size: 7vw;
 }
 
-.flow-box .flow-box-inner .flow-box p {
+.flow-box-body .flow-box-inner .flow-box p {
 	font-size: 3.3vw;
 	letter-spacing: 6px;
 	line-height: 4.5vw;
 }
 
-.flow-box .flow-box-inner .flow-box p.small {
+.flow-box-body .flow-box-inner .flow-box p.small {
 	font-size: 1.2vw;
 	line-height: 2vw;
 }
 
-.flow-box .flow-box-inner .flow-box .flow1-img,
-.flow-box .flow-box-inner .flow-box .flow2-img,
-.flow-box .flow-box-inner .flow-box .flow3-img,
-.flow-box .flow-box-inner .flow-box .flow4-img,
-.flow-box .flow-box-inner .flow-box .flow5-img,
-.flow-box .flow-box-inner .flow-box .flow6-img,
-.flow-box .flow-box-inner .flow-box .flow7-img,
-.flow-box .flow-box-inner .flow-box .flow8-img {
+.flow-box-body .flow-box-inner .flow-box .flow1-img,
+.flow-box-body .flow-box-inner .flow-box .flow2-img,
+.flow-box-body .flow-box-inner .flow-box .flow3-img,
+.flow-box-body .flow-box-inner .flow-box .flow4-img,
+.flow-box-body .flow-box-inner .flow-box .flow5-img,
+.flow-box-body .flow-box-inner .flow-box .flow6-img,
+.flow-box-body .flow-box-inner .flow-box .flow7-img,
+.flow-box-body .flow-box-inner .flow-box .flow8-img {
 	width: 17.2vw;
 }
 
-.flow-box .flow-box-inner .flow-box .flow1-img img,
-.flow-box .flow-box-inner .flow-box .flow2-img img,
-.flow-box .flow-box-inner .flow-box .flow3-img img,
-.flow-box .flow-box-inner .flow-box .flow4-img img,
-.flow-box .flow-box-inner .flow-box .flow5-img img,
-.flow-box .flow-box-inner .flow-box .flow6-img img,
-.flow-box .flow-box-inner .flow-box .flow7-img img,
-.flow-box .flow-box-inner .flow-box .flow8-img img {
+.flow-box-body .flow-box-inner .flow-box .flow1-img img,
+.flow-box-body .flow-box-inner .flow-box .flow2-img img,
+.flow-box-body .flow-box-inner .flow-box .flow3-img img,
+.flow-box-body .flow-box-inner .flow-box .flow4-img img,
+.flow-box-body .flow-box-inner .flow-box .flow5-img img,
+.flow-box-body .flow-box-inner .flow-box .flow6-img img,
+.flow-box-body .flow-box-inner .flow-box .flow7-img img,
+.flow-box-body .flow-box-inner .flow-box .flow8-img img {
 	width: 100%;
 }
 
-.flow-box .flow-box-inner .flow-btn {
+.flow-box-body .flow-box-inner .flow-btn {
 	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
 	border-radius: 3.25vw;
 	color: #fff;
@@ -3798,7 +3799,7 @@ img {
 	width: 30%;
 }
 
-.flow-box .flow-box-inner .flow-btn p {
+.flow-box-body .flow-box-inner .flow-btn p {
 	font-size: 2vw;
 	line-height: 6vw;
 	text-align: center;
