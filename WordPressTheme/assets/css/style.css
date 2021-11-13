@@ -588,6 +588,8 @@ select {
 }
 
 .l-header .header-logo {
+	margin-left: 2.5vw;
+	padding-top: 1.3vw;
 	width: 13.5%;
 }
 
@@ -609,13 +611,16 @@ select {
 
 .l-header .header-menu-pc ul li {
 	align-items: center;
+	box-sizing: border-box;
 	display: flex;
 	line-height: 100%;
+	padding-bottom: 1.5vw;
+	padding-top: 2.5vw;
 }
 
 .l-header .header-menu-pc ul li a {
 	color: #3E3A39;
-	line-height: 100%;
+	line-height: 130%;
 	text-align: center;
 }
 
@@ -625,28 +630,36 @@ select {
 
 .l-header .header-menu2 .left {
 	background-image: linear-gradient(to right, #38FFFA 25%, #37F2F9 50%, #37B9F7 75%, #37A3F7 100%);
+	box-sizing: border-box;
 	color: #fff;
 	font-size: 1vw;
 	height: 100%;
+	padding-bottom: 1.5vw;
+	padding-top: 2.5vw;
 	width: 6.5vw;
 }
 
 .l-header .header-menu2 .left a {
 	color: #fff;
 	display: block;
+	text-align: center;
 }
 
 .l-header .header-menu2 .right {
 	background-image: linear-gradient(to right top, #FFAA89 25%, #FD9D86 50%, #FB7D81 75%, #F74978 100%);
+	box-sizing: border-box;
 	color: #fff;
 	font-size: 1vw;
 	height: 100%;
+	padding-bottom: 1.5vw;
+	padding-top: 2.5vw;
 	width: 6.5vw;
 }
 
 .l-header .header-menu2 .right a {
 	color: #fff;
 	display: block;
+	text-align: center;
 }
 
 .l-inner {
@@ -1477,7 +1490,7 @@ select {
 	text-align: center;
 	top: 50%;
 	width: 100%;
-	z-index: 1;
+	z-index: 2;
 }
 
 .plans-bottom .plans-bottom-inner {
@@ -3595,6 +3608,7 @@ img {
 }
 
 .course-top .course-top-image {
+	background-size: cover;
 	height: 30vh;
 	position: relative;
 }
