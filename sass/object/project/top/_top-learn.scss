@@ -67,17 +67,45 @@
 
 
 .fade-in{
-  transform: translateY(50px);
+  transform: translateY(100px);
   opacity: 0;
 }
 
-/* トリガー発火でis-activeを付与 */
 .fade-in.is-active{
-  transition: 1.2s;
+  transition: 1.5s;
   transform: translateY(0);
   opacity: 1;
 }
 
+.fade-in.is-active-late{
+  transition: 1.5s;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+.slide-in-left{
+  transform: translateX(-150px);
+  opacity: 0;
+}
+
+.slide-in-left.is-active{
+  transition: 1.5s;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-in-right{
+  transform: translateX(150px);
+  opacity: 0;
+}
+
+.slide-in-right.is-active{
+  transition: 1.5s;
+  transform: translateX(0);
+  opacity: 1;
+}
 
 
 

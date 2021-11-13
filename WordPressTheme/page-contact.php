@@ -6,7 +6,6 @@
         </div>
 
         <div class="contact-top-image">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/contact/contact.jpg" alt="">
             <h2>CONTACT</h2>
         </div>
 

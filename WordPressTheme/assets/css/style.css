@@ -876,12 +876,43 @@ select {
 	vertical-align: middle;
 }
 
+.contact .contact-top-image {
+	background-image: url(../img/contact/contact.jpg);
+	background-size: cover;
+	height: 22vw;
+	position: relative;
+}
+
+.contact .contact-top-image h2 {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: calc(38px + 18 * (100vw - 768px) / 1152);
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 0.24em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
+}
+
+.contact .contact-top-image::after {
+	background-color: rgba(0, 0, 0, 0.13);
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 .contact .contact-container {
 	padding: 0 1.3vw;
 }
 
 .contact .contact-container__title {
-	font-size: 2.9vw;
+	font-size: calc(38px + 18 * (100vw - 768px) / 1152);
 	margin: 10vw 0;
 	text-align: center;
 }
@@ -897,7 +928,7 @@ select {
 	position: relative;
 	top: -5px;
 	vertical-align: middle;
-	width: 4.4vw;
+	width: calc(57px + 28 * (100vw - 768px) / 1152);
 }
 
 .contact .contact-container__form {
@@ -1252,6 +1283,61 @@ select {
 .each-course-faq__content .each-course-faq__a__small {
 	font-size: calc(18px + 10 * (100vw - 768px) / 1152);
 	line-height: 2.5;
+}
+
+.each-course-top .each-course-top-menu {
+	background-color: #00b8b8;
+}
+
+.each-course-top .each-course-top-menu ul {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	list-style: none;
+	margin-left: 3.5vw;
+}
+
+.each-course-top .each-course-top-menu ul a {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: calc(16px + 2 * (100vw - 768px) / 1152);
+	font-style: normal;
+	font-weight: 700;
+	height: calc(46px + 38 * (100vw - 768px) / 1152);
+	line-height: calc(46px + 38 * (100vw - 768px) / 1152);
+	margin-right: 36px;
+	vertical-align: middle;
+}
+
+.each-course-top .each-course-top-image {
+	background-image: url(../img/course/title-bg.jpg);
+	background-size: cover;
+	height: 22vw;
+	position: relative;
+}
+
+.each-course-top .each-course-top-image h2 {
+	color: #fff;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: calc(38px + 18 * (100vw - 768px) / 1152);
+	font-style: bold;
+	font-weight: 700;
+	letter-spacing: 0.24em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	z-index: 1;
+}
+
+.each-course-top .each-course-top-image:after {
+	background-color: rgba(0, 0, 0, 0.13);
+	bottom: 0;
+	content: '';
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .each-course-container {
@@ -2149,15 +2235,41 @@ select {
 
 .fade-in {
 	opacity: 0;
-	transform: translateY(50px);
+	transform: translateY(100px);
 }
-
-/* トリガー発火でis-activeを付与 */
 
 .fade-in.is-active {
 	opacity: 1;
 	transform: translateY(0);
-	transition: 1.2s;
+	transition: 1.5s;
+}
+
+.fade-in.is-active-late {
+	opacity: 1;
+	transform: translateY(0);
+	transition: 1.5s;
+}
+
+.slide-in-left {
+	opacity: 0;
+	transform: translateX(-150px);
+}
+
+.slide-in-left.is-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: 1.5s;
+}
+
+.slide-in-right {
+	opacity: 0;
+	transform: translateX(150px);
+}
+
+.slide-in-right.is-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: 1.5s;
 }
 
 .top-lesson {
@@ -2475,56 +2587,6 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
-.contact .contact-top-image {
-	position: relative;
-}
-
-.contact .contact-top-image h2 {
-	color: #fff;
-	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: 3.5vw;
-	font-style: bold;
-	font-weight: 700;
-	left: 50%;
-	letter-spacing: 0.24em;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	transform: translateY(-50%) translateX(-50%);
-	width: 100vw;
-	z-index: 1;
-}
-
-.contact .contact-top-image::after {
-	background-color: rgba(0, 0, 0, 0.13);
-	bottom: 0;
-	content: "";
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-.contact .contact-container__title {
-	font-size: 3.5vw;
-	margin: 10vw 0;
-	text-align: center;
-}
-
-.contact .contact-container__title::before {
-	background-image: url("../../../WordPressTheme/assets/img/contact/contact_icon.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	content: "";
-	display: inline-block;
-	height: 5.3vw;
-	margin-right: 2.6vw;
-	position: relative;
-	top: -5px;
-	vertical-align: middle;
-	width: 5.3vw;
-}
-
 .terms .tokushoho_content th {
 	width: 13vw;
 }
@@ -2536,36 +2598,6 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-
-.contact .contact-top-image {
-	position: relative;
-}
-
-.contact .contact-top-image h2 {
-	color: #fff;
-	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: 2.8vw;
-	font-style: bold;
-	font-weight: 700;
-	left: 50%;
-	letter-spacing: 0.24em;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	transform: translateY(-50%) translateX(-50%);
-	width: 100vw;
-	z-index: 1;
-}
-
-.contact .contact-top-image::after {
-	background-color: rgba(0, 0, 0, 0.13);
-	bottom: 0;
-	content: "";
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
 
 .terms .tokushoho_content th {
 	width: 13vw;
@@ -2725,6 +2757,41 @@ img {
 
 .each-course-faq__content .each-course-faq__a__small {
 	font-size: 3vw;
+}
+
+.each-course-top-menu ul {
+	margin: 0 0 0 8.7vw;
+}
+
+.each-course-top-menu a {
+	font-size: calc(13px + 4 * (100vw - 320px) / 447);
+	height: calc(35px + 11 * (100vw - 320px) / 447);
+	line-height: calc(35px + 11 * (100vw - 320px) / 447);
+}
+
+.each-course-top-image {
+	background-size: cover;
+	height: 30vw;
+	position: relative;
+}
+
+.each-course-top-image img {
+	width: 100%;
+}
+
+.each-course-top-image h2 {
+	font-size: calc(23px + 15 * (100vw - 320px) / 447);
+	left: 50%;
+	letter-spacing: 0.24em;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contact-container__title {
+	font-size: calc(23px + 15 * (100vw - 320px) / 447);
+	margin: 10vw 0;
+	text-align: center;
 }
 
 .each-course-container {
@@ -3285,49 +3352,39 @@ img {
 	background-color: #00b8b8;
 }
 
-.contact .contact-top-menu_text {
+.contact .contact-top-menu h1 {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: calc(14px + 2 * (100vw - 320px) / 447);
+	font-size: calc(13px + 4 * (100vw - 320px) / 447);
 	font-style: normal;
 	font-weight: 700;
-	line-height: calc(40px + 6 * (100vw - 320px) / 447);
+	height: calc(35px + 11 * (100vw - 320px) / 447);
+	line-height: calc(35px + 11 * (100vw - 320px) / 447);
 	margin: 0 0 0 8.7vw;
 	vertical-align: middle;
 }
 
 .contact .contact-top-image {
+	background-size: cover;
+	height: 30vw;
 	position: relative;
 }
 
+.contact .contact-top-image img {
+	width: 100%;
+}
+
 .contact .contact-top-image h2 {
-	color: #fff;
-	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: 6.2vw;
-	font-style: bold;
-	font-weight: 700;
+	font-size: calc(23px + 15 * (100vw - 320px) / 447);
 	left: 50%;
 	letter-spacing: 0.24em;
 	position: absolute;
-	text-align: center;
 	top: 50%;
-	transform: translateY(-50%) translateX(-50%);
-	width: 100vw;
-	z-index: 1;
-}
-
-.contact .contact-top-image::after {
-	background-color: rgba(0, 0, 0, 0.13);
-	bottom: 0;
-	content: "";
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
+	transform: translate(-50%, -50%);
 }
 
 .contact .contact-container__title {
-	font-size: 6.2vw;
+	font-size: calc(23px + 15 * (100vw - 320px) / 447);
 	margin: 10vw 0;
 	text-align: center;
 }
@@ -3338,12 +3395,12 @@ img {
 	background-size: contain;
 	content: "";
 	display: inline-block;
-	height: 9.3vw;
+	height: calc(36px + 21 * (100vw - 320px) / 447);
 	margin-right: 2.8vw;
 	position: relative;
 	top: -5px;
 	vertical-align: middle;
-	width: 9.3vw;
+	width: calc(36px + 21 * (100vw - 320px) / 447);
 }
 
 .contact .contact-container__form {
@@ -3585,6 +3642,25 @@ img {
 
 .course-middle .middle-green .middle-inner-green .green-inner-right img {
 	width: 100%;
+}
+
+.course-top .contact-top-image {
+	background-size: cover;
+	height: 30vw;
+	position: relative;
+}
+
+.course-top .contact-top-image img {
+	width: 100%;
+}
+
+.course-top .contact-top-image h2 {
+	font-size: calc(23px + 15 * (100vw - 320px) / 447);
+	left: 50%;
+	letter-spacing: 0.24em;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .course-top .course-top-menu {
@@ -3864,12 +3940,12 @@ img {
 .terms h1 {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: calc(14px + 2 * (100vw - 320px) / 447);
+	font-size: calc(13px + 4 * (100vw - 320px) / 447);
 	font-style: normal;
 	font-weight: 700;
-	height: calc(40px + 6 * (100vw - 320px) / 447);
-	line-height: calc(40px + 6 * (100vw - 320px) / 447);
-	margin-left: 8.7vw;
+	height: calc(35px + 11 * (100vw - 320px) / 447);
+	line-height: calc(35px + 11 * (100vw - 320px) / 447);
+	margin: 0 0 0 8.7vw;
 	vertical-align: middle;
 }
 

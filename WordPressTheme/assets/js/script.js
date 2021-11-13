@@ -94,7 +94,7 @@ $('.top-mainvisual__slider').slick({
 											scroll = $(window).scrollTop(),
 											windowHeight = $(window).height();
 	
-									if (scroll > position - windowHeight + 300) {
+									if (scroll > position - windowHeight + 50) {
 											$(this).addClass('is-active');
 									}
 							});
@@ -102,3 +102,26 @@ $('.top-mainvisual__slider').slick({
 			}
 			$(window).trigger('scroll');
 	});
+
+	$(function () {
+		// aimation呼び出し
+		if ($('.js-scroll-trigger-late').length) {
+				scrollAnimation();
+		}
+
+		// aimation関数
+		function scrollAnimation() {
+				$(window).scroll(function () {
+						$(".js-scroll-trigger-late").each(function () {
+								let position = $(this).offset().top,
+										scroll = $(window).scrollTop(),
+										windowHeight = $(window).height();
+
+								if (scroll > position - windowHeight + 300) {
+										$(this).addClass('is-active-late');
+								}
+						});
+				});
+		}
+		$(window).trigger('scroll');
+});

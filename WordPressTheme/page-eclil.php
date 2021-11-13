@@ -1,9 +1,19 @@
 <?php get_header(); ?>
 
 <main>
-  <?php get_template_part('template/course-top-menu');?>  
-
-  <?php get_template_part('template/course-mainvisual');?>  
+  <div class="each-course-top">
+    <div class="each-course-top-menu">
+      <ul>
+        <li><a href="<?php echo home_url('/eclil/');?>">グローバルeスポーツ</a></li>
+        <li><a href="<?php echo home_url('/steam/');?>">WEBデザイン・プログラミング</a></li>
+        <li><a href="<?php echo home_url('/finance/');?>">ファイナンス</a></li>
+        <li><a href="<?php echo home_url('/flow/');?>">体験コース</a></li>
+      </ul>
+    </div>
+    <div class="each-course-top-image">
+      <h2>COURSE</h2>
+    </div>
+  </div> 
 
   <section class="each-course-top">
     <div class="each-course-container">
@@ -11,35 +21,37 @@
         <h2 class="each-course-top__title__text 
         eclil-top__title">e-CLIL(イークリル)</h2>
       </div>
-      <div class="eclil-top__img">
-        <div class="eclil-top__esports">
-          <div class="eclil-top__esports__img">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/esports.png" alt="davinci">
+      <div class="fade-in js-scroll-trigger">
+        <div class="eclil-top__img">
+          <div class="eclil-top__esports">
+            <div class="eclil-top__esports__img">
+              <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/esports.png" alt="davinci">
+            </div>
+            <div class="eclil-top__esports__icon">
+              <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/esports-icon.svg" alt="davinci">
+            </div>
+            <p class="eclil-top__esports__text">e-sports</p>
           </div>
-          <div class="eclil-top__esports__icon">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/esports-icon.svg" alt="davinci">
-          </div>
-          <p class="eclil-top__esports__text">e-sports</p>
-        </div>
 
-        <div class="eclil-top__times">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/times.svg" alt="davinci">
-        </div>
+          <div class="eclil-top__times">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/times.svg" alt="davinci">
+          </div>
 
-        <div class="eclil-top__english">
-          <div class="eclil-top__english__img">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/english.png" alt="davinci">
+          <div class="eclil-top__english">
+            <div class="eclil-top__english__img">
+              <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/english.png" alt="davinci">
+            </div>
+            <div class="eclil-top__english__icon">
+              <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/english-icon.svg" alt="davinci">
+            </div>
+            <p class="eclil-top__english__text">English</p>
           </div>
-          <div class="eclil-top__english__icon">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/english-icon.svg" alt="davinci">
-          </div>
-          <p class="eclil-top__english__text">English</p>
         </div>
       </div>
     </div>
   </section>
     
-  <section class="each-course-content">
+  <section class="each-course-content  fade-in js-scroll-trigger">
     <div class="each-course-container">
       <h2 class="each-course-content__title">
         「学ぶ力を、信じる」
@@ -55,7 +67,7 @@
   </section>
 
   <section class="each-course-faq">
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHEN</span>
         　いつ受講できるか
@@ -69,7 +81,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHERE</span>
         　どこで受講できるのか
@@ -80,7 +92,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHO</span>
         　誰が受講できるのか
@@ -91,7 +103,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHAT</span>
         　何が受講できるのか
@@ -102,7 +114,7 @@
       ・プランの立案・チームでのディベート　など
       </p>
     </div>
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">HOW</span>
         　どのように受講できるのか
@@ -114,7 +126,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">TOOL</span>
         準備が必要なもの
