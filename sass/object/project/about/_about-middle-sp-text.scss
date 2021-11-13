@@ -1,0 +1,13 @@
+.about-middle-sp-text {
+	display: none;
+	p {
+		font-size: 3.3vw;
+		line-height: 4.5vw;
+		letter-spacing: .15em;
+	}
+	@media screen and (max-width: 767px) {
+		display: block;
+		margin: 3vh auto 0;
+		width: 90%;
+	}
+}

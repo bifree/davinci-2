@@ -7,19 +7,28 @@
 		h4 {
 			font-size: 2.2vw;
 			line-height: 2.5vw;
+			letter-spacing: 0.24em;
+			img {
+				width: 6vw;
+				line-height: 6.2vw;
+			}
 		}
 		.company-logo {
-			width: 28%;
 			margin-top: 5vw;
 			margin-bottom: 3.4vw;
-			img {
-				width: 100%;
+			display: flex;
+			.company-logo-l {
+				width: 28.7%;
+			}
+			.company-logo-r {
+				width: 220px;
 			}
 		}
 		.company-info {
 			display: flex;
 			margin-bottom: 5vw;
 			p {
+				font-size: 1.2vw;
 				line-height: 1.7vw;
 			}
 			.company-info-1 {
@@ -33,12 +42,39 @@
 	.about-bottom-project {
 		padding-right: 7vw;
 		padding-left: 8vw;
+		h4 {
+			letter-spacing: 0.24em;
+			img {
+				width: 6.2vw;
+				line-height: 6.4vw;
+			}
+		}
 		p {
-			font-size: 1.1vw;
+			font-size: 1.2vw;
 			line-height: 2.5vw;
 		}
 		.about-project-inner {
 			display: flex;
+		}
+	}
+	@media screen and (max-width: 1240px) {
+		.about-bottom-company {
+			.company-logo {
+				.company-logo-l {
+					width: 300px;
+				}
+				.company-logo-r {
+					width: 220px;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		.about-project-right {
+			width: 40%;
+			img {
+				width: 100%;
+			}
 		}
 	}
 	@media screen and (max-width: 767px) {
@@ -52,18 +88,39 @@
 				line-height: 5.5vw;
 			}
 			.company-logo {
-				width: 28%;
+				width: 60%;
+				display: block;
 				margin-top: 5vw;
 				margin-bottom: 3.4vw;
+				.company-logo-l {
+					width: 100%;
+				}
+				.company-logo-r {
+					width: 80%;
+					a {
+						width: 100%;
+						img {
+							width: 100%;
+						}
+					}
+				}
 				img {
 					width: 100%;
+				}
+				a {
+					display: block;
+					width: 70%;
+					img {
+						width: 100%;
+					}
 				}
 			}
 			.company-info {
 				display: block;
 				margin-bottom: 5vw;
 				p {
-					line-height: 3vw;
+					font-size: 3.3vw;
+					line-height: 4.5vw;
 				}
 				.company-info-1 {
 					width: auto;
@@ -76,6 +133,10 @@
 		.about-bottom-project {
 			padding-right: 7vw;
 			padding-left: 8vw;
+			h4 {
+				font-size: 4.5vw;
+				line-height: 5.5vw;
+			}
 			p {
 				font-size: 3.3vw;
 				line-height: 4.5vw;

@@ -4,4 +4,8 @@
 	i:nth-child(2) {
 		margin-left: 32px;
 	}
+	@media screen and (max-width: 767px) {
+		margin-top: 4.5vw;
+		font-size: 2.2vw;
+	} 
 }
