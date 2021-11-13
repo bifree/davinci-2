@@ -122,12 +122,12 @@
         </div>
         <nav id="header-sp" class="globalnav_sp">
             <ul>
-                <li><a href="https://davinci-tanq.com/" class="">ホーム<span>HOME</span></a></li>
-                <li><a href="https://davinci-tanq.com/about.php" class="">DaVinciとは<span>ABOUT</span></a></li>
-                <li><a href="https://davinci-tanq.com/course/index.php" class="">コース<span>COURSE</span></a></li>
-                <li><a href="https://davinci-tanq.com/plan.php" class="">料金プラン<span>PLAN</span></a></li>
-                <li><a href="https://davinci-tanq.com/contact.php" class="">お問い合わせ<span>CONTACT</span></a></li>
-                <li><a href="https://davinci-tanq.com/flow.php" class="">受講の流れ<span>FLOW</span></a></li>
+                <li><a href="<?php echo home_url('/'); ?>" class="">ホーム<span>HOME</span></a></li>
+                <li><a href="<?php echo home_url('/about'); ?>" class="">DaVinciとは<span>ABOUT</span></a></li>
+                <li><a href="<?php echo home_url('/course'); ?>" class="">コース<span>COURSE</span></a></li>
+                <li><a href="<?php echo home_url('/plans'); ?>" class="">料金プラン<span>PLAN</span></a></li>
+                <li><a href="<?php echo home_url('/contact'); ?>" class="">お問い合わせ<span>CONTACT</span></a></li>
+                <li><a href="<?php echo home_url('/flow'); ?>" class="">受講の流れ<span>FLOW</span></a></li>
                 <li><a href="https://davinci.hacomono.jp/" target="_blank" >予約する<span>RESERVE</span></a></li>
             </ul>
         </nav>
