@@ -2,6 +2,8 @@
 	display: flex;
 	.header-logo {
 		width: 13.5%;
+		padding-top: 1.3vw;
+		margin-left: 2.5vw;
 		img {
 			width: 100%;
 		}
@@ -17,10 +19,13 @@
 			li {
 				line-height: 100%;
 				display: flex;
+				box-sizing: border-box;
 				align-items: center;
+				padding-top: 2.5vw;
+				padding-bottom: 1.5vw;
 				a {
 					color: #3E3A39;
-					line-height: 100%;
+					line-height: 130%;
 					text-align: center;
 				}
 			}
@@ -33,10 +38,14 @@
 			height: 100%;
 			font-size: 1vw;
 			color: #fff;
+			padding-top: 2.5vw;
+			padding-bottom: 1.5vw;
+			box-sizing: border-box;
 			background-image: linear-gradient(to right,#38FFFA 25%,#37F2F9 50%,#37B9F7 75%,#37A3F7 100%);
 			a {
 				color: #fff;
 				display: block;
+				text-align: center;
 			}
 		}
 		.right {
@@ -44,10 +53,14 @@
 			height: 100%;
 			font-size: 1vw;
 			color: #fff;
+			padding-top: 2.5vw;
+			padding-bottom: 1.5vw;
+			box-sizing: border-box;
 			background-image: linear-gradient(to right top,#FFAA89 25%,#FD9D86 50%,#FB7D81 75%,#F74978 100%);
 			a {
 				color: #fff;
 				display: block;
+				text-align: center;
 			}
 		}
 	}
