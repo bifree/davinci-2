@@ -36,7 +36,7 @@
 		<div class="flow-box1 flow-box">
 			<h3 class="number">1</h3>
 			<div class="flow-inner-text">
-				<p>当サイトのメニュー「予約する」 より予約ページへ移動します。</p>
+				<p>当サイトのメニュー「予約する」<br>より予約ページへ移動します。</p>
 				<p class="small">★予約ページのブックマークを忘れずに！</p>
 			</div>
 			<div class="flow1-img">
@@ -73,7 +73,7 @@
 		<div class="flow-box5 flow-box">
 			<h3 class="number">5</h3>
 			<div class="flow-inner-text">
-				<p>体験チケット[2回分無料]に チェックが付いていることを 確認し、次へ。</p>
+				<p>体験チケット[2回分無料]に<br>チェックが付いていることを<br>確認し、次へ。</p>
 			</div>
 			<div class="flow5-img">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step5.jpg" alt="">
@@ -82,7 +82,7 @@
 		<div class="flow-box6 flow-box">
 			<h3 class="number">6</h3>
 			<div class="flow-inner-text">
-				<p>会員情報を入力し、確認画面へ。 氏名・性別・生年月日・メール アドレス・パスワード・DM配信希望 （選択制）を入力してください。</p>
+				<p>会員情報を入力し、確認画面へ。<br>氏名・性別・生年月日・メール<br>アドレス・パスワード・DM配信希望<br> （選択制）を入力してください。</p>
 			</div>
 			<div class="flow6-img">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step6.jpg" alt="">
@@ -91,7 +91,7 @@
 		<div class="flow-box7 flow-box">
 			<h3 class="number">7</h3>
 			<div class="flow-inner-text">
-				<p>内容を確認の上、利用規約に同意し 「上記内容で予約する」をクリックする。 ・正しいメールアドレスを入力している・予約内容に誤りがない・「トライアル予約」の記載がある</p>
+				<p>内容を確認の上、利用規約に同意し<br>「上記内容で予約する」をクリックする。<br>・正しいメールアドレスを入力している<br>・予約内容に誤りがない<br>・「トライアル予約」の記載がある</p>
 			</div>
 			<div class="flow7-img">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step7.jpg" alt="">
@@ -99,7 +99,9 @@
 		</div>
 		<div class="flow-box8 flow-box">
 			<h3 class="number">8</h3>
-			<p>確認メールに記載されているURLにアクセスし ご登録いただいたメールアドレスの確認を完了してください。 以上で予約は完了です。</p>
+			<div class="flow-inner-text">
+				<p>確認メールに記載されているURLにアクセスし<br>ご登録いただいたメールアドレスの確認を完了してください。<br>以上で予約は完了です。</p>
+			</div>
 			<div class="flow8-img">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step8.svg" alt="">
 			</div>
