@@ -2290,7 +2290,7 @@ select {
 	background: #d6d6d6;
 	cursor: pointer;
 	display: block;
-	font-size: 1.1vw;
+	font-size: 1.3vw;
 	font-weight: 100;
 	padding: 2vw;
 	position: relative;
@@ -2307,7 +2307,7 @@ select {
 
 .top-faq .top-faq__items .top-faq__item .top-faq__a {
 	background: #f2f2f2;
-	font-size: 1vw;
+	font-size: 1.3vw !important;
 	font-weight: 100 !important;
 	height: 0;
 	opacity: 0;
