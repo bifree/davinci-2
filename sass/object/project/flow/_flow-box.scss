@@ -1,5 +1,7 @@
 .flow-box {
 	background-image: url(../img/flow/flow-bg.jpg);
+	padding-top: 4.8vw;
+	padding-bottom: 12vw;
 	.flow-box-inner {
 		width: 100%;
 		margin: 0 auto;
@@ -14,9 +16,13 @@
 			margin: 50px auto;
 			border-radius: 44px;
 			display: flex;
+			position: relative;
 			h3.number {
 				color: #F47458;
-				font-size: 80px;
+				font-size: 4vw;
+				position: absolute;
+				top: 2.8vw;
+				left: 2.8vw;
 			}
 			p {
 				font-size: 1.8vw;
@@ -26,6 +32,9 @@
 			p.small {
 				font-size: 24px;
 				line-height: 41px;
+			}
+			.flow-inner-text {
+				margin-right: auto;
 			}
 			.flow1-img, .flow2-img, .flow3-img,
 			.flow4-img, .flow5-img, .flow6-img,
@@ -37,18 +46,18 @@
 			}
 		}
 		.flow-btn {
-			border-radius: 65px;
+			border-radius: 3.2vw;
 			height: auto;
 			width: 30%;
 			display: block;
-			line-height: 123px;
+			line-height: 6.1vw;
 			color: #fff;
-			margin: 162px auto 0;
+			margin: 8vw auto 0;
 			background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
 			p {
-				font-size: 43px;
+				font-size: 2vw;
 				text-align: center;
-				line-height: 123px;
+				line-height: 6vw;
 			}
 		}
 	}
@@ -65,8 +74,8 @@
 				height: auto;
 				box-sizing: border-box;
 				padding: 0;
-				margin: 50px auto;
-				border-radius: 44px;
+				margin: 2.5vw auto;
+				border-radius: 2.2vw;
 				display: block;
 				h3.number {
 					color: #F47458;
@@ -78,8 +87,8 @@
 					letter-spacing: 6px;
 				}
 				p.small {
-					font-size: 24px;
-					line-height: 41px;
+					font-size: 1.2vw;
+					line-height: 2vw;
 				}
 				.flow1-img, .flow2-img, .flow3-img,
 				.flow4-img, .flow5-img, .flow6-img,
@@ -91,11 +100,11 @@
 				}
 			}
 			.flow-btn {
-				border-radius: 65px;
+				border-radius: 3.25vw;
 				height: auto;
 				width: 30%;
 				display: block;
-				line-height: 123px;
+				line-height: 6vw;
 				color: #fff;
 				margin: 8vw auto 0;
 				background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;

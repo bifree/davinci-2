@@ -1444,6 +1444,8 @@ select {
 
 .flow-box {
 	background-image: url(../img/flow/flow-bg.jpg);
+	padding-bottom: 12vw;
+	padding-top: 4.8vw;
 }
 
 .flow-box .flow-box-inner {
@@ -1461,12 +1463,16 @@ select {
 	margin: 50px auto;
 	padding-left: 55px;
 	padding-right: 100px;
+	position: relative;
 	width: 95%;
 }
 
 .flow-box .flow-box-inner .flow-box h3.number {
 	color: #F47458;
-	font-size: 80px;
+	font-size: 4vw;
+	left: 2.8vw;
+	position: absolute;
+	top: 2.8vw;
 }
 
 .flow-box .flow-box-inner .flow-box p {
@@ -1478,6 +1484,10 @@ select {
 .flow-box .flow-box-inner .flow-box p.small {
 	font-size: 24px;
 	line-height: 41px;
+}
+
+.flow-box .flow-box-inner .flow-box .flow-inner-text {
+	margin-right: auto;
 }
 
 .flow-box .flow-box-inner .flow-box .flow1-img,
@@ -1504,18 +1514,18 @@ select {
 
 .flow-box .flow-box-inner .flow-btn {
 	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
-	border-radius: 65px;
+	border-radius: 3.2vw;
 	color: #fff;
 	display: block;
 	height: auto;
-	line-height: 123px;
-	margin: 162px auto 0;
+	line-height: 6.1vw;
+	margin: 8vw auto 0;
 	width: 30%;
 }
 
 .flow-box .flow-box-inner .flow-btn p {
-	font-size: 43px;
-	line-height: 123px;
+	font-size: 2vw;
+	line-height: 6vw;
 	text-align: center;
 }
 
@@ -1526,6 +1536,8 @@ select {
 .flow-middle h2 {
 	font-size: 2.8vw;
 	letter-spacing: 13.44px;
+	margin-bottom: 3.5vw;
+	margin-top: 6.5vw;
 }
 
 .flow-middle p {
@@ -3728,11 +3740,11 @@ img {
 .flow-box .flow-box-inner .flow-box {
 	background-color: #fff;
 	background-image: none;
-	border-radius: 44px;
+	border-radius: 2.2vw;
 	box-sizing: border-box;
 	display: block;
 	height: auto;
-	margin: 50px auto;
+	margin: 2.5vw auto;
 	padding: 0;
 	width: 95%;
 }
@@ -3749,8 +3761,8 @@ img {
 }
 
 .flow-box .flow-box-inner .flow-box p.small {
-	font-size: 24px;
-	line-height: 41px;
+	font-size: 1.2vw;
+	line-height: 2vw;
 }
 
 .flow-box .flow-box-inner .flow-box .flow1-img,
@@ -3777,11 +3789,11 @@ img {
 
 .flow-box .flow-box-inner .flow-btn {
 	background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
-	border-radius: 65px;
+	border-radius: 3.25vw;
 	color: #fff;
 	display: block;
 	height: auto;
-	line-height: 123px;
+	line-height: 6vw;
 	margin: 8vw auto 0;
 	width: 30%;
 }
@@ -3801,6 +3813,8 @@ img {
 .flow-middle p {
 	font-size: 3.3vw;
 	line-height: 4.5vw;
+	margin: 0 2%;
+	text-align: justify;
 }
 
 .flow-top .flow-top-menu {

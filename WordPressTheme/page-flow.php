@@ -38,7 +38,9 @@
 		</div>
 		<div class="flow-box2 flow-box">
 			<h3 class="number">2</h3>
-			<p>「能力探究塾 DaVinci」を選択します。</p>
+			<div class="flow-inner-text">
+				<p>「能力探究塾 DaVinci」を選択します。</p>
+			</div>
 			<div class="flow2-img">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step2.jpg" alt="">
 			</div>
