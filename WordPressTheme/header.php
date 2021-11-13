@@ -1,8 +1,31 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
-<head>
+<head prefix="og: http://ogp.me/ns#">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S3DW32Z2QZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-S3DW32Z2QZ');
+    </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KCZD566');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="<?php bloginfo( 'charset' ); ?>">
+  <meta name="description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」 「WEBデザイン」">
+  <!-- OGP -->
+  <meta property="og:title" content="コース一覧 | DaVinci-ダヴィンチ-">
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.davinci-tanq.com/course/index.php">
+  <meta property="og:site_name" content="能力探究塾-DaVinci-" />
+  <meta property="og:description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」" />
+  <meta property="og:image" content="https://www.davinci-tanq.com/img/common/logo1.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -87,9 +110,26 @@
             FLOW</a>
           </div>
           <div class="right">
-            <a href="<?php echo home_url('/tokushoho'); ?>">予約<br>
+            <a href="https://davinci.hacomono.jp/reserve/schedule/14/34/">予約<br>
             RESERVE</a>
           </div>
         </div>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="header-sp" class="globalnav_sp">
+            <ul>
+                <li><a href="https://davinci-tanq.com/" class="">ホーム<span>HOME</span></a></li>
+                <li><a href="https://davinci-tanq.com/about.php" class="">DaVinciとは<span>ABOUT</span></a></li>
+                <li><a href="https://davinci-tanq.com/course/index.php" class="">コース<span>COURSE</span></a></li>
+                <li><a href="https://davinci-tanq.com/plan.php" class="">料金プラン<span>PLAN</span></a></li>
+                <li><a href="https://davinci-tanq.com/contact.php" class="">お問い合わせ<span>CONTACT</span></a></li>
+                <li><a href="https://davinci-tanq.com/flow.php" class="">受講の流れ<span>FLOW</span></a></li>
+                <li><a href="https://davinci.hacomono.jp/" target="_blank" >予約する<span>RESERVE</span></a></li>
+            </ul>
+        </nav>
       </div>
     </header>
