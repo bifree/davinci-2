@@ -2112,7 +2112,7 @@ select {
 }
 
 .top-sec-title {
-	font-size: calc(46px + 34 * (100vw - 768px) / 1152);
+	font-size: calc(42px + 30 * (100vw - 768px) / 1152);
 	font-weight: 100;
 }
 
@@ -2320,7 +2320,7 @@ select {
 	background: #d6d6d6;
 	cursor: pointer;
 	display: block;
-	font-size: 1.3vw;
+	font-size: calc(16px + 2 * (100vw - 768px) / 1152);
 	font-weight: 100;
 	padding: 2vw;
 	position: relative;
@@ -2337,7 +2337,7 @@ select {
 
 .top-faq .top-faq__items .top-faq__item .top-faq__a {
 	background: #f2f2f2;
-	font-size: 1.3vw !important;
+	font-size: calc(16px + 2 * (100vw - 768px) / 1152) !important;
 	font-weight: 100 !important;
 	height: 0;
 	opacity: 0;
@@ -3123,7 +3123,7 @@ img {
 }
 
 .top-faq .top-faq__items .top-faq__item .top-faq__q {
-	font-size: 1.6vw;
+	font-size: calc(14px + 2 * (100vw - 320px) / 447);
 }
 
 .top-faq .top-faq__items .top-faq__item .top-faq__q:after {
@@ -3131,7 +3131,7 @@ img {
 }
 
 .top-faq .top-faq__items .top-faq__item .top-faq__a {
-	font-size: 1.6vw;
+	font-size: calc(14px + 2 * (100vw - 320px) / 447) !important;
 }
 
 .top-container {
