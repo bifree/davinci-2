@@ -3438,13 +3438,14 @@ img {
 }
 
 .contact .contact-top-image {
-	background-size: cover;
-	height: 30vw;
+	background-position: 60% 100%;
+	height: 30vh;
 	position: relative;
 }
 
 .contact .contact-top-image img {
-	width: 100%;
+	height: 100%;
+	width: auto;
 }
 
 .contact .contact-top-image h2 {
