@@ -1462,10 +1462,9 @@ select {
 	display: flex;
 	height: 25.4vw;
 	margin: 50px auto;
-	padding-left: 55px;
-	padding-right: 100px;
+	padding-left: 6vw;
 	position: relative;
-	width: 95%;
+	width: 80%;
 }
 
 .flow-box-body .flow-box-inner .flow-box h3.number {
@@ -1491,7 +1490,14 @@ select {
 	margin-right: auto;
 }
 
-.flow-box-body .flow-box-inner .flow-box .flow1-img,
+.flow-box-body .flow-box-inner .flow-box .flow1-img {
+	width: 30vw;
+}
+
+.flow-box-body .flow-box-inner .flow-box .flow1-img img {
+	width: 100%;
+}
+
 .flow-box-body .flow-box-inner .flow-box .flow2-img,
 .flow-box-body .flow-box-inner .flow-box .flow3-img,
 .flow-box-body .flow-box-inner .flow-box .flow4-img,
@@ -1502,7 +1508,6 @@ select {
 	width: 17.2vw;
 }
 
-.flow-box-body .flow-box-inner .flow-box .flow1-img img,
 .flow-box-body .flow-box-inner .flow-box .flow2-img img,
 .flow-box-body .flow-box-inner .flow-box .flow3-img img,
 .flow-box-body .flow-box-inner .flow-box .flow4-img img,
@@ -1511,6 +1516,27 @@ select {
 .flow-box-body .flow-box-inner .flow-box .flow7-img img,
 .flow-box-body .flow-box-inner .flow-box .flow8-img img {
 	width: 100%;
+}
+
+.flow-box-body .flow-box-inner .flow-box .flow8-img {
+	width: 7.5vw;
+}
+
+.flow-box-body .flow-box-inner .flow-box .flow8-img img {
+	width: 100%;
+}
+
+.flow-box-body .flow-box-inner .flow-box1 {
+	padding-right: 5.1vw;
+}
+
+.flow-box-body .flow-box-inner .flow-box2,
+.flow-box-body .flow-box-inner .flow-box3,
+.flow-box-body .flow-box-inner .flow-box4,
+.flow-box-body .flow-box-inner .flow-box5,
+.flow-box-body .flow-box-inner .flow-box6,
+.flow-box-body .flow-box-inner .flow-box7 {
+	padding-right: 7.3vw;
 }
 
 .flow-box-body .flow-box-inner .flow-btn {
@@ -1537,7 +1563,7 @@ select {
 
 .flow-middle .flow-middle-bottom {
 	display: flex;
-	margin: 0 auto;
+	margin: 0 auto 6vw;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
@@ -1547,7 +1573,7 @@ select {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
-	margin: auto 0;
+	margin: auto 0 0;
 }
 
 .flow-middle h2 {

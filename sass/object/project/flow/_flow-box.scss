@@ -8,11 +8,10 @@
 		.flow-box {
 			background-color: #fff;
 			background-image: none;
-			width: 95%;
+			width: 80%;
 			height: 25.4vw;
 			box-sizing: border-box;
-			padding-right: 100px;
-			padding-left: 55px;
+			padding-left: 6vw;
 			margin: 50px auto;
 			border-radius: 44px;
 			display: flex;
@@ -37,7 +36,13 @@
 			.flow-inner-text {
 				margin-right: auto;
 			}
-			.flow1-img, .flow2-img, .flow3-img,
+			.flow1-img {
+				width: 30vw;
+				img {
+					width: 100%;
+				}
+			}
+			.flow2-img, .flow3-img,
 			.flow4-img, .flow5-img, .flow6-img,
 			.flow7-img, .flow8-img {
 				width: 17.2vw;
@@ -45,6 +50,19 @@
 					width: 100%;
 				}
 			}
+			.flow8-img {
+				width: 7.5vw;
+				img {
+					width: 100%;
+				}
+			}
+		}
+		.flow-box1 {
+			padding-right: 5.1vw;
+		}
+		.flow-box2, .flow-box3, .flow-box4,
+		.flow-box5, .flow-box6, .flow-box7  {
+			padding-right: 7.3vw;
 		}
 		.flow-btn {
 			border-radius: 3.2vw;
