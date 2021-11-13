@@ -1,28 +1,40 @@
 <?php get_header(); ?>
 
 <main>
-  <?php get_template_part('template/course-top-menu');?>  
-
-  <?php get_template_part('template/course-mainvisual');?>
+<div class="each-course-top">
+	<div class="each-course-top-menu">
+    <ul>
+      <li><a href="<?php echo home_url('/eclil/');?>">グローバルeスポーツ</a></li>
+      <li><a href="<?php echo home_url('/steam/');?>">WEBデザイン・プログラミング</a></li>
+      <li><a href="<?php echo home_url('/finance/');?>">ファイナンス</a></li>
+      <li><a href="<?php echo home_url('/flow/');?>">体験コース</a></li>
+    </ul>
+	</div>
+	<div class="each-course-top-image">
+		<h2>COURSE</h2>
+	</div>
+</div>
 
   <section class="each-course-top">
     <div class="each-course-container">
       <div class="each-course-top__title">
         <h2 class="each-course-top__title__text steam-top__title">こどもと大人のための<br class="tb-br">STEAM教室</h2> 
       </div>
-      <div class="steam-top__img">
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam.png" alt="davinci">
-      </div>
-      <div class="each-course-top__icon">
-        <div class="steam-top__icon__icon">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam-icon.svg" alt="davinci">
+      <div class="fade-in js-scroll-trigger">
+        <div class="steam-top__img">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam.png" alt="davinci">
         </div>
-        <p class="each-course-top__icon__text">About STEAM</p>
+        <div class="each-course-top__icon">
+          <div class="steam-top__icon__icon">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam-icon.svg" alt="davinci">
+          </div>
+          <p class="each-course-top__icon__text">About STEAM</p>
+        </div>
       </div>
     </div>
   </section>
     
-  <section class="each-course-content">
+  <section class="each-course-content fade-in js-scroll-trigger">
     <div class="each-course-container">
       <h2 class="each-course-content__title">
         未来のワクワクを掴む<br class="sp-br">web・デザイン技術を手の中に
@@ -37,7 +49,7 @@
   </section>
 
   <section class="each-course-faq">
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHEN</span>
         　いつ受講できるか
@@ -51,7 +63,7 @@
       </p> 
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHERE</span>
         　どこで受講できるのか
@@ -61,7 +73,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHO</span>
         　誰が受講できるのか
@@ -73,7 +85,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">WHAT</span>
         　何が受講できるのか
@@ -84,7 +96,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">HOW</span>
         　どのように受講できるのか
@@ -95,7 +107,7 @@
       </p>
     </div>
 
-    <div class="each-course-faq__content">
+    <div class="each-course-faq__content fade-in js-scroll-trigger">
       <p class="each-course-faq__q">
         <span class="each-course-faq__q__en">TOOL</span>
         準備が必要なもの
