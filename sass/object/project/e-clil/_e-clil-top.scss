@@ -135,31 +135,36 @@
 }
 
 @media screen and (max-width: 797px) {
-  .each-course-top-menu{
-    ul{
-      margin: 0 0 0 8.7vw;
-    }
-    a {
-      font-size: calc(13px + 4 * (100vw - 320px) / 447);
-      height: calc(35px + 11 * (100vw - 320px) / 447);
-      line-height: calc(35px + 11 * (100vw - 320px) / 447);
-    }
-  }
+  .each-course-top{
+    .each-course-top-menu{
+      ul{
+        margin: 0 0 0 8.7vw;
+        flex-wrap:wrap;
+      }
 
-  .each-course-top-image {
-    position: relative;
-    height: 30vw;
-    background-size: cover;
-    img {
-      width: 100%;
+      a {
+        font-size:calc(13px + 4 * (100vw - 320px) / 447);
+        height: calc(35px + 11 * (100vw - 320px) / 447);
+        line-height: calc(35px + 11 * (100vw - 320px) / 447);
+        margin-left:5px;
+      }
     }
-    h2 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      letter-spacing: 0.24em;
-      font-size: calc(23px + 15 * (100vw - 320px) / 447);
+
+    .each-course-top-image {
+      position: relative;
+      height: 30vw;
+      background-size: cover;
+      img {
+        width: 100%;
+      }
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 0.24em;
+        font-size: calc(23px + 15 * (100vw - 320px) / 447);
+      }
     }
   }
 

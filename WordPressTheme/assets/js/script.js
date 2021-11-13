@@ -79,21 +79,71 @@ $('.top-mainvisual__slider').slick({
 		});
 
 
+		
+$(function () {
+	// aimation呼び出し
+	if ($('.js-scroll-trigger').length) {
+			scrollAnimation();
+	}
+	// aimation関数
+	function scrollAnimation() {
+			$(window).scroll(function () {
+					$(".js-scroll-trigger").each(function () {
+							let position = $(this).offset().top,
+									scroll = $(window).scrollTop(),
+									windowHeight = $(window).height();
 
+							if (scroll > position - windowHeight + 50) {
+									$(this).addClass('is-active');
+							}
+					});
+			});
+	}
+	$(window).trigger('scroll');
+});
+
+
+$(function() {
+  if (window.matchMedia( '(min-width:798px)' ).matches) {
 		$(function () {
 			// aimation呼び出し
-			if ($('.js-scroll-trigger').length) {
+			if ($('.js-scroll-trigger-late').length) {
 					scrollAnimation();
 			}
-	
 			// aimation関数
 			function scrollAnimation() {
 					$(window).scroll(function () {
-							$(".js-scroll-trigger").each(function () {
+							$(".js-scroll-trigger-late").each(function () {
 									let position = $(this).offset().top,
 											scroll = $(window).scrollTop(),
 											windowHeight = $(window).height();
-	
+
+									if (scroll > position - windowHeight + 300) {
+											$(this).addClass('is-active');
+									}
+							});
+					});
+			}
+			$(window).trigger('scroll');
+		});
+	}
+});
+
+$(function() {
+  if (window.matchMedia( '(max-width:797px)' ).matches) {
+		$(function () {
+			// aimation呼び出し
+			if ($('.js-scroll-trigger-late').length) {
+					scrollAnimation();
+			}
+			// aimation関数
+			function scrollAnimation() {
+					$(window).scroll(function () {
+							$(".js-scroll-trigger-late").each(function () {
+									let position = $(this).offset().top,
+											scroll = $(window).scrollTop(),
+											windowHeight = $(window).height();
+
 									if (scroll > position - windowHeight + 50) {
 											$(this).addClass('is-active');
 									}
@@ -101,27 +151,59 @@ $('.top-mainvisual__slider').slick({
 					});
 			}
 			$(window).trigger('scroll');
-	});
+		});
+	}
+});
 
-	$(function () {
-		// aimation呼び出し
-		if ($('.js-scroll-trigger-late').length) {
-				scrollAnimation();
-		}
 
-		// aimation関数
-		function scrollAnimation() {
-				$(window).scroll(function () {
-						$(".js-scroll-trigger-late").each(function () {
-								let position = $(this).offset().top,
-										scroll = $(window).scrollTop(),
-										windowHeight = $(window).height();
+$(function() {
+  if (window.matchMedia( '(min-width:798px)' ).matches) {
+		$(function () {
+			// aimation呼び出し
+			if ($('.js-scroll-trigger-little-late').length) {
+					scrollAnimation();
+			}
+			// aimation関数
+			function scrollAnimation() {
+					$(window).scroll(function () {
+							$(".js-scroll-trigger-little-late").each(function () {
+									let position = $(this).offset().top,
+											scroll = $(window).scrollTop(),
+											windowHeight = $(window).height();
 
-								if (scroll > position - windowHeight + 300) {
-										$(this).addClass('is-active-late');
-								}
-						});
-				});
-		}
-		$(window).trigger('scroll');
+									if (scroll > position - windowHeight + 100) {
+											$(this).addClass('is-active');
+									}
+							});
+					});
+			}
+			$(window).trigger('scroll');
+		});
+	}
+});
+
+$(function() {
+  if (window.matchMedia( '(max-width:797px)' ).matches) {
+		$(function () {
+			// aimation呼び出し
+			if ($('.js-scroll-trigger-little-late').length) {
+					scrollAnimation();
+			}
+			// aimation関数
+			function scrollAnimation() {
+					$(window).scroll(function () {
+							$(".js-scroll-trigger-little-late").each(function () {
+									let position = $(this).offset().top,
+											scroll = $(window).scrollTop(),
+											windowHeight = $(window).height();
+
+									if (scroll > position - windowHeight + 50) {
+											$(this).addClass('is-active');
+									}
+							});
+					});
+			}
+			$(window).trigger('scroll');
+		});
+	}
 });
