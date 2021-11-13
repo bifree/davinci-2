@@ -921,6 +921,10 @@ select {
 
 .about-top .about-top-menu ul li a {
 	color: #fff;
+	font-size: calc(11px + 5 * (100vw - 320px) / 447);
+	height: calc(65px + 15 * (100vw - 320px) / 447);
+	line-height: calc(35px + 11 * (100vw - 320px) / 447);
+	margin-right: calc(10px + 5 * (100vw - 320px) / 447);
 }
 
 .about-top .about-top-image {
@@ -1324,6 +1328,10 @@ select {
 
 .course-top .course-top-menu ul li a {
 	color: #fff;
+	font-size: calc(11px + 5 * (100vw - 320px) / 447);
+	height: calc(65px + 15 * (100vw - 320px) / 447);
+	line-height: calc(35px + 11 * (100vw - 320px) / 447);
+	margin-right: calc(10px + 5 * (100vw - 320px) / 447);
 }
 
 .course-top .course-top-image {
@@ -1747,7 +1755,10 @@ select {
 
 .flow-top .flow-top-menu ul li a {
 	color: #fff;
-	line-height: 0;
+	font-size: calc(11px + 5 * (100vw - 320px) / 447);
+	height: calc(65px + 15 * (100vw - 320px) / 447);
+	line-height: calc(35px + 11 * (100vw - 320px) / 447);
+	margin-right: calc(10px + 5 * (100vw - 320px) / 447);
 }
 
 .flow-top .flow-top-image {
@@ -1881,6 +1892,10 @@ select {
 
 .plans-top .plans-top-menu ul li a {
 	color: #fff;
+	font-size: calc(11px + 5 * (100vw - 320px) / 447);
+	height: calc(65px + 15 * (100vw - 320px) / 447);
+	line-height: calc(35px + 11 * (100vw - 320px) / 447);
+	margin-right: calc(10px + 5 * (100vw - 320px) / 447);
 }
 
 .plans-top .plans-top-image {
