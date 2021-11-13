@@ -502,6 +502,7 @@ select {
 	color: #fff;
 	font-size: 1.25vw;
 	line-height: 1.5vw;
+	padding-bottom: 3.33vw;
 }
 
 .l-footer a {
@@ -533,6 +534,7 @@ select {
 
 .l-footer .footer-middle {
 	margin-left: 6%;
+	margin-right: 5%;
 }
 
 .l-footer .footer-middle .footer-menu {
@@ -740,6 +742,7 @@ select {
 .l-header .header-menu2 .left a {
 	color: #fff;
 	display: block;
+	line-height: 160%;
 	text-align: center;
 }
 
@@ -757,6 +760,7 @@ select {
 .l-header .header-menu2 .right a {
 	color: #fff;
 	display: block;
+	line-height: 160%;
 	text-align: center;
 }
 
@@ -767,6 +771,15 @@ select {
 	padding-left: 25px;
 	padding-right: 25px;
 	width: 100%;
+}
+
+.sns-icon-list {
+	margin-left: auto;
+	margin-top: auto;
+}
+
+.sns-icon-list a:nth-child(2) {
+	margin-left: 32px;
 }
 
 .top-menu {
@@ -822,17 +835,27 @@ select {
 
 .about-bottom .about-bottom-company h4 {
 	font-size: 2.2vw;
+	letter-spacing: 0.24em;
 	line-height: 2.5vw;
 }
 
-.about-bottom .about-bottom-company .company-logo {
-	margin-bottom: 3.4vw;
-	margin-top: 5vw;
-	width: 28%;
+.about-bottom .about-bottom-company h4 img {
+	line-height: 6.2vw;
+	width: 6vw;
 }
 
-.about-bottom .about-bottom-company .company-logo img {
-	width: 100%;
+.about-bottom .about-bottom-company .company-logo {
+	display: flex;
+	margin-bottom: 3.4vw;
+	margin-top: 5vw;
+}
+
+.about-bottom .about-bottom-company .company-logo .company-logo-l {
+	width: 28.7%;
+}
+
+.about-bottom .about-bottom-company .company-logo .company-logo-r {
+	width: 220px;
 }
 
 .about-bottom .about-bottom-company .company-info {
@@ -841,6 +864,7 @@ select {
 }
 
 .about-bottom .about-bottom-company .company-info p {
+	font-size: 1.2vw;
 	line-height: 1.7vw;
 }
 
@@ -857,8 +881,17 @@ select {
 	padding-right: 7vw;
 }
 
+.about-bottom .about-bottom-project h4 {
+	letter-spacing: 0.24em;
+}
+
+.about-bottom .about-bottom-project h4 img {
+	line-height: 6.4vw;
+	width: 6.2vw;
+}
+
 .about-bottom .about-bottom-project p {
-	font-size: 1.1vw;
+	font-size: 1.2vw;
 	line-height: 2.5vw;
 }
 
@@ -866,11 +899,21 @@ select {
 	display: flex;
 }
 
+.about-middle-press {
+	margin-top: 5vh;
+}
+
 .about-middle-press h3 {
 	font-size: 2.2vw;
+	letter-spacing: 0.24em;
 	line-height: 2.5vw;
 	margin-left: 7.5vw;
 	margin-right: 4.5vw;
+}
+
+.about-middle-press h3 img {
+	line-height: 6.2vw;
+	width: 6vw;
 }
 
 .about-middle-press h4 {
@@ -880,6 +923,10 @@ select {
 }
 
 .about-middle-press .about-press-img {
+	background-image: url(../img/about/press.jpg);
+	background-size: cover;
+	height: 23vw;
+	margin-top: 5.2vw;
 	position: relative;
 }
 
@@ -906,6 +953,16 @@ select {
 	top: 0;
 }
 
+.about-middle-sp-text {
+	display: none;
+}
+
+.about-middle-sp-text p {
+	font-size: 3.3vw;
+	letter-spacing: .15em;
+	line-height: 4.5vw;
+}
+
 .about-middle {
 	background-image: url(../img/about/davinci.png);
 	background-position: right;
@@ -914,6 +971,10 @@ select {
 	margin-bottom: 5vw;
 	margin-left: 7.5vw;
 	margin-right: 4.5vw;
+}
+
+.about-middle .sp-block {
+	display: none;
 }
 
 .about-middle h2 {
@@ -937,7 +998,8 @@ select {
 }
 
 .about-middle p {
-	font-size: 1vw;
+	font-family: ten-mincho-text, serif;
+	font-size: 1.2vw;
 	letter-spacing: .24em;
 	line-height: 2.4vw;
 }
@@ -1181,7 +1243,7 @@ select {
 	border-bottom: 3px solid #2B3B77;
 	font-size: 2.8vw;
 	line-height: 3.4vw;
-	margin: 0 auto 2.3vw;
+	margin: 0 auto 2vw;
 	text-align: center;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
@@ -1199,9 +1261,9 @@ select {
 }
 
 .course-middle p {
-	font-size: 1.53vw;
+	font-size: 1.1vw;
 	letter-spacing: .15em;
-	line-height: 3.07vw;
+	line-height: 2.6vw;
 }
 
 .course-middle .middle-outer-red h2,
@@ -1213,7 +1275,7 @@ select {
 }
 
 .course-middle .middle-outer-red {
-	margin-top: 6vw;
+	margin-top: 8vw;
 }
 
 .course-middle .middle-red {
@@ -1221,7 +1283,7 @@ select {
 	background-repeat: no-repeat;
 	height: 611px;
 	padding-bottom: 3vw;
-	padding-top: 4.5vw;
+	padding-top: 3vw;
 }
 
 .course-middle .middle-red .middle-inner-red {
@@ -1235,9 +1297,20 @@ select {
 	width: 584px;
 }
 
+.course-middle .middle-red .middle-inner-red .red-inner h3 {
+	font-size: 2.5vw;
+	letter-spacing: 0.24em;
+	margin-bottom: 1.2vw;
+}
+
 .course-middle .middle-red .middle-inner-red .red-inner h4 {
-	margin-bottom: 2.4vw;
-	margin-top: 2.1vw;
+	letter-spacing: 0.24em;
+}
+
+.course-middle .middle-red .middle-inner-red .red-inner h5 {
+	font-size: 1.5vw;
+	letter-spacing: 0.24em;
+	margin-bottom: 1.6vw;
 }
 
 .course-middle .middle-red .middle-inner-red .red-inner-right {
@@ -1267,7 +1340,7 @@ select {
 	background-repeat: no-repeat;
 	height: 611px;
 	padding-bottom: 3vw;
-	padding-top: 4.5vw;
+	padding-top: 3vw;
 }
 
 .course-middle .middle-blue .middle-inner-blue {
@@ -1282,11 +1355,18 @@ select {
 }
 
 .course-middle .middle-blue .middle-inner-blue .blue-inner h3 {
+	font-size: 2.5vw;
+	letter-spacing: 0.24em;
 	margin-bottom: 1.2vw;
+}
+
+.course-middle .middle-blue .middle-inner-blue .blue-inner h4 {
+	letter-spacing: 0.24em;
 }
 
 .course-middle .middle-blue .middle-inner-blue .blue-inner h5 {
 	font-size: 1.5vw;
+	letter-spacing: 0.24em;
 	margin-bottom: 1.6vw;
 }
 
@@ -1329,6 +1409,16 @@ select {
 .course-middle .middle-green .middle-inner-green .green-inner {
 	margin-right: auto;
 	width: 584px;
+}
+
+.course-middle .middle-green .middle-inner-green .green-inner h3 {
+	letter-spacing: 0.24em;
+	margin-bottom: 2.5vw;
+}
+
+.course-middle .middle-green .middle-inner-green .green-inner h4 {
+	letter-spacing: 0.13em;
+	margin-bottom: 3vw;
 }
 
 .course-middle .middle-green .middle-inner-green .green-inner-right {
@@ -1738,7 +1828,7 @@ select {
 
 .flow-middle h2 {
 	font-size: 2.8vw;
-	letter-spacing: 13.44px;
+	letter-spacing: 0.24em;
 	margin-bottom: 3.5vw;
 	margin-top: 6.5vw;
 }
@@ -1803,7 +1893,18 @@ select {
 }
 
 .plans-bottom .btn-green {
+	background: linear-gradient(to top, #27D5DA 0%, #94F990 100%);
+	background: -webkit-linear-gradient(bottom, #27D5DA 0%, #94F990 100%);
+	border-radius: 65px;
+	color: #fff;
+	display: block;
+	font-size: 2vw;
+	letter-spacing: 0.24em;
+	margin: 0 auto;
 	margin-bottom: 5.7vw;
+	padding: 1.9vw;
+	text-align: center;
+	width: 28%;
 }
 
 .plans-middle {
@@ -2780,6 +2881,16 @@ img {
 
 }
 
+@media screen and (max-width: 1480px) {
+
+.course-middle .middle-green,
+.course-middle .middle-red,
+.course-middle .middle-blue {
+	height: auto;
+}
+
+}
+
 @media screen and (max-width: 1279px) {
 
 .each-course-content .eclil-content__img {
@@ -2873,6 +2984,18 @@ img {
 
 }
 
+@media screen and (max-width: 1240px) {
+
+.about-bottom .about-bottom-company .company-logo .company-logo-l {
+	width: 300px;
+}
+
+.about-bottom .about-bottom-company .company-logo .company-logo-r {
+	width: 220px;
+}
+
+}
+
 @media screen and (max-width: 1024px) {
 
 .l-header .header-logo {
@@ -2883,14 +3006,12 @@ img {
 	width: 100%;
 }
 
-.course-middle .middle-green,
-.course-middle .middle-blue,
-.course-middle .middle-red {
-	height: auto;
+.about-bottom .about-project-right {
+	width: 40%;
 }
 
-.course-middle .middle-green {
-	height: 373px;
+.about-bottom .about-project-right img {
+	width: 100%;
 }
 
 }
@@ -3329,8 +3450,8 @@ img {
 }
 
 .l-footer .footer-top .footer-info p {
-	font-size: 2.7vw;
-	line-height: 3.5vw;
+	font-size: 3.7vw;
+	line-height: 4.5vw;
 }
 
 .l-footer .footer-middle {
@@ -3428,6 +3549,11 @@ img {
 	padding: 8px 0 0;
 }
 
+.sns-icon-list {
+	font-size: 2.2vw;
+	margin-top: 4.5vw;
+}
+
 .top-menu {
 	height: auto;
 }
@@ -3452,12 +3578,38 @@ img {
 }
 
 .about-bottom .about-bottom-company .company-logo {
+	display: block;
 	margin-bottom: 3.4vw;
 	margin-top: 5vw;
-	width: 28%;
+	width: 60%;
+}
+
+.about-bottom .about-bottom-company .company-logo .company-logo-l {
+	width: 100%;
+}
+
+.about-bottom .about-bottom-company .company-logo .company-logo-r {
+	width: 80%;
+}
+
+.about-bottom .about-bottom-company .company-logo .company-logo-r a {
+	width: 100%;
+}
+
+.about-bottom .about-bottom-company .company-logo .company-logo-r a img {
+	width: 100%;
 }
 
 .about-bottom .about-bottom-company .company-logo img {
+	width: 100%;
+}
+
+.about-bottom .about-bottom-company .company-logo a {
+	display: block;
+	width: 70%;
+}
+
+.about-bottom .about-bottom-company .company-logo a img {
 	width: 100%;
 }
 
@@ -3467,7 +3619,8 @@ img {
 }
 
 .about-bottom .about-bottom-company .company-info p {
-	line-height: 3vw;
+	font-size: 3.3vw;
+	line-height: 4.5vw;
 }
 
 .about-bottom .about-bottom-company .company-info .company-info-1 {
@@ -3483,6 +3636,11 @@ img {
 	padding-right: 7vw;
 }
 
+.about-bottom .about-bottom-project h4 {
+	font-size: 4.5vw;
+	line-height: 5.5vw;
+}
+
 .about-bottom .about-bottom-project p {
 	font-size: 3.3vw;
 	line-height: 4.5vw;
@@ -3495,6 +3653,7 @@ img {
 .about-middle-press h3 {
 	font-size: 4.5vw;
 	line-height: 5.5vw;
+	margin-bottom: 3vh;
 	margin-left: 7.5vw;
 	margin-right: 4.5vw;
 }
@@ -3506,6 +3665,7 @@ img {
 }
 
 .about-middle-press .about-press-img {
+	height: 27vh;
 	position: relative;
 }
 
@@ -3523,11 +3683,22 @@ img {
 	z-index: 1;
 }
 
+.about-middle-sp-text {
+	display: block;
+	margin: 3vh auto 0;
+	width: 90%;
+}
+
 .about-middle {
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: contain;
-	margin: 0 auto;
+	height: 27vh;
+	margin: 3vh 5% 0;
+}
+
+.about-middle .sp-block {
+	display: block;
 }
 
 .about-middle h2 {
@@ -3554,6 +3725,10 @@ img {
 	font-size: 3.3vw;
 	letter-spacing: .15em;
 	line-height: 4.5vw;
+}
+
+.about-middle .about-middle-text {
+	display: none;
 }
 
 .about-top .about-top-menu {
@@ -3775,9 +3950,9 @@ img {
 }
 
 .course-middle p {
-	font-size: 3.3vw;
+	font-size: 2.4vw;
 	letter-spacing: .15em;
-	line-height: 4vw;
+	line-height: 3vw;
 }
 
 .course-middle .btn-green {
@@ -3819,8 +3994,14 @@ img {
 }
 
 .course-middle .middle-red .middle-inner-red .red-inner {
-	margin: 0 auto;
+	margin: 0 auto 3vw;
 	width: 90%;
+}
+
+.course-middle .middle-red .middle-inner-red .red-inner h3 {
+	font-size: 4.5vw;
+	line-height: 5.5vw;
+	margin-bottom: 1.2vw;
 }
 
 .course-middle .middle-red .middle-inner-red .red-inner h4 {
@@ -3854,11 +4035,13 @@ img {
 }
 
 .course-middle .middle-blue .middle-inner-blue .blue-inner {
-	margin: 0 auto;
+	margin: 0 auto 3vw;
 	width: 90%;
 }
 
 .course-middle .middle-blue .middle-inner-blue .blue-inner h3 {
+	font-size: 4.5vw;
+	line-height: 5.5vw;
 	margin-bottom: 1.2vw;
 }
 
@@ -3888,12 +4071,12 @@ img {
 
 .course-middle .middle-green .middle-inner-green {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 3vw;
 	width: 90%;
 }
 
 .course-middle .middle-green .middle-inner-green .green-inner {
-	margin: 0 auto;
+	margin: 0 auto 3vw;
 	width: 90%;
 }
 
@@ -4067,7 +4250,6 @@ img {
 
 .flow-middle h2 {
 	font-size: 5vw;
-	letter-spacing: 13.44px;
 	line-height: 6vw;
 }
 
@@ -4094,6 +4276,7 @@ img {
 }
 
 .flow-top .flow-top-image {
+	background-position: 70%;
 	height: 30vh;
 	position: relative;
 }
@@ -4144,7 +4327,11 @@ img {
 }
 
 .plans-bottom .btn-green {
+	font-size: 3.3vw;
+	letter-spacing: 0.32em;
+	line-height: 4.5vw;
 	margin-bottom: 5.7vw;
+	width: 50%;
 }
 
 .plans-middle h2 {
@@ -4356,6 +4543,16 @@ img {
 
 .u-hidden-sp {
 	display: none;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+
+.course-middle p {
+	font-size: 3.3vw;
+	letter-spacing: .15em;
+	line-height: 4vw;
 }
 
 }

@@ -45,9 +45,7 @@
 		</div>
 	</div>
 
-	<div class="btn-green">
-		受講の流れを見る
-	</div>
+		<a href="<?php echo home_url('/flow'); ?>" class="btn-green">受講の流れを見る</a>
 </div>
 
 

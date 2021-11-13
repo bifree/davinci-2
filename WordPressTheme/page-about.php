@@ -3,20 +3,19 @@
 <div class="about-top">
 	<div class="about-top-menu">
 		<ul>
-			<li><a href="">プレスリリース</a></li>
-			<li><a href="">運営会社</a></li>
-			<li><a href="">運営サービス</a></li>
+			<li><a href="#press">プレスリリース</a></li>
+			<li><a href="#company">運営会社</a></li>
+			<li><a href="#project">運営サービス</a></li>
 		</ul>
 	</div>
 	<div class="about-top-image">
-		<!-- <img src="<?php echo get_template_directory_uri();?>/assets/img/about/title-bg.jpg" alt=""> -->
 		<h2>ABOUT</h2>
 	</div>
 </div>
 
 <div class="about-middle">
-	<h2>学ぶことは決して脳を疲れさせない。</h2>
-	<h3>Learning never exhausts the mind.</h3>
+	<h2>学ぶことは決して<br class="sp-block">脳を疲れさせない。</h2>
+	<h3>Learning never <br class="sp-block">exhausts the mind.</h3>
 	<div class="about-middle-text">
 		<p>これは、レオナルド・ダ・ヴィンチの言葉です。 </p>
 		<p>本来学ぶこととは楽しいこと。勉強に疲れていませんか？  </p>
@@ -28,20 +27,30 @@
 		<p>解のない問題」に対応する力を身に付けよう！</p>
 	</div>
 </div>
+<div class="about-middle-sp-text">
+		<p>これは、レオナルド・ダ・ヴィンチの言葉です。 </p>
+		<p>本来学ぶこととは楽しいこと。勉強に疲れていませんか？  </p>
+		<p>探究学専門・能力探究塾【DaVinci】では、受験の為の勉強ではなく、生きる為に学ぶ。経験して考える。そして、好奇心・探究心から派生する 「学ぶ意欲」 を引き出し哲学的な思考回路や独自の<br>
+		議論を展開する力を身につけてほしい。各種コースを探究する中で、知識とは何か、どう獲得し、どう使いこなすかといった「正解のない問題」に対応する力を身に付けよう！</p>
+</div>
 
-<div class="about-middle-press">
-	<h3>プレスリリース</h3>
+<div class="about-middle-press" id="press">
+	<h3><img src="<?php echo get_template_directory_uri();?>/assets/img/about/kite.png" alt="">プレスリリース</h3>
 	<div class="about-press-img">
-		<img src="<?php echo get_template_directory_uri();?>/assets/img/about/press.jpg" alt="">
 		<h4>COMING SOON</h4>
 	</div>
 </div>
 
 <div class="about-bottom">
-	<div class="about-bottom-company">
-		<h4>運営会社</h4>
+	<div class="about-bottom-company" id="company">
+		<h4><img src="<?php echo get_template_directory_uri();?>/assets/img/about/house.png" alt="">運営会社</h4>
 		<div class="company-logo">
-			<img src="<?php echo get_template_directory_uri();?>/assets/img/about/logo-bringup.png" alt=""> <div class="btn-green">WEBサイトへ</div>
+			<div class="company-logo-l">
+				<img src="<?php echo get_template_directory_uri();?>/assets/img/about/logo-bringup.png" alt="">
+			</div>
+			<div class="company-logo-r">
+				<a href="https://bringup-inc.jp"><img src="<?php echo get_template_directory_uri();?>/assets/img/about/to-site.png" alt=""></a>
+			</div>
 		</div>
 		<div class="company-info">
 			<div class="company-info-1"><p>
@@ -55,8 +64,8 @@
 		</div>
 	</div>
 
-	<div class="about-bottom-project">
-		<h4>事業内容</h4>
+	<div class="about-bottom-project" id="project">
+		<h4><img src="<?php echo get_template_directory_uri();?>/assets/img/about/bag.png" alt="">事業内容</h4>
 		<div class="about-project-inner">
 			<div class="about-project-left">
 				<p>教育・社会福祉・雇用・Webにおける各種サービス等の企画、制作、販売、配信、運営及び管理。</p>

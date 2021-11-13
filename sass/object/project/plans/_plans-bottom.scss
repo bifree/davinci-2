@@ -28,6 +28,17 @@
 	}
 	.btn-green {
 		margin-bottom: 5.7vw;
+		background: linear-gradient(to top, #27D5DA 0%, #94F990 100%);
+		background: -webkit-linear-gradient(bottom, #27D5DA 0%, #94F990 100%);
+		width: 28%;
+		margin: 0 auto;
+		text-align: center;
+		padding: 1.9vw;
+		border-radius: 65px;
+			display: block;
+			color: #fff;
+			font-size: 2vw;
+			letter-spacing: 0.24em;
 	}
 	@media screen and (max-width: 767px) {
 		.plans-bottom-inner {
@@ -62,6 +73,10 @@
 		}
 		.btn-green {
 			margin-bottom: 5.7vw;
+			width: 50%;
+			font-size: 3.3vw;
+			letter-spacing: 0.32em;
+			line-height: 4.5vw;
 		}
 	}
 }

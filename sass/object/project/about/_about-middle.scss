@@ -6,6 +6,9 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
+	.sp-block {
+		display: none;
+	}
 	h2 {
 		font-size: 2.8vw;
 		padding-top: 6vw;
@@ -26,14 +29,19 @@
 	}
 	p {
 		letter-spacing: .24em;
-		font-size: 1vw;
+		font-size: 1.2vw;
 		line-height: 2.4vw;
+		font-family: ten-mincho-text, serif;
 	}
 	@media screen and (max-width:767px) {
-		margin: 0 auto;
+		margin: 3vh 5% 0;
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: right;
+		height: 27vh;
+		.sp-block {
+			display: block;
+		}
 		h2 {
 			font-size: 5vw;
 			line-height: 6vw;
@@ -56,6 +64,9 @@
 			font-size: 3.3vw;
 			line-height: 4.5vw;
 			letter-spacing: .15em;
+		}
+		.about-middle-text {
+			display: none;
 		}
 	}
 }

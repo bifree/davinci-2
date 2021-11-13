@@ -66,9 +66,9 @@
 	<div class="middle-green">
 		<div class="middle-inner-green">
 			<div class="green-inner">
-				<h3>こどもと大人のための STEAM教室</h3>
-				<h4>～未来のワクワクを掴む</h4>
-				<h4>web・デザイン技術を手の中に～</h4>
+				<h3>こどもと大人のための<br>STEAM教室</h3>
+				<h4>～未来のワクワクを掴む<br>
+				web・デザイン技術を手の中に～</h4>
 				<p>こどもも大人も情報社会でワクワクする技術を 「制作」を通じて学びましょう！</p>
 			</div>
 			<div class="green-inner-right">

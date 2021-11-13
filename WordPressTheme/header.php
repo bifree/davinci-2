@@ -20,9 +20,9 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」 「WEBデザイン」">
   <!-- OGP -->
-  <meta property="og:title" content="コース一覧 | DaVinci-ダヴィンチ-">
+  <meta property="og:title" content="<?php echo the_title();?>">
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://www.davinci-tanq.com/course/index.php">
+  <meta property="og:url" content="<?php echo get_the_permalink();?>">
   <meta property="og:site_name" content="能力探究塾-DaVinci-" />
   <meta property="og:description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」" />
   <meta property="og:image" content="https://www.davinci-tanq.com/img/common/logo1.png" />
@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
   <script>
   (function(d) {
@@ -106,12 +107,16 @@
         </div>
         <div class="header-menu2">
           <div class="left">
-            <a href="<?php echo home_url('/flow'); ?>">受講の流れ<br>
-            FLOW</a>
+            <a href="<?php echo home_url('/flow'); ?>">
+              <p class="ja">受講の流れ</p>
+              <p class="en">FLOW</p>
+            </a>
           </div>
           <div class="right">
-            <a href="https://davinci.hacomono.jp/reserve/schedule/14/34/">予約<br>
-            RESERVE</a>
+            <a href="https://davinci.hacomono.jp/reserve/schedule/14/34/">
+            <p class="ja">予約</p>
+            <p class="en">RESERVE</p>
+            </a>
           </div>
         </div>
 
