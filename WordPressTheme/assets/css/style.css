@@ -628,49 +628,55 @@ select {
 	cursor: pointer;
 	display: none;
 	height: 42px;
-	position: fixed;
-	right: 13px;
 	text-align: center;
-	top: 12px;
 	width: 42px;
 	z-index: 12;
 }
 
 .l-header .hamburger span:nth-child(1) {
-	top: 10px;
+	margin-top: 10px;
 }
 
 .l-header .hamburger span:nth-child(2) {
-	top: 20px;
+	margin-top: 10px;
 }
 
 .l-header .hamburger span:nth-child(3) {
-	top: 30px;
+	margin-top: 10px;
 }
 
 .l-header .hamburger span {
 	background: #000;
 	display: block;
 	height: 3px;
-	left: 6px;
-	position: absolute;
 	transition: 0.3s ease-in-out;
 	width: 30px;
 }
 
+.l-header .hamburger.active {
+	margin-top: 30px;
+}
+
 .l-header .hamburger.active span:nth-child(1) {
 	background: #fff;
-	left: 6px;
-	top: 1vw;
+	margin-top: 30px;
+	position: absolute;
+	right: 30px;
 	top: 16px;
 	transform: rotate(-45deg);
 }
 
-.l-header .hamburger.active span:nth-child(2),
-.l-header .hamburger.active span:nth-child(3) {
+.l-header .hamburger.active span:nth-child(2) {
 	background: #fff;
+	margin-top: 30px;
+	position: absolute;
+	right: 30px;
 	top: 16px;
 	transform: rotate(45deg);
+}
+
+.l-header .hamburger.active span:nth-child(3) {
+	display: none;
 }
 
 .l-header nav.globalnav_sp {
@@ -690,6 +696,7 @@ select {
 
 .l-header nav.globalnav_sp ul {
 	list-style: none;
+	margin-top: 30px;
 }
 
 .l-header nav.globalnav_sp ul li {
@@ -3357,11 +3364,13 @@ img {
 
 .l-header .hamburger {
 	display: block;
+	margin-left: auto;
 }
 
 .l-header nav.globalnav_sp ul {
 	margin: 0 auto;
 	padding: 0;
+	padding-top: 30px;
 	width: 100%;
 }
 
