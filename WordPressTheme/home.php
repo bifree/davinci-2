@@ -185,7 +185,7 @@
           </div>
           <div class="top-style__item__img">
             <div class="slide-in-left js-scroll-trigger">
-              <img src="<?php echo get_template_directory_uri();?>/assets/img/top/style-item1.png" alt="davinci">
+              <img src="<?php echo get_template_directory_uri();?>/assets/img/top/style-item2.png" alt="davinci">
             </div>
           </div>
         </div>
@@ -230,8 +230,9 @@
     <div class="top-container">
       <div class="fade-in js-scroll-trigger">
         <p class="top-sec-title">FAQ</p> 
+      </div>
         <div class="top-faq__items">
-          <div class="top-faq__item">
+          <div class="top-faq__item fade-in js-scroll-trigger">
             <input id="top-faq1" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq1">Q 支払い方法を教えてほしいです。</label>
             <div class="top-faq__a">
@@ -239,7 +240,7 @@
             </div>
           </div>
 
-          <div class="top-faq__item">
+          <div class="top-faq__item fade-in js-scroll-trigger-little-late">
             <input id="top-faq2" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq2">Q 授業開始の何分前から教室に入れますか？</label>
             <div class="top-faq__a">
@@ -247,7 +248,7 @@
             </div>
           </div>
 
-          <div class="top-faq__item">
+          <div class="top-faq__item fade-in js-scroll-trigger">
             <input id="top-faq3" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq3">Q 親や保護者の見学は可能ですか？</label>
             <div class="top-faq__a">
@@ -255,7 +256,7 @@
             </div>
           </div>
 
-          <div class="top-faq__item">
+          <div class="top-faq__item fade-in js-scroll-trigger-little-late">
             <input id="top-faq4" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq4">Q 子どもが発達障害なのですが、入塾はできますか？</label>
             <div class="top-faq__a" id="top-faq__a">
@@ -263,7 +264,7 @@
             </div>
           </div>
 
-          <div class="top-faq__item">
+          <div class="top-faq__item fade-in js-scroll-trigger">
             <input id="top-faq5" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq5">Q 入会前に体験できるサービスを教えてください。</label>
             <div class="top-faq__a">
