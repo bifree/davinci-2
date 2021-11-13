@@ -185,8 +185,8 @@
 			font-size: 4vw;
 		}
 		p {
-			font-size: 3.3vw;
-			line-height: 4vw;
+			font-size: 2.4vw;
+			line-height: 3vw;
 			letter-spacing: .15em;
 		}
 		.btn-green {
@@ -218,7 +218,7 @@
 				display: block;
 				.red-inner {
 					width: 90%;
-					margin: 0 auto;
+					margin: 0 auto 3vw;
 					h3 {
 						font-size: 4.5vw;
 						line-height: 5.5vw;
@@ -251,7 +251,7 @@
 				display: block;
 				.blue-inner {
 					width: 90%;
-					margin: 0 auto;
+					margin: 0 auto 3vw;
 					h3 {
 						font-size: 4.5vw;
 						line-height: 5.5vw;
@@ -280,11 +280,11 @@
 			background-repeat: no-repeat;
 			.middle-inner-green {
 				width: 90%;
-				margin: 0 auto;
+				margin: 0 auto 3vw;
 				display: block;
 				.green-inner {
 					width: 90%;
-					margin: 0 auto;
+					margin: 0 auto 3vw;
 				}
 				.green-inner-right {
 					width: 70%;
@@ -294,6 +294,13 @@
 					}
 				}
 			}
+		}
+	}
+	@media screen and (max-width: 599px) {
+		p {
+			font-size: 3.3vw;
+			line-height: 4vw;
+			letter-spacing: .15em;
 		}
 	}
 }

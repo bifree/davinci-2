@@ -20,9 +20,9 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」 「WEBデザイン」">
   <!-- OGP -->
-  <meta property="og:title" content="コース一覧 | DaVinci-ダヴィンチ-">
+  <meta property="og:title" content="<?php echo the_title();?>">
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://www.davinci-tanq.com/course/index.php">
+  <meta property="og:url" content="<?php echo get_the_permalink();?>">
   <meta property="og:site_name" content="能力探究塾-DaVinci-" />
   <meta property="og:description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」" />
   <meta property="og:image" content="https://www.davinci-tanq.com/img/common/logo1.png" />

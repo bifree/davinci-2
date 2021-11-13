@@ -29,8 +29,8 @@
           </ul>
         </div>
         <div class="sns-icon-list">
-          <i class="fab fa-facebook-f fa-3x"></i>
-          <i class="fab fa-instagram fa-3x"></i>
+          <a href="https://www.instagram.com/davinci_tanq/"><i class="fab fa-facebook-f fa-3x"></i></a>
+          <a href="https://www.facebook.com/davinchitanq/"><i class="fab fa-instagram fa-3x"></i></a>
         </div>
       </div>
     </div>
