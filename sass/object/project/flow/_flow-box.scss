@@ -59,6 +59,7 @@
 				font-size: 2vw;
 				text-align: center;
 				line-height: 6vw;
+				color: #fff;
 			}
 		}
 	}
@@ -88,16 +89,23 @@
 					letter-spacing: 6px;
 				}
 				p.small {
-					font-size: 1.2vw;
-					line-height: 2vw;
+					font-size: 2.4vw;
+					line-height: 3vw;
 				}
 				.flow-inner-text {
 					padding-bottom: 8vw;
 				}
 				.flow1-img, .flow2-img, .flow3-img,
 				.flow4-img, .flow5-img, .flow6-img,
-				.flow7-img, .flow8-img {
+				.flow7-img {
 					width: 80%;
+					margin: 0 auto;
+					img {
+						width: 100%;
+					}
+				}
+				.flow8-img {
+					width: 50%;
 					margin: 0 auto;
 					img {
 						width: 100%;
@@ -114,8 +122,7 @@
 				margin: 8vw auto 0;
 				background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
 				a p {
-					color: #fff;
-					font-size: 2vw;
+					font-size: 3vw;
 					text-align: center;
 					line-height: 6vw;
 				}

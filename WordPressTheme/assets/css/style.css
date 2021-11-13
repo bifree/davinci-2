@@ -1525,6 +1525,7 @@ select {
 }
 
 .flow-box-body .flow-box-inner .flow-btn p {
+	color: #fff;
 	font-size: 2vw;
 	line-height: 6vw;
 	text-align: center;
@@ -1536,6 +1537,17 @@ select {
 
 .flow-middle .flow-middle-bottom {
 	display: flex;
+	margin: 0 auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.flow-middle .flow-middle-bottom .flow-middle-img {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	margin: auto 0;
 }
 
 .flow-middle h2 {
@@ -3784,8 +3796,8 @@ img {
 }
 
 .flow-box-body .flow-box-inner .flow-box p.small {
-	font-size: 1.2vw;
-	line-height: 2vw;
+	font-size: 2.4vw;
+	line-height: 3vw;
 }
 
 .flow-box-body .flow-box-inner .flow-box .flow-inner-text {
@@ -3798,8 +3810,7 @@ img {
 .flow-box-body .flow-box-inner .flow-box .flow4-img,
 .flow-box-body .flow-box-inner .flow-box .flow5-img,
 .flow-box-body .flow-box-inner .flow-box .flow6-img,
-.flow-box-body .flow-box-inner .flow-box .flow7-img,
-.flow-box-body .flow-box-inner .flow-box .flow8-img {
+.flow-box-body .flow-box-inner .flow-box .flow7-img {
 	margin: 0 auto;
 	width: 80%;
 }
@@ -3810,7 +3821,15 @@ img {
 .flow-box-body .flow-box-inner .flow-box .flow4-img img,
 .flow-box-body .flow-box-inner .flow-box .flow5-img img,
 .flow-box-body .flow-box-inner .flow-box .flow6-img img,
-.flow-box-body .flow-box-inner .flow-box .flow7-img img,
+.flow-box-body .flow-box-inner .flow-box .flow7-img img {
+	width: 100%;
+}
+
+.flow-box-body .flow-box-inner .flow-box .flow8-img {
+	margin: 0 auto;
+	width: 50%;
+}
+
 .flow-box-body .flow-box-inner .flow-box .flow8-img img {
 	width: 100%;
 }
@@ -3827,8 +3846,7 @@ img {
 }
 
 .flow-box-body .flow-box-inner .flow-btn a p {
-	color: #fff;
-	font-size: 2vw;
+	font-size: 3vw;
 	line-height: 6vw;
 	text-align: center;
 }
@@ -3844,6 +3862,13 @@ img {
 	line-height: 4.5vw;
 	margin: 0 2%;
 	text-align: justify;
+}
+
+.flow-middle .flow-middle-bottom .flow-middle-img {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	margin: auto 0;
 }
 
 .flow-top .flow-top-menu {
