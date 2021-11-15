@@ -1,19 +1,4 @@
 .contact {
-  .contact-top-menu {
-    background-color: #00b8b8;
-    h1 {
-      font-size: calc(16px + 2 * (100vw - 768px) / 1152);
-      color: #fff;
-      font-family: fot-tsukuardgothic-std, sans-serif;
-      font-style: normal;
-      font-weight: 700;
-      vertical-align: middle;
-      height: calc(46px + 38 * (100vw - 768px) / 1152);
-      line-height: calc(46px + 38 * (100vw - 768px) / 1152);
-      margin-left: 3.5vw;
-    }
-  }
-
   .contact-top-image {
     position: relative;
     height: 22vw;
@@ -79,21 +64,6 @@
   }
 
   @media screen and (max-width: 767px) {
-    .contact-top-menu {
-      background-color: #00b8b8;
-      h1 {
-        font-size: calc(13px + 4 * (100vw - 320px) / 447);
-        color: #fff;
-        font-family: fot-tsukuardgothic-std, sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        vertical-align: middle;
-        height: calc(35px + 11 * (100vw - 320px) / 447);
-        line-height: calc(35px + 11 * (100vw - 320px) / 447);
-        margin: 0 0 0 8.7vw;
-      }
-    }
-
     .contact-top-image {
       position: relative;
       height: 30vh;
