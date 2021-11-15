@@ -1065,22 +1065,6 @@ select {
 	top: 0;
 }
 
-.contact .contact-top-menu {
-	background-color: #00b8b8;
-}
-
-.contact .contact-top-menu h1 {
-	color: #fff;
-	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: calc(16px + 2 * (100vw - 768px) / 1152);
-	font-style: normal;
-	font-weight: 700;
-	height: calc(46px + 38 * (100vw - 768px) / 1152);
-	line-height: calc(46px + 38 * (100vw - 768px) / 1152);
-	margin-left: 3.5vw;
-	vertical-align: middle;
-}
-
 .contact .contact-top-image {
 	background-image: url(../img/contact/contact.jpg);
 	background-size: cover;
@@ -2067,22 +2051,6 @@ select {
 	font-size: 18px;
 	line-height: 85px;
 	text-decoration: none;
-}
-
-.terms .terms-top-menu {
-	background-color: #00b8b8;
-}
-
-.terms h1 {
-	color: #fff;
-	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: calc(16px + 2 * (100vw - 768px) / 1152);
-	font-style: normal;
-	font-weight: 700;
-	height: calc(46px + 38 * (100vw - 768px) / 1152);
-	line-height: calc(46px + 38 * (100vw - 768px) / 1152);
-	margin-left: 3.5vw;
-	vertical-align: middle;
 }
 
 .terms p,
@@ -3767,22 +3735,6 @@ img {
 	z-index: 1;
 }
 
-.contact .contact-top-menu {
-	background-color: #00b8b8;
-}
-
-.contact .contact-top-menu h1 {
-	color: #fff;
-	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: calc(13px + 4 * (100vw - 320px) / 447);
-	font-style: normal;
-	font-weight: 700;
-	height: calc(35px + 11 * (100vw - 320px) / 447);
-	line-height: calc(35px + 11 * (100vw - 320px) / 447);
-	margin: 0 0 0 8.7vw;
-	vertical-align: middle;
-}
-
 .contact .contact-top-image {
 	background-position: 60% 100%;
 	height: 30vh;
@@ -4400,22 +4352,6 @@ img {
 .plans-top .plans-top-image h2 {
 	font-size: 5vw;
 	letter-spacing: 0.24em;
-}
-
-.terms .terms-top-menu {
-	background-color: #00b8b8;
-}
-
-.terms h1 {
-	color: #fff;
-	font-family: fot-tsukuardgothic-std, sans-serif;
-	font-size: calc(13px + 4 * (100vw - 320px) / 447);
-	font-style: normal;
-	font-weight: 700;
-	height: calc(35px + 11 * (100vw - 320px) / 447);
-	line-height: calc(35px + 11 * (100vw - 320px) / 447);
-	margin: 0 0 0 8.7vw;
-	vertical-align: middle;
 }
 
 .terms p,

@@ -2,7 +2,7 @@
 <div class="contact">
     <div class="contact-top">
         <div class="contact-top-menu">
-            <h1>お問い合わせ</h1>
+            <?php get_template_part('template/top-menu');?>
         </div>
 
         <div class="contact-top-image">

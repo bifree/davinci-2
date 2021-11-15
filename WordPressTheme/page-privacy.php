@@ -2,9 +2,7 @@
 
 <div class="terms">
     <div class="terms-top-menu">
-        <h1>
-            プライバシーポリシー
-        </h1>
+        <?php get_template_part('template/top-menu');?>
     </div>
     <div class="terms-wrapper">
 
