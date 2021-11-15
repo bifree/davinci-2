@@ -214,7 +214,7 @@ img{
   .top-mainvisual{
     .top-mainvisual__slider {
       .top-mainvisual__slider__item img{
-        height:650px;
+        height:calc(100vh -  70px);
       }
       
       // 位置を変える
@@ -239,7 +239,7 @@ img{
     }
   
     .top-mainvisual__color{
-      height:650px;
+      height:calc(100vh 70px);
     }
    
     .top-mainvisual__text{
@@ -256,7 +256,7 @@ img{
       font-size:calc(16px + 14 * (100vw - 320px) / 447);
       padding:3.8vw 8vw;
       right:18vw;
-      bottom:8vh;
+      bottom:10vh;
   
       img{
         width:calc(12px + 12 * (100vw - 320px) / 447);
