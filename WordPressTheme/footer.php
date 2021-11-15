@@ -15,9 +15,9 @@
         <div class="footer-menu-l">
           <h4>ABOUT</h4>
           <ul>
-            <li><a href="<?php echo home_url('/about'); ?>">プレスリリース</a></li>
-            <li><a href="<?php echo home_url('/about'); ?>">運営会社</a></li>
-            <li><a href="<?php echo home_url('/about'); ?>">採用情報</a></li>
+            <li><a href="<?php echo home_url('/about#press'); ?>">プレスリリース</a></li>
+            <li><a href="<?php echo home_url('/about#company'); ?>">運営会社</a></li>
+            <li><a href="<?php echo home_url('/about#info'); ?>">採用情報</a></li>
           </ul>
         </div>
         <div class="footer-menu-r">
@@ -27,6 +27,10 @@
             <li><a href="<?php echo home_url('/finance'); ?>">ファイナンス</a></li>
             <li><a href="<?php echo home_url('/steam'); ?>">こどもと大人のためのSTEAM教室</a></li>
           </ul>
+        </div>
+        <div class="sns-icon-list">
+          <a href="https://www.instagram.com/davinci_tanq/"><i class="fab fa-facebook-f fa-3x"></i></a>
+          <a href="https://www.facebook.com/davinchitanq/"><i class="fab fa-instagram fa-3x"></i></a>
         </div>
       </div>
     </div>
@@ -39,6 +43,7 @@
 <?php wp_footer(); ?>
 <!-- jQuery -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <!-- slickのJavaScript -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

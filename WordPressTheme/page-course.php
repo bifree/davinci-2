@@ -1,14 +1,7 @@
 <?php get_header(); ?>
 
 <div class="course-top">
-	<div class="course-top-menu">
-		<ul>
-			<li><a href="<?php echo home_url('/eclil/');?>">グローバルeスポーツ</a></li>
-			<li><a href="<?php echo home_url('/steam/');?>">WEBデザイン・プログラミング</a></li>
-			<li><a href="<?php echo home_url('/finance/');?>">ファイナンス</a></li>
-			<li><a href="<?php echo home_url('/flow/');?>">体験コース</a></li>
-    </ul>
-	</div>
+	<?php get_template_part('template/top-menu');?>
 	<div class="course-top-image">
 		<h2>COURSE</h2>
 	</div>
@@ -42,7 +35,9 @@
 			</div>
 			<div class="red-inner-right">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/course/eclil.png" alt="">
-				<div class="btn-green"></div>
+				<div class="btn-green">
+					<a href="<?php echo home_url('/eclil'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/more.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,7 +54,9 @@
 			</div>
 			<div class="blue-inner-right">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/course/finance.png" alt="">
-				<div class="btn-green"></div>
+				<div class="btn-green">
+					<a href="<?php echo home_url('/finance'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/more.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -69,14 +66,16 @@
 	<div class="middle-green">
 		<div class="middle-inner-green">
 			<div class="green-inner">
-				<h3>こどもと大人のための STEAM教室</h3>
-				<h4>～未来のワクワクを掴む</h4>
-				<h4>web・デザイン技術を手の中に～</h4>
+				<h3>こどもと大人のための<br>STEAM教室</h3>
+				<h4>～未来のワクワクを掴む<br>
+				web・デザイン技術を手の中に～</h4>
 				<p>こどもも大人も情報社会でワクワクする技術を 「制作」を通じて学びましょう！</p>
 			</div>
 			<div class="green-inner-right">
 				<img src="<?php echo get_template_directory_uri();?>/assets/img/course/web.png" alt="">
-				<div class="btn-green"></div>
+				<div class="btn-green">
+					<a href="<?php echo home_url('/steam'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/more.png" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -91,7 +90,7 @@
 				<h3>あなたの知らない世界へ </h3>
 				<h3>はじめの一歩を踏み出そう。</h3>
 				<div class="btn-green">
-					<img src="<?php echo get_template_directory_uri();?>/assets/img/course/btn-bottom.png" alt="">
+					<a href="<?php echo home_url('/flow'); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/img/course/btn-bottom.png" alt=""></a>
 				</div>
 			</div>
 			<div class="bottom-right">

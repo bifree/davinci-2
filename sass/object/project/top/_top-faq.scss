@@ -23,7 +23,7 @@
         display: block;
         padding:2vw;
         cursor: pointer;
-        font-size:1.1vw;
+        font-size: calc(16px + 2 * (100vw - 768px) / 1152);
         font-weight:100;
         position:relative;
 
@@ -44,7 +44,7 @@
         transition: .5s;
         visibility: hidden;
         background:#f2f2f2;
-        font-size:1vw;
+        font-size: calc(16px + 2 * (100vw - 768px) / 1152)!important;
         font-weight:100 !important;
       }
 
@@ -73,8 +73,9 @@
         width:95%;
         margin:0.5vw auto;
   
+
         .top-faq__q{
-          font-size:1.6vw;
+          font-size:calc(14px + 2 * (100vw - 320px) / 447);;
 
           &:after{
             font-size:2vw;
@@ -82,7 +83,7 @@
         }
   
         .top-faq__a{
-          font-size:1.6vw;
+          font-size:calc(14px + 2 * (100vw - 320px) / 447) !important;
         }
       }
     }
