@@ -42,6 +42,13 @@
     background: -webkit-linear-gradient(left, #27D5DA 0%, #94F990 100%);
     position:relative;
     border-radius:40px;
+    transition: all .3s;
+    -webkit-transition: all .3s; 
+
+    &:hover{
+      opacity: 0.8; 
+      filter: brightness(110%); 
+    }
     
     img{
       position:absolute;
@@ -55,8 +62,8 @@
   .top-lesson__pic{
     width:14.6vw;
     position:absolute;
-    left:3vw;
-    top:14vw;
+    left:-5vw;
+    top:12vw;
   }
 }
 
@@ -67,8 +74,8 @@
     }      
 
     .top-lesson__pic{
-      left:2vw;
-      top:25vw;
+      left:-7vw;
+      top:18vw;
     }
   }
 }
@@ -97,8 +104,8 @@
   
     .top-lesson__pic{
       width:14vw;
-      left:4vw;
-      top:3vw;
+      left:-3vw;
+      top:1vw;
     }
   }
 }

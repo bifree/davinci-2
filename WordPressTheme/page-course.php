@@ -3,12 +3,12 @@
 <div class="course-top">
     <?php get_template_part('template/top-menu');?>
     <div class="course-top-image">
-        <h2>COURSE</h2>
+        <h1 class="top-visual-title">COURSE</h1>
     </div>
 </div>
 
 <div class="course-middle-top">
-    <h2>好きな時に、好きなコースを受講しよう。</h2>
+    <h1 class="heading">好きな時に、好きなコースを受講しよう。</h1>
     <div class="course-middle-inner">
         <div class="course-middle-text">
             <p>好きなコースを選んで、探究して、伸びていく！ </p>

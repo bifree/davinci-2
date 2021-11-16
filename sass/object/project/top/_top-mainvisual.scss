@@ -25,7 +25,7 @@ img{
 
     .top-mainvisual__slider__item img{
       width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-      height:100vh;
+      height:calc(100vh - 7vw);
       object-fit:cover;
     }
     
@@ -188,17 +188,31 @@ img{
     position:absolute;
     right:3vw;
     bottom:11vh;
+    transition: all .3s;
+    -webkit-transition: all .3s; 
 
+    &:hover{
+      opacity: 0.8; 
+      filter: brightness(110%); 
+    }
+    
     img{
       width:1.5vw;
       margin-left:1.2vw;
       padding-bottom:-5px;
     }
+
   }  
 }
 
 @media screen and (max-width:1279px){
   .top-mainvisual{
+    .top-mainvisual__slider {
+      .top-mainvisual__slider__item img{
+        height:calc(100vh - 7.2vw);
+      }
+    }
+
     .top-mainvisual__btn{
       padding:24px 48px;
   
@@ -206,7 +220,7 @@ img{
         width:20px;
         margin-left:12px;
       }
-    }  
+    } 
   }
 }
 

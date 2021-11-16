@@ -22,7 +22,15 @@
 			}
 			.company-logo-r {
 				width: 220px;
+				transition: all .3s;
+				-webkit-transition: all .3s; 
+		
+				&:hover{
+					opacity: 0.8; 
+					filter: brightness(110%); 
+				}
 			}
+	
 		}
 		.company-info {
 			display: flex;

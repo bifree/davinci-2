@@ -76,6 +76,13 @@
 			color: #fff;
 			margin: 8vw auto 0;
 			background: transparent linear-gradient(180deg, #FFAA89 0%, #FEA187 18%, #FD9D86 32%, #FB7D81 54%, #F74978 100%) 0% 0% no-repeat padding-box;
+			transition: all .3s;
+			-webkit-transition: all .3s; 
+	
+			&:hover{
+				opacity: 0.8; 
+				filter: brightness(110%); 
+			}
 			p {
 				font-size: 2vw;
 				text-align: center;

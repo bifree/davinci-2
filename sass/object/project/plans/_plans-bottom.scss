@@ -39,6 +39,13 @@
 			color: #fff;
 			font-size: 2vw;
 			letter-spacing: 0.24em;
+			transition: all .3s;
+			-webkit-transition: all .3s; 
+	
+			&:hover{
+				opacity: 0.8; 
+				filter: brightness(110%); 
+			}
 	}
 	@media screen and (max-width: 767px) {
 		.plans-bottom-inner {
