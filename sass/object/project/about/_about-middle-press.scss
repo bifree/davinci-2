@@ -57,6 +57,22 @@
 			font-size: 2.2vw;
 			line-height: 2.5vw;
 		}	
+
+		.about-bottom{
+			.about-bottom-company{
+				.company-logo-l{
+					img{
+						margin:10px 0;
+					}
+				}
+				.company-logo-r{
+					img{
+						margin:10px 0;
+					}
+				}
+			}
+		}
+		
 		.about-press-img {
 			position: relative;
 			height: 27vh;

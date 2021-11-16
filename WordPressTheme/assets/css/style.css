@@ -627,12 +627,12 @@ select {
 	transform-origin: left top;
 }
 
-.l-footer .sns-icon-list {
+.l-footer .sns-icon-list a {
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
 
-.l-footer .sns-icon-list:hover {
+.l-footer .sns-icon-list a:hover {
 	filter: brightness(110%);
 	opacity: 0.8;
 }
@@ -911,6 +911,7 @@ select {
 }
 
 .about-bottom {
+	letter-spacing: 0.24em;
 	margin-bottom: 10.7vw;
 	margin-top: 4.8vw;
 }
@@ -928,6 +929,7 @@ select {
 
 .about-bottom .about-bottom-company h4 img {
 	line-height: 6.2vw;
+	margin-right: 5px;
 	width: 6vw;
 }
 
@@ -976,11 +978,13 @@ select {
 }
 
 .about-bottom .about-bottom-project h4 {
+	font-size: 2.2vw;
 	letter-spacing: 0.24em;
 }
 
 .about-bottom .about-bottom-project h4 img {
 	line-height: 6.4vw;
+	margin-right: 5px;
 	width: 6.2vw;
 }
 
@@ -1049,12 +1053,6 @@ select {
 
 .about-middle-sp-text {
 	display: none;
-}
-
-.about-middle-sp-text p {
-	font-size: 3.3vw;
-	letter-spacing: .15em;
-	line-height: 4.5vw;
 }
 
 .about-middle {
@@ -3719,12 +3717,8 @@ img {
 	display: block;
 }
 
-.about-bottom {
-	margin-bottom: 10.7vw;
-	margin-top: 4.8vw;
-}
-
 .about-bottom .about-bottom-company {
+	margin: 50px 0;
 	padding-left: 8vw;
 	padding-right: 7vw;
 }
@@ -3732,12 +3726,12 @@ img {
 .about-bottom .about-bottom-company h4 {
 	font-size: 4.5vw;
 	line-height: 5.5vw;
+	margin-bottom: 5vw;
 }
 
 .about-bottom .about-bottom-company .company-logo {
 	display: block;
-	margin-bottom: 3.4vw;
-	margin-top: 5vw;
+	margin-top: 5vw 0;
 	width: 60%;
 }
 
@@ -3746,6 +3740,7 @@ img {
 }
 
 .about-bottom .about-bottom-company .company-logo .company-logo-r {
+	margin: 10px 0;
 	width: 80%;
 }
 
@@ -3778,9 +3773,11 @@ img {
 .about-bottom .about-bottom-company .company-info p {
 	font-size: 3.3vw;
 	line-height: 4.5vw;
+	line-height: calc(24px + 12 * (100vw - 320px) / 447);
 }
 
 .about-bottom .about-bottom-company .company-info .company-info-1 {
+	margin-bottom: 10px;
 	width: auto;
 }
 
@@ -3789,6 +3786,7 @@ img {
 }
 
 .about-bottom .about-bottom-project {
+	margin: 50px 0;
 	padding-left: 8vw;
 	padding-right: 7vw;
 }
@@ -3796,15 +3794,21 @@ img {
 .about-bottom .about-bottom-project h4 {
 	font-size: 4.5vw;
 	line-height: 5.5vw;
-}
-
-.about-bottom .about-bottom-project p {
-	font-size: 3.3vw;
-	line-height: 4.5vw;
+	margin-bottom: 5vw;
 }
 
 .about-bottom .about-bottom-project .about-project-inner {
 	display: block;
+}
+
+.about-bottom .about-bottom-project .about-project-inner p {
+	font-size: 3.3vw;
+	line-height: 4.5vw;
+	line-height: calc(24px + 12 * (100vw - 320px) / 447);
+}
+
+.about-bottom .about-bottom-project .about-project-right {
+	margin: 10px auto;
 }
 
 .about-middle-press h3 {
@@ -3819,6 +3823,14 @@ img {
 	color: #fff;
 	font-size: 2.2vw;
 	line-height: 2.5vw;
+}
+
+.about-middle-press .about-bottom .about-bottom-company .company-logo-l img {
+	margin: 10px 0;
+}
+
+.about-middle-press .about-bottom .about-bottom-company .company-logo-r img {
+	margin: 10px 0;
 }
 
 .about-middle-press .about-press-img {
@@ -3842,6 +3854,12 @@ img {
 
 .about-middle-sp-text {
 	display: block;
+}
+
+.about-middle-sp-text p {
+	font-size: 3.3vw;
+	letter-spacing: 0.24rem;
+	line-height: calc(24px + 12 * (100vw - 320px) / 447);
 	margin: 3vh auto 0;
 	width: 90%;
 }
