@@ -1,40 +1,40 @@
-.steam-top__title{
-  background: linear-gradient(to right, #2BB6C7 0%, #85C48D 100%);
-  background: -webkit-linear-gradient(left, #2BB6C7 0%, #85C48D 100%);
-  padding:2.3vw 10vw;
+.steam-top__title-heading {
+  background: linear-gradient(to right, #2bb6c7 0%, #85c48d 100%);
+  background: -webkit-linear-gradient(left, #2bb6c7 0%, #85c48d 100%);
+  padding: 2.3vw 10vw;
 
-  .tb-br{
-    display:none;
-  }  
+  .tb-br {
+    display: none;
+  }
 }
 
-.steam-top__img{
-  margin:4.2vw auto 4.7vw;
-  width:100%;
-  background:#fff;
-  border-radius:1.6vw;
+.steam-top__img {
+  margin: 4.2vw auto 4.7vw;
+  width: 100%;
+  background: #fff;
+  border-radius: 1.6vw;
 }
 
-.steam-top__icon__icon{
-  width:6.3vw;
+.steam-top__icon__icon {
+  width: 6.3vw;
 }
 
-@media screen and (max-width:1279px){
-  .steam-top__title{
-    padding:28px 125px;
+@media screen and (max-width: 1279px) {
+  .steam-top__title-heading {
+    padding: 28px 125px;
 
-    .tb-br{
-      display:block;
+    .tb-br {
+      display: block;
     }
   }
 }
 
-@media screen and (max-width:797px){
-  .steam-top__title{
-    padding:4vw 10vw;
+@media screen and (max-width: 797px) {
+  .steam-top__title-heading {
+    padding: 4vw 10vw;
   }
-  
-  .steam-top__icon__icon{
-    width:15vw;
+
+  .steam-top__icon__icon {
+    width: 15vw;
   }
 }

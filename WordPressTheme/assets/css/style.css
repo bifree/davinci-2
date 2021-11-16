@@ -1005,7 +1005,7 @@ select {
 }
 
 .about-top .about-top-menu {
-	background-color: #00B8B8;
+	background-color: #00b8b8;
 	height: 4.1vw;
 	padding-left: 3.1vw;
 }
@@ -1041,7 +1041,7 @@ select {
 	width: 100%;
 }
 
-.about-top .about-top-image h2 {
+.about-top .about-top-image .top-visual-title {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
 	font-size: 2.8vw;
@@ -1058,7 +1058,7 @@ select {
 .about-top .about-top-image:after {
 	background-color: rgba(0, 0, 0, 0.13);
 	bottom: 0;
-	content: '';
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -1072,7 +1072,7 @@ select {
 	position: relative;
 }
 
-.contact .contact-top-image h2 {
+.contact .contact-top-image .top-visual-title {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
 	font-size: calc(38px + 18 * (100vw - 768px) / 1152);
@@ -1447,7 +1447,7 @@ select {
 .course-top .course-top-image:after {
 	background-color: rgba(0, 0, 0, 0.13);
 	bottom: 0;
-	content: '';
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -1547,7 +1547,7 @@ select {
 	position: relative;
 }
 
-.each-course-top .each-course-top-image h2 {
+.each-course-top .each-course-top-image .top-visual-title {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
 	font-size: calc(38px + 18 * (100vw - 768px) / 1152);
@@ -1564,7 +1564,7 @@ select {
 .each-course-top .each-course-top-image:after {
 	background-color: rgba(0, 0, 0, 0.13);
 	bottom: 0;
-	content: '';
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -1636,7 +1636,7 @@ select {
 	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 }
 
-.eclil-top__title {
+.eclil-top__title-heading {
 	background: linear-gradient(to right, #da1467 0%, #ff992e 100%);
 	background: -webkit-linear-gradient(left, #da1467 0%, #ff992e 100%);
 	padding: 2.3vw 5.3vw;
@@ -1647,9 +1647,9 @@ select {
 	width: 64%;
 }
 
-.finance-top__title {
-	background: linear-gradient(to right, #106AB6 0%, #9D3ADF 100%);
-	background: -webkit-linear-gradient(left, #106AB6 0%, #9D3ADF 100%);
+.finance-top__title-heading {
+	background: linear-gradient(to right, #106ab6 0%, #9d3adf 100%);
+	background: -webkit-linear-gradient(left, #106ab6 0%, #9d3adf 100%);
 	padding: 2.3vw 10vw;
 }
 
@@ -1810,6 +1810,7 @@ select {
 	margin: auto 0 0;
 }
 
+.flow-middle h1,
 .flow-middle h2 {
 	font-size: 2.8vw;
 	letter-spacing: 0.24em;
@@ -1830,7 +1831,7 @@ select {
 	position: relative;
 }
 
-.flow-top .flow-top-image h2 {
+.flow-top .flow-top-image .top-visual-title {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
 	font-size: 2.8vw;
@@ -1898,9 +1899,9 @@ select {
 	padding-top: 8vw;
 }
 
-.plans-middle h2 {
-	border-bottom: 3px solid #2B3B77;
-	color: #2B3B77;
+.plans-middle h1 {
+	border-bottom: 3px solid #2b3b77;
+	color: #2b3b77;
 	font-size: 2.8vw;
 	letter-spacing: 0.24em;
 	line-height: 3.4vw;
@@ -1952,7 +1953,7 @@ select {
 	position: relative;
 }
 
-.plans-top .plans-top-image h2 {
+.plans-top .plans-top-image .top-visual-title {
 	color: #fff;
 	font-family: fot-tsukuardgothic-std, sans-serif;
 	font-size: 2.8vw;
@@ -1969,7 +1970,7 @@ select {
 .plans-top .plans-top-image:after {
 	background-color: rgba(0, 0, 0, 0.13);
 	bottom: 0;
-	content: '';
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -1981,13 +1982,13 @@ select {
 	width: 66%;
 }
 
-.steam-top__title {
-	background: linear-gradient(to right, #2BB6C7 0%, #85C48D 100%);
-	background: -webkit-linear-gradient(left, #2BB6C7 0%, #85C48D 100%);
+.steam-top__title-heading {
+	background: linear-gradient(to right, #2bb6c7 0%, #85c48d 100%);
+	background: -webkit-linear-gradient(left, #2bb6c7 0%, #85c48d 100%);
 	padding: 2.3vw 10vw;
 }
 
-.steam-top__title .tb-br {
+.steam-top__title-heading .tb-br {
 	display: none;
 }
 
@@ -2874,19 +2875,19 @@ img {
 	width: 80%;
 }
 
-.eclil-top__title {
+.eclil-top__title-heading {
 	padding: 30px 68px;
 }
 
-.finance-top__title {
+.finance-top__title-heading {
 	padding: 28px 125px;
 }
 
-.steam-top__title {
+.steam-top__title-heading {
 	padding: 28px 125px;
 }
 
-.steam-top__title .tb-br {
+.steam-top__title-heading .tb-br {
 	display: block;
 }
 
@@ -3060,7 +3061,7 @@ img {
 	width: 100%;
 }
 
-.each-course-top .each-course-top-image h2 {
+.each-course-top .each-course-top-image .top-visual-title {
 	font-size: calc(23px + 15 * (100vw - 320px) / 447);
 	left: 50%;
 	letter-spacing: 0.24em;
@@ -3099,11 +3100,11 @@ img {
 	font-size: 3.4vw;
 }
 
-.eclil-top__title {
+.eclil-top__title-heading {
 	padding: 4vw 10.3vw;
 }
 
-.finance-top__title {
+.finance-top__title-heading {
 	padding: 4vw 15vw;
 }
 
@@ -3115,7 +3116,7 @@ img {
 	font-size: calc(18px + 10 * (100vw - 320px) / 477);
 }
 
-.steam-top__title {
+.steam-top__title-heading {
 	padding: 4vw 10vw;
 }
 
@@ -3732,7 +3733,7 @@ img {
 	width: auto;
 }
 
-.about-top .about-top-image h2 {
+.about-top .about-top-image .top-visual-title {
 	font-size: 5vw;
 	letter-spacing: 0.24em;
 	position: absolute;
@@ -3752,7 +3753,7 @@ img {
 	width: auto;
 }
 
-.contact .contact-top-image h2 {
+.contact .contact-top-image .top-visual-title {
 	font-size: calc(23px + 15 * (100vw - 320px) / 447);
 	left: 50%;
 	letter-spacing: 0.24em;
@@ -4114,7 +4115,7 @@ img {
 .course-top .course-top-image:after {
 	background-color: rgba(0, 0, 0, 0.13);
 	bottom: 0;
-	content: '';
+	content: "";
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -4206,6 +4207,7 @@ img {
 	text-align: center;
 }
 
+.flow-middle h1,
 .flow-middle h2 {
 	font-size: 5vw;
 	line-height: 6vw;
@@ -4244,7 +4246,7 @@ img {
 	width: auto;
 }
 
-.flow-top .flow-top-image h2 {
+.flow-top .flow-top-image .top-visual-title {
 	font-size: 5vw;
 	letter-spacing: 0.24em;
 }
@@ -4292,7 +4294,7 @@ img {
 	width: 50%;
 }
 
-.plans-middle h2 {
+.plans-middle h1 {
 	font-size: 5vw;
 	letter-spacing: 0.24em;
 	line-height: 6vw;
@@ -4305,7 +4307,7 @@ img {
 
 .plans-middle p {
 	font-size: 3.3vw;
-	letter-spacing: .15em;
+	letter-spacing: 0.15em;
 	line-height: 4.5vw;
 }
 
@@ -4355,7 +4357,7 @@ img {
 	width: auto;
 }
 
-.plans-top .plans-top-image h2 {
+.plans-top .plans-top-image h1 {
 	font-size: 5vw;
 	letter-spacing: 0.24em;
 }
