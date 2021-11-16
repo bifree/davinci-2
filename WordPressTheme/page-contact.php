@@ -6,13 +6,13 @@
         </div>
 
         <div class="contact-top-image">
-            <h2>CONTACT</h2>
+            <h1 class="top-visual-title">CONTACT</h1>
         </div>
 
     </div>
 
     <div class="contact-container">
-        <h3 class="contact-container__title">お問い合わせフォーム</h3>
+        <h2 class="contact-container__title">お問い合わせフォーム</h2>
         <div class="contact-container__form">
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdwJ9M9uJr_mFQMmq-Jy-eVoBO8nLSNjQZiVL6fzvhXBdAyeQ/viewform?embedded=true"
