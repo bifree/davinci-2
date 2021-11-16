@@ -25,8 +25,14 @@
       font-family:"Noto Sans JP";
       font-weight:bold;
       letter-spacing:0;
+      transition: all .3s;
+      -webkit-transition: all .3s; 
+  
+      &:hover{
+        opacity: 0.8; 
+        filter: brightness(110%); 
+      }
       
-
       img{
         margin:0 auto 1.9vw;
       }
@@ -147,6 +153,13 @@
         align-items:center;
         text-align:left;
         font-size:2.2vw;
+        transition: all .3s;
+        -webkit-transition: all .3s; 
+    
+        &:hover{
+          opacity: 0.8; 
+          filter: brightness(110%); 
+        }
 
         img{
           width:12.5vw;

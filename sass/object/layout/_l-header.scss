@@ -26,6 +26,26 @@
 					color: #3E3A39;
 					line-height: 130%;
 					text-align: center;
+					position: relative;
+					display: inline-block;
+					text-decoration: none;
+					
+					&::after {
+						position: absolute;
+						bottom: -4px;
+						left: 0;
+						content: '';
+						width: 100%;
+						height: 2px;
+						background: #3E3A39;
+						transform: scale(0, 1);
+						transform-origin: right top;
+						transition: transform .3s;
+					}
+					&:hover::after {
+						transform-origin: left top;
+						transform: scale(1, 1);
+					}
 				}
 			}
 		}
@@ -126,6 +146,14 @@
 			padding-bottom: 1.5vw;
 			box-sizing: border-box;
 			background-image: url(../img/header/flow.png);
+			transition: all .3s;
+      -webkit-transition: all .3s; 
+    
+			&:hover{
+				opacity: 0.8; 
+				filter: brightness(110%);
+			} 
+
 			a {
 				color: #fff;
 				display: block;
@@ -142,6 +170,14 @@
 			padding-bottom: 1.5vw;
 			box-sizing: border-box;
 			background-image: url(../img/header/reserve.png);
+			transition: all .3s;
+        -webkit-transition: all .3s; 
+    
+			&:hover{
+				opacity: 0.8; 
+				filter: brightness(110%); 
+
+				}
 			a {
 				color: #fff;
 				display: block;

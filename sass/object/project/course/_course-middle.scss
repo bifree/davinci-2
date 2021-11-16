@@ -68,6 +68,13 @@
 					width: 18vw;
 					margin-left: auto;
 					margin-top: 3.5vw;
+					transition: all .3s;
+					-webkit-transition: all .3s; 
+			
+					&:hover{
+						opacity: 0.8; 
+						filter: brightness(110%); 
+					}
 					img {
 						width: 100%;
 					}
@@ -114,6 +121,13 @@
 					width: 18vw;
 					margin-left: auto;
 					margin-top: 3.5vw;
+					transition: all .3s;
+					-webkit-transition: all .3s; 
+			
+					&:hover{
+						opacity: 0.8; 
+						filter: brightness(110%); 
+					}
 					img {
 						width: 100%;
 					}
@@ -155,6 +169,13 @@
 					width: 18vw;
 					margin-left: auto;
 					margin-top: 3.5vw;
+					transition: all .3s;
+					-webkit-transition: all .3s; 
+			
+					&:hover{
+						opacity: 0.8; 
+						filter: brightness(110%); 
+					}
 					img {
 						width: 100%;
 					}

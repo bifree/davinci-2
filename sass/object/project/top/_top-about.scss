@@ -67,6 +67,13 @@
       .top-aout__viewmore{
         background: linear-gradient(to right, #27D5DA 0%, #94F990 100%);
         background: -webkit-linear-gradient(left, #27D5DA 0%, #94F990 100%);
+        transition: all .3s;
+        -webkit-transition: all .3s; 
+    
+        &:hover{
+          opacity: 0.8; 
+          filter: brightness(110%); 
+        }
       }
     }
   }
