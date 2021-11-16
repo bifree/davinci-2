@@ -17,7 +17,7 @@
           <ul>
             <li><a href="<?php echo home_url('/about#press'); ?>">プレスリリース</a></li>
             <li><a href="<?php echo home_url('/about#company'); ?>">運営会社</a></li>
-            <li><a href="<?php echo home_url('/about#info'); ?>">採用情報</a></li>
+            <li><a href="https://bringup-inc.jp/recruiting/">採用情報</a></li>
           </ul>
         </div>
         <div class="footer-menu-r">
@@ -29,8 +29,8 @@
           </ul>
         </div>
         <div class="sns-icon-list">
-          <a href="https://www.instagram.com/davinci_tanq/"><i class="fab fa-facebook-f fa-3x"></i></a>
-          <a href="https://www.facebook.com/davinchitanq/"><i class="fab fa-instagram fa-3x"></i></a>
+          <a href="https://www.facebook.com/davinchitanq/"><i class="fab fa-facebook-f fa-3x"></i></a>
+          <a href="https://www.instagram.com/davinci_tanq/"><i class="fab fa-instagram fa-3x"></i></a>
         </div>
       </div>
     </div>

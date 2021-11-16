@@ -36,18 +36,23 @@
     z-index:2;
     position:relative;
 
-    .top-about__text{
+    .top-sec-title{
       font-family: "ten-mincho-text", serif;
+    }
+
+    .top-about__text{
       line-height:1.8;
       padding:5vw 0;
 
       .top-about__text__en{
+        font-family: "ten-mincho-text", serif;
         font-size:2.8vw;
         font-weight:100;
       }
 
       .top-about__text__ja{
-        font-size:2.4vw;
+        font-family: "ten-mincho-text", serif;
+        font-size:2.1vw;
         font-weight:100;
 
         .tb-br{

@@ -25,6 +25,7 @@
   <meta property="og:url" content="<?php echo get_the_permalink();?>">
   <meta property="og:site_name" content="能力探究塾-DaVinci-" />
   <meta property="og:description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」" />
+  <title><?php echo the_title();?></title>
   <meta property="og:image" content="https://www.davinci-tanq.com/img/common/logo1.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
@@ -75,6 +76,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCZD566"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <?php wp_body_open(); ?>
     <header class="">
       <div class="l-header">
