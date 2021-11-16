@@ -112,12 +112,14 @@
 		}
 	}
 	.sns-icon-list{
-		transition: all .3s;
-		-webkit-transition: all .3s; 
+		a{
+			transition: all .3s;
+			-webkit-transition: all .3s; 
 
-		&:hover{
-			opacity: 0.8; 
-			filter: brightness(110%); 
+			&:hover{
+				opacity: 0.8; 
+				filter: brightness(110%); 
+			}
 		}
 	}
 

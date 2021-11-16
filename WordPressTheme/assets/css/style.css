@@ -627,12 +627,12 @@ select {
 	transform-origin: left top;
 }
 
-.l-footer .sns-icon-list {
+.l-footer .sns-icon-list a {
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
 
-.l-footer .sns-icon-list:hover {
+.l-footer .sns-icon-list a:hover {
 	filter: brightness(110%);
 	opacity: 0.8;
 }
