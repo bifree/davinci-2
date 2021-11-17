@@ -113,12 +113,12 @@
 				}
 				p {
 					font-size: 4vw;
-					line-height: 4.5vw;
-					letter-spacing: 6px;
+					line-height:1.5;
+					letter-spacing:0.24em;
 				}
 				p.small {
 					font-size: 2.4vw;
-					line-height: 3vw;
+					line-height:1.5;
 				}
 				.flow-inner-text {
 					padding-bottom: 8vw;
@@ -151,9 +151,12 @@
 				a p {
 					font-size: 4vw;
 					text-align: center;
-					line-height: 12vw;
+					line-height:1.5;
 				}
 			}
 		}
+		.pc-br{
+      display:none;
+    }
 	}
 }

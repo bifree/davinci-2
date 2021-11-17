@@ -67,8 +67,7 @@
     <section class="each-course-faq">
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHEN</span>
-                　いつ受講できるか
+                <span class="each-course-faq__q__en">WHEN</span> いつ受講できるか
             </p>
             <p class="each-course-faq__a__week">
                 毎週　月曜・木曜
@@ -81,8 +80,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHERE</span>
-                　どこで受講できるのか
+                <span class="each-course-faq__q__en">WHERE</span> どこで受講できるのか
             </p>
             <p class="each-course-faq__a">
                 DaVinci野並教室、またはオンラインにて<br>
@@ -92,8 +90,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHO</span>
-                　誰が受講できるのか
+                <span class="each-course-faq__q__en">WHO</span> 誰が受講できるのか
             </p>
             <p class="each-course-faq__a">
                 小学1年生から社会人の方まで、<br>
@@ -103,8 +100,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHAT</span>
-                　何が受講できるのか
+                <span class="each-course-faq__q__en">WHAT</span> 何が受講できるのか
             </p>
             <p class="each-course-faq__a">
                 ・物事やキャラクターの説明・状態や意思の伝達<br>
@@ -114,8 +110,7 @@
         </div>
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">HOW</span>
-                　どのように受講できるのか
+                <span class="each-course-faq__q__en">HOW</span> どのように受講できるのか
             </p>
             <p class="each-course-faq__a__small">
                 ホームページ右上の「予約」よりレッスンの<br class="sp-br">事前予約が必要です。<br>
@@ -126,8 +121,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">TOOL</span>
-                準備が必要なもの
+                <span class="each-course-faq__q__en">TOOL</span> 準備が必要なもの
             </p>
             <p class="each-course-faq__a__small">
                 オンラインでのレッスンでは、zoom<br>

@@ -59,7 +59,7 @@
   width: 70%;
   max-width: 1531px;
   margin: 0 auto;
-  padding: 7.9vw 0;
+  padding: calc(70px + 80 * (100vw - 768px) / 1152);
   letter-spacing: 0.24em;
 }
 

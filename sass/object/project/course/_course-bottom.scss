@@ -66,7 +66,7 @@
 			border-bottom: 3px solid #2B3B77;
 			width: fit-content;
 			text-align: center;
-			margin: 12vw auto 2.3vw;
+			margin-bottom:calc(15px + 5 * (100vw - 320px) / 447);
 		}
 		.bottom-under-title {
 			background-repeat: no-repeat;

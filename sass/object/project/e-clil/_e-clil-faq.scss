@@ -1,7 +1,7 @@
 .each-course-faq__content{
   width:70%;
   max-width:1531px;
-  margin:0 auto 6.3vw;
+  margin:0 auto  calc(50px + 70 * (100vw - 768px) / 1152);
   text-align:center;
 
   .sp-br{
@@ -10,7 +10,7 @@
 
   .each-course-faq__q{
     font-size:calc(32px + 24 * (100vw - 768px) / 1152);
-    margin-bottom:2.5vw;
+    margin-bottom:calc(18px + 20 * (100vw - 768px) / 1152);
     letter-spacing:0.24em;
 
     .each-course-faq__q__en{
@@ -27,7 +27,7 @@
     line-height:1.7;
     display:flex;
     justify-content:center;
-    margin-top:1.3vw;
+    margin-top:calc(18px + 20 * (100vw - 768px) / 1152);
 
     p{
       margin:0 3vw;
@@ -55,28 +55,30 @@
 
 @media screen and (max-width:797px){
   .each-course-faq__content{
+    margin-bottom:calc(45px + 5 * (100vw - 320px) / 447);
+
     .sp-br{
       display:block;
     }
   
     .each-course-faq__q{
-      font-size:4vw;
+      font-size:calc(14px + 12 * (100vw - 320px) / 447);
     }
-  
+    
     .each-course-faq__a__week{
-      font-size:3.7vw;
+      font-size:calc(13px + 11 * (100vw - 320px) / 447)
     }
      
     .each-course-faq__a__time{
-      font-size:3.7vw;
+      font-size:calc(13px + 11 * (100vw - 320px) / 447)
     } 
   
     .each-course-faq__a{
-      font-size:3.4vw;
+      font-size:calc(12px + 12 * (100vw - 320px) / 447)
     }
   
     .each-course-faq__a__small{
-      font-size:3vw;
+      font-size:calc(10px + 10 * (100vw - 320px) / 447)
     }
   }
 }

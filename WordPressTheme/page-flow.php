@@ -28,7 +28,7 @@
         <div class="flow-box1 flow-box">
             <h3 class="number">1</h3>
             <div class="flow-inner-text">
-                <p>当サイトのメニュー「予約する」<br>より予約ページへ移動します。</p>
+                <p>当サイトのメニュー「予約する」<br class="pc-br">より予約ページへ移動します。</p>
                 <p class="small">★予約ページのブックマークを忘れずに！</p>
             </div>
             <div class="flow1-img">
@@ -47,9 +47,7 @@
         <div class="flow-box3 flow-box">
             <h3 class="number">3</h3>
             <div class="flow-inner-text">
-                <p>「グループレッスン」または </p>
-                <p>「個別レッスン」を選択し</p>
-                <p> 受講したいレッスンを選択します。</p>
+                <p>「グループレッスン」または <br class="pc-br">「個別レッスン」を選択し<br class="pc-br">受講したいレッスンを選択します。</p>
             </div>
             <div class="flow3-img">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step3.jpg" alt="">
@@ -67,7 +65,7 @@
         <div class="flow-box5 flow-box">
             <h3 class="number">5</h3>
             <div class="flow-inner-text">
-                <p>体験チケット[2回分無料]に<br>チェックが付いていることを<br>確認し、次へ。</p>
+                <p>体験チケット[2回分無料]に<br class="pc-br">チェックが付いていることを<br class="pc-br">確認し、次へ。</p>
             </div>
             <div class="flow5-img">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step5.jpg" alt="">
@@ -76,7 +74,7 @@
         <div class="flow-box6 flow-box">
             <h3 class="number">6</h3>
             <div class="flow-inner-text">
-                <p>会員情報を入力し、確認画面へ。<br>氏名・性別・生年月日・メール<br>アドレス・パスワード・DM配信希望<br> （選択制）を入力してください。</p>
+                <p>会員情報を入力し、確認画面へ。<br>氏名・性別・生年月日・メール<br class="pc-br">アドレス・パスワード・DM配信希望<br class="pc-br"> （選択制）を入力してください。</p>
             </div>
             <div class="flow6-img">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step6.jpg" alt="">
@@ -94,7 +92,7 @@
         <div class="flow-box8 flow-box">
             <h3 class="number">8</h3>
             <div class="flow-inner-text">
-                <p>確認メールに記載されているURLにアクセスし<br>ご登録いただいたメールアドレスの確認を完了してください。<br>以上で予約は完了です。</p>
+                <p>確認メールに記載されているURLにアクセスし<br class="pc-br">ご登録いただいたメールアドレスの確認を完了してください。<br>以上で予約は完了です。</p>
             </div>
             <div class="flow8-img">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/flow/step8.svg" alt="">
