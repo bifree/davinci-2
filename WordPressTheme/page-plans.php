@@ -11,11 +11,11 @@
     <div class="plans-middle-top">
         <div class="top-left">
             <h1 class="heading">選べる２つのプラン</h1>
-            <p>月額１万円で全コース通い放題の<br>
-                「定額プラン」、受講する分だけ<br>
-                チケットを購入する「都度払いプラン」<br>
-                の２つのプランをご用意しております。<br>
-                あなたのライフスタイルに合わせて <br>
+            <p>月額１万円で全コース通い放題の<br class="pc-br">
+                「定額プラン」、受講する分だけ<br class="pc-br">
+                チケットを購入する「都度払いプラン」<br class="pc-br">
+                の２つのプランをご用意しております。<br class="pc-br">
+                あなたのライフスタイルに合わせて <br class="pc-br">
                 お選びください。</p>
         </div>
         <div class="top-right">

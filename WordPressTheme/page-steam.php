@@ -47,8 +47,7 @@
     <section class="each-course-faq">
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHEN</span>
-                　いつ受講できるか
+                <span class="each-course-faq__q__en">WHEN</span> いつ受講できるか
             </p>
             <p class="each-course-faq__a__week">
                 毎週　火曜・金曜</span>
@@ -61,8 +60,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHERE</span>
-                　どこで受講できるのか
+                <span class="each-course-faq__q__en">WHERE</span> どこで受講できるのか
             </p>
             <p class="each-course-faq__a">
                 DaVinci野並教室、またはオンラインにて<br class="sp-br">受講いただけます。
@@ -71,8 +69,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHO</span>
-                　誰が受講できるのか
+                <span class="each-course-faq__q__en">WHO</span> 誰が受講できるのか
             </p>
             <p class="each-course-faq__a">
                 小学１年生から社会人の方まで、<br>
@@ -83,8 +80,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">WHAT</span>
-                　何が受講できるのか
+                <span class="each-course-faq__q__en">WHAT</span> 何が受講できるのか
             </p>
             <p class="each-course-faq__a">
                 デザイン・プログラミングスキルや<br class="sp-br">ITリテラシーの習得まで<br>
@@ -94,8 +90,7 @@
 
         <div class="each-course-faq__content fade-in js-scroll-trigger">
             <p class="each-course-faq__q">
-                <span class="each-course-faq__q__en">HOW</span>
-                　どのように受講できるのか
+                <span class="each-course-faq__q__en">HOW</span> どのように受講できるのか
             </p>
             <p class="each-course-faq__a__small">
                 オンラインでSTEAMの基礎・実践を学び<br class="sp-br">体験の中でさまざまな課題を見つけ、<br>

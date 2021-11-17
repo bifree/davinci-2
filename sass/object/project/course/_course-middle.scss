@@ -110,6 +110,7 @@
 					margin-bottom: 1.6vw;
 					font-size: 1.5vw;
 					letter-spacing: 0.24em;
+					line-height:1.5;
 				}
 			}
 			.blue-inner-right {
@@ -191,24 +192,24 @@
 	@media screen and (max-width: 767px) {
 		h2 {
 			font-size: 5vw;
-			line-height: 6vw;
+			line-height:1.7;
 			border-bottom: 3px solid #2B3B77;
 			width: fit-content;
 			text-align: center;
-			margin: 0 auto 2.3vw;
+			margin-bottom:calc(15px + 5 * (100vw - 320px) / 447);
 		}
 		h3 {
 			font-size: 4.5vw;
-			line-height: 5.5vw;
+			line-height:1.7;
 		}
 		h4 {
-			line-height: 5vw;
+			line-height:1.7;
 			font-size: 4vw;
 		}
 		p {
 			font-size: 2.4vw;
-			line-height: 3vw;
-			letter-spacing: .15em;
+			line-height:1.7;
+			letter-spacing: .36em;
 		}
 		.btn-green {
 			width: 55% !important;
@@ -242,7 +243,7 @@
 					margin: 0 auto 3vw;
 					h3 {
 						font-size: 4.5vw;
-						line-height: 5.5vw;
+						line-height:1.5;
 						margin-bottom: 1.2vw;
 					}
 					h4 {
@@ -275,7 +276,7 @@
 					margin: 0 auto 3vw;
 					h3 {
 						font-size: 4.5vw;
-						line-height: 5.5vw;
+						line-height:1.5;
 						margin-bottom: 1.2vw;
 					}
 					h5 {
@@ -320,8 +321,7 @@
 	@media screen and (max-width: 599px) {
 		p {
 			font-size: 3.3vw;
-			line-height: 4vw;
-			letter-spacing: .15em;
+			letter-spacing:0.36em;
 		}
 	}
 }

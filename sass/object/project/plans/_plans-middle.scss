@@ -45,16 +45,17 @@
   @media screen and (max-width: 767px) {
     h1 {
       font-size: 5vw;
-      line-height: 6vw;
+      line-height:1.7;
       width: fit-content;
       text-align: center;
-      margin: 0 auto 2.3vw;
+      margin-bottom:calc(15px + 5 * (100vw - 320px) / 447);
+
       letter-spacing: 0.24em;
     }
     p {
       font-size: 3.3vw;
-      line-height: 4.5vw;
-      letter-spacing: 0.15em;
+      line-height:1.7;
+      letter-spacing: 0.3.6em;
     }
     .plans-middle-top {
       display: block;
@@ -80,5 +81,9 @@
         }
       }
     }
+    .pc-br{
+      display:none;
+    }
   }
+ 
 }

@@ -25,12 +25,14 @@
     h1,
     h2 {
       font-size: 5vw;
-      line-height: 6vw;
+      line-height:1.5;
     }
     p {
-      text-align: justify;
+      padding:0 10px;
+      text-align:left;
       font-size: 3.3vw;
-      line-height: 4.5vw;
+      letter-spacing:0.36em;
+      line-height:1.5;
       margin: 0 2%;
     }
     .flow-middle-bottom {

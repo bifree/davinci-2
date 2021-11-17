@@ -7,12 +7,6 @@
 		margin-bottom: 5vw;
 		margin-top: 8vw;
 	}
-	h2 {
-		font-size: 2.8vw;
-		letter-spacing: .24em;
-		margin-bottom: 5vw;
-		margin-top: 8vw;
-	}
 	.course-middle-inner {
 		display: flex;
 		.course-middle-text {
@@ -31,19 +25,20 @@
 	@media screen and (max-width: 767px) {
 		margin: 0 auto;
 		width: 95%;
-		h2 {
+		padding:0 10px;
+		h1{
 			font-size: 4.5vw;
-			letter-spacing: .12em;
+			letter-spacing: .24em;
 			margin-bottom: 5vw;
 			margin-top: 8vw;
 		}
 		.course-middle-inner {
 			display: block;
 			.course-middle-text {
-				letter-spacing: .24em;
+				letter-spacing: .36em;
 				margin-right: auto;
 				font-size: 3.5vw;
-				line-height: 3.4vw;
+				line-height:1.7;
 				margin-bottom: 10vw;
 			}
 			.course-middle-img {

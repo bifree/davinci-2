@@ -89,7 +89,7 @@
                 <span class="each-course-faq__q__en">WHAT</span> 何が受講できるのか
             </p>
             <p class="each-course-faq__a">
-                投資に関するコーチングや相談、投資に役立つ情報分析手法
+                投資に関するコーチングや相談、<br class="sp-br">投資に役立つ情報分析手法
             </p>
         </div>
         <div class="each-course-faq__content fade-in js-scroll-trigger">
