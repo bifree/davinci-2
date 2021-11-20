@@ -1715,7 +1715,7 @@ select {
 	letter-spacing: 0.24em;
 	margin: 0 auto;
 	max-width: 1531px;
-	padding: calc(70px + 80 * (100vw - 768px) / 1152);
+	padding: calc(70px + 80 * (100vw - 768px) / 763);
 	width: 70%;
 }
 
@@ -1734,14 +1734,14 @@ select {
 	border-radius: 60px;
 	color: #fff;
 	display: inline-block;
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	padding: calc(70px + 80 * (100vw - 768px) / 763);
 	margin: 0 auto;
 }
 
 .each-course-top .eclil-top__img {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 6.7vw;
+	margin: calc(56px + 46 * (100vw - 768px) / 763) auto 0;
 	text-align: center;
 }
 
@@ -1750,7 +1750,7 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
-	margin: 3.4vw auto;
+	margin: calc(56px + 46 * (100vw - 768px) / 763) auto 0;
 	width: 28%;
 }
 
@@ -1809,7 +1809,7 @@ select {
 }
 
 .each-course-top__icon .each-course-top__icon__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	font-size: calc(26px + 14 * (100vw - 768px) / 763);
 	padding-left: 3.2vw;
 }
 
