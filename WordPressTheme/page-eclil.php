@@ -12,7 +12,7 @@
         <div class="each-course-container">
             <div class="each-course-top__title">
                 <h1 class="each-course-top__title__text 
-        eclil-top__title-heading">e-CLIL(イークリル)</h1>
+                 eclil-top__title-heading">e-CLIL(イークリル)</h1>
             </div>
             <div class="fade-in js-scroll-trigger">
                 <div class="eclil-top__img">
@@ -58,8 +58,9 @@
             </div>
             <p class="each-course-content__text">
                 人は、教科書に向き合わなければ学べないのでしょうか。<br>
-                いつの時代からか「机に座って教科書に向き合っていないと学んでいない」という風に考えられてしまっています。本コースでは、生徒の「興味があること」、「好きなこと」を通じてたくさんの学びを得ることで、自らの意思で「継続的に学ぶ」ことの楽しさを伝えられると信じています。「英語を勉強している」から
-                「気づけば英語が学べていた」に。
+                いつの時代からか「机に座って教科書に向き合っていないと学んでいない」という風に考えられてしまっています。<br>
+                本コースでは、生徒の「興味があること」、「好きなこと」を通じてたくさんの学びを得ることで、自らの意思で「継続的に学ぶ」ことの楽しさを伝えられると信じています。<br>
+                「英語を勉強している」から「気づけば英語が学べていた」に。
             </p>
         </div>
     </section>

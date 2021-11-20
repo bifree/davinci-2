@@ -22,6 +22,7 @@
 			padding-top: 2.5vw;
 			padding-bottom: 5vw;
 			p {
+				letter-spacing:0.24em;
 				font-size: 1.2vw;
 				line-height: 1.8vw;
 			}
@@ -32,16 +33,22 @@
 		margin-right: 5%;
 		.footer-menu {
 			display: flex;
+			letter-spacing:0.24em;
 			h4 {
 				font-size: 2rem;
 				line-height: 100%;
 				width: 13vw;
+				padding-bottom:10px;
+				margin-bottom:5px;
 				border-bottom: 2px solid #fff;
+
 			}
 			h4.course {
 				font-size: 2rem;
 				line-height: 100%;
 				width: fit-content;
+				padding-bottom:10px;
+				margin-bottom:5px;
 				border-bottom: 2px solid #fff;
 			}
 			ul {
@@ -49,7 +56,8 @@
 				li a {
 					color: #fff;
 					font-size: 1.25vw;
-					line-height: 2.65vw;
+					padding:5px 0;
+					margin:10px 0;
 					position: relative;
 					display: inline-block;
 					text-decoration: none;
@@ -84,20 +92,24 @@
 		margin-right: 2.6vw;
 		font-size: 1vw;
 		margin-top: 5vw;
-		p {
+		letter-spacing:0.24em;
+		ul {
+			display:flex;
+			list-style:none;
 			a {
 				color: #fff;
 				position: relative;
 				display: inline-block;
 				text-decoration: none;
+				padding:5px;
 				
 				&::after {
 					position: absolute;
-					bottom: -2px;
+					bottom: -5px;
 					left: 0;
 					content: '';
 					width: 100%;
-					height: 1px;
+					height: 2px;
 					background: #fff;
 					transform: scale(0, 1);
 					transform-origin: right top;
@@ -152,32 +164,55 @@
 					font-size: 4.5vw;
 					line-height: 5.5vw;
 					width: fit-content;
+					margin-bottom: 0.1rem;
 				}
 				h4.course {
 					font-size: 4.5vw;
 					line-height: 5.5vw;
 					width: fit-content;
+					margin-bottom: 0.1rem;
 				}
 				ul {
 					list-style: none;
 					li a {
 						font-size: 3.3vw;
-						line-height: 4.5vw;
+						padding:5px 0;
+						margin:10px 0;
 					}
 				}
 				.footer-menu-l {
 					margin-right: 5vw;
 					margin-bottom: 5vw;
+					li {
+						margin-bottom: 0.2rem;
+					}
+				}
+				.footer-menu-r {
+					li {
+						margin-bottom: 0.2rem;
+					}
 				}
 			}
 		}
+		.sns-icon-list{
+			margin:30px 0;
+		}
+
 		.footer-bottom {
 			width: fit-content;
-			margin-left: auto;
-			margin-right: 2.6vw;
+			margin-left:6%;
 			font-size: 2.7vw;
-			line-height: 3.5vw;
-			margin-top: 5vw;
+			p{
+				margin-bottom:15px;
+			}
+			ul{
+				flex-direction:column;
+				li{
+					padding:5px 0;
+					margin:10px 0;
+				}
+
+			}
 		}
 	}
 }
