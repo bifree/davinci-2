@@ -529,6 +529,7 @@ select {
 
 .l-footer .footer-top .footer-info p {
 	font-size: 1.2vw;
+	letter-spacing: 0.24em;
 	line-height: 1.8vw;
 }
 
@@ -539,6 +540,7 @@ select {
 
 .l-footer .footer-middle .footer-menu {
 	display: flex;
+	letter-spacing: 0.24em;
 }
 
 .l-footer .footer-middle .footer-menu h4 {
@@ -546,10 +548,14 @@ select {
 	font-size: 2rem;
 	line-height: 100%;
 	width: 13vw;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 }
 
 .l-footer .footer-middle .footer-menu h4.course {
 	border-bottom: 2px solid #fff;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 	font-size: 2rem;
 	line-height: 100%;
 	width: -webkit-fit-content;
@@ -566,6 +572,8 @@ select {
 	display: inline-block;
 	font-size: 1.25vw;
 	line-height: 2.65vw;
+	margin: 10px 0;
+	padding: 5px 0;
 	position: relative;
 	text-decoration: none;
 }
@@ -594,12 +602,18 @@ select {
 
 .l-footer .footer-bottom {
 	font-size: 1vw;
+	letter-spacing: 0.24em;
 	margin-left: auto;
 	margin-right: 2.6vw;
 	margin-top: 5vw;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
+}
+
+.l-footer .footer-bottom ul {
+	display: flex;
+	list-style: none;
 }
 
 .l-footer .footer-bottom p a {
@@ -609,11 +623,11 @@ select {
 	text-decoration: none;
 }
 
-.l-footer .footer-bottom p a::after {
+.l-footer .footer-bottom ul a::after {
 	background: #fff;
 	bottom: -2px;
 	content: '';
-	height: 1px;
+	height: 2px;
 	left: 0;
 	position: absolute;
 	transform: scale(0, 1);
@@ -622,7 +636,7 @@ select {
 	width: 100%;
 }
 
-.l-footer .footer-bottom p a:hover::after {
+.l-footer .footer-bottom ul a:hover::after {
 	transform: scale(1, 1);
 	transform-origin: left top;
 }
