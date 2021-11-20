@@ -31,7 +31,7 @@
             <div class="red-inner">
                 <h3>e-CLIL（イークリル）</h3>
                 <h4>「学ぶ力を、信じる」</h4>
-                <p>e-CLILでは、「Apple」という単語の発声を繰り返すことや、単元ごとに文法を学ぶことが目的ではありません。e-sportsやボードゲームを使って、遊びの中から「意思の伝達」や「戦略」、「ディベート」などの学習理解に重きを置き、それを理解するための道具として英語を位置付けています。英語は「気づけば身に付いているもの」でなければなりません。
+                <p>e-CLILでは、「Apple」という単語の発声を繰り返すことや、単元ごとに文法を学ぶことが目的ではありません。<br class="sp-br">e-sportsやボードゲームを使って、遊びの中から「意思の伝達」や「戦略」、「ディベート」などの学習理解に重きを置き、それを理解するための道具として英語を位置付けています。<br class="sp-br">英語は「気づけば身に付いているもの」でなければなりません。
                 </p>
             </div>
             <div class="red-inner-right">
@@ -52,7 +52,7 @@
                 <h3>ファイナンス</h3>
                 <h4>世界と思考と性質</h4>
                 <h5>- 経済の原理原則を学ぶ -</h5>
-                <p>投資とは、利益を得ることを目的として、将来的な成長が見込める事業や不動産、証券などへお金を投じることを指します。DaVinci「ファイナンス」コースでは、株式や為替市場、原油やゴールド等の先物市場に触れることで、投資の本質を様々な角度から分析していきます。投資について深く知り、広い視野をもって世界経済の姿を学んでいきましょう。
+                <p>投資とは、利益を得ることを目的として、将来的な成長が見込める事業や不動産、証券などへお金を投じることを指します。<br class="sp-br">DaVinci「ファイナンス」コースでは、株式や為替市場、原油やゴールド等の先物市場に触れることで、投資の本質を様々な角度から分析していきます。<br class="sp-br">投資について深く知り、広い視野をもって世界経済の姿を学んでいきましょう。
                 </p>
             </div>
             <div class="blue-inner-right">
@@ -107,36 +107,6 @@
     </div>
 </div>
 
-<script>
-(function(d) {
-    var config = {
-            kitId: 'ojk1wjf',
-            scriptTimeout: 3000,
-            async: true
-        },
-        h = d.documentElement,
-        t = setTimeout(function() {
-            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-        }, config.scriptTimeout),
-        tk = d.createElement("script"),
-        f = false,
-        s = d.getElementsByTagName("script")[0],
-        a;
-    h.className += " wf-loading";
-    tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-    tk.async = true;
-    tk.onload = tk.onreadystatechange = function() {
-        a = this.readyState;
-        if (f || a && a != "complete" && a != "loaded") return;
-        f = true;
-        clearTimeout(t);
-        try {
-            Typekit.load(config)
-        } catch (e) {}
-    };
-    s.parentNode.insertBefore(tk, s)
-})(document);
-</script>
 <script>
 (function(d) {
     var config = {

@@ -22,6 +22,10 @@
     font-size: calc(26px + 14 * (100vw - 768px) / 1152);
     padding-left: 3.2vw;
   }
+  
+  .sp-br{
+    display:none;
+  }
 }
 
 @media screen and (max-width: 1279px) {
@@ -41,5 +45,14 @@
 
   .each-course-top__icon__text {
     font-size: calc(18px + 10 * (100vw - 320px) / 477);
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .each-course-top__icon{
+    .sp-br{
+      display:block;
+    }
   }
 }
