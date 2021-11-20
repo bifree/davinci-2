@@ -92,7 +92,7 @@
 
       .eclil-top__esports__icon {
         width: 28%;
-        margin:calc(26px + 18 * (100vw - 768px) / 763) auto;
+        margin:calc(24px + 24 * (100vw - 768px) / 763) auto calc(20px + 20 * (100vw - 768px) / 763);
       }
 
       .eclil-top__esports__text {
@@ -111,7 +111,7 @@
 
       .eclil-top__english__icon {
         width: 20%;
-        margin:calc(14px + 14 * (100vw - 768px) / 763) auto calc(22px + 22 * (100vw - 768px) / 763);
+        margin:calc(18px + 18 * (100vw - 768px) / 763) auto calc(18px + 18 * (100vw - 768px) / 763);
       }
 
       .eclil-top__english__text {
@@ -190,6 +190,7 @@
     .eclil-top__img {
       .eclil-top__esports {
         .eclil-top__esports__icon {
+          margin:calc(32px + 32 * (100vw - 768px) / 763) auto calc(22px + 22 * (100vw - 768px) / 763);
           width: 38%;
         }
 
