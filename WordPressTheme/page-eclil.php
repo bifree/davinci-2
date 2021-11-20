@@ -12,7 +12,7 @@
         <div class="each-course-container">
             <div class="each-course-top__title">
                 <h1 class="each-course-top__title__text 
-                 eclil-top__title-heading">e-CLIL(イークリル)</h1>
+                 eclil-top__title-heading">e-CLIL<span class="each-course-top__title__text__small">(イークリル)</span></h1>
             </div>
             <div class="fade-in js-scroll-trigger">
                 <div class="eclil-top__img">

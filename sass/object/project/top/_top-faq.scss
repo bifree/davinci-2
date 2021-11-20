@@ -21,7 +21,7 @@
       .top-faq__q{
         background:#d6d6d6;
         display: block;
-        padding:2vw;
+        padding:2vw; 
         cursor: pointer;
         font-size: calc(16px + 2 * (100vw - 768px) / 1152);
         font-weight:100;
@@ -75,7 +75,8 @@
   
 
         .top-faq__q{
-          font-size:calc(14px + 2 * (100vw - 320px) / 447);;
+          font-size:calc(14px + 2 * (100vw - 320px) / 447);
+          padding-right:6vw;
 
           &:after{
             font-size:2vw;

@@ -23,7 +23,7 @@
                         <img src="<?php echo get_template_directory_uri();?>/assets/img/finance/economics-icon.svg"
                             alt="davinci">
                     </div>
-                    <p class="each-course-top__icon__text">About Economics</p>
+                    <p class="each-course-top__icon__text">About<br class="sp-br"> Economics</p>
                 </div>
             </div>
         </div>

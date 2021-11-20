@@ -182,6 +182,9 @@
       .each-course-top__title__text {
         font-size: calc(18px + 10 * (100vw - 320px) / 447);
       }
+      .each-course-top__title__text__small{
+        font-size: calc(10px + 10 * (100vw - 320px) / 447);
+      }
     }
 
     .eclil-top__img {

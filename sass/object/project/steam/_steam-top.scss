@@ -2,10 +2,10 @@
   background: linear-gradient(to right, #2bb6c7 0%, #85c48d 100%);
   background: -webkit-linear-gradient(left, #2bb6c7 0%, #85c48d 100%);
   padding: 2.3vw 10vw;
+}
 
-  .tb-br {
-    display: none;
-  }
+.tb-br {
+  display: none;
 }
 
 .steam-top__img {
@@ -21,17 +21,20 @@
 
 @media screen and (max-width: 1279px) {
   .steam-top__title-heading {
-    padding: 28px 125px;
-
-    .tb-br {
-      display: block;
-    }
+    padding: 28px 25px;
+    font-size: calc(16px + 10 * (100vw - 320px) / 447)!important
   }
+
+  .tb-br {
+    display: block;
+  }
+  
 }
 
 @media screen and (max-width: 797px) {
   .steam-top__title-heading {
     padding: 4vw 10vw;
+    font-size: calc(12px + 10 * (100vw - 320px) / 447)!important
   }
 
   .steam-top__icon__icon {

@@ -1,4 +1,4 @@
-<div class="top">
+
 <?php get_header(); ?>
 <main>
   <div class="top-mainvisual">
@@ -284,4 +284,3 @@
 </main>
 
 <?php get_footer(); ?>
-</div>
