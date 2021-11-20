@@ -152,11 +152,13 @@
 					font-size: 4.5vw;
 					line-height: 5.5vw;
 					width: fit-content;
+					margin-bottom: 0.1rem;
 				}
 				h4.course {
 					font-size: 4.5vw;
 					line-height: 5.5vw;
 					width: fit-content;
+					margin-bottom: 0.1rem;
 				}
 				ul {
 					list-style: none;
@@ -168,6 +170,14 @@
 				.footer-menu-l {
 					margin-right: 5vw;
 					margin-bottom: 5vw;
+					li {
+						margin-bottom: 0.2rem;
+					}
+				}
+				.footer-menu-r {
+					li {
+						margin-bottom: 0.2rem;
+					}
 				}
 			}
 		}
