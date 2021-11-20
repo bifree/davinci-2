@@ -529,6 +529,7 @@ select {
 
 .l-footer .footer-top .footer-info p {
 	font-size: 1.2vw;
+	letter-spacing: 0.24em;
 	line-height: 1.8vw;
 }
 
@@ -539,12 +540,15 @@ select {
 
 .l-footer .footer-middle .footer-menu {
 	display: flex;
+	letter-spacing: 0.24em;
 }
 
 .l-footer .footer-middle .footer-menu h4 {
 	border-bottom: 2px solid #fff;
 	font-size: 2rem;
 	line-height: 100%;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 	width: 13vw;
 }
 
@@ -552,6 +556,8 @@ select {
 	border-bottom: 2px solid #fff;
 	font-size: 2rem;
 	line-height: 100%;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
@@ -565,7 +571,8 @@ select {
 	color: #fff;
 	display: inline-block;
 	font-size: 1.25vw;
-	line-height: 2.65vw;
+	margin: 10px 0;
+	padding: 5px 0;
 	position: relative;
 	text-decoration: none;
 }
@@ -594,6 +601,7 @@ select {
 
 .l-footer .footer-bottom {
 	font-size: 1vw;
+	letter-spacing: 0.24em;
 	margin-left: auto;
 	margin-right: 2.6vw;
 	margin-top: 5vw;
@@ -602,18 +610,24 @@ select {
 	width: fit-content;
 }
 
-.l-footer .footer-bottom p a {
+.l-footer .footer-bottom ul {
+	display: flex;
+	list-style: none;
+}
+
+.l-footer .footer-bottom ul a {
 	color: #fff;
 	display: inline-block;
+	padding: 5px;
 	position: relative;
 	text-decoration: none;
 }
 
-.l-footer .footer-bottom p a::after {
+.l-footer .footer-bottom ul a::after {
 	background: #fff;
-	bottom: -2px;
+	bottom: -5px;
 	content: '';
-	height: 1px;
+	height: 2px;
 	left: 0;
 	position: absolute;
 	transform: scale(0, 1);
@@ -622,7 +636,7 @@ select {
 	width: 100%;
 }
 
-.l-footer .footer-bottom p a:hover::after {
+.l-footer .footer-bottom ul a:hover::after {
 	transform: scale(1, 1);
 	transform-origin: left top;
 }
@@ -1697,7 +1711,7 @@ select {
 	letter-spacing: 0.24em;
 	margin: 0 auto;
 	max-width: 1531px;
-	padding: calc(70px + 80 * (100vw - 768px) / 1152);
+	padding: calc(70px + 80 * (100vw - 768px) / 763);
 	width: 70%;
 }
 
@@ -1716,14 +1730,14 @@ select {
 	border-radius: 60px;
 	color: #fff;
 	display: inline-block;
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	font-size: calc(25px + 15 * (100vw - 768px) / 763);
 	margin: 0 auto;
 }
 
 .each-course-top .eclil-top__img {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 6.7vw;
+	margin: calc(56px + 46 * (100vw - 768px) / 763) auto 0;
 	text-align: center;
 }
 
@@ -1732,16 +1746,17 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
-	margin: 3.4vw auto;
+	margin: calc(26px + 18 * (100vw - 768px) / 763) auto;
 	width: 28%;
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	font-size: calc(26px + 14 * (100vw - 768px) / 763);
 }
 
 .each-course-top .eclil-top__img .eclil-top__times {
-	margin-top: 8vw;
+	margin-top: calc(50px + 50 * (100vw - 768px) / 763);
+	text-align: center;
 	width: 10%;
 }
 
@@ -1750,12 +1765,12 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__icon {
-	margin: 1.8vw auto 2.9vw;
+	margin: calc(14px + 14 * (100vw - 768px) / 763) auto calc(22px + 22 * (100vw - 768px) / 763);
 	width: 20%;
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	font-size: calc(26px + 14 * (100vw - 768px) / 763);
 }
 
 .eclil-top__title-heading {
@@ -2572,6 +2587,16 @@ select {
 	width: 80%;
 }
 
+.insta-container {
+	font-family: "fot-tsukuardgothic-std", sans-serif;
+	letter-spacing: 0.24em;
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 1626px;
+	padding: 9.4vw 0 0;
+	width: 85%;
+}
+
 .top-learn {
 	background-image: url(../img/top/learn-back.png);
 	background-position: left;
@@ -2579,9 +2604,13 @@ select {
 	background-size: cover;
 }
 
+.top-learn .top-container {
+	padding: 0 0 9.4vw;
+}
+
 .top-learn .top-learn__insta {
 	display: flex;
-	justify-content: space-between;
+	justify-content: left;
 }
 
 .top-learn .top-learn__insta .top-learn__insta__insta {
@@ -2591,6 +2620,7 @@ select {
 	font-size: 1.2vw;
 	font-weight: bold;
 	letter-spacing: 0;
+	margin-right: 80px;
 	transition: all .3s;
 	width: 10%;
 }
@@ -2604,8 +2634,39 @@ select {
 	margin: 0 auto 1.9vw;
 }
 
-.top-learn .top-learn__insta .top-learn__insta__photo {
-	width: 82%;
+.top-learn .top-learn__insta .top-learn__insta__feed {
+	border-radius: 30px;
+	height: 30vw;
+	overflow: hidden;
+	width: 70%;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed #sb_instagram {
+	width: 100%;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(1) .sbi_photo_wrap {
+	padding: 0 2px 2px 0;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(2) .sbi_photo_wrap {
+	padding: 0 1px 2px;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(3) .sbi_photo_wrap {
+	padding: 0 0 2px 2px;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(4) .sbi_photo_wrap {
+	padding: 1px 2px 0 0;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(5) .sbi_photo_wrap {
+	padding: 1px 1px 0;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(6) .sbi_photo_wrap {
+	padding: 1px 0 0 2px;
 }
 
 .top-learn .top-learn__text {
@@ -2750,6 +2811,15 @@ img {
 	width: 100%;
 }
 
+.top header {
+	background-color: rgba(255, 255, 255, 0.5);
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
 .top-mainvisual {
 	letter-spacing: 0.24em;
 	overflow: hidden;
@@ -2765,7 +2835,7 @@ img {
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
 	-o-object-fit: cover; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-	height: calc(100vh - 7vw);
+	height: 100vh;
 	object-fit: cover;
 	width: 100%;
 }
@@ -2893,7 +2963,7 @@ img {
 
 .top-mainvisual .top-mainvisual__text {
 	color: #fff;
-	font-family: "ten-mincho-text", serif;
+	font-family: "TenMinchoText-Regular-83pv-RKSJ-H", serif;
 	font-size: calc(37px + 19 * (100vw - 768px) / 1152);
 	line-height: 1.2;
 	position: absolute;
@@ -2988,11 +3058,11 @@ img {
 }
 
 .top-style__group .top-style__item__title {
-	border-bottom: solid 0.3vw #4D93FF;
+	border-bottom: solid 5px #4D93FF;
 }
 
 .top-style__private .top-style__item__title {
-	border-bottom: solid 0.3vw #E83828;
+	border-bottom: solid 5px #E83828;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -3094,7 +3164,7 @@ img {
 	margin: 0 auto 10px;
 }
 
-.top-learn .top-learn__insta .top-learn__insta__photo {
+.top-learn .top-learn__insta .top-learn__insta__feed {
 	width: 78%;
 }
 
@@ -3116,7 +3186,7 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
-	height: calc(100vh - 7.2vw);
+	height: 100vh;
 }
 
 .top-mainvisual .top-mainvisual__btn {
@@ -3270,6 +3340,10 @@ img {
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
 	font-size: 3.4vw;
+}
+
+.each-course-top .eclil-top__img .eclil-top__times {
+	margin-top: 7.5vw;
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__icon {
@@ -3429,8 +3503,8 @@ img {
 	width: 12.5vw;
 }
 
-.top-learn .top-learn__insta .top-learn__insta__photo {
-	width: 100%;
+.top-learn .top-learn__insta .top-learn__insta__feed {
+	border-radius: 10px;
 }
 
 .top-learn .top-learn__text {
@@ -3503,7 +3577,7 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
-	height: calc(100vh -  70px);
+	height: 100vh;
 }
 
 .top-mainvisual .top-mainvisual__slider .slick-dots {
@@ -3645,7 +3719,8 @@ img {
 
 .l-footer .footer-middle .footer-menu ul li a {
 	font-size: 3.3vw;
-	line-height: 4.5vw;
+	margin: 10px 0;
+	padding: 5px 0;
 }
 
 .l-footer .footer-middle .footer-menu .footer-menu-l {
@@ -3653,15 +3728,29 @@ img {
 	margin-right: 5vw;
 }
 
+.l-footer .sns-icon-list {
+	margin: 30px 0;
+}
+
 .l-footer .footer-bottom {
 	font-size: 2.7vw;
-	line-height: 3.5vw;
-	margin-left: auto;
-	margin-right: 2.6vw;
-	margin-top: 5vw;
+	margin-left: 6%;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
+}
+
+.l-footer .footer-bottom p {
+	margin-bottom: 15px;
+}
+
+.l-footer .footer-bottom ul {
+	flex-direction: column;
+}
+
+.l-footer .footer-bottom ul li {
+	margin: 10px 0;
+	padding: 5px 0;
 }
 
 .l-header {

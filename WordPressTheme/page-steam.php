@@ -38,8 +38,10 @@
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/steam/steam-pic.svg" alt="davinci">
             </div>
             <p class="each-course-content__text">
-                科学・技術・工学・芸術・数学の5つの英単語の頭文字を組み合わせた造語。
-                科学（Science）、技術（Technology）、工学（Engineering）。アート（Art）、数学（Mathematics）の5つの領域を対象とした理数教育に創造性教育を加えた教育理念。知る（探究）とつくる（創造）のサイクルを生み出す、分野横断的な学びです。Davinciでは初心者から上級者まで皆様のSTEAM領域での創造活動と発展をサポートします。
+                科学・技術・工学・芸術・数学の5つの英単語の頭文字を組み合わせた造語。<br>
+                科学（Science）、技術（Technology）、工学（Engineering）、アート（Art）、数学（Mathematics）の5つの領域を対象とした理数教育に創造性教育を加えた教育理念。<br>
+                知る（探究）とつくる（創造）のサイクルを生み出す、分野横断的な学びです。<br>
+                Davinciでは初心者から上級者まで皆様のSTEAM領域での創造活動と発展をサポートします。
             </p>
         </div>
     </section>

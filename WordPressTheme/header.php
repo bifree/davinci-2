@@ -26,7 +26,7 @@
   <meta property="og:site_name" content="能力探究塾-DaVinci-" />
   <meta property="og:description" content="好きなことを選んで、探究して、伸びていく！曜日毎に決まっているコースを自由に選び受講できます。定額制の為、他に気になるコースがあれば、経験してみて継続できる。あなたの「好き」「やりたい」を追求してみてください。「eスポーツ」「プログラミング」「FXトレード」「英語コーチング」" />
   <title><?php echo the_title();?></title>
-  <meta property="og:image" content="https://davinci-tanq.com/img/common/logo2.png" />
+  <meta property="og:image" content="http://localhost:8888/davinci/wp-content/uploads/2021/11/davinci_ogp.png" />
   <link rel="shortcut icon" href="https://davinci-tanq.com/img/common/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
@@ -68,7 +68,6 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">

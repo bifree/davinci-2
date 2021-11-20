@@ -11,6 +11,15 @@ img{
   width:100%;
 }
 
+.top header{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:100;
+  width:100%;
+  background-color:rgba(255,255,255,0.5);
+}
+
 .top-mainvisual{
   letter-spacing:0.24em;
   position:relative;
@@ -25,7 +34,7 @@ img{
 
     .top-mainvisual__slider__item img{
       width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-      height:calc(100vh - 7vw);
+      height:100vh;
       object-fit:cover;
     }
     
@@ -160,7 +169,7 @@ img{
 
   .top-mainvisual__text{
     font-size: calc(37px + 19 * (100vw - 768px) / 1152);
-    font-family: "ten-mincho-text", serif;
+    font-family: "TenMinchoText-Regular-83pv-RKSJ-H", serif;
     line-height:1.2;
     text-shadow : 3px 1px 6px rgba(0, 0, 0, 0.72);
     z-index:5;
@@ -209,7 +218,7 @@ img{
   .top-mainvisual{
     .top-mainvisual__slider {
       .top-mainvisual__slider__item img{
-        height:calc(100vh - 7.2vw);
+        height:100vh;
       }
     }
 
@@ -228,7 +237,7 @@ img{
   .top-mainvisual{
     .top-mainvisual__slider {
       .top-mainvisual__slider__item img{
-        height:calc(100vh -  70px);
+        height:100vh
       }
       
       // 位置を変える
