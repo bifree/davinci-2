@@ -161,7 +161,8 @@
       <div class="fade-in js-scroll-trigger">
         <h2 class="top-sec-title">STYLE</h2>
         <h3 class="top-sec-subtitle">Davinciだから選べる<br class="sp-br">２つのスタイル</h3>
-        <p class="top-sec-content">自分以外のアイデアや考えを知ることより楽しく学べる「集団レッスン」<br class="pctb-br">と、自分の学びをより深く探求できる「個別レッスン」をご用意しており<br class="pctb-br">ます。DaVinciで、あなたらしい学びのSTYLEを。</p>
+        <p class="top-sec-content">自分以外のアイデアや考えを知ることより楽しく学べる「集団レッスン」<br class="pctb-br">と、自分の学びをより深く探求できる「個別レッスン」をご用意しており<br class="pctb-br">ます。<br>
+        DaVinciで、あなたらしい学びのSTYLEを。</p>
       </div>
       <div class="top-style__items">
         <div class="top-style__item top-style__group">
