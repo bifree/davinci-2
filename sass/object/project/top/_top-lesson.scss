@@ -22,12 +22,14 @@
 
     .top-lesson__square__small{
       font-size:3vw;
-      font-weight:100;
+      font-weight: 700;
+      font-style: normal;
     }
 
     .top-lesson__square__big{
       font-size:3.4vw;
-      font-weight:100;
+      font-weight: 700;
+      font-style: normal;
     }
   }
   
@@ -35,9 +37,11 @@
     display:inline-block;
     margin:3.7vw auto 0;
     padding:1.9vw 6vw 1.9vw 4vw;
-    font-size:2.3vw;
+    font-size:1.9vw;
     color:#fff;
-    font-weight:100;
+    font-family:fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
+    font-style: normal;;
     background: linear-gradient(to right, #27D5DA 0%, #94F990 100%);
     background: -webkit-linear-gradient(left, #27D5DA 0%, #94F990 100%);
     position:relative;
@@ -60,10 +64,10 @@
   }
 
   .top-lesson__pic{
-    width:14.6vw;
+    width:14vw;
     position:absolute;
-    left:-5vw;
-    top:12vw;
+    left:50px;
+    top:300px;
   }
 }
 
@@ -74,8 +78,8 @@
     }      
 
     .top-lesson__pic{
-      left:-7vw;
-      top:18vw;
+      left:20px;
+      top:150px;
     }
   }
 }
@@ -103,9 +107,7 @@
     }
   
     .top-lesson__pic{
-      width:14vw;
-      left:-3vw;
-      top:1vw;
+      display:none;
     }
   }
 }

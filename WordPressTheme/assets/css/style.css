@@ -1727,7 +1727,7 @@ select {
 	letter-spacing: 0.24em;
 	margin: 0 auto;
 	max-width: 1531px;
-	padding: calc(70px + 80 * (100vw - 768px) / 763);
+	padding: calc(70px + 80 * (100vw - 768px) / 1152) 0;
 	width: 70%;
 }
 
@@ -1746,14 +1746,14 @@ select {
 	border-radius: 60px;
 	color: #fff;
 	display: inline-block;
-	font-size: calc(25px + 15 * (100vw - 768px) / 763);
+	font-size: calc(25px + 15 * (100vw - 768px) / 1152);
 	margin: 0 auto;
 }
 
 .each-course-top .eclil-top__img {
 	display: flex;
 	justify-content: space-between;
-	margin: calc(56px + 46 * (100vw - 768px) / 763) auto 0;
+	margin: calc(56px + 46 * (100vw - 768px) / 1152) auto 0;
 	text-align: center;
 }
 
@@ -1762,16 +1762,16 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
-	margin: calc(24px + 24 * (100vw - 768px) / 763) auto calc(20px + 20 * (100vw - 768px) / 763);
+	margin: calc(24px + 24 * (100vw - 768px) / 1152) auto calc(20px + 20 * (100vw - 768px) / 1152);
 	width: 28%;
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 763);
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 }
 
 .each-course-top .eclil-top__img .eclil-top__times {
-	margin-top: calc(50px + 50 * (100vw - 768px) / 763);
+	margin: calc(68px + 50 * (100vw - 768px) / 1152) auto 0;
 	text-align: center;
 	width: 10%;
 }
@@ -1781,12 +1781,12 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__icon {
-	margin: calc(18px + 18 * (100vw - 768px) / 763) auto calc(18px + 18 * (100vw - 768px) / 763);
+	margin: calc(18px + 18 * (100vw - 768px) / 1152) auto calc(18px + 18 * (100vw - 768px) / 1152);
 	width: 20%;
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 763);
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 }
 
 .eclil-top__title-heading {
@@ -2337,8 +2337,8 @@ select {
 }
 
 .top-sec-title {
-	font-size: calc(42px + 30 * (100vw - 768px) / 1152);
-	font-weight: 100;
+	font-size: calc(40px + 28 * (100vw - 768px) / 1152);
+	font-weight: 700;
 }
 
 .top-viewmore {
@@ -2421,7 +2421,7 @@ select {
 .top-sec-subtitle {
 	color: #E83828;
 	font-size: 3.9vw;
-	font-weight: 100;
+	font-weight: 700;
 	padding: 3.1vw 0;
 }
 
@@ -2599,6 +2599,7 @@ select {
 
 .top-container {
 	font-family: "fot-tsukuardgothic-std", sans-serif;
+	font-style: normal;
 	letter-spacing: 0.24em;
 	line-height: 1.5;
 	margin: 0 auto;
@@ -2697,16 +2698,18 @@ select {
 }
 
 .top-learn .top-learn__text .top-learn__text__text {
-	font-family: "ten-mincho-text", serif;
-	width: 62%;
+	width: 68%;
 }
 
 .top-learn .top-learn__text .top-learn__text__text .top-learn__text__title {
-	font-size: 3.5vw;
-	font-weight: 100;
+	font-family: "ten-mincho-text", serif;
+	font-size: calc(24px + 32 * (100vw - 768px) / 1152);
+	font-style: normal;
+	font-weight: 400;
 }
 
 .top-learn .top-learn__text .top-learn__text__text .top-learn__text__content {
+	font-size: calc(12px + 19 * (100vw - 768px) / 1152);
 	font-size: 1.6vw;
 	font-weight: 200;
 	padding: 3vw 4.4vw 0 0;
@@ -2775,12 +2778,14 @@ select {
 
 .top-lesson .top-lesson__square .top-lesson__square__small {
 	font-size: 3vw;
-	font-weight: 100;
+	font-style: normal;
+	font-weight: 700;
 }
 
 .top-lesson .top-lesson__square .top-lesson__square__big {
 	font-size: 3.4vw;
-	font-weight: 100;
+	font-style: normal;
+	font-weight: 700;
 }
 
 .top-lesson .top-lesson__btn {
@@ -2790,8 +2795,10 @@ select {
 	border-radius: 40px;
 	color: #fff;
 	display: inline-block;
-	font-size: 2.3vw;
-	font-weight: 100;
+	font-family: fot-tsukuardgothic-std, sans-serif;
+	font-size: 1.9vw;
+	font-style: normal;
+	font-weight: 700;
 	margin: 3.7vw auto 0;
 	padding: 1.9vw 6vw 1.9vw 4vw;
 	position: relative;
@@ -2812,10 +2819,10 @@ select {
 }
 
 .top-lesson .top-lesson__pic {
-	left: -5vw;
+	left: 50px;
 	position: absolute;
-	top: 12vw;
-	width: 14.6vw;
+	top: 300px;
+	width: 14vw;
 }
 
 * {
@@ -2983,19 +2990,22 @@ img {
 
 .top-mainvisual .top-mainvisual__text {
 	color: #fff;
-	font-family: "TenMinchoText-Regular-83pv-RKSJ-H", serif;
-	font-size: calc(37px + 19 * (100vw - 768px) / 1152);
-	line-height: 1.2;
+	font-family: "ten-mincho-text", serif;
+	font-size: calc(20px + 20 * (100vw - 768px) / 1152);
+	letter-spacing: 0.2em;
+	line-height: 1.5;
 	position: absolute;
 	right: 3%;
 	text-shadow: 3px 1px 6px rgba(0, 0, 0, 0.72);
-	top: 45%;
+	top: 43%;
 	z-index: 5;
 }
 
 .top-mainvisual .top-mainvisual__text .top-mainvisual__text__big {
-	font-size: calc(64px + 32 * (100vw - 768px) / 1152);
-	font-weight: 200;
+	font-family: "ten-mincho-text", serif;
+	font-size: calc(32px + 45 * (100vw - 768px) / 1152);
+	font-weight: 400;
+	letter-spacing: 0.2em;
 }
 
 .top-mainvisual .top-mainvisual__btn {
@@ -3006,11 +3016,11 @@ img {
 	bottom: 11vh;
 	color: #fff;
 	font-family: "fot-tsukuardgothic-std", sans-serif;
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	font-size: calc(15px + 21 * (100vw - 768px) / 1152);
 	font-weight: 100;
 	padding: 1.9vw 3.8vw;
 	position: absolute;
-	right: 3vw;
+	right: 5%;
 	transition: all .3s;
 	z-index: 5;
 }
@@ -3056,9 +3066,9 @@ img {
 }
 
 .top-style__item .top-style__item__text .top-style__item__title {
-	font-size: 3.3vw;
-	font-weight: 100;
-	width: 28vw;
+	font-size: calc(25px + 35 * (100vw - 768px) / 1152);
+	font-weight: 700;
+	width: calc(215px + 295 * (100vw - 768px) / 1152);
 }
 
 .top-style__item .top-style__item__text .top-style__item__title__en {
@@ -3078,11 +3088,11 @@ img {
 }
 
 .top-style__group .top-style__item__title {
-	border-bottom: solid 5px #4D93FF;
+	border-bottom: solid 5.25px #4D93FF;
 }
 
 .top-style__private .top-style__item__title {
-	border-bottom: solid 5px #E83828;
+	border-bottom: solid 5.25px #E83828;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -3203,8 +3213,8 @@ img {
 }
 
 .top-lesson .top-lesson__pic {
-	left: -7vw;
-	top: 18vw;
+	left: 20px;
+	top: 150px;
 }
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
@@ -3217,7 +3227,7 @@ img {
 
 .top-mainvisual .top-mainvisual__btn img {
 	margin-left: 12px;
-	width: 20px;
+	width: 1.6vw;
 }
 
 .top-style__item .top-style__item__text .top-style__item__title {
@@ -3361,7 +3371,7 @@ img {
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
-	margin: calc(32px + 32 * (100vw - 768px) / 763) auto calc(22px + 22 * (100vw - 768px) / 763);
+	margin: calc(32px + 32 * (100vw - 768px) / 1152) auto calc(22px + 22 * (100vw - 768px) / 1152);
 	width: 38%;
 }
 
@@ -3370,7 +3380,7 @@ img {
 }
 
 .each-course-top .eclil-top__img .eclil-top__times {
-	margin-top: 7.5vw;
+	margin-top: calc(28px + 50 * (100vw - 320px) / 447);
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__icon {
@@ -3602,9 +3612,7 @@ img {
 }
 
 .top-lesson .top-lesson__pic {
-	left: -3vw;
-	top: 1vw;
-	width: 14vw;
+	display: none;
 }
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
@@ -3631,17 +3639,18 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__text {
-	font-size: 5.9vw;
+	font-size: calc(16px + 14 * (100vw - 320px) / 447);
+	font-size: 5.3vw;
 	left: 3%;
 	top: 38%;
 }
 
 .top-mainvisual .top-mainvisual__text .top-mainvisual__text__big {
-	font-size: 8.1vw;
+	font-size: 7.8vw;
 }
 
 .top-mainvisual .top-mainvisual__btn {
-	bottom: 10vh;
+	bottom: 18vh;
 	font-size: calc(16px + 14 * (100vw - 320px) / 447);
 	padding: 3.8vw 8vw;
 	right: 18vw;
@@ -3790,11 +3799,11 @@ img {
 }
 
 .l-footer .footer-bottom ul {
-	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .l-footer .footer-bottom ul li {
-	margin: 10px 0;
+	margin: 5px 0;
 	padding: 5px 0;
 }
 
