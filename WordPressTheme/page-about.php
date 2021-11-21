@@ -55,12 +55,12 @@
         <div class="company-info">
             <div class="company-info-1">
                 <p>
-                    [ 所在地 ] <br>〒468-0003<br> 愛知県名古屋市天白区鴻の巣2-116<br> TEL：052-680-9301 FAX：052-680-9302
+                    [ 所在地 ] <br>〒468-0003<br> 愛知県名古屋市天白区鴻の巣2-116<br> TEL：052-680-9301 <br class="sp-block">FAX：052-680-9302
                 </p>
             </div>
             <div class="company-info-2">
                 <p>
-                    [ 野並オフィス ] <br>〒468-0047<br> 愛知県名古屋市天白区井の森町232-1 アイコービル2F<br> TEL：052-715-9666 FAX：052-715-9667
+                    [ 野並オフィス ] <br>〒468-0047<br> 愛知県名古屋市天白区井の森町232-1 <br class="sp-block">アイコービル2F<br> TEL：052-715-9666 <br class="sp-block">FAX：052-715-9667
                 </p>
             </div>
         </div>

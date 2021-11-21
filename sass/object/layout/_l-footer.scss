@@ -25,6 +25,9 @@
 				letter-spacing:0.24em;
 				font-size: 1.2vw;
 				line-height: 1.8vw;
+				br.sp-block {
+					display: none;
+				}
 			}
 		}
 	}
@@ -153,6 +156,9 @@
 				p {
 					font-size: 3.7vw;
 					line-height: 4.5vw;
+					.sp-block {
+						display: block;
+					}
 				}
 			}
 		}

@@ -43,9 +43,15 @@
 			}
 			.company-info-1 {
 				width: 27vw;
+				br.sp-block {
+					display: none;
+				}
 			}
 			.company-info-2 {
 				width: 27vw;
+				br.sp-block {
+					display: none;
+				}
 			}
 		}
 	}
@@ -140,9 +146,15 @@
 				.company-info-1 {
 					width: auto;
 					margin-bottom:10px;
+					br.sp-block {
+						display: block;
+					}
 				}
 				.company-info-2 {
 					width: auto;
+					br.sp-block {
+						display: block;
+					}
 				}
 			}
 		}

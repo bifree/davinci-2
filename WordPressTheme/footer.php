@@ -2,11 +2,11 @@
   <div class="l-footer">
     <div class="footer-top">
       <div class="footer-logo">
-        <img src="<?php echo get_template_directory_uri();?>/assets/img/footer/logo.png" alt="">
+        <a href="https://davinci-tanq.com/"><img src="<?php echo get_template_directory_uri();?>/assets/img/footer/logo.png" alt=""></a>
       </div>
       <div class="footer-info">
         <p>〒468-0047</p>
-        <p>愛知県名古屋市天白区井の森町232-1 アイコービル2F</p>
+        <p>愛知県名古屋市天白区井の森町232-1 <br class="sp-block">アイコービル2F</p>
         <p>TEL：052-746-0170</p>
       </div>
     </div>
