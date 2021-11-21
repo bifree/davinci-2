@@ -547,17 +547,17 @@ select {
 	border-bottom: 2px solid #fff;
 	font-size: 2rem;
 	line-height: 100%;
-	width: 13vw;
 	margin-bottom: 5px;
 	padding-bottom: 10px;
+	width: 13vw;
 }
 
 .l-footer .footer-middle .footer-menu h4.course {
 	border-bottom: 2px solid #fff;
-	margin-bottom: 5px;
-	padding-bottom: 10px;
 	font-size: 2rem;
 	line-height: 100%;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
@@ -571,7 +571,6 @@ select {
 	color: #fff;
 	display: inline-block;
 	font-size: 1.25vw;
-	line-height: 2.65vw;
 	margin: 10px 0;
 	padding: 5px 0;
 	position: relative;
@@ -616,16 +615,17 @@ select {
 	list-style: none;
 }
 
-.l-footer .footer-bottom p a {
+.l-footer .footer-bottom ul a {
 	color: #fff;
 	display: inline-block;
+	padding: 5px;
 	position: relative;
 	text-decoration: none;
 }
 
 .l-footer .footer-bottom ul a::after {
 	background: #fff;
-	bottom: -2px;
+	bottom: -5px;
 	content: '';
 	height: 2px;
 	left: 0;
@@ -1734,7 +1734,7 @@ select {
 	border-radius: 60px;
 	color: #fff;
 	display: inline-block;
-	padding: calc(70px + 80 * (100vw - 768px) / 763);
+	font-size: calc(25px + 15 * (100vw - 768px) / 763);
 	margin: 0 auto;
 }
 
@@ -1750,16 +1750,17 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
-	margin: calc(56px + 46 * (100vw - 768px) / 763) auto 0;
+	margin: calc(26px + 18 * (100vw - 768px) / 763) auto;
 	width: 28%;
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	font-size: calc(26px + 14 * (100vw - 768px) / 763);
 }
 
 .each-course-top .eclil-top__img .eclil-top__times {
-	margin-top: 8vw;
+	margin-top: calc(50px + 50 * (100vw - 768px) / 763);
+	text-align: center;
 	width: 10%;
 }
 
@@ -1768,12 +1769,12 @@ select {
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__icon {
-	margin: 1.8vw auto 2.9vw;
+	margin: calc(14px + 14 * (100vw - 768px) / 763) auto calc(22px + 22 * (100vw - 768px) / 763);
 	width: 20%;
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+	font-size: calc(26px + 14 * (100vw - 768px) / 763);
 }
 
 .eclil-top__title-heading {
@@ -1809,8 +1810,12 @@ select {
 }
 
 .each-course-top__icon .each-course-top__icon__text {
-	font-size: calc(26px + 14 * (100vw - 768px) / 763);
+	font-size: calc(26px + 14 * (100vw - 768px) / 1152);
 	padding-left: 3.2vw;
+}
+
+.each-course-top__icon .sp-br {
+	display: none;
 }
 
 .flow-box-body {
@@ -2143,7 +2148,7 @@ select {
 	padding: 2.3vw 10vw;
 }
 
-.steam-top__title-heading .tb-br {
+.tb-br {
 	display: none;
 }
 
@@ -2590,6 +2595,16 @@ select {
 	width: 80%;
 }
 
+.insta-container {
+	font-family: "fot-tsukuardgothic-std", sans-serif;
+	letter-spacing: 0.24em;
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 1626px;
+	padding: 9.4vw 0 0;
+	width: 85%;
+}
+
 .top-learn {
 	background-image: url(../img/top/learn-back.png);
 	background-position: left;
@@ -2597,9 +2612,13 @@ select {
 	background-size: cover;
 }
 
+.top-learn .top-container {
+	padding: 0 0 9.4vw;
+}
+
 .top-learn .top-learn__insta {
 	display: flex;
-	justify-content: space-between;
+	justify-content: left;
 }
 
 .top-learn .top-learn__insta .top-learn__insta__insta {
@@ -2609,6 +2628,7 @@ select {
 	font-size: 1.2vw;
 	font-weight: bold;
 	letter-spacing: 0;
+	margin-right: 80px;
 	transition: all .3s;
 	width: 10%;
 }
@@ -2622,8 +2642,39 @@ select {
 	margin: 0 auto 1.9vw;
 }
 
-.top-learn .top-learn__insta .top-learn__insta__photo {
-	width: 82%;
+.top-learn .top-learn__insta .top-learn__insta__feed {
+	border-radius: 30px;
+	height: 30vw;
+	overflow: hidden;
+	width: 70%;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed #sb_instagram {
+	width: 100%;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(1) .sbi_photo_wrap {
+	padding: 0 2px 2px 0;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(2) .sbi_photo_wrap {
+	padding: 0 1px 2px;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(3) .sbi_photo_wrap {
+	padding: 0 0 2px 2px;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(4) .sbi_photo_wrap {
+	padding: 1px 2px 0 0;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(5) .sbi_photo_wrap {
+	padding: 1px 1px 0;
+}
+
+.top-learn .top-learn__insta .top-learn__insta__feed .sbi_item:nth-child(6) .sbi_photo_wrap {
+	padding: 1px 0 0 2px;
 }
 
 .top-learn .top-learn__text {
@@ -2768,6 +2819,15 @@ img {
 	width: 100%;
 }
 
+.home header {
+	background-color: rgba(255, 255, 255, 0.5);
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
 .top-mainvisual {
 	letter-spacing: 0.24em;
 	overflow: hidden;
@@ -2783,7 +2843,7 @@ img {
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
 	-o-object-fit: cover; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-	height: calc(100vh - 7vw);
+	height: 100vh;
 	object-fit: cover;
 	width: 100%;
 }
@@ -2911,7 +2971,7 @@ img {
 
 .top-mainvisual .top-mainvisual__text {
 	color: #fff;
-	font-family: "ten-mincho-text", serif;
+	font-family: "TenMinchoText-Regular-83pv-RKSJ-H", serif;
 	font-size: calc(37px + 19 * (100vw - 768px) / 1152);
 	line-height: 1.2;
 	position: absolute;
@@ -3006,11 +3066,11 @@ img {
 }
 
 .top-style__group .top-style__item__title {
-	border-bottom: solid 0.3vw #4D93FF;
+	border-bottom: solid 5px #4D93FF;
 }
 
 .top-style__private .top-style__item__title {
-	border-bottom: solid 0.3vw #E83828;
+	border-bottom: solid 5px #E83828;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -3074,10 +3134,11 @@ img {
 }
 
 .steam-top__title-heading {
-	padding: 28px 125px;
+	font-size: calc(16px + 10 * (100vw - 320px) / 447) !important;
+	padding: 28px 25px;
 }
 
-.steam-top__title-heading .tb-br {
+.tb-br {
 	display: block;
 }
 
@@ -3112,7 +3173,8 @@ img {
 	margin: 0 auto 10px;
 }
 
-.top-learn .top-learn__insta .top-learn__insta__photo {
+.top-learn .top-learn__insta .top-learn__insta__feed {
+	height: 35vw;
 	width: 78%;
 }
 
@@ -3134,7 +3196,7 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
-	height: calc(100vh - 7.2vw);
+	height: 100vh;
 }
 
 .top-mainvisual .top-mainvisual__btn {
@@ -3282,12 +3344,20 @@ img {
 	font-size: calc(18px + 10 * (100vw - 320px) / 447);
 }
 
+.each-course-top .each-course-top__title .each-course-top__title__text__small {
+	font-size: calc(10px + 10 * (100vw - 320px) / 447);
+}
+
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__icon {
 	width: 38%;
 }
 
 .each-course-top .eclil-top__img .eclil-top__esports .eclil-top__esports__text {
 	font-size: 3.4vw;
+}
+
+.each-course-top .eclil-top__img .eclil-top__times {
+	margin-top: 7.5vw;
 }
 
 .each-course-top .eclil-top__img .eclil-top__english .eclil-top__english__icon {
@@ -3315,6 +3385,7 @@ img {
 }
 
 .steam-top__title-heading {
+	font-size: calc(12px + 10 * (100vw - 320px) / 447) !important;
 	padding: 4vw 10vw;
 }
 
@@ -3410,6 +3481,7 @@ img {
 
 .top-faq .top-faq__items .top-faq__item .top-faq__q {
 	font-size: calc(14px + 2 * (100vw - 320px) / 447);
+	padding-right: 6vw;
 }
 
 .top-faq .top-faq__items .top-faq__item .top-faq__q:after {
@@ -3447,7 +3519,9 @@ img {
 	width: 12.5vw;
 }
 
-.top-learn .top-learn__insta .top-learn__insta__photo {
+.top-learn .top-learn__insta .top-learn__insta__feed {
+	border-radius: 10px;
+	height: 45vw;
 	width: 100%;
 }
 
@@ -3521,7 +3595,7 @@ img {
 }
 
 .top-mainvisual .top-mainvisual__slider .top-mainvisual__slider__item img {
-	height: calc(100vh -  70px);
+	height: 100vh;
 }
 
 .top-mainvisual .top-mainvisual__slider .slick-dots {
@@ -3665,7 +3739,8 @@ img {
 
 .l-footer .footer-middle .footer-menu ul li a {
 	font-size: 3.3vw;
-	line-height: 4.5vw;
+	margin: 10px 0;
+	padding: 5px 0;
 }
 
 .l-footer .footer-middle .footer-menu .footer-menu-l {
@@ -3681,15 +3756,29 @@ img {
 	margin-bottom: 0.2rem;
 }
 
+.l-footer .sns-icon-list {
+	margin: 30px 0;
+}
+
 .l-footer .footer-bottom {
 	font-size: 2.7vw;
-	line-height: 3.5vw;
-	margin-left: auto;
-	margin-right: 2.6vw;
-	margin-top: 5vw;
+	margin-left: 6%;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
+}
+
+.l-footer .footer-bottom p {
+	margin-bottom: 15px;
+}
+
+.l-footer .footer-bottom ul {
+	flex-direction: column;
+}
+
+.l-footer .footer-bottom ul li {
+	margin: 10px 0;
+	padding: 5px 0;
 }
 
 .l-header {
@@ -4750,6 +4839,14 @@ img {
 .course-middle p {
 	font-size: 3.3vw;
 	letter-spacing: 0.36em;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+
+.each-course-top__icon .sp-br {
+	display: block;
 }
 
 }

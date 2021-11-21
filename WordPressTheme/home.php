@@ -51,23 +51,27 @@
   </div>
 
   <section class="top-learn">
-    <div class="top-container">
+    <div class="insta-container">
       <div class="fade-in js-scroll-trigger">
         <div class="top-learn__insta">
           <a class="top-learn__insta__insta" href="https://www.instagram.com/davinci_tanq/">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-insta.png" alt="davinci">
             <p class="top-learn__invta__account">@davinci_tanq</p>
           </a>
-          <div class="top-learn__insta__photo">
-            <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-photo.png" alt="davinci">
+          <div class="top-learn__insta__feed">
+            <?php echo do_shortcode('[instagram-feed]'); ?>
           </div>
         </div>
       </div>
+    </div>
+    <div class="top-container">  
       <div class="fade-in js-scroll-trigger">
         <div class="top-learn__text">
           <div class="top-learn__text__text">
             <p class="top-learn__text__title">探究するほどに学びたくなる</p>
-            <p class="top-learn__text__content">能力探究塾DaVinciでは、アウトプットから学ぶ新しい学習体験を提供します。進学・就職・転職・人材育成・子育て。DaVinciでの学びは様々なシーンでアナタの成長をサポートし次世代の社会をより豊かにする基礎となるでしょう。</p>
+            <p class="top-learn__text__content">能力探究塾DaVinciでは、アウトプットから学ぶ新しい学習体験を提供します。<br>
+            進学・就職・転職・人材育成・子育て。<br>
+            DaVinciでの学びは様々なシーンでアナタの成長をサポートし次世代の社会をより豊かにする基礎となるでしょう。</p>
           </div>
           <div class="top-learn__text__img">
             <img src="<?php echo get_template_directory_uri();?>/assets/img/top/learn-picture.png" alt="davinci">
@@ -165,7 +169,7 @@
             <div class="slide-in-left js-scroll-trigger">
               <h3 class="top-style__item__title">グループレッスン</h3>
               <p class="top-style__item__title__en">GROUP LESSON</p>
-              <p class="top-style__item__content">自分には無かった考え方や、対話から生まれる新しい発想は、グループレッスンだからこその体験です。最大で10人の生徒が参加するレッスンとなっております。（オンラインで行われるレッスンの場合、受講されるコースによって定員数が異なりますので、事前に予約メニューからご確認ください。）</p>
+              <p class="top-style__item__content">自分には無かった考え方や、対話から生まれる新しい発想は、グループレッスンだからこその体験です。<br>最大で10人の生徒が参加するレッスンとなっております。<br>（オンラインで行われるレッスンの場合、受講されるコースによって定員数が異なりますので、事前に予約メニューからご確認ください。）</p>
             </div>
           </div>
           <div class="top-style__item__img">
@@ -197,7 +201,8 @@
     <div class="top-container">
       <div class="fade-in js-scroll-trigger">
         <h2 class="top-sec-title">PLAN</h2>
-        <p class="top-sec-content"> 月額１万円で全コース通い放題の「定額プラン」、受講する分だけ<br>チケットを購入する「都度払いプラン」の２つのプランをご用意し<br>ております。あなたのライフスタイルに合わせてお選びください。</p>
+        <p class="top-sec-content"> 月額１万円で全コース通い放題の「定額プラン」、受講する分だけチケットを購入する「都度払いプラン」の２つのプランをご用意しております。<br>
+        あなたのライフスタイルに合わせてお選びください。</p>
       </div>
       <div class="fade-in js-scroll-trigger">
         <div class="top-plan__img"> 
@@ -236,7 +241,7 @@
             <input id="top-faq1" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq1">Q 支払い方法を教えてほしいです。</label>
             <div class="top-faq__a">
-              <p>クレジットカード又は、口座自動引き落としのなります。<br>金払い、コンビニ振込対応はしておりません。</p>
+              <p>クレジットカード又は、口座自動引き落としとなります。<br>現金払い、コンビニ振込対応はしておりません。</p>
             </div>
           </div>
 
@@ -260,7 +265,7 @@
             <input id="top-faq4" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq4">Q 子どもが発達障害なのですが、入塾はできますか？</label>
             <div class="top-faq__a" id="top-faq__a">
-              <p>入塾可能です。<br>気になる場合は事前にご相談ください。お子様に合ったコースをご提案させていただきます。</p>
+              <p>入塾可能です。<br>気になる場合は事前にご相談ください。<br>お子様に合ったコースをご提案させていただきます。</p>
             </div>
           </div>
 
@@ -268,7 +273,7 @@
             <input id="top-faq5" class="top-faq__check" type="checkbox">
             <label class="top-faq__q" for="top-faq5">Q 入会前に体験できるサービスを教えてください。</label>
             <div class="top-faq__a">
-              <p>各コース１回限り、無料レッスンを受講できます。選択できるメニューは１つのみになりますのでご注意ください。</p>
+              <p>各コース１回限り、無料レッスンを受講できます。<br>選択できるメニューは１つのみになりますのでご注意ください。</p>
             </div>
           </div>
         </div>

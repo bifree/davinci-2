@@ -59,7 +59,7 @@
   width: 70%;
   max-width: 1531px;
   margin: 0 auto;
-  padding: calc(70px + 80 * (100vw - 768px) / 1152);
+  padding: calc(70px + 80 * (100vw - 768px) / 763);
   letter-spacing: 0.24em;
 }
 
@@ -73,7 +73,7 @@
     text-align: center;
 
     .each-course-top__title__text {
-      font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+      font-size: calc(25px + 15 * (100vw - 768px) / 763);
       color: #fff;
       display: inline-block;
       margin: 0 auto;
@@ -84,7 +84,7 @@
   .eclil-top__img {
     display: flex;
     justify-content: space-between;
-    margin-top: 6.7vw;
+    margin: calc(56px + 46 * (100vw - 768px) / 763) auto 0;
     text-align: center;
 
     .eclil-top__esports {
@@ -92,17 +92,18 @@
 
       .eclil-top__esports__icon {
         width: 28%;
-        margin: 3.4vw auto;
+        margin:calc(26px + 18 * (100vw - 768px) / 763) auto;
       }
 
       .eclil-top__esports__text {
-        font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+        font-size: calc(26px + 14 * (100vw - 768px) / 763);
       }
     }
 
     .eclil-top__times {
+      text-align:center;
       width: 10%;
-      margin-top: 8vw;
+      margin-top:calc(50px + 50 * (100vw - 768px) / 763);
     }
 
     .eclil-top__english {
@@ -110,11 +111,11 @@
 
       .eclil-top__english__icon {
         width: 20%;
-        margin: 1.8vw auto 2.9vw;
+        margin:calc(14px + 14 * (100vw - 768px) / 763) auto calc(22px + 22 * (100vw - 768px) / 763);
       }
 
       .eclil-top__english__text {
-        font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+        font-size: calc(26px + 14 * (100vw - 768px) / 763);
       }
     }
   }
@@ -181,6 +182,9 @@
       .each-course-top__title__text {
         font-size: calc(18px + 10 * (100vw - 320px) / 447);
       }
+      .each-course-top__title__text__small{
+        font-size: calc(10px + 10 * (100vw - 320px) / 447);
+      }
     }
 
     .eclil-top__img {
@@ -192,6 +196,10 @@
         .eclil-top__esports__text {
           font-size: 3.4vw;
         }
+      }
+
+      .eclil-top__times {
+        margin-top:7.5vw;
       }
 
       .eclil-top__english {

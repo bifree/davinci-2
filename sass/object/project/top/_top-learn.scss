@@ -8,18 +8,34 @@
   line-height:1.5;
 }
 
+.insta-container{
+  width:85%;
+  max-width:1626px;
+  margin:0 auto;
+  padding:9.4vw 0 0;
+  font-family:"fot-tsukuardgothic-std", sans-serif;
+  letter-spacing:0.24em;
+  line-height:1.5;
+}
+
 .top-learn{
   background-image:url(../img/top/learn-back.png);
   background-size: cover;
   background-position:left;
   background-repeat: no-repeat;
 
+  .top-container{
+    padding:0 0 9.4vw;
+  }
+
+
   .top-learn__insta{
     display:flex;
-    justify-content:space-between;
+    justify-content:left;
 
     .top-learn__insta__insta{
       width:10%;
+      margin-right:80px;
       color:#3E3A39;
       font-size:1.2vw;
       font-family:"Noto Sans JP";
@@ -38,8 +54,45 @@
       }
     }
 
-    .top-learn__insta__photo{
-      width:82%;
+    .top-learn__insta__feed{
+      overflow:hidden;
+      width:70%;
+      height:30vw;
+      border-radius:30px;
+
+      #sb_instagram{
+        width:100%;
+      }
+      .sbi_item:nth-child(1){
+        .sbi_photo_wrap{
+          padding:0 2px 2px 0;
+        }
+      }
+      .sbi_item:nth-child(2){
+        .sbi_photo_wrap{
+          padding:0 1px 2px;
+        }
+      }
+      .sbi_item:nth-child(3){
+        .sbi_photo_wrap{
+          padding:0 0 2px 2px;
+        }
+      }
+      .sbi_item:nth-child(4){
+        .sbi_photo_wrap{
+          padding:1px 2px 0 0;
+        }
+      }
+      .sbi_item:nth-child(5){
+        .sbi_photo_wrap{
+          padding:1px 1px 0;
+        }
+      }
+      .sbi_item:nth-child(6){
+        .sbi_photo_wrap{
+          padding:1px 0 0 2px;
+        }
+      }
     }
   }
 
@@ -122,8 +175,11 @@
         }
       }
   
-      .top-learn__insta__photo{
+      .top-learn__insta__feed{
         width:78%;
+        height:35vw;
+       
+      
       }
     }
   
@@ -167,8 +223,10 @@
         }
       }
   
-      .top-learn__insta__photo{
+      .top-learn__insta__feed{
         width:100%;
+        height:45vw;
+        border-radius:10px;
       }
     }
   
