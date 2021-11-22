@@ -3778,8 +3778,7 @@ img {
 }
 
 .l-footer .footer-bottom {
-	font-size: 2.7vw;
-	margin-left: 6%;
+	font-size: 1vw;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
@@ -3789,13 +3788,13 @@ img {
 	margin-bottom: 15px;
 }
 
-.l-footer .footer-bottom ul {
-	flex-direction: column;
-}
-
 .l-footer .footer-bottom ul li {
 	margin: 10px 0;
 	padding: 5px 0;
+}
+
+.l-footer .footer-bottom ul li a {
+	padding: 0;
 }
 
 .l-header {

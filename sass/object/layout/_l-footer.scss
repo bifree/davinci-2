@@ -206,18 +206,18 @@
 
 		.footer-bottom {
 			width: fit-content;
-			margin-left:6%;
-			font-size: 2.7vw;
+			font-size: 1vw;
 			p{
 				margin-bottom:15px;
 			}
 			ul{
-				flex-direction:column;
 				li{
 					padding:5px 0;
 					margin:10px 0;
+					a {
+						padding: 0;
+					}
 				}
-
 			}
 		}
 	}
