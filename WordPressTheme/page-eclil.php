@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="eclil-top__times">
-                        <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/times.svg" alt="davinci">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/eclil/times.png" alt="davinci">
                     </div>
 
                     <div class="eclil-top__english">

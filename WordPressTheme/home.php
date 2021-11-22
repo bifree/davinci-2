@@ -115,7 +115,7 @@
             <img src="<?php echo get_template_directory_uri();?>/assets/img/top/course-item1.png" alt="davinci">
           </div>
           <h3 class="top-course__item__title">e-CLIL<br>(イークリル)</h3>
-          <p class="top-course__item__content">esports x英語の<br>コラボレーション</p>
+          <p class="top-course__item__content">esportsx英語の<br>コラボレーション</p>
           <div class="top-course__btn">
             <a class="top-viewmore" href="<?php echo home_url('/eclil/');?>">VIEW MORE</a>
           </div>

@@ -38,8 +38,14 @@
       <p>© 2020 能力探究塾 DaVinci</p>
       <ul>
         <li><a href="<?php echo home_url('/terms'); ?>">利用規約</a> / </li>
-        <li><a href="<?php echo home_url('/privacy'); ?>">プライバシーポリシー</a> / </li>
+        <li><a href="<?php echo home_url('/privacy'); ?>">プライバシーポリシー</a> <span class="se-none">/</span> </li>
         <li><a href="<?php echo home_url('/tokushoho'); ?>">特定商取引法に基づく表記</a></li>
+      </ul>
+      <div class="se-menu">
+        <a href="<?php echo home_url('/terms'); ?>">利用規約</a> / 
+        <a href="<?php echo home_url('/privacy'); ?>">プライバシーポリシー</a> <span class="se-none">/</span> <br>
+        <a href="<?php echo home_url('/tokushoho'); ?>">特定商取引法に基づく表記</a>
+      </div>
     </div>
   </div>
 </footer>

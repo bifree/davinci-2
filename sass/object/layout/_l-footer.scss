@@ -4,7 +4,9 @@
 	font-size: 1.25vw;
 	line-height: 1.5vw;
 	padding-bottom: 3.33vw;
-
+	.se-menu {
+		display: none;
+	}
 	a {
 		color: #fff;
 	}
@@ -206,7 +208,7 @@
 
 		.footer-bottom {
 			width: fit-content;
-			font-size: 1vw;
+			font-size: 10px;
 			p{
 				margin-bottom:15px;
 			}
@@ -216,6 +218,19 @@
 					margin:10px 0;
 					a {
 						padding: 0;
+					}
+				}
+			}
+			@media screen and (max-width: 321px) {
+				ul {
+					display: none;
+				}
+				.se-menu {
+					display: block;
+					a {
+						line-height: 15px;
+						font-size: 10px;
+						margin: 2px 0;
 					}
 				}
 			}

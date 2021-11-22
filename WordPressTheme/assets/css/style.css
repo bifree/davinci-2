@@ -505,6 +505,10 @@ select {
 	padding-bottom: 3.33vw;
 }
 
+.l-footer .se-menu {
+	display: none;
+}
+
 .l-footer a {
 	color: #fff;
 }
@@ -1772,7 +1776,6 @@ select {
 
 .each-course-top .eclil-top__img .eclil-top__times {
 	margin: calc(68px + 50 * (100vw - 768px) / 1152) auto 0;
-	margin-left: 20px;
 	text-align: center;
 	width: 10%;
 }
@@ -3788,7 +3791,7 @@ img {
 }
 
 .l-footer .footer-bottom {
-	font-size: 1vw;
+	font-size: 10px;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
@@ -4857,6 +4860,24 @@ img {
 
 .u-hidden-sp {
 	display: none;
+}
+
+}
+
+@media screen and (max-width: 767px) and (max-width: 321px) {
+
+.l-footer .footer-bottom ul {
+	display: none;
+}
+
+.l-footer .footer-bottom .se-menu {
+	display: block;
+}
+
+.l-footer .footer-bottom .se-menu a {
+	font-size: 10px;
+	line-height: 15px;
+	margin: 2px 0;
 }
 
 }
