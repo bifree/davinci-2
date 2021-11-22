@@ -225,11 +225,11 @@
         対面レッスン・オンラインレッスンどちらでも受講可能です。<br> 
         まずは新しい学びのカタチを体感してみよう！ </p>
         <a class="top-lesson__btn"  href="<?php echo home_url('/flow/');?>">体験LESSONの予約方法へ<img src="<?php echo get_template_directory_uri();?>/assets/img/top/lesson-arrow.png" alt="davinci"></a>
-        <div class="top-lesson__pic">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/top/lesson-pic.png" alt="davinci">
-        </div>
       </div>
     </div>
+    <div class="top-lesson__pic">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/top/lesson-pic.png" alt="davinci">
+        </div>
   </section>
 
   <section class="top-faq">

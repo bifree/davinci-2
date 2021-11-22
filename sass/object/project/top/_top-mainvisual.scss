@@ -168,26 +168,29 @@ img{
   }
 
   .top-mainvisual__text{
-    font-size: calc(37px + 19 * (100vw - 768px) / 1152);
-    font-family: "TenMinchoText-Regular-83pv-RKSJ-H", serif;
-    line-height:1.2;
+    font-size: calc(20px + 20 * (100vw - 768px) / 1152);
+    font-family: "ten-mincho-text", serif;
     text-shadow : 3px 1px 6px rgba(0, 0, 0, 0.72);
     z-index:5;
+    line-height:1.5;
+    letter-spacing:0.2em;
     position:absolute;
     color:#fff;
-    top:45%;
+    top:43%;
     right:3%;
   
     .top-mainvisual__text__big{
-      font-size: calc(64px + 32 * (100vw - 768px) / 1152);
-      font-weight:200;
+      font-family: "ten-mincho-text", serif;
+      font-size: calc(32px + 45 * (100vw - 768px) / 1152);
+      font-weight:400;
+      letter-spacing:0.2em;
     }
   }
 
   .top-mainvisual__btn{
     font-family:"fot-tsukuardgothic-std", sans-serif;
     color:#fff;
-    font-size: calc(26px + 14 * (100vw - 768px) / 1152);
+    font-size: calc(15px + 21 * (100vw - 768px) / 1152);
     padding:1.9vw 3.8vw;
     font-weight:100;
     background: linear-gradient(to right, #94f990 0%, #27D5DA 100%);
@@ -195,7 +198,7 @@ img{
     border-radius:40px;
     z-index:5;
     position:absolute;
-    right:3vw;
+    right:5%;
     bottom:11vh;
     transition: all .3s;
     -webkit-transition: all .3s; 
@@ -226,7 +229,7 @@ img{
       padding:24px 48px;
   
       img{
-        width:20px;
+        width:1.6vw;
         margin-left:12px;
       }
     } 
@@ -266,12 +269,13 @@ img{
     }
    
     .top-mainvisual__text{
-      font-size:5.9vw;
+      font-size:calc(16px + 14 * (100vw - 320px) / 447);
+      font-size:5.3vw;
       top:38%;
       left:3%;
     
       .top-mainvisual__text__big{
-        font-size:8.1vw;
+        font-size:7.8vw;
       }
     }
   
@@ -279,7 +283,7 @@ img{
       font-size:calc(16px + 14 * (100vw - 320px) / 447);
       padding:3.8vw 8vw;
       right:18vw;
-      bottom:10vh;
+      bottom:18vh;
   
       img{
         width:calc(12px + 12 * (100vw - 320px) / 447);
